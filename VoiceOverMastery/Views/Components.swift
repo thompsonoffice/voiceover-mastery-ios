@@ -225,7 +225,10 @@ struct PartLabel: View {
                 .font(.body)
                 .foregroundStyle(ink)
         }
-        .padding(.vertical, 2)
+        .padding(8)
+        .frame(maxWidth: .infinity, alignment: .leading)
+        .background(scheme == .dark ? Color.black : Color.white)
+        .padding(.vertical, 8)
         .accessibilityElement(children: .combine)
         .accessibilityLabel("\(part.platform), \(part.chapters.count) \(part.chapters.count == 1 ? "chapter" : "chapters")")
     }

@@ -34,34 +34,34 @@ struct MoreView: View {
                 }
                 Section {
                     NavigationLink(value: MoreRoute.bookmarks) {
-                        Label("Bookmarks", systemImage: "bookmark")
+                        MoreRow(title: "Bookmarks", systemImage: "bookmark")
                     }
                     .accessibilityIdentifier("moreBookmarks")
                     NavigationLink(value: MoreRoute.settings) {
-                        Label("Settings", systemImage: "gearshape")
+                        MoreRow(title: "Settings", systemImage: "gearshape")
                     }
                     .accessibilityIdentifier("moreSettings")
                 }
                 Section {
                     SectionHeader("Guide")
                     NavigationLink(value: MoreRoute.readme) {
-                        Label("Book read me", systemImage: "text.book.closed")
+                        MoreRow(title: "Book read me", systemImage: "text.book.closed")
                     }
                     NavigationLink(value: MoreRoute.index) {
-                        Label("Index", systemImage: "list.bullet.rectangle")
+                        MoreRow(title: "Index", systemImage: "list.bullet.rectangle")
                     }
                     NavigationLink(value: MoreRoute.orientation) {
-                        Label("Sighted orientation", systemImage: "eye")
+                        MoreRow(title: "Sighted orientation", systemImage: "eye")
                     }
                     .accessibilityIdentifier("moreOrientation")
                 }
                 Section {
                     NavigationLink(value: MoreRoute.about) {
-                        Label("About VoiceOver Mastery", systemImage: "info.circle")
+                        MoreRow(title: "About VoiceOver Mastery", systemImage: "info.circle")
                     }
                     .accessibilityIdentifier("moreAbout")
                     NavigationLink(value: MoreRoute.privacy) {
-                        Label("Privacy Policy", systemImage: "hand.raised")
+                        MoreRow(title: "Privacy Policy", systemImage: "hand.raised")
                     }
                     .accessibilityIdentifier("morePrivacy")
                 }
@@ -81,6 +81,27 @@ struct MoreView: View {
                 }
             }
         }
+    }
+}
+
+/// Body text, not a default Label. Label titles are only partly scalable, which the audit rejects.
+private struct MoreRow: View {
+    var title: String
+    var systemImage: String
+
+    var body: some View {
+        HStack(spacing: 12) {
+            Image(systemName: systemImage)
+                .foregroundStyle(Color.primary)
+                .accessibilityHidden(true)
+            Text(title)
+                .font(.body)
+                .foregroundStyle(Color.primary)
+                .frame(maxWidth: .infinity, alignment: .leading)
+        }
+        .frame(minHeight: 44)
+        .accessibilityElement(children: .combine)
+        .accessibilityLabel(title)
     }
 }
 

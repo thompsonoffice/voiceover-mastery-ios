@@ -143,6 +143,11 @@ final class VoiceOverMasteryUITests: XCTestCase {
         field.typeText("Screen Curtain")
         XCTAssertTrue(app.staticTexts["resultCount"].waitForExistence(timeout: 10))
         let hit = app.buttons.matching(NSPredicate(format: "label CONTAINS %@", "1.6")).firstMatch
+        var swipes = 0
+        while !hit.exists && swipes < 4 {
+            app.swipeUp()
+            swipes += 1
+        }
         XCTAssertTrue(hit.waitForExistence(timeout: 10))
     }
 
@@ -174,7 +179,13 @@ final class VoiceOverMasteryUITests: XCTestCase {
             swipes += 1
         }
         XCTAssertTrue(apples.exists, "Practice list row Apples")
-        XCTAssertTrue(app.staticTexts.matching(NSPredicate(format: "label CONTAINS %@", "does not add VoiceOver gestures")).firstMatch.exists)
+        let note = app.staticTexts.matching(NSPredicate(format: "label CONTAINS %@", "does not add VoiceOver gestures")).firstMatch
+        swipes = 0
+        while !note.exists && swipes < 6 {
+            app.swipeUp()
+            swipes += 1
+        }
+        XCTAssertTrue(note.exists)
         button.tap()
         let status = app.staticTexts["practiceStatus"]
         XCTAssertTrue(status.waitForExistence(timeout: 5))

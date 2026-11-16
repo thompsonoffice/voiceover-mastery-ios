@@ -48,7 +48,7 @@ struct BottomBarClearance: ViewModifier {
             VStack(spacing: 0) {
                 content
                 Color(.systemBackground)
-                    .frame(height: 170)
+                    .frame(height: 96)
                     .accessibilityHidden(true)
             }
         } else {

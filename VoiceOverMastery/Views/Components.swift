@@ -163,8 +163,15 @@ struct ChapterActions: View {
             Button {
                 progress.toggleComplete(chapter.id)
             } label: {
-                Label(complete ? "Completed" : "Mark chapter complete", systemImage: complete ? "checkmark.circle.fill" : "checkmark.circle")
-                    .frame(maxWidth: .infinity, minHeight: 44, alignment: .leading)
+                HStack(spacing: 8) {
+                    Image(systemName: complete ? "checkmark.circle.fill" : "checkmark.circle")
+                        .accessibilityHidden(true)
+                    Text(complete ? "Completed" : "Mark chapter complete")
+                        .font(.body)
+                        .foregroundStyle(Color.primary)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                }
+                .frame(minHeight: 44)
             }
             .accessibilityLabel(complete ? "Completed" : "Mark chapter complete")
             .accessibilityAddTraits(complete ? .isSelected : [])
@@ -174,8 +181,15 @@ struct ChapterActions: View {
             Button {
                 progress.toggleBookmark(chapter.id)
             } label: {
-                Label(bookmarked ? "Bookmarked" : "Bookmark", systemImage: bookmarked ? "bookmark.fill" : "bookmark")
-                    .frame(maxWidth: .infinity, minHeight: 44, alignment: .leading)
+                HStack(spacing: 8) {
+                    Image(systemName: bookmarked ? "bookmark.fill" : "bookmark")
+                        .accessibilityHidden(true)
+                    Text(bookmarked ? "Bookmarked" : "Bookmark")
+                        .font(.body)
+                        .foregroundStyle(Color.primary)
+                        .frame(maxWidth: .infinity, alignment: .leading)
+                }
+                .frame(minHeight: 44)
             }
             .accessibilityLabel(bookmarked ? "Bookmarked" : "Bookmark")
             .accessibilityAddTraits(bookmarked ? .isSelected : [])

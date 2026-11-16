@@ -162,7 +162,7 @@ final class VoiceOverMasteryUITests: XCTestCase {
         button.tap()
         let status = app.staticTexts["practiceStatus"]
         XCTAssertTrue(status.waitForExistence(timeout: 5))
-        XCTAssertTrue(status.label.contains("Sample button activated"))
+        XCTAssertTrue(status.label.contains("Sample control activated"))
     }
 
     func testSettingsTextSize() {

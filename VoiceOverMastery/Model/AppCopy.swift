@@ -67,7 +67,7 @@ enum PracticeCopy {
             paragraphs: [
                 "This screen is a practice surface inside VoiceOver Mastery. It is not a chapter, and it does not add VoiceOver gestures.",
                 "The controls below are a real button, a real slider, and a real list, with labels and hints. Turn VoiceOver on with the Accessibility Shortcut from Chapter 1.1, then try gestures the iPhone chapters already describe, especially Chapter 1.3 and Chapter 1.8.",
-                "This screen provides a Practice rotor so you can move among these controls with the rotor. The sample button also has custom actions. Chapter 1.8 explains the rotor and the Actions rotor item. The rotor name and the action names belong to this practice screen.",
+                "This screen provides a Practice rotor so you can move among these controls with the rotor. The sample control also has custom actions. Chapter 1.8 explains the rotor and the Actions rotor item. The rotor name and the action names belong to this practice screen.",
                 "Screen Curtain is not used here. Leave it off until you want it. Chapter 1.6 explains it."
             ]
         )

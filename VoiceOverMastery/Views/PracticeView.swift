@@ -18,16 +18,16 @@ struct PracticeView: View {
                 Section {
                     SectionHeader("Sample controls")
                     Button {
-                        status = "Sample button activated."
+                        status = "Sample control activated."
                         AccessibilityNotification.Announcement(status).post()
                     } label: {
-                        Text("Sample button")
+                        Text("Sample control")
                             .frame(maxWidth: .infinity, minHeight: 44, alignment: .leading)
                     }
                     .buttonStyle(.bordered)
                     .accessibilityIdentifier("practiceButton")
-                    .accessibilityLabel("Sample button")
-                    .accessibilityHint("A practice button in this app. Custom actions are available.")
+                    .accessibilityLabel("Sample control")
+                    .accessibilityHint("A practice control in this app. Custom actions are available.")
                     .accessibilityRotorEntry(id: "button", in: rotorNamespace)
                     .accessibilityActions {
                         Button("Reset practice status") {
@@ -101,7 +101,7 @@ struct PracticeView: View {
             .modifier(SolidScrollEdges())
             .navigationTitle("Practice")
             .accessibilityRotor("Practice") {
-                AccessibilityRotorEntry(Text("Sample button"), id: "button", in: rotorNamespace)
+                AccessibilityRotorEntry(Text("Sample control"), id: "button", in: rotorNamespace)
                 AccessibilityRotorEntry(Text("Practice slider"), id: "slider", in: rotorNamespace)
                 AccessibilityRotorEntry(Text("Practice status"), id: "status", in: rotorNamespace)
                 AccessibilityRotorEntry(Text("Apples"), id: "Apples", in: rotorNamespace)

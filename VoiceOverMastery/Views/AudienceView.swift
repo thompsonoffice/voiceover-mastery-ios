@@ -13,7 +13,6 @@ struct AudienceView: View {
                         .accessibilityHeading(.h1)
                     Text("An offline guide to VoiceOver on iPhone, iPad, Mac, Apple Watch, Apple TV, and Apple Vision Pro. Choose the introduction that fits you. You can change this later in More.")
                         .font(.body)
-                        .fixedSize(horizontal: false, vertical: true)
                     VStack(alignment: .leading, spacing: 12) {
                         Button("I use VoiceOver") {
                             progress.choose(.voiceOver)

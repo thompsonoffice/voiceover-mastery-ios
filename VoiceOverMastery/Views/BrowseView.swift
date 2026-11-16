@@ -157,7 +157,6 @@ struct ResumeLabel: View {
         VStack(alignment: .leading, spacing: 2) {
             Text("Resume \(chapter.id). \(chapter.title)")
                 .font(.body.weight(.semibold))
-                .fixedSize(horizontal: false, vertical: true)
             if let sectionTitle {
                 Text(sectionTitle)
                     .font(.subheadline)

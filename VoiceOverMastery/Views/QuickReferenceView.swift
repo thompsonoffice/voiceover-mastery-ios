@@ -25,7 +25,6 @@ struct QuickReferenceView: View {
                     Text("Each line is copied from a chapter's quick reference summary. The app does not add gestures.")
                         .font(.body)
                         .foregroundStyle(Color.primary)
-                        .fixedSize(horizontal: false, vertical: true)
                 }
                 Section {
                     SectionHeader("Also in this guide")
@@ -60,7 +59,6 @@ struct QuickReferenceDetail: View {
             Section {
                 Text("\(items.count) lines, copied from the quick reference summary in each \(part.platform) chapter.")
                     .font(.body)
-                    .fixedSize(horizontal: false, vertical: true)
             }
             ForEach(grouped(items), id: \.chapterID) { group in
                 Section {
@@ -69,7 +67,6 @@ struct QuickReferenceDetail: View {
                         NavigationLink(value: Route.chapter(item.chapterID)) {
                             Text(item.line)
                                 .font(.body)
-                                .fixedSize(horizontal: false, vertical: true)
                         }
                         .accessibilityLabel(item.line)
                         .accessibilityHint("Quick reference from chapter \(item.chapterID), \(item.chapterTitle). Opens that chapter.")

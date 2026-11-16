@@ -66,7 +66,6 @@ struct CopySections: View {
                     ForEach(section.paragraphs, id: \.self) { paragraph in
                         Text(paragraph)
                             .font(.body)
-                            .fixedSize(horizontal: false, vertical: true)
                     }
                 }
                 .frame(maxWidth: .infinity, alignment: .leading)
@@ -100,17 +99,14 @@ struct SectionBody: View {
         case .paragraph:
             Text(block.text)
                 .font(.body)
-                .fixedSize(horizontal: false, vertical: true)
         case .bullet:
             Text(bulletWords(block.text))
                 .font(.body)
-                .fixedSize(horizontal: false, vertical: true)
                 .padding(.leading, 8)
                 .accessibilityLabel(bulletWords(block.text))
         case .step:
             Text(block.text)
                 .font(.body)
-                .fixedSize(horizontal: false, vertical: true)
                 .padding(emphasize ? 8 : 0)
                 .overlay {
                     if emphasize {
@@ -138,12 +134,10 @@ struct SectionBody: View {
             VStack(alignment: .leading, spacing: 4) {
                 Text(lines[0])
                     .font(.body)
-                    .fixedSize(horizontal: false, vertical: true)
                 Link(destination: url) {
                     Text(lines[1])
                         .font(.body)
                         .multilineTextAlignment(.leading)
-                        .fixedSize(horizontal: false, vertical: true)
                         .frame(maxWidth: .infinity, minHeight: 44, alignment: .leading)
                 }
                 .accessibilityHint("Opens this source in your browser.")
@@ -151,7 +145,6 @@ struct SectionBody: View {
         } else {
             Text(block.text)
                 .font(.body)
-                .fixedSize(horizontal: false, vertical: true)
         }
     }
 }
@@ -245,7 +238,6 @@ struct ChapterLabel: View {
         VStack(alignment: .leading, spacing: 2) {
             Text("\(chapter.id). \(chapter.title)")
                 .font(.body.weight(.semibold))
-                .fixedSize(horizontal: false, vertical: true)
             Text(status(complete: complete, bookmarked: bookmarked))
                 .font(.subheadline)
                 .supportingStyle()

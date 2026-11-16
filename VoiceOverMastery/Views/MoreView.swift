@@ -189,7 +189,6 @@ struct SettingsView: View {
                 Text("Every screen uses Dynamic Type. Use device setting follows Settings, Accessibility, Display and Text Size. Reduce Motion is followed by leaving extra animation off.")
                     .font(.body)
                     .foregroundStyle(Color.primary)
-                    .fixedSize(horizontal: false, vertical: true)
             }
 
             Section {
@@ -221,7 +220,6 @@ struct SettingsView: View {
                 Text("Progress and bookmarks are stored only on this device. Nothing is sent anywhere.")
                     .font(.body)
                     .foregroundStyle(Color.primary)
-                    .fixedSize(horizontal: false, vertical: true)
             }
         }
         .navigationTitle("Settings")
@@ -287,7 +285,6 @@ struct AboutView: View {
                 .accessibilityHeading(.h2)
             content()
                 .font(.body)
-                .fixedSize(horizontal: false, vertical: true)
         }
         .frame(maxWidth: .infinity, alignment: .leading)
     }
@@ -295,7 +292,7 @@ struct AboutView: View {
     private func labeled(_ label: String, _ value: String) -> some View {
         VStack(alignment: .leading, spacing: 2) {
             Text(label).font(.subheadline.weight(.semibold))
-            Text(value).font(.body).fixedSize(horizontal: false, vertical: true)
+            Text(value).font(.body)
         }
         .frame(maxWidth: .infinity, alignment: .leading)
         .accessibilityElement(children: .combine)
@@ -320,7 +317,6 @@ struct PrivacyPolicyView: View {
                             .accessibilityHeading(.h2)
                         Text(section.body)
                             .font(.body)
-                            .fixedSize(horizontal: false, vertical: true)
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
                 }
@@ -351,7 +347,6 @@ struct IndexView: View {
                             NavigationLink(value: Route.chapter(id)) {
                                 Text("\(chapter.id). \(chapter.title)")
                                     .font(.body)
-                                    .fixedSize(horizontal: false, vertical: true)
                             }
                         }
                     }

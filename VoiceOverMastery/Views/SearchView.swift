@@ -80,7 +80,6 @@ struct SearchHitLabel: View {
         VStack(alignment: .leading, spacing: 2) {
             Text(hit.title)
                 .font(.body.weight(.semibold))
-                .fixedSize(horizontal: false, vertical: true)
             Text("\(platform). \(hit.subtitle)")
                 .font(.subheadline)
                 .supportingStyle()

@@ -172,6 +172,10 @@ final class VoiceOverMasteryUITests: XCTestCase {
         let button = app.buttons["practiceButton"]
         XCTAssertTrue(button.waitForExistence(timeout: 10))
         XCTAssertTrue(app.sliders["practiceSlider"].exists)
+        button.tap()
+        let status = app.staticTexts["practiceStatus"]
+        XCTAssertTrue(status.waitForExistence(timeout: 5))
+        XCTAssertTrue(status.label.contains("Sample control activated"))
         let apples = app.buttons["Apples"]
         var swipes = 0
         while !apples.exists && swipes < 6 {
@@ -186,10 +190,6 @@ final class VoiceOverMasteryUITests: XCTestCase {
             swipes += 1
         }
         XCTAssertTrue(note.exists)
-        button.tap()
-        let status = app.staticTexts["practiceStatus"]
-        XCTAssertTrue(status.waitForExistence(timeout: 5))
-        XCTAssertTrue(status.label.contains("Sample control activated"))
     }
 
     func testSettingsTextSize() {

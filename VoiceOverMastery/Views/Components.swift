@@ -163,15 +163,10 @@ struct ChapterActions: View {
             Button {
                 progress.toggleComplete(chapter.id)
             } label: {
-                HStack(spacing: 8) {
-                    Image(systemName: complete ? "checkmark.circle.fill" : "checkmark.circle")
-                        .accessibilityHidden(true)
-                    Text(complete ? "Completed" : "Mark chapter complete")
-                        .font(.body)
-                        .foregroundStyle(Color.primary)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                }
-                .frame(minHeight: 44)
+                Text(complete ? "Completed" : "Mark chapter complete")
+                    .font(.body)
+                    .foregroundStyle(Color.primary)
+                    .frame(maxWidth: .infinity, minHeight: 44, alignment: .leading)
             }
             .accessibilityLabel(complete ? "Completed" : "Mark chapter complete")
             .accessibilityAddTraits(complete ? .isSelected : [])
@@ -181,15 +176,10 @@ struct ChapterActions: View {
             Button {
                 progress.toggleBookmark(chapter.id)
             } label: {
-                HStack(spacing: 8) {
-                    Image(systemName: bookmarked ? "bookmark.fill" : "bookmark")
-                        .accessibilityHidden(true)
-                    Text(bookmarked ? "Bookmarked" : "Bookmark")
-                        .font(.body)
-                        .foregroundStyle(Color.primary)
-                        .frame(maxWidth: .infinity, alignment: .leading)
-                }
-                .frame(minHeight: 44)
+                Text(bookmarked ? "Bookmarked" : "Bookmark")
+                    .font(.body)
+                    .foregroundStyle(Color.primary)
+                    .frame(maxWidth: .infinity, minHeight: 44, alignment: .leading)
             }
             .accessibilityLabel(bookmarked ? "Bookmarked" : "Bookmark")
             .accessibilityAddTraits(bookmarked ? .isSelected : [])

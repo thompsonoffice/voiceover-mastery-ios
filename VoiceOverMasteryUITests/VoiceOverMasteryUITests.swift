@@ -121,7 +121,7 @@ final class VoiceOverMasteryUITests: XCTestCase {
     func testSearchFindsScreenCurtain() {
         chooseVoiceOverUser()
         tab("Search")
-        let field = app.searchFields.firstMatch
+        let field = app.textFields["searchField"]
         XCTAssertTrue(field.waitForExistence(timeout: 10))
         field.tap()
         field.typeText("Screen Curtain")
@@ -169,11 +169,13 @@ final class VoiceOverMasteryUITests: XCTestCase {
         chooseVoiceOverUser()
         tab("More")
         app.buttons["moreSettings"].tap()
-        let textSize = app.descendants(matching: .any).matching(NSPredicate(format: "label BEGINSWITH %@", "Text size")).firstMatch
-        XCTAssertTrue(textSize.waitForExistence(timeout: 10), "Text size control")
-        textSize.tap()
-        let size = app.buttons.matching(NSPredicate(format: "label BEGINSWITH %@", "Accessibility size 3")).firstMatch
-        XCTAssertTrue(size.waitForExistence(timeout: 10))
+        let size = app.buttons["Accessibility size 3"]
+        var swipes = 0
+        while !(size.exists && size.isHittable) && swipes < 6 {
+            app.swipeUp()
+            swipes += 1
+        }
+        XCTAssertTrue(size.waitForExistence(timeout: 10), "Accessibility size 3")
         size.tap()
         tab("Browse")
         XCTAssertTrue(app.buttons["part-iphone"].waitForExistence(timeout: 10))

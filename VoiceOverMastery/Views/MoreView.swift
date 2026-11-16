@@ -158,16 +158,28 @@ struct SettingsView: View {
         Form {
             Section {
                 SectionHeader("Reading")
-                NavigationLink(value: MoreRoute.textSize) {
-                    VStack(alignment: .leading, spacing: 2) {
-                        Text("Text size")
-                            .font(.body)
-                        Text(textSize.title)
-                            .font(.body)
-                            .foregroundStyle(Color.primary)
+                Text("Text size")
+                    .font(.title3.weight(.bold))
+                    .foregroundStyle(Color.primary)
+                    .accessibilityAddTraits(.isHeader)
+                ForEach(TextSizeOption.allCases) { option in
+                    Button {
+                        textSize = option
+                    } label: {
+                        HStack {
+                            Text(option.title)
+                                .font(.body)
+                                .foregroundStyle(Color.primary)
+                            Spacer()
+                            if textSize == option {
+                                Image(systemName: "checkmark")
+                                    .accessibilityHidden(true)
+                            }
+                        }
+                        .frame(minHeight: 44)
                     }
-                    .accessibilityElement(children: .combine)
-                    .accessibilityLabel("Text size, \(textSize.title)")
+                    .accessibilityLabel(option.title)
+                    .accessibilityAddTraits(textSize == option ? .isSelected : [])
                 }
                 Text("Sample. VoiceOver Mastery keeps chapter text at this size.")
                     .font(.body)

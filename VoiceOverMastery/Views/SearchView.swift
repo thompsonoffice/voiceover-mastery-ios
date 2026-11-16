@@ -14,6 +14,12 @@ struct SearchView: View {
     var body: some View {
         NavigationStack {
             List {
+                TextField("Search", text: $query)
+                    .font(.body)
+                    .textInputAutocapitalization(.never)
+                    .autocorrectionDisabled()
+                    .accessibilityLabel("Search")
+                    .accessibilityIdentifier("searchField")
                 if query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
                     Text("Search the chapters, including headings, steps, quick reference lines, and the index. Every word must match. For example: rotor, Screen Curtain, Magic Tap.")
                         .font(.body)
@@ -40,9 +46,6 @@ struct SearchView: View {
                     }
                 }
             }
-            .searchable(text: $query, placement: .navigationBarDrawer(displayMode: .always), prompt: "Chapters, gestures, settings")
-            .autocorrectionDisabled()
-            .textInputAutocapitalization(.never)
             .navigationTitle("Search")
             .navigationDestination(for: Route.self) { route in
                 if case .chapter(let id) = route, let chapter = library.book.chapter(id) {

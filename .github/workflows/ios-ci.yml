@@ -1,0 +1,81 @@
+# Builds VoiceOver Mastery for the iOS Simulator and runs the unit tests, UI tests,
+# and accessibility audits. No signing and no upload.
+name: iOS build and test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ios-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: macos-15
+    timeout-minutes: 45
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Use the newest installed Xcode
+        run: |
+          XCODE=$(ls -d /Applications/Xcode_*.app | sort -V | tail -1)
+          echo "Using $XCODE"
+          sudo xcode-select -s "$XCODE/Contents/Developer"
+          xcodebuild -version
+
+      - name: Check bundled JSON matches the chapters
+        run: |
+          python3 tools/export_book.py
+          git diff --exit-code -- VoiceOverMastery/Resources/book.json
+
+      - name: Generate the Xcode project
+        run: |
+          brew install xcodegen xcbeautify
+          xcodegen generate
+
+      - name: Pick an iPhone simulator
+        id: sim
+        run: |
+          UDID=$(xcrun simctl list devices available -j | python3 scripts/pick_simulator.py)
+          echo "udid=$UDID" >> "$GITHUB_OUTPUT"
+          xcrun simctl list devices available | grep "$UDID"
+
+      - name: Build and run tests
+        run: |
+          set -o pipefail
+          mkdir -p build
+          xcodebuild test \
+            -project VoiceOverMastery.xcodeproj \
+            -scheme VoiceOverMastery \
+            -destination "platform=iOS Simulator,id=${{ steps.sim.outputs.udid }}" \
+            -resultBundlePath build/VoiceOverMastery.xcresult \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            2>&1 | tee build/xcodebuild.log | xcbeautify --renderer github-actions
+
+      - name: Test summary
+        if: always()
+        run: |
+          if [ -d build/VoiceOverMastery.xcresult ]; then
+            xcrun xcresulttool get test-results summary --path build/VoiceOverMastery.xcresult --compact | tee build/test-summary.json || true
+            xcrun xcresulttool get test-results tests --path build/VoiceOverMastery.xcresult --compact > build/test-list.json || true
+          fi
+          grep -h "Accessibility audit" build/xcodebuild.log > build/accessibility-audit.txt || true
+          cat build/accessibility-audit.txt || true
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: VoiceOverMastery-test-results
+          path: |
+            build/VoiceOverMastery.xcresult
+            build/xcodebuild.log
+            build/test-summary.json
+            build/test-list.json
+            build/accessibility-audit.txt
+          if-no-files-found: warn

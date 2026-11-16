@@ -1,0 +1,7 @@
+VoiceOverMastery.xcodeproj/
+build/
+DerivedData/
+*.xcresult
+.DS_Store
+*.p8
+xcuserdata/

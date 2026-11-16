@@ -1,0 +1,108 @@
+import SwiftUI
+
+struct QuickReferenceView: View {
+    @EnvironmentObject private var library: Library
+
+    var body: some View {
+        NavigationStack {
+            List {
+                Section {
+                    ForEach(library.book.devices) { part in
+                        NavigationLink(value: part.id) {
+                            VStack(alignment: .leading, spacing: 2) {
+                                Text(part.platform)
+                                    .font(.body.weight(.semibold))
+                                Text("\(library.book.quickReference(for: part.id).count) lines from quick reference summaries")
+                                    .font(.subheadline)
+                                    .supportingStyle()
+                            }
+                            .padding(.vertical, 2)
+                            .accessibilityElement(children: .combine)
+                        }
+                        .accessibilityIdentifier("quick-\(part.id)")
+                    }
+                } header: {
+                    SectionHeader("Devices")
+                } footer: {
+                    Text("Each line is copied from a chapter's quick reference summary. The app does not add gestures.")
+                }
+                Section {
+                    ForEach(library.book.parts.filter { !$0.isDevice }) { part in
+                        NavigationLink(value: part.id) {
+                            Text(part.platform)
+                                .font(.body)
+                        }
+                        .accessibilityIdentifier("quick-\(part.id)")
+                    }
+                } header: {
+                    SectionHeader("Also in this guide")
+                }
+            }
+            .navigationTitle("Reference")
+            .navigationDestination(for: String.self) { partID in
+                if let part = library.book.part(partID) {
+                    QuickReferenceDetail(part: part)
+                } else {
+                    MissingView()
+                }
+            }
+        }
+    }
+}
+
+struct QuickReferenceDetail: View {
+    let part: Part
+    @EnvironmentObject private var library: Library
+
+    var body: some View {
+        let items = library.book.quickReference(for: part.id)
+        List {
+            Section {
+                Text("\(items.count) lines, copied from the quick reference summary in each \(part.platform) chapter.")
+                    .font(.body)
+                    .fixedSize(horizontal: false, vertical: true)
+            }
+            ForEach(grouped(items), id: \.chapterID) { group in
+                Section {
+                    ForEach(group.items) { item in
+                        NavigationLink(value: Route.chapter(item.chapterID)) {
+                            Text(item.line)
+                                .font(.body)
+                                .fixedSize(horizontal: false, vertical: true)
+                        }
+                        .accessibilityLabel(item.line)
+                        .accessibilityHint("Quick reference from chapter \(item.chapterID), \(item.chapterTitle). Opens that chapter.")
+                    }
+                } header: {
+                    SectionHeader("\(group.chapterID). \(group.title)")
+                }
+            }
+        }
+        .navigationTitle(part.platform)
+        .navigationDestination(for: Route.self) { route in
+            if case .chapter(let id) = route, let chapter = library.book.chapter(id) {
+                ChapterReaderView(chapter: chapter)
+            } else {
+                MissingView()
+            }
+        }
+    }
+
+    private struct Group {
+        var chapterID: String
+        var title: String
+        var items: [QuickReferenceItem]
+    }
+
+    private func grouped(_ items: [QuickReferenceItem]) -> [Group] {
+        var groups: [Group] = []
+        for item in items {
+            if let index = groups.lastIndex(where: { $0.chapterID == item.chapterID }) {
+                groups[index].items.append(item)
+            } else {
+                groups.append(Group(chapterID: item.chapterID, title: item.chapterTitle, items: [item]))
+            }
+        }
+        return groups
+    }
+}

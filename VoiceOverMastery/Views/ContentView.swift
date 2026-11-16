@@ -38,15 +38,17 @@ struct ContentView: View {
 }
 
 /// iOS 26 draws the tab bar over the list and fades the rows underneath it.
-/// The contrast audit measures that faded text. This inset ends the list above the bar.
+/// The contrast audit measures that faded text. A fixed strip under the tab
+/// content shortens the list so the last visible row sits above the bar.
 struct BottomBarClearance: ViewModifier {
     @Environment(\.horizontalSizeClass) private var sizeClass
 
     func body(content: Content) -> some View {
         if sizeClass == .compact {
-            content.safeAreaInset(edge: .bottom, spacing: 0) {
+            VStack(spacing: 0) {
+                content
                 Color(.systemBackground)
-                    .frame(height: 160)
+                    .frame(height: 170)
                     .accessibilityHidden(true)
             }
         } else {

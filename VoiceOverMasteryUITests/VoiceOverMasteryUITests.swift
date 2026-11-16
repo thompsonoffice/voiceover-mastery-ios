@@ -49,20 +49,30 @@ final class VoiceOverMasteryUITests: XCTestCase {
     }
 
     private func audit(_ screen: String, file: StaticString = #filePath, line: UInt = #line) {
-        do {
-            try app.performAccessibilityAudit { issue in
-                let label = issue.element?.label ?? ""
-                print("Accessibility audit, \(screen): \(issue.auditType) \(issue.compactDescription) detailed: \(issue.detailedDescription) element: \(label) debug: \(String(describing: issue.element))")
-                // iOS 26 sometimes reports contrast on a SwiftUI node with no element.
-                // There is no control to restyle. Named elements still fail the test.
-                if issue.element == nil {
-                    return true
+        var lastError: Error?
+        for attempt in 1...2 {
+            do {
+                try app.performAccessibilityAudit { issue in
+                    let label = issue.element?.label ?? ""
+                    print("Accessibility audit, \(screen): \(issue.auditType) \(issue.compactDescription) detailed: \(issue.detailedDescription) element: \(label) debug: \(String(describing: issue.element))")
+                    // iOS 26 sometimes reports contrast on a SwiftUI node with no element.
+                    // There is no control to restyle. Named elements still fail the test.
+                    if issue.element == nil {
+                        return true
+                    }
+                    return false
                 }
-                return false
+                return
+            } catch {
+                lastError = error
+                let text = String(describing: error)
+                if attempt == 1, text.contains("in time") {
+                    continue
+                }
+                break
             }
-        } catch {
-            XCTFail("Audit on \(screen) could not run: \(error)", file: file, line: line)
         }
+        XCTFail("Audit on \(screen) could not run: \(lastError!)", file: file, line: line)
     }
 
     func testFiveTabsAreLabeled() {

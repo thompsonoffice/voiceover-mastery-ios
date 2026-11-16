@@ -8,12 +8,6 @@ struct QuickReferenceView: View {
 
     var body: some View {
         NavigationStack {
-            VStack(alignment: .leading, spacing: 0) {
-            Text("Each line is copied from a chapter's quick reference summary. The app does not add gestures.")
-                .font(.body)
-                .foregroundStyle(ink)
-                .padding()
-                .frame(maxWidth: .infinity, alignment: .leading)
             List {
                 Section {
                     SectionHeader("Devices")
@@ -23,7 +17,7 @@ struct QuickReferenceView: View {
                                 Text(part.platform)
                                     .font(.body)
                                     .foregroundStyle(ink)
-                                Text("\(library.book.quickReference(for: part.id).count) lines from quick reference summaries")
+                                Text("\(library.book.quickReference(for: part.id).count) lines")
                                     .font(.body)
                                     .foregroundStyle(ink)
                             }
@@ -53,7 +47,6 @@ struct QuickReferenceView: View {
                 } else {
                     MissingView()
                 }
-            }
             }
         }
     }

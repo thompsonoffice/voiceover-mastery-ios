@@ -14,9 +14,7 @@ concurrency:
 
 jobs:
   test:
-    # macos-15 is arm64 and, during this work, often never received a runner.
-    # macos-13 is the Intel hosted image and still has an iOS 17+ simulator.
-    runs-on: macos-13
+    runs-on: macos-15
     timeout-minutes: 45
     steps:
       - name: Check out

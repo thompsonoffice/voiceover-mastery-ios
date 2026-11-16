@@ -47,6 +47,8 @@ struct RootView: View {
     var body: some View {
         GateView()
             .tint(Color.primary)
+            .listRowSeparatorTint(Color.primary)
+            .navigationLinkIndicatorVisibility(.hidden)
             .environment(\.strongContrast, strongContrast)
             .modifier(ApplyTextSize(option: textSize))
     }

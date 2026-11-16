@@ -45,7 +45,8 @@ final class VoiceOverMasteryUITests: XCTestCase {
     private func audit(_ screen: String, file: StaticString = #filePath, line: UInt = #line) {
         do {
             try app.performAccessibilityAudit { issue in
-                print("Accessibility audit, \(screen): \(issue.auditType) \(issue.compactDescription) element: \(issue.element?.label ?? "")")
+                let label = issue.element?.label ?? ""
+                print("Accessibility audit, \(screen): \(issue.auditType) \(issue.compactDescription) detailed: \(issue.detailedDescription) element: \(label) debug: \(String(describing: issue.element))")
                 return false
             }
         } catch {

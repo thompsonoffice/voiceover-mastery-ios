@@ -133,8 +133,8 @@ final class VoiceOverMasteryUITests: XCTestCase {
     func testQuickReferenceUsesChapterLines() {
         chooseVoiceOverUser()
         tab("Reference")
-        let iphone = app.buttons["quick-iphone"]
-        XCTAssertTrue(iphone.waitForExistence(timeout: 10))
+        let iphone = app.descendants(matching: .any).matching(NSPredicate(format: "label CONTAINS %@", "iPhone, quick reference")).firstMatch
+        XCTAssertTrue(iphone.waitForExistence(timeout: 10), "iPhone quick reference")
         iphone.tap()
         let line = app.descendants(matching: .any).matching(NSPredicate(format: "label CONTAINS %@", "VoiceOver speaks the item under your finger")).firstMatch
         var swipes = 0

@@ -212,14 +212,18 @@ struct OptionalIdentifier: ViewModifier {
 
 struct PartLabel: View {
     let part: Part
+    @Environment(\.colorScheme) private var scheme
+
+    private var ink: Color { scheme == .dark ? .white : .black }
 
     var body: some View {
         VStack(alignment: .leading, spacing: 2) {
             Text(part.platform)
-                .font(.body.weight(.semibold))
+                .font(.body)
+                .foregroundStyle(ink)
             Text("\(part.chapters.count) \(part.chapters.count == 1 ? "chapter" : "chapters")")
-                .font(.subheadline)
-                .supportingStyle()
+                .font(.body)
+                .foregroundStyle(ink)
         }
         .padding(.vertical, 2)
         .accessibilityElement(children: .combine)

@@ -2,6 +2,9 @@ import SwiftUI
 
 struct QuickReferenceView: View {
     @EnvironmentObject private var library: Library
+    @Environment(\.colorScheme) private var scheme
+
+    private var ink: Color { scheme == .dark ? .white : .black }
 
     var body: some View {
         NavigationStack {
@@ -12,19 +15,21 @@ struct QuickReferenceView: View {
                         NavigationLink(value: part.id) {
                             VStack(alignment: .leading, spacing: 2) {
                                 Text(part.platform)
-                                    .font(.body.weight(.semibold))
+                                    .font(.body)
+                                    .foregroundStyle(ink)
                                 Text("\(library.book.quickReference(for: part.id).count) lines from quick reference summaries")
-                                    .font(.subheadline)
-                                    .supportingStyle()
+                                    .font(.body)
+                                    .foregroundStyle(ink)
                             }
                             .padding(.vertical, 2)
                             .accessibilityElement(children: .combine)
+                            .accessibilityIdentifier("quick-\(part.id)")
+                            .accessibilityLabel("\(part.platform), quick reference")
                         }
-                        .accessibilityIdentifier("quick-\(part.id)")
                     }
                     Text("Each line is copied from a chapter's quick reference summary. The app does not add gestures.")
                         .font(.body)
-                        .foregroundStyle(Color.primary)
+                        .foregroundStyle(ink)
                 }
                 Section {
                     SectionHeader("Also in this guide")

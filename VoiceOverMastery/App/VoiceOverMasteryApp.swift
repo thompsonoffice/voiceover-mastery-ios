@@ -48,8 +48,21 @@ struct RootView: View {
         GateView()
             .tint(Color.primary)
             .listRowSeparatorTint(Color.primary)
+            .modifier(SolidScrollEdges())
             .environment(\.strongContrast, strongContrast)
             .modifier(ApplyTextSize(option: textSize))
+    }
+}
+
+/// iOS 26 fades content at the scroll edge. That fade fails the contrast audit
+/// on the last visible row. A hard edge keeps the text on a solid background.
+struct SolidScrollEdges: ViewModifier {
+    func body(content: Content) -> some View {
+        if #available(iOS 26.0, *) {
+            content.scrollEdgeEffectStyle(.hard, for: .all)
+        } else {
+            content
+        }
     }
 }
 

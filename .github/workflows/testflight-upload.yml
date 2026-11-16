@@ -15,7 +15,7 @@ on:
 jobs:
   upload:
     if: ${{ vars.ENABLE_TESTFLIGHT_UPLOAD == 'true' }}
-    runs-on: macos-14
+    runs-on: macos-latest
     timeout-minutes: 60
     steps:
       - name: Check out

@@ -14,9 +14,7 @@ concurrency:
 
 jobs:
   test:
-    # macos-14 is a separate hosted image from macos-15. The macos-15
-    # arm64 queue was cancelling jobs before assigning a runner.
-    runs-on: macos-14
+    runs-on: macos-latest
     timeout-minutes: 45
     steps:
       - name: Check out

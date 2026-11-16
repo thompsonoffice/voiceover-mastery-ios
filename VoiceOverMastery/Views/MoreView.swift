@@ -59,6 +59,7 @@ struct MoreView: View {
                     }
                 }
             }
+            .modifier(SolidScrollEdges())
             .navigationTitle("More")
             .navigationDestination(for: MoreRoute.self) { route in
                 switch route {

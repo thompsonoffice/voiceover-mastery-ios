@@ -45,6 +45,7 @@ struct QuickReferenceView: View {
                     }
                 }
             }
+            .modifier(SolidScrollEdges())
             .navigationTitle("Reference")
             .navigationDestination(for: String.self) { partID in
                 if let part = library.book.part(partID) {

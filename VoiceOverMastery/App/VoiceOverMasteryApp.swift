@@ -58,10 +58,11 @@ struct RootView: View {
 /// on the last visible row. A hard edge keeps the text on a solid background.
 struct SolidScrollEdges: ViewModifier {
     func body(content: Content) -> some View {
+        let lifted = content.contentMargins(.bottom, 80, for: .scrollContent)
         if #available(iOS 26.0, *) {
-            content.scrollEdgeEffectStyle(.hard, for: .all)
+            lifted.scrollEdgeEffectStyle(.hard, for: .all)
         } else {
-            content
+            lifted
         }
     }
 }

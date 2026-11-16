@@ -98,6 +98,7 @@ struct PracticeView: View {
                     CopySections(sections: PracticeCopy.sections)
                 }
             }
+            .modifier(SolidScrollEdges())
             .navigationTitle("Practice")
             .accessibilityRotor("Practice") {
                 AccessibilityRotorEntry(Text("Sample button"), id: "button", in: rotorNamespace)

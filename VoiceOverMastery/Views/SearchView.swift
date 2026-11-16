@@ -46,6 +46,7 @@ struct SearchView: View {
                     }
                 }
             }
+            .modifier(SolidScrollEdges())
             .navigationTitle("Search")
             .navigationDestination(for: Route.self) { route in
                 if case .chapter(let id) = route, let chapter = library.book.chapter(id) {

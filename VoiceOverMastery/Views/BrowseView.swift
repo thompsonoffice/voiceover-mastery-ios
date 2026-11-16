@@ -28,6 +28,7 @@ struct CompactBrowseView: View {
                 partSection(title: "Devices", parts: library.book.devices)
                 partSection(title: "Also in this guide", parts: library.book.parts.filter { !$0.isDevice })
             }
+            .modifier(SolidScrollEdges())
             .navigationTitle("VoiceOver Mastery")
             .navigationDestination(for: Route.self) { route in
                 switch route {
@@ -124,6 +125,7 @@ struct RegularBrowseView: View {
                     }
                 }
             }
+            .modifier(SolidScrollEdges())
             .navigationTitle("VoiceOver Mastery")
         } content: {
             if let partID, let part = library.book.part(partID) {

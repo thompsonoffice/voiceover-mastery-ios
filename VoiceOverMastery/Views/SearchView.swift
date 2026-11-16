@@ -3,28 +3,17 @@ import SwiftUI
 struct SearchView: View {
     @EnvironmentObject private var library: Library
     @State private var query = ""
-    @State private var partFilter = "all"
     @State private var announceTask: Task<Void, Never>?
 
     private var hits: [SearchHit] {
-        let part = partFilter == "all" ? nil : partFilter
         let trimmed = query.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !trimmed.isEmpty else { return [] }
-        return library.search(trimmed, partID: part)
+        return library.search(trimmed)
     }
 
     var body: some View {
         NavigationStack {
             List {
-                Section {
-                    Picker("Part", selection: $partFilter) {
-                        Text("All parts").tag("all")
-                        ForEach(library.book.parts) { part in
-                            Text(part.platform).tag(part.id)
-                        }
-                    }
-                    .accessibilityHint("Limits results to one part of the guide.")
-                }
                 if query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {
                     Text("Search the chapters, including headings, steps, quick reference lines, and the index. Every word must match. For example: rotor, Screen Curtain, Magic Tap.")
                         .font(.body)
@@ -63,7 +52,6 @@ struct SearchView: View {
                 }
             }
             .onChange(of: query) { _, _ in announceCount() }
-            .onChange(of: partFilter) { _, _ in announceCount() }
         }
     }
 
@@ -71,11 +59,10 @@ struct SearchView: View {
         announceTask?.cancel()
         let trimmed = query.trimmingCharacters(in: .whitespacesAndNewlines)
         guard !trimmed.isEmpty else { return }
-        let part = partFilter == "all" ? nil : partFilter
         announceTask = Task { @MainActor in
             try? await Task.sleep(nanoseconds: 900_000_000)
             guard !Task.isCancelled else { return }
-            let count = library.search(trimmed, partID: part).count
+            let count = library.search(trimmed).count
             AccessibilityNotification.Announcement(count == 1 ? "1 result" : "\(count) results").post()
         }
     }

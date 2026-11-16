@@ -3,6 +3,7 @@ import SwiftUI
 enum MoreRoute: Hashable {
     case bookmarks
     case settings
+    case textSize
     case about
     case privacy
     case orientation
@@ -63,6 +64,7 @@ struct MoreView: View {
                 switch route {
                 case .bookmarks: BookmarksView()
                 case .settings: SettingsView()
+                case .textSize: TextSizeView()
                 case .about: AboutView()
                 case .privacy: PrivacyPolicyView()
                 case .orientation: OrientationView(isGate: false)
@@ -116,6 +118,35 @@ struct BookmarksView: View {
     }
 }
 
+struct TextSizeView: View {
+    @AppStorage(TextSizeOption.storageKey) private var textSize: TextSizeOption = .system
+
+    var body: some View {
+        List {
+            ForEach(TextSizeOption.allCases) { option in
+                Button {
+                    textSize = option
+                } label: {
+                    HStack {
+                        Text(option.title)
+                            .font(.body)
+                            .foregroundStyle(Color.primary)
+                        Spacer()
+                        if textSize == option {
+                            Image(systemName: "checkmark")
+                                .accessibilityHidden(true)
+                        }
+                    }
+                    .frame(minHeight: 44)
+                }
+                .accessibilityLabel(option.title)
+                .accessibilityAddTraits(textSize == option ? .isSelected : [])
+            }
+        }
+        .navigationTitle("Text size")
+    }
+}
+
 struct SettingsView: View {
     @AppStorage(TextSizeOption.storageKey) private var textSize: TextSizeOption = .system
     @AppStorage(StrongContrast.storageKey) private var strongContrast = false
@@ -127,12 +158,17 @@ struct SettingsView: View {
         Form {
             Section {
                 SectionHeader("Reading")
-                Picker("Text size", selection: $textSize) {
-                    ForEach(TextSizeOption.allCases) { option in
-                        Text(option.title).tag(option)
+                NavigationLink(value: MoreRoute.textSize) {
+                    VStack(alignment: .leading, spacing: 2) {
+                        Text("Text size")
+                            .font(.body)
+                        Text(textSize.title)
+                            .font(.body)
+                            .foregroundStyle(Color.primary)
                     }
+                    .accessibilityElement(children: .combine)
+                    .accessibilityLabel("Text size, \(textSize.title)")
                 }
-                .pickerStyle(.navigationLink)
                 Text("Sample. VoiceOver Mastery keeps chapter text at this size.")
                     .font(.body)
                     .accessibilityLabel("Text size sample. VoiceOver Mastery keeps chapter text at this size.")

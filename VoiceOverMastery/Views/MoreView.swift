@@ -27,6 +27,7 @@ struct MoreView: View {
                     .accessibilityIdentifier("moreSettings")
                 }
                 Section {
+                    SectionHeader("Guide")
                     NavigationLink(value: MoreRoute.readme) {
                         Label("Book read me", systemImage: "text.book.closed")
                     }
@@ -37,10 +38,7 @@ struct MoreView: View {
                         Label("Sighted orientation", systemImage: "eye")
                     }
                     .accessibilityIdentifier("moreOrientation")
-                } header: {
-                    SectionHeader("Guide")
                 }
-                .headerProminence(.increased)
                 Section {
                     NavigationLink(value: MoreRoute.about) {
                         Label("About VoiceOver Mastery", systemImage: "info.circle")
@@ -88,6 +86,7 @@ struct BookmarksView: View {
                     .supportingStyle()
             } else {
                 Section {
+                    SectionHeader("\(progress.bookmarkIDs.count) saved on this device.")
                     ForEach(progress.bookmarkIDs, id: \.self) { id in
                         if let chapter = library.book.chapter(id) {
                             NavigationLink(value: Route.chapter(id)) {
@@ -103,14 +102,7 @@ struct BookmarksView: View {
                             }
                         }
                     }
-                } header: {
-                    Text("\(progress.bookmarkIDs.count) saved on this device.")
-                        .font(.headline.weight(.bold))
-                        .foregroundStyle(Color.primary)
-                        .textCase(nil)
-                        .accessibilityAddTraits(.isHeader)
                 }
-                .headerProminence(.increased)
             }
         }
         .navigationTitle("Bookmarks")
@@ -134,6 +126,7 @@ struct SettingsView: View {
     var body: some View {
         Form {
             Section {
+                SectionHeader("Reading")
                 Picker("Text size", selection: $textSize) {
                     ForEach(TextSizeOption.allCases) { option in
                         Text(option.title).tag(option)
@@ -145,15 +138,14 @@ struct SettingsView: View {
                     .accessibilityLabel("Text size sample. VoiceOver Mastery keeps chapter text at this size.")
                 Toggle("Stronger contrast", isOn: $strongContrast)
                     .accessibilityHint("Uses primary text color and stronger borders, including when Increase Contrast is on.")
-            } header: {
-                SectionHeader("Reading")
-            } footer: {
                 Text("Every screen uses Dynamic Type. Use device setting follows Settings, Accessibility, Display and Text Size. Reduce Motion is followed by leaving extra animation off.")
+                    .font(.body)
                     .foregroundStyle(Color.primary)
+                    .fixedSize(horizontal: false, vertical: true)
             }
-            .headerProminence(.increased)
 
             Section {
+                SectionHeader("Saved on this device")
                 if progress.completedIDs.isEmpty {
                     Text("No chapters are marked complete.")
                         .supportingStyle()
@@ -178,13 +170,11 @@ struct SettingsView: View {
                         progress.clearResume()
                     }
                 }
-            } header: {
-                SectionHeader("Saved on this device")
-            } footer: {
                 Text("Progress and bookmarks are stored only on this device. Nothing is sent anywhere.")
+                    .font(.body)
                     .foregroundStyle(Color.primary)
+                    .fixedSize(horizontal: false, vertical: true)
             }
-            .headerProminence(.increased)
         }
         .navigationTitle("Settings")
         .confirmationDialog("Clear completed chapters?", isPresented: $confirmCompleted, titleVisibility: .visible) {
@@ -307,6 +297,7 @@ struct IndexView: View {
             }
             ForEach(library.book.index) { entry in
                 Section {
+                    SectionHeader(entry.term)
                     ForEach(entry.chapters, id: \.self) { id in
                         if let chapter = library.book.chapter(id) {
                             NavigationLink(value: Route.chapter(id)) {
@@ -316,10 +307,7 @@ struct IndexView: View {
                             }
                         }
                     }
-                } header: {
-                    SectionHeader(entry.term)
                 }
-                .headerProminence(.increased)
             }
         }
         .navigationTitle("Index")

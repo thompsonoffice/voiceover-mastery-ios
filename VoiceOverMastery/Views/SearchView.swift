@@ -41,15 +41,13 @@ struct SearchView: View {
                             .supportingStyle()
                     } else {
                         Section {
+                            SectionHeader("Results")
                             ForEach(hits) { hit in
                                 NavigationLink(value: Route.chapter(hit.chapterID)) {
                                     SearchHitLabel(hit: hit)
                                 }
                             }
-                        } header: {
-                            SectionHeader("Results")
                         }
-                        .headerProminence(.increased)
                     }
                 }
             }

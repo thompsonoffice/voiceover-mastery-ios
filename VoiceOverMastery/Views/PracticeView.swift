@@ -16,12 +16,11 @@ struct PracticeView: View {
         NavigationStack {
             List {
                 Section {
-                    CopySections(sections: PracticeCopy.sections)
-                } header: {
                     SectionHeader("Practice")
+                    CopySections(sections: PracticeCopy.sections)
                 }
-                .headerProminence(.increased)
                 Section {
+                    SectionHeader("Sample controls")
                     Button {
                         status = "Sample button activated."
                         AccessibilityNotification.Announcement(status).post()
@@ -75,11 +74,9 @@ struct PracticeView: View {
                         .accessibilityIdentifier("practiceStatus")
                         .accessibilityLabel("Practice status. \(status)")
                         .accessibilityRotorEntry(id: "status", in: rotorNamespace)
-                } header: {
-                    SectionHeader("Sample controls")
                 }
-                .headerProminence(.increased)
                 Section {
+                    SectionHeader("Sample list")
                     ForEach(rows, id: \.self) { row in
                         Button {
                             if selectedRows.contains(row) {
@@ -104,10 +101,7 @@ struct PracticeView: View {
                         .accessibilityAddTraits(selectedRows.contains(row) ? .isSelected : [])
                         .accessibilityRotorEntry(id: row, in: rotorNamespace)
                     }
-                } header: {
-                    SectionHeader("Sample list")
                 }
-                .headerProminence(.increased)
             }
             .navigationTitle("Practice")
             .accessibilityRotor("Practice") {

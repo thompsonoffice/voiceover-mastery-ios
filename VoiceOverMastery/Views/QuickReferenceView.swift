@@ -7,6 +7,7 @@ struct QuickReferenceView: View {
         NavigationStack {
             List {
                 Section {
+                    SectionHeader("Devices")
                     ForEach(library.book.devices) { part in
                         NavigationLink(value: part.id) {
                             VStack(alignment: .leading, spacing: 2) {
@@ -21,14 +22,13 @@ struct QuickReferenceView: View {
                         }
                         .accessibilityIdentifier("quick-\(part.id)")
                     }
-                } header: {
-                    SectionHeader("Devices")
-                } footer: {
                     Text("Each line is copied from a chapter's quick reference summary. The app does not add gestures.")
+                        .font(.body)
                         .foregroundStyle(Color.primary)
+                        .fixedSize(horizontal: false, vertical: true)
                 }
-                .headerProminence(.increased)
                 Section {
+                    SectionHeader("Also in this guide")
                     ForEach(library.book.parts.filter { !$0.isDevice }) { part in
                         NavigationLink(value: part.id) {
                             Text(part.platform)
@@ -36,10 +36,7 @@ struct QuickReferenceView: View {
                         }
                         .accessibilityIdentifier("quick-\(part.id)")
                     }
-                } header: {
-                    SectionHeader("Also in this guide")
                 }
-                .headerProminence(.increased)
             }
             .navigationTitle("Reference")
             .navigationDestination(for: String.self) { partID in
@@ -67,6 +64,7 @@ struct QuickReferenceDetail: View {
             }
             ForEach(grouped(items), id: \.chapterID) { group in
                 Section {
+                    SectionHeader("\(group.chapterID). \(group.title)")
                     ForEach(group.items) { item in
                         NavigationLink(value: Route.chapter(item.chapterID)) {
                             Text(item.line)
@@ -76,10 +74,7 @@ struct QuickReferenceDetail: View {
                         .accessibilityLabel(item.line)
                         .accessibilityHint("Quick reference from chapter \(item.chapterID), \(item.chapterTitle). Opens that chapter.")
                     }
-                } header: {
-                    SectionHeader("\(group.chapterID). \(group.title)")
                 }
-                .headerProminence(.increased)
             }
         }
         .navigationTitle(part.platform)

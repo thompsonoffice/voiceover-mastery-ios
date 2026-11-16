@@ -51,6 +51,7 @@ struct CompactBrowseView: View {
     @ViewBuilder
     private var progressSection: some View {
         Section {
+            SectionHeader("Continue")
             Text(summary)
                 .font(.body)
                 .accessibilityIdentifier("progressSummary")
@@ -60,10 +61,7 @@ struct CompactBrowseView: View {
                 }
                 .accessibilityIdentifier("resume")
             }
-        } header: {
-            SectionHeader("Continue")
         }
-        .headerProminence(.increased)
     }
 
     private var summary: String {
@@ -74,16 +72,14 @@ struct CompactBrowseView: View {
 
     private func partSection(title: String, parts: [Part]) -> some View {
         Section {
+            SectionHeader(title)
             ForEach(parts) { part in
                 NavigationLink(value: Route.part(part.id)) {
                     PartLabel(part: part)
                 }
                 .accessibilityIdentifier("part-\(part.id)")
             }
-        } header: {
-            SectionHeader(title)
         }
-        .headerProminence(.increased)
     }
 }
 
@@ -97,6 +93,7 @@ struct RegularBrowseView: View {
         NavigationSplitView {
             List(selection: $partID) {
                 Section {
+                    SectionHeader("Continue")
                     Text(summary)
                         .font(.body)
                         .accessibilityIdentifier("progressSummary")
@@ -109,30 +106,23 @@ struct RegularBrowseView: View {
                         }
                         .accessibilityIdentifier("resume")
                     }
-                } header: {
-                    SectionHeader("Continue")
                 }
-                .headerProminence(.increased)
                 Section {
+                    SectionHeader("Devices")
                     ForEach(library.book.devices) { part in
                         PartLabel(part: part)
                             .tag(part.id as String?)
                             .accessibilityIdentifier("part-\(part.id)")
                     }
-                } header: {
-                    SectionHeader("Devices")
                 }
-                .headerProminence(.increased)
                 Section {
+                    SectionHeader("Also in this guide")
                     ForEach(library.book.parts.filter { !$0.isDevice }) { part in
                         PartLabel(part: part)
                             .tag(part.id as String?)
                             .accessibilityIdentifier("part-\(part.id)")
                     }
-                } header: {
-                    SectionHeader("Also in this guide")
                 }
-                .headerProminence(.increased)
             }
             .navigationTitle("VoiceOver Mastery")
         } content: {
@@ -194,20 +184,14 @@ struct ChapterListView: View {
     var body: some View {
         List {
             Section {
+                SectionHeader("\(part.chapters.count) chapters. \(part.title).")
                 ForEach(part.chapters) { chapter in
                     NavigationLink(value: Route.chapter(chapter.id)) {
                         ChapterLabel(chapter: chapter, platform: part.platform)
                     }
                     .accessibilityIdentifier("chapter-\(chapter.id)")
                 }
-            } header: {
-                Text("\(part.chapters.count) chapters. \(part.title).")
-                    .font(.headline.weight(.bold))
-                    .foregroundStyle(Color.primary)
-                    .textCase(nil)
-                    .accessibilityAddTraits(.isHeader)
             }
-            .headerProminence(.increased)
         }
         .navigationTitle(part.platform)
     }

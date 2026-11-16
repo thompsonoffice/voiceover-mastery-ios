@@ -1,0 +1,79 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 3. Mac (macOS)
+Chapter 3.8. Browsing the Web on Mac
+============================================================
+
+OVERVIEW
+Web browsing with VoiceOver on Mac uses the rotor, optionally the trackpad gestures rotor, and Quick Nav. You can also change whether VoiceOver follows the web page's DOM structure or moves in groups.
+
+This chapter stays with what Apple documents in the getting-started pages, the gestures rotor page, and the general commands list. It is shorter than the iPhone Safari chapter because some Mac web command tables were not fully retrieved for this edition. Use the official Web commands section in the VoiceOver User Guide on your Mac for the complete set.
+
+
+WHAT YOU'LL LEARN
+- How to jump by headings, links, and other web items with the keyboard rotor.
+- How the trackpad web rotor works, and what is in it by default.
+- The difference between DOM mode and Group mode, as Apple describes it.
+- How Quick Nav helps on webpages.
+
+
+JUMP WITH THE KEYBOARD ROTOR
+1. Open a webpage in Safari or another browser you use with VoiceOver.
+2. Press VO-U.
+3. Arrow left or right to a web category, such as Headings or Links, if those categories appear.
+4. Arrow down or up to an item, then press Space bar to jump.
+
+This is often faster than moving item by item through a large page.
+
+
+USE THE TRACKPAD WEB ROTOR
+If trackpad gestures are on, rotate two fingers to a setting such as Headings, then flick down or up.
+
+Default web rotor items, according to Apple, include Links, Headings, Form Controls, Tables, Landmarks, and Frames. You choose which items appear in VoiceOver Utility, in the Web Rotor tab of the Web category.
+
+In DOM mode, flicking up or down moves to the previous or next instance of the current rotor item. That is the straightforward "next heading, next heading" behavior many people want.
+
+
+DOM MODE AND GROUP MODE
+Apple says your web navigation mode affects how you navigate webpages with the gestures rotor, and that you can assign the command "Toggle Web Navigation DOM or Group" to a trackpad gesture. The same mode concept applies to keyboard web navigation.
+
+This book does not invent the default keyboard shortcut for that toggle if it was not clearly retrieved from Apple's pages. Look up "Toggle Web Navigation DOM or Group" in the Commands menu or in VoiceOver Utility. If Group mode feels like you are skipping around by region, try DOM mode when you want every heading or link in order.
+
+
+QUICK NAV
+- VO-Q turns single-key Quick Nav on or off.
+- VO-Shift-Q turns arrow-key Quick Nav on or off.
+
+Single-key Quick Nav on Apple platforms often uses letters such as H for heading and L for link, as documented in detail for iPhone and iPad. Confirm the Mac letter list in the VoiceOver User Guide's web commands or in Keyboard Help, rather than assuming every iPhone letter is identical on your macOS version.
+
+
+PRACTICE EXERCISE
+1. Open a well-structured webpage, such as an Apple Support article.
+2. Use VO-U to jump by headings, then by links.
+3. If you use a trackpad, enable trackpad gestures, set the rotor to Headings, and flick down through the outline.
+4. Open VoiceOver Utility, go to the Web category, and listen to the Web Rotor tab so you know how to add or remove items.
+5. Find "Toggle Web Navigation DOM or Group" in the Commands menu and note how it is assigned on your Mac.
+
+
+QUICK REFERENCE SUMMARY
+- VO-U, then headings or links, is the basic keyboard method for web jumping.
+- The trackpad web rotor defaults include Links, Headings, Form Controls, Tables, Landmarks, and Frames.
+- DOM mode moves to the next or previous instance of the rotor item. Group mode is the other official web navigation mode.
+- Set web rotor items in VoiceOver Utility > Web > Web Rotor.
+- VO-Q and VO-Shift-Q toggle Quick Nav modes. Confirm single-key letters on your Mac.
+- For the full official web command table, use the VoiceOver User Guide on your Mac.
+
+
+SOURCES
+Get started with VoiceOver on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/get-started-with-voiceover-vo4be8816d70/mac
+
+Use the trackpad gestures rotor with VoiceOver on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/use-the-trackpad-gestures-rotor-vo28035/mac
+
+VoiceOver general commands on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/general-commands-cpvokys01/mac
+
+VoiceOver commands and gestures on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/intro-to-voiceover-commands-and-gestures-vo14111/mac

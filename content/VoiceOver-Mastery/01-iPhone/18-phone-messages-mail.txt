@@ -1,0 +1,87 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 1. iPhone (iOS)
+Chapter 1.18. Phone, Messages, and Mail
+============================================================
+
+OVERVIEW
+Calls, texts, and email are everyday VoiceOver tasks. Apple documents specific VoiceOver behavior for the Phone app, including how to answer and end a call with Magic Tap. Messages and Mail use the same general VoiceOver skills you already have: lists, text fields, the rotor, and actions. This chapter covers the official Phone details first, then practical, documented patterns for Messages and Mail without inventing app-specific gestures Apple does not list.
+
+
+WHAT YOU'LL LEARN
+- How to answer and end a call with a two-finger double tap.
+- How the in-call keypad and call options work with VoiceOver.
+- How to move through message and mail lists, and how to write and send.
+- How notifications can announce new messages, and how to change that.
+
+
+MAKE AND RECEIVE PHONE CALLS
+1. With VoiceOver on, go to the Phone app.
+2. To answer or end a call, double-tap the screen with two fingers.
+
+That is the same Magic Tap gesture from Chapter 1.4. It is the official way to answer or hang up without hunting for a small button during a ringing phone.
+
+When a call is established with VoiceOver on, the screen shows the numeric keypad by default, instead of showing call options.
+
+- To display call options, select the Hide button in the lower-right corner, then double-tap.
+- To display the numeric keypad again, select the Keypad button near the center of the screen, then double-tap.
+
+If you need the speaker, mute, or add-call controls, use Hide to reveal call options, then swipe to the control you want and double-tap. Auto-select Speaker in Call, described in Chapter 1.15, can automatically switch to the speaker when you are not holding iPhone to your ear.
+
+To place a call, use the Phone app's keypad, Recents, Contacts, or Favorites the way you use any other list or button: select, then double-tap. The keypad keys work with your usual typing style, but you are entering digits, not text.
+
+
+MESSAGES
+Apple does not publish a separate, complete VoiceOver gesture list just for Messages. Use the standard tools:
+
+1. Open Messages. Swipe through the conversation list, or use Search if the app provides a search field.
+2. Double-tap a conversation to open it.
+3. Swipe through messages in the thread. A two-finger swipe down can read from the selected message onward, which is useful in a long thread.
+4. To write, select the message field, double-tap, then type, use Braille Screen Input, or dictate.
+5. In Braille Screen Input, a three-finger swipe up can send a message, according to Apple's Braille Screen Input page. Otherwise, select the Send button and double-tap.
+
+If a conversation item offers extra actions, swipe up or down with the rotor on Actions, then double-tap. Do not assume every action name from one iOS version will match the next. Listen to what is offered on your phone.
+
+New text messages may be read aloud when they arrive, even on the Lock Screen, because of VoiceOver's default notification verbosity (Chapter 1.16). You can change that in Settings > Accessibility > VoiceOver > Verbosity > System Notifications if spoken incoming texts are a problem in public or during a meeting.
+
+
+MAIL
+Mail is also a list-and-detail app.
+
+1. Open Mail and swipe through mailboxes or message lists. Headings and containers on the rotor can help in the mailbox list.
+2. Double-tap a message to open it.
+3. Use a two-finger swipe down to read the message from the current point, or move by lines and paragraphs with the rotor.
+4. For messages in HTML, rotor items such as Headings, Links, and Landmarks can work the same way they do in Safari.
+5. To reply or compose, activate the relevant button, double-tap each address or subject field you need to edit, and write in the body field.
+6. Use the Edit rotor or Text Selection to revise, then activate Send.
+
+Apple notes that VoiceOver can read PDFs in the Books and Files apps, including forms, tables, and lists. If a message has a PDF attachment, opening it in Files or Books may give you better structure than a brief preview. That is an official PDF feature, not a Mail-only claim.
+
+
+PRACTICE EXERCISE
+1. Open Phone, explore Recents or Contacts, and make sure you can find the keypad.
+2. With a friend or a voicemail number you are willing to call, practice ending a call with a two-finger double tap. Do not practice this on an emergency line.
+3. Open Messages, compose a message to yourself, and send it with the Send button.
+4. Open Mail, read one message with a two-finger swipe down, and locate Reply without sending unless you intend to.
+5. If incoming message announcements are too talkative, review Verbosity > System Notifications.
+
+
+QUICK REFERENCE SUMMARY
+- Phone: two-finger double tap answers or ends a call.
+- During a call, the keypad is shown by default. Hide (lower right) shows call options. Keypad (near center) brings the keypad back.
+- Messages and Mail use ordinary lists, text fields, reading gestures, and the Actions rotor.
+- Braille Screen Input can send a message with a three-finger swipe up.
+- VoiceOver may speak incoming texts even when iPhone is locked unless you change System Notifications verbosity.
+- PDFs may be easier to read in Books or Files, where VoiceOver can describe forms, tables, and lists.
+
+
+SOURCES
+Use VoiceOver in apps on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/use-voiceover-in-apps-iphe4ee74be8/ios
+
+Type braille directly on the iPhone screen with VoiceOver, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/type-braille-on-the-screen-iph10366cc30/ios
+
+Change your VoiceOver settings on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/change-your-voiceover-settings-iphfa3d32c50/ios

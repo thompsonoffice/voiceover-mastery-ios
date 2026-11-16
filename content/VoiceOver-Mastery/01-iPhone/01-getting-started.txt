@@ -1,0 +1,101 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 1. iPhone (iOS)
+Chapter 1.1. Getting Started with VoiceOver on iPhone
+============================================================
+
+OVERVIEW
+VoiceOver is a gesture-based screen reader built into iPhone. When it is on, iPhone speaks the name of the item your finger is on, including icons and text. It can also send that information to a braille display. You use VoiceOver gestures to move to another item and to activate an item, such as a button or a link.
+
+This matters: VoiceOver changes the gestures you use to control iPhone. After you turn it on, a single tap no longer opens things the way it did before. That is expected. This chapter gets VoiceOver on, and gives you a safe way to turn it off again.
+
+This edition targets iOS 26, using Apple's iPhone User Guide. Some steps differ on iPhone models with Face ID and on iPhone models with a Home button, such as iPhone SE.
+
+
+WHAT YOU'LL LEARN
+- What happens when VoiceOver is on.
+- How to turn VoiceOver on or off in Settings, with Siri, with Control Center, and with the Accessibility Shortcut.
+- Why you should set the Accessibility Shortcut before you need it.
+- What VoiceOver does when a new screen appears.
+
+
+WHAT VOICEOVER DOES
+When you go to a new screen, VoiceOver plays a sound, then selects and speaks the first item on the screen. That item is typically in the top-left corner.
+
+VoiceOver also tells you when the screen changes between landscape and portrait, when the screen becomes dimmed or locked, and what is active on the Lock Screen when you wake iPhone.
+
+You can customize the speaking voice, the speaking rate, and how much detail you hear. Those settings are covered in later chapters. First, get comfortable turning VoiceOver on and off.
+
+
+TURN VOICEOVER ON OR OFF IN SETTINGS
+If VoiceOver is currently off, you can use ordinary iPhone taps for this path.
+
+1. Open the Settings app.
+2. Open Accessibility.
+3. Open VoiceOver.
+4. Turn VoiceOver on.
+
+If VoiceOver is already on, use VoiceOver gestures:
+
+1. Go to the Settings app.
+2. Select Accessibility, then double-tap.
+3. Select VoiceOver, then double-tap.
+4. Select the VoiceOver switch, then double-tap to turn it on or off.
+
+To turn VoiceOver on or off, Apple also documents these other methods: use Control Center if you have added VoiceOver there, use the Accessibility Shortcut if you have set it up for VoiceOver, or ask Siri something like "Turn on VoiceOver" or "Turn off VoiceOver."
+
+Siri knows when VoiceOver is on and often reads more information back to you than appears on the screen. You can also use VoiceOver to read what Siri shows on the screen.
+
+
+SET THE ACCESSIBILITY SHORTCUT
+The Accessibility Shortcut lets you triple-click a button to turn VoiceOver on or off. Set this up while you can still get around comfortably. It is one of the best safety nets you can have.
+
+1. Go to Settings > Accessibility > Accessibility Shortcut.
+2. Select VoiceOver so it is included in the shortcut.
+3. If you include only VoiceOver, a triple-click turns VoiceOver on or off immediately.
+4. If you include more than one feature, a triple-click opens a list. Select the feature you want, then double-tap.
+
+To use the shortcut:
+
+1. Triple-click the side button on an iPhone with Face ID.
+2. Or, on iPhone SE, triple-click the Home button.
+
+If iPhone does not notice your triple-click, you can slow down the click speed in the side button or Home button settings. Apple's Accessibility Shortcut page points to those button settings.
+
+On supported iPhone models, you can also press the Action button for an accessibility feature you choose, or use Back Tap to double-tap or triple-tap the back of iPhone. Those options are set in Settings and are described in Apple's iPhone User Guide. Siri and Control Center remain useful backups.
+
+
+ADD VOICEOVER TO CONTROL CENTER
+You can add VoiceOver to Control Center for quick access. Apple's current iPhone User Guide describes it this way:
+
+1. Open Control Center.
+2. Select the control in the top-left corner that lets you change Control Center, then double-tap if VoiceOver is on.
+3. Select Add a Control at the bottom of the screen, then double-tap.
+4. Find VoiceOver in the list of controls. Accessibility controls may be grouped in categories such as vision. Select VoiceOver, then double-tap to add it.
+
+The exact Control Center layout can vary by iOS version. If the steps above do not match what you hear, search Settings for Control Center and add VoiceOver from there, or ask Siri to open VoiceOver settings.
+
+
+PRACTICE EXERCISE
+1. Set the Accessibility Shortcut to include VoiceOver, if you have not already.
+2. Ask Siri to turn VoiceOver on, then ask Siri to turn it off, so you know that path works.
+3. Turn VoiceOver on again, then use the Accessibility Shortcut once so you can feel the triple-click.
+4. Leave VoiceOver on if you are continuing with the next chapters, or off if you want a break.
+
+
+QUICK REFERENCE SUMMARY
+- VoiceOver speaks the item under your finger and changes iPhone gestures while it is on.
+- Turn it on or off in Settings > Accessibility > VoiceOver.
+- You can also use Siri, Control Center, or the Accessibility Shortcut.
+- Triple-click the side button (Face ID) or the Home button (iPhone SE) for the shortcut.
+- Set that shortcut before you get stuck.
+- A new screen plays a sound and speaks the first item, usually at the top left.
+
+
+SOURCES
+Turn on and practice VoiceOver on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/turn-on-and-practice-voiceover-iph3e2e415f/ios
+
+Quickly turn accessibility features on or off on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/quickly-turn-accessibility-features-on-or-off-iph3e2e31a5/ios

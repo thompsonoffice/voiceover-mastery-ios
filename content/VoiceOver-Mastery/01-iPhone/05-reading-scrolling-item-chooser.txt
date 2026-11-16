@@ -1,0 +1,83 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 1. iPhone (iOS)
+Chapter 1.5. Reading, Scrolling, and the Item Chooser
+============================================================
+
+OVERVIEW
+Once you can move and activate, you need ways to hear more than one item at a time, and ways to jump when a screen is crowded. This chapter covers reading gestures, the three-finger tap for extra information, scrolling (reviewed briefly), and the Item Chooser.
+
+The Item Chooser is a list of items on the current screen. You can search it or move through it, then jump straight to an item. It is one of the most useful power-user tools on a busy screen.
+
+
+WHAT YOU'LL LEARN
+- How to hear the whole screen, or the screen from the selected item.
+- How to pause and resume speech.
+- How to hear extra information about the selected item.
+- How to scroll, and how that differs from reading.
+- How to open, use, and dismiss the Item Chooser.
+
+
+READ A SCREEN
+Apple documents these reading gestures:
+
+- Two-finger swipe up speaks the entire screen from the top.
+- Two-finger swipe down speaks the entire screen from the selected item.
+- Two-finger tap pauses or continues speaking.
+
+If you want VoiceOver to read a page or an email out loud, move to where you want to start, then use a two-finger swipe down. Use a two-finger tap to pause. Another two-finger tap continues.
+
+These reading gestures are not the same as scrolling. Reading speaks items that are on the current screen, in order. If more content is off-screen, scroll first, then read again, or keep using next-item swipes after you scroll.
+
+
+HEAR EXTRA INFORMATION
+A three-finger tap speaks additional information, such as the position within a list or whether text is selected. Try it in Settings, in Mail, or in a list of messages. It is a quick way to get your bearings without leaving the item you are on.
+
+
+SCROLL, REVIEWED
+Use three-finger swipes to move to another page of content:
+
+- Three-finger swipe down scrolls up one page.
+- Three-finger swipe up scrolls down one page.
+- Three-finger swipe right scrolls left one page.
+- Three-finger swipe left scrolls right one page.
+
+If a swipe seems to do nothing, you may already be at the end of the content, or the screen may not be a scrolling screen. VoiceOver often plays a sound when you cannot move farther in a direction.
+
+
+OPEN THE ITEM CHOOSER
+1. Do a two-finger triple tap to open the Item Chooser.
+2. Find the item you want, using any of the methods Apple documents:
+   - Type in the search field to filter the list by name.
+   - Swipe right or left to move through the list alphabetically.
+   - Tap the table index on the right of the list and swipe up or down.
+   - If you use handwriting, you can write the name of an item.
+   - If you use Braille Screen Input and you are not entering text, you can type to search for an item.
+3. Double-tap an item to jump to it.
+4. To dismiss the Item Chooser without making a selection, do a two-finger scrub (move two fingers back and forth three times quickly, making a "z").
+
+The Item Chooser is especially helpful in Settings, on webpages with many links, and in apps with a lot of toolbars and buttons. If you know the first few letters of a button name, search is often faster than swiping through the whole screen.
+
+
+PRACTICE EXERCISE
+1. Open Settings.
+2. Use a two-finger swipe up to hear the screen from the top. Pause with a two-finger tap when you have heard enough.
+3. Select an item in the middle of the screen, then use a two-finger swipe down to read from there.
+4. Try a three-finger tap and listen for position information.
+5. Open the Item Chooser with a two-finger triple tap, type or swipe to Accessibility, then double-tap to jump there.
+6. If you opened the chooser by mistake, dismiss it with a two-finger scrub.
+
+
+QUICK REFERENCE SUMMARY
+- Two-finger swipe up: read from the top of the screen.
+- Two-finger swipe down: read from the selected item.
+- Two-finger tap: pause or continue speech.
+- Three-finger tap: extra information, such as list position or selection.
+- Three-finger swipes scroll pages.
+- Two-finger triple tap opens the Item Chooser. Search or browse, then double-tap. Scrub to cancel.
+
+
+SOURCES
+Use VoiceOver gestures on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/use-voiceover-gestures-iph3e2e2281/ios

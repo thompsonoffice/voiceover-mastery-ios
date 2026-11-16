@@ -1,0 +1,96 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 0. About This Guide
+Chapter 0.2. How VoiceOver Fits Together Across Apple Devices
+============================================================
+
+OVERVIEW
+VoiceOver is one product idea with several different bodies. If you learn the idea once, each new Apple device is easier. This chapter is a map, not a full lesson. The later parts teach the details.
+
+The shared idea is this: VoiceOver speaks, or presents in braille, the item that has focus. That item is often called the VoiceOver cursor. You move the cursor to hear what is there. You perform a separate action to activate it. You can also jump by type of item, using a tool called the rotor, and you can change how much VoiceOver says.
+
+
+WHAT YOU'LL LEARN
+- The ideas that stay the same on every Apple platform.
+- Which input method each device uses.
+- Where this book puts each platform.
+- Which features are shared, and which are not.
+
+
+THE SHARED IDEAS
+The VoiceOver cursor is the item VoiceOver is on. On a touchscreen, you move it by touching an item, or by swiping to the next or previous item. On a Mac keyboard, you usually press VO and the arrow keys. On Apple TV, you use the remote. On Apple Vision Pro, you use hand pinches and your view.
+
+Activate means "do the thing this item does," such as opening an app or turning a switch on. On iPhone and iPad, the usual activate gesture is a double tap. On a Mac keyboard, it is usually VO-Space bar. On Apple TV, it is pressing the clickpad center or touch surface. On Vision Pro, Apple documents a left index pinch or a right ring pinch.
+
+The rotor is a list of settings and navigation types you can cycle through, then move with a second gesture. On iPhone, iPad, Apple Watch, and the Apple TV remote, you often rotate two fingers as if you were turning a dial. On a Mac keyboard, Apple documents VO-U to open the rotor, and other commands to turn it. On Vision Pro, the rotor uses pinch combinations, not a two-finger dial on a glass screen.
+
+Speech can be paused, muted, sped up, or slowed down. A feature called Screen Curtain turns the display off for privacy while VoiceOver keeps working. The exact gesture or command for Screen Curtain is not the same on every device, so do not assume the iPhone habit will work everywhere.
+
+Braille is available on the platforms Apple documents for refreshable braille displays, and iPhone, iPad, and Vision Pro also have ways to type braille on a screen or in a view. Details belong in the braille chapters, not here.
+
+
+HOW EACH DEVICE IS CONTROLLED
+iPhone and iPad are the closest cousins. Most VoiceOver gestures are the same: swipe to move, double-tap to activate, two-finger rotation for the rotor, three-finger swipes to scroll, and a two-finger scrub (a "z" shape) to go back or dismiss. iPad adds a larger screen, a Dock, and, on many models, a stronger external keyboard and windowed work. Hardware also differs: some iPads have a Home button, some unlock with Face ID, and some use Touch ID on the top button.
+
+Mac is keyboard-first. You can also use a trackpad with a set of VoiceOver gestures that will feel familiar if you already use iPhone. You customize almost everything in an app called VoiceOver Utility, which you can open with VO-Fn-F8 when VoiceOver is on.
+
+Apple Watch is a small VoiceOver surface plus the Digital Crown and the side button. Many iPhone habits still work: explore with one finger, swipe to move, double-tap to activate, rotate two fingers for the rotor, and scrub with two fingers to go back. The Digital Crown can also be used for navigation.
+
+Apple TV is controlled with the Siri Remote or Apple TV Remote, not with a large touchscreen. VoiceOver has two modes, called navigation mode and exploration mode, and a rotor you open on the clickpad or touch surface.
+
+Apple Vision Pro uses look-and-pinch gestures. The names sound new, such as "left index pinch" or "left ring modifier with right index pinch," but many actions map to ideas you already know: next, previous, activate, Magic Tap, mute, Item Chooser, Quick Settings, and the rotor. This book lists only gestures found in Apple's Vision Pro User Guide. You can also review every assigned command on the device in Settings > Accessibility > VoiceOver > Commands > All Commands.
+
+
+A SIMPLE LEARNING PATH
+1. Get VoiceOver on, and set an Accessibility Shortcut or an equivalent way to turn it off.
+2. Learn to move, activate, go back, and pause speech.
+3. Learn the rotor and one or two typing methods.
+4. Learn Home, app switching, and Control Center or the closest equivalent.
+5. Learn Safari or web navigation if you browse, then mail, messages, and settings.
+6. Add braille, a keyboard, or Live Recognition when you need them.
+7. When you pick up a second Apple device, read that device's part and practice only what is different.
+
+Chapter 7.2 turns this into a longer practice plan.
+
+
+PRACTICE EXERCISE
+1. Name your main Apple device, and one other Apple device you might use.
+2. Open CONTENTS.txt and find the part for each.
+3. If you are brand new, do not skip the first seven iPhone chapters. They teach move, activate, read, mute, Screen Curtain, system gestures, and the rotor.
+
+
+QUICK REFERENCE SUMMARY
+- VoiceOver always has a cursor, an activate action, speech or braille output, and usually a rotor.
+- iPhone and iPad share most gestures.
+- Mac is keyboard-first, with optional trackpad gestures and VoiceOver Utility.
+- Apple Watch adds the Digital Crown and a smaller set of rotor items.
+- Apple TV uses a remote and two VoiceOver modes.
+- Vision Pro uses pinch gestures. Confirm them in the device's Commands list if a gesture fails.
+- Later parts of this book are organized by platform and tell you what is shared.
+
+
+SOURCES
+Turn on and practice VoiceOver on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/turn-on-and-practice-voiceover-iph3e2e415f/ios
+
+Operate iPhone when VoiceOver is on, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/operate-iphone-when-voiceover-is-on-iph3e2e2329/ios
+
+Operate iPad when VoiceOver is on, Apple iPad User Guide:
+https://support.apple.com/guide/ipad/operate-ipad-when-voiceover-is-on-ipad9a24752e/ipados
+
+Get started with VoiceOver on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/get-started-with-voiceover-vo4be8816d70/mac
+
+Use VoiceOver on Apple Watch, Apple Watch User Guide:
+https://support.apple.com/guide/watch/use-voiceover-apdaabc79d3b/watchos
+
+Use VoiceOver on Apple TV 4K, Apple TV User Guide:
+https://support.apple.com/guide/tv/use-voiceover-atvbfa4ff6cd/tvos
+
+Turn on and practice VoiceOver on Apple Vision Pro, Apple Vision Pro User Guide:
+https://support.apple.com/guide/apple-vision-pro/turn-on-and-practice-voiceover-tanae5174040/visionos
+
+Learn VoiceOver gestures on Apple Vision Pro, Apple Vision Pro User Guide:
+https://support.apple.com/guide/apple-vision-pro/learn-voiceover-gestures-tanf5c9d873d/visionos

@@ -1,0 +1,117 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 1. iPhone (iOS)
+Chapter 1.7. Unlock, Home, App Switcher, Control Center, and Notifications
+============================================================
+
+OVERVIEW
+The gestures in this chapter operate iPhone itself: unlocking, going Home, switching apps, opening Control Center, and viewing notifications. Apple documents slightly different moves for iPhone models with Face ID and for models with a Home button, such as iPhone SE.
+
+This chapter follows Apple's iOS 26 iPhone User Guide page "Operate iPhone when VoiceOver is on." Some online copies of the unversioned guide also mention newer hardware names that did not appear in the iOS 26 guide at the time of writing. This chapter stays with the iOS 26 wording: iPhone with Face ID, and iPhone with Touch ID or a Home button.
+
+
+WHAT YOU'LL LEARN
+- How to unlock iPhone with VoiceOver on.
+- How to go to the Home Screen.
+- How to switch apps with four-finger swipes or the App Switcher.
+- How to open and dismiss Control Center and notifications.
+- How to hear status bar information.
+
+
+UNLOCK IPHONE
+On an iPhone with Face ID:
+
+1. Wake iPhone and glance at it, if Face ID is enabled.
+2. Drag up from the bottom edge of the screen until you feel a vibration or hear two rising tones.
+
+On an iPhone with Touch ID, such as iPhone SE:
+
+1. Press the Home button using the finger you registered with Touch ID.
+
+If iPhone prompts you for a passcode, enter it. To avoid having the passcode spoken as you type it, Apple says you can enter it silently using handwriting mode or onscreen braille. Those methods are taught in Chapters 1.11 and 1.12.
+
+
+GO TO THE HOME SCREEN
+On an iPhone with Face ID:
+
+1. Drag one finger up from the bottom edge of the screen until you feel a vibration or hear two rising tones.
+2. Lift your finger.
+
+On an iPhone with a Home button, press the Home button.
+
+Notice that the Face ID Home gesture is the same motion as unlocking: a slow drag up from the bottom until the two rising tones or a vibration, then lift.
+
+
+SWITCH APPS WITH A FOUR-FINGER SWIPE
+Swipe right or left with four fingers to cycle through the open apps. This is often the fastest way to jump between two or three apps you are already using.
+
+
+USE THE APP SWITCHER
+To open the App Switcher on an iPhone with Face ID, drag one finger up from the bottom edge of the screen until you feel the second vibration or hear three tones, then lift your finger.
+
+On an iPhone with a Home button, double-click the Home button.
+
+Then:
+
+1. Swipe left or right until the app you want is selected.
+2. Double-tap to open the app.
+
+The difference between going Home and opening the App Switcher, on Face ID iPhones, is how far you drag and whether you wait for the second vibration or the third tone before you lift.
+
+
+OPEN CONTROL CENTER
+On an iPhone with Face ID, drag one finger down from the top edge of the screen until you feel a vibration or hear the second tone.
+
+On all iPhone models, you can also do either of the following:
+
+- Tap any item in the status bar, then swipe up with three fingers.
+- Touch and hold the bottom of the screen until you hear a tone, then swipe up.
+
+To dismiss Control Center, do a two-finger scrub (a "z" with two fingers, three times quickly).
+
+
+VIEW NOTIFICATIONS
+On an iPhone with Face ID, drag one finger down from the top edge of the screen until you feel the second vibration or hear the third tone.
+
+On all iPhone models, you can also do either of the following:
+
+- Tap any item in the status bar, then swipe down with three fingers.
+- Touch and hold the top of the screen until you hear a tone, then swipe down.
+
+To dismiss the notifications screen, do a two-finger scrub.
+
+The Face ID gesture for Control Center and the Face ID gesture for notifications both start at the top edge. Control Center is the earlier stop (vibration or second tone). Notifications are the later stop (second vibration or third tone). If you overshoot, scrub and try again, moving more slowly and listening for the tones.
+
+
+SPEAK STATUS BAR INFORMATION
+1. Tap the status bar at the top of the screen.
+2. Swipe left or right to hear the time, battery state, Wi-Fi signal strength, and more.
+
+
+PRACTICE EXERCISE
+1. Go to the Home Screen using the method for your iPhone model.
+2. Open an app, then use a four-finger swipe to return to a previous app, if you have more than one app open.
+3. Open the App Switcher, swipe through your open apps, and double-tap one to open it.
+4. Open Control Center, listen to a few controls, then scrub to dismiss it.
+5. Open notifications, then scrub to dismiss them.
+6. Tap the status bar and swipe through time, battery, and connectivity.
+
+
+QUICK REFERENCE SUMMARY
+- Unlock or go Home on Face ID: drag up from the bottom until a vibration or two rising tones, then lift (and glance to unlock).
+- Home button models: press Home to go Home or to unlock with Touch ID. Double-click Home for the App Switcher.
+- App Switcher on Face ID: drag up from the bottom until the second vibration or three tones, then lift.
+- Four-finger swipe left or right cycles open apps.
+- Control Center on Face ID: drag down from the top until a vibration or the second tone. Or use the status bar and a three-finger swipe up.
+- Notifications on Face ID: drag down from the top until the second vibration or third tone. Or use the status bar and a three-finger swipe down.
+- Two-finger scrub dismisses Control Center and notifications.
+- Tap the status bar, then swipe, to hear time, battery, and more.
+
+
+SOURCES
+Operate iPhone when VoiceOver is on, Apple iPhone User Guide (iOS 26):
+https://support.apple.com/guide/iphone/operate-iphone-when-voiceover-is-on-iph3e2e2329/26/ios/26
+
+Operate iPhone when VoiceOver is on, Apple iPhone User Guide (current):
+https://support.apple.com/guide/iphone/operate-iphone-when-voiceover-is-on-iph3e2e2329/ios

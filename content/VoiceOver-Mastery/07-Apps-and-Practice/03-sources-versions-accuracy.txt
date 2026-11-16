@@ -1,0 +1,101 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 7. Apps, Practice, and Sources
+Chapter 7.3. Sources, Versions, and Accuracy Notes
+============================================================
+
+OVERVIEW
+This chapter records how the book was researched, which system versions it targets, and where the author is less certain. If a later Apple update changes a gesture, believe your device and Apple's current user guide.
+
+
+WHAT YOU'LL LEARN
+- The target versions for this edition.
+- The kinds of sources that were used.
+- A plain list of accuracy uncertainties.
+- How to report or work around a mismatch.
+
+
+TARGET VERSIONS
+This edition was written in November 2026.
+
+- iPhone chapters target iOS 26, using the iPhone User Guide VoiceOver pages, including the iOS 26 path of "Operate iPhone when VoiceOver is on" when it was compared with the unversioned guide.
+- iPad chapters target iPadOS 26, using the iPad User Guide.
+- Mac chapters are based on Apple's VoiceOver User Guide for Mac as published in November 2026. The unversioned welcome page was labeled for macOS 27 at that time. Treat Mac commands as official for that guide, and confirm them on your Mac if you are still on an earlier macOS, or if Apple has revised a command.
+- Apple Watch, Apple TV, and Apple Vision Pro chapters use Apple's then-current user guides and Support articles. watchOS, tvOS, and visionOS version numbers in those guides may not always be stated on every page.
+
+
+WHAT WAS USED, AND WHAT WAS NOT
+Sources are Apple User Guide pages and Apple Support articles, plus a small number of clearly identified third-party pages in Chapter 7.1 for app status. Each chapter lists its sources at the end.
+
+This book does not invent gestures, rotor items, or keyboard shortcuts. If an official table was incomplete in the retrieved page, the missing shortcut was omitted or flagged, not guessed.
+
+The book is not affiliated with Apple. Product names are Apple's trademarks.
+
+
+ACCURACY UNCERTAINTIES
+Please read these as warnings, not as hidden features.
+
+iPhone and iOS versioning. Apple's unversioned iPhone User Guide, at the time of writing, mentioned hardware names and some Apple Intelligence features that were not in the iOS 26 "Operate iPhone" page, or that were footnoted for iOS 27. This book does not treat iPhone Duo Split View, or iOS 27 Apple Intelligence description features, as standard iOS 26 behavior. If your phone has those options, follow the device.
+
+Icon-only official steps. Some Apple pages show buttons as icons, especially in Photos custom descriptions and a few Camera and Maps controls. This book tells you to explore labels and actions rather than inventing a button name.
+
+Incomplete official keyboard tables. On iPhone, iPad, and Apple TV, a few rows in Apple's keyboard command tables were not clearly retrieved, including some Quick Nav letters and some text-movement shortcuts. Those were omitted. The Apple TV "beginning or end of the line" row looked inconsistent and is flagged in Chapter 5.3.
+
+iPad windowed multitasking. Apple documents Full Screen Apps, Windowed Apps, and Stage Manager, and documents VoiceOver app switching, the Dock, and the App Switcher. A complete official VoiceOver gesture list for resizing windows or entering Split View was not found in the VoiceOver pages used for this edition. Chapter 2.4 therefore avoids invented window gestures.
+
+Mac command breadth. Mac VoiceOver has large official command tables beyond the essentials in Part 3. Use the Commands menu and the VoiceOver User Guide on your Mac for interaction, orientation, search, and complete web and text commands. The Trackpad Commander name is common in the community; Apple's pages usually say "control VoiceOver with trackpad gestures."
+
+Apple Watch close-control details. Some ways to close Control Center were not clearly stated as VoiceOver-specific in the retrieved pages. Follow what your watch speaks rather than a guessed close gesture. Keyboard options are officially unavailable on Apple Watch SE 3.
+
+Apple TV 3rd generation and regional remotes. 3rd generation setup uses a different official sequence. Siri availability depends on language and region. Features vary by model.
+
+Vision Pro completeness. Default pinch gestures and rotor modifiers in Part 6 come from Apple's Vision Pro User Guide. Custom commands, Switch Gesture Handedness, and later visionOS changes can make those defaults wrong on a given device. Braille, some environment or passthrough details, and some window actions may be documented by Apple in pages this edition did not fully incorporate. Confirm on-device in All Commands and the official guide.
+
+Live Recognition and third-party apps. People, doors, and furniture detection require supported iPhone models. App features and availability, including Seeing AI in the App Store and Be My Eyes regional limits, can change after publication.
+
+Restart button sequences. Hardware restart and force-restart combinations vary by model. Use Apple's official restart article for your exact device if the brief notes in Chapter 1.25 or 2.5 do not match.
+
+Settings path wording. Some Settings screens are nested slightly differently across iOS versions, for example Rotor versus Rotor Items, or Typing versus Typing Style. Follow the labels you hear.
+
+
+HOW TO HANDLE A MISMATCH
+1. Use VoiceOver Practice, Keyboard Help, or the on-device Commands list to see what your system actually does.
+2. Open Apple's current user guide for that device.
+3. If you customized commands, reset only the commands, then retest before resetting all VoiceOver settings.
+4. If you are using this book as a paid product and find a factual error, note the chapter, your device and system version, and what Apple's current page says, so a later edition can be corrected.
+
+
+PRACTICE EXERCISE
+1. Write down your device name and system version, for example "iPhone, iOS 26."
+2. Skim the uncertainty list above and mark any that apply to you, such as a braille display, a Vision Pro, or a Bluetooth keyboard.
+3. Bookmark, or favorite, Apple's VoiceOver user guide for your main device.
+
+
+QUICK REFERENCE SUMMARY
+- This edition was researched in November 2026. iPhone and iPad target iOS 26 and iPadOS 26. Mac content follows Apple's then-current VoiceOver User Guide, which was labeled for macOS 27.
+- Official Apple documentation is the authority. This book cites it and does not invent commands.
+- Known soft spots include later-iOS preview features, icon-only steps, incomplete keyboard tables, iPad window gestures, Mac command breadth, some Watch and tvOS edge cases, and Vision Pro customization.
+- When in doubt, believe the device and Apple's current guide.
+
+
+SOURCES
+The chapter-by-chapter source lists in this book are the primary citations. Starting points include:
+
+iPhone User Guide, VoiceOver:
+https://support.apple.com/guide/iphone/turn-on-and-practice-voiceover-iph3e2e415f/ios
+
+iPad User Guide, VoiceOver:
+https://support.apple.com/guide/ipad/turn-on-and-practice-voiceover-ipad9a246898/ipados
+
+VoiceOver User Guide for Mac:
+https://support.apple.com/guide/voiceover/welcome/mac
+
+Apple Watch User Guide, VoiceOver:
+https://support.apple.com/guide/watch/use-voiceover-apdaabc79d3b/watchos
+
+Apple TV User Guide, VoiceOver:
+https://support.apple.com/guide/tv/use-voiceover-atvbfa4ff6cd/tvos
+
+Apple Vision Pro User Guide, VoiceOver:
+https://support.apple.com/guide/apple-vision-pro/turn-on-and-practice-voiceover-tanae5174040/visionos

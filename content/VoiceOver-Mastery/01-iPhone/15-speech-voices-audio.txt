@@ -1,0 +1,92 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 1. iPhone (iOS)
+Chapter 1.15. Speech, Voices, and Audio Settings
+============================================================
+
+OVERVIEW
+You can change how VoiceOver sounds: the voice, the language, the speaking rate, the pitch, and how VoiceOver shares the speaker with music or calls. Most of these settings are in Settings > Accessibility > VoiceOver, and in the Speech and Audio screens there.
+
+This chapter follows Apple's "Change your VoiceOver settings on iPhone" page. Volume of the iPhone itself, including VoiceOver, is also controlled by the volume buttons.
+
+
+WHAT YOU'LL LEARN
+- How to change volume, audio ducking, and other audio options.
+- How VoiceOver language relates to the iPhone language, and how Detect Languages works.
+- How to change the primary voice and add rotor voices.
+- How to adjust speaking rate, pitch, pitch change, and pronunciations.
+
+
+VOLUME AND AUDIO
+To increase or decrease iPhone volume, including VoiceOver speech and sounds and other iPhone audio, press the volume buttons on iPhone.
+
+If VoiceOver is speaking too softly relative to music, a call, or a video, try audio ducking:
+
+1. Go to Settings > Accessibility > VoiceOver > Audio.
+2. Select Audio Ducking, then choose When Speaking.
+3. Drag the Ducking Amount slider to set how much the volume decreases for other iPhone audio, such as media and calls, while VoiceOver is speaking.
+
+Other Audio options Apple documents include:
+
+- Sounds & Haptics: adjust and preview sound effects and haptics.
+- Auto-select Speaker in Call: automatically switch to the speaker during a call when you are not holding iPhone to your ear.
+- Send to HDMI: route audio to externally connected devices, such as an instrument amplifier or a DJ mixer.
+
+You can also change VoiceOver volume from the rotor when Volume is one of your rotor items (Chapter 1.8).
+
+
+SET THE LANGUAGE
+VoiceOver uses the same language you choose for iPhone.
+
+1. To choose a different primary language, go to Settings > General > Language & Region, then select Add Language and follow the onscreen steps.
+
+You can switch languages using the rotor by switching to a voice for another language.
+
+VoiceOver can also detect text in another language and automatically switch to a voice for that language:
+
+1. Go to Settings > Accessibility > VoiceOver > Speech.
+2. Turn on Detect Languages.
+
+Apple notes that VoiceOver is not available in all languages, and points to the Apple Support article "Languages supported by VoiceOver."
+
+
+CHANGE THE SPEAKING VOICE
+1. Go to Settings > Accessibility > VoiceOver > Speech.
+2. To change the primary voice, select the name of the current primary voice, then select Voice.
+3. To add another voice for the rotor, select Add Rotor Voice.
+4. Choose a voice. To choose an enhanced voice, Apple says to download it first if needed.
+
+Enhanced voices usually sound clearer but take storage space and may need to download on Wi-Fi. If a voice is still "downloading," wait before judging its quality.
+
+
+ADJUST RATE, PITCH, AND PRONUNCIATIONS
+Go to Settings > Accessibility > VoiceOver, then:
+
+- Adjust the speaking rate by using the Speaking Rate slider. You can also change rate from the rotor at any time, which is often easier.
+- Adjust the pitch: open Speech, select a voice, then use the pitch slider.
+- Turn on Pitch Change if you want VoiceOver to use a higher pitch when speaking the first item of a group (such as a list or table) and a lower pitch when speaking the last item of a group.
+- Specify how certain words are pronounced: go to Speech > Pronunciations, add a new entry, enter a phrase, then dictate or spell out how you want it pronounced. Apple notes that you can dictate only if Enable Dictation is on in Settings > General > Keyboard (Apple's page may say Keyboards).
+
+
+PRACTICE EXERCISE
+1. Press the volume buttons and set a comfortable VoiceOver volume in a quiet room.
+2. Open Speech settings, listen to your current voice, and try one alternative if you want a change.
+3. Adjust Speaking Rate with the slider, then again with the rotor, and pick a speed you can follow for a whole Settings screen.
+4. If you regularly read another language, add a rotor voice and turn on Detect Languages.
+5. Optional: add a pronunciation for a name VoiceOver always misreads.
+
+
+QUICK REFERENCE SUMMARY
+- Volume buttons change iPhone volume, including VoiceOver.
+- Audio Ducking > When Speaking lowers media or call audio while VoiceOver talks.
+- VoiceOver follows the iPhone language. Add languages in Settings > General > Language & Region.
+- Speech settings change the primary voice and rotor voices. Detect Languages can auto-switch.
+- Speaking Rate is both a slider and a rotor item.
+- Pitch Change uses a higher pitch at the start of a group and a lower pitch at the end.
+- Pronunciations live under Speech. Dictation for pronunciations needs Enable Dictation.
+
+
+SOURCES
+Change your VoiceOver settings on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/change-your-voiceover-settings-iphfa3d32c50/ios

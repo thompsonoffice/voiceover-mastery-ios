@@ -1,0 +1,81 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 4. Apple Watch (watchOS)
+Chapter 4.4. Settings, Braille, Hand Gestures, and Troubleshooting on Apple Watch
+============================================================
+
+OVERVIEW
+Most Apple Watch VoiceOver settings exist in two places: on the watch under Settings > Accessibility > VoiceOver, and on iPhone under the Apple Watch app > My Watch > Accessibility > VoiceOver. The iPhone app is often easier for long lists.
+
+This chapter summarizes the official setting groups, including braille and keyboard options, then gives a short troubleshooting list.
+
+
+WHAT YOU'LL LEARN
+- Which VoiceOver settings Apple documents on the watch.
+- A model limitation for keyboard options.
+- How Screen Curtain works on Apple Watch.
+- What to try when speech or gestures fail.
+
+
+VOICEOVER SETTINGS APPLE LISTS
+From Settings > Accessibility > VoiceOver on the watch, or the same path in the iPhone Apple Watch app, you can:
+
+- Turn VoiceOver off.
+- Adjust the speaking rate.
+- Set Speech options: voice, pitch, rotor voices, and Improve Speech Clarity.
+- Set Audio options: VoiceOver volume and audio ducking. Under Sounds & Haptics, you can turn sounds, Match Speech Volume, and haptics on or off. When Match Speech Volume is on, the volume rotor changes VoiceOver speech and sounds. When it is off, the volume rotor changes only speech volume.
+- Set Braille options: Braille output, Braille input, word wrap, alert display duration, and Braille tables.
+- Set Keyboards options, which Apple says are not available on Apple Watch SE 3: pair a Bluetooth keyboard, then choose phonetic feedback, typing feedback, modifier keys, keyboard interaction time, and devices.
+- Turn off VoiceOver hints.
+- Navigate with the Digital Crown.
+- Choose to hear the name of the highlighted item when you raise your wrist.
+- Turn on Screen Curtain, which turns off the display for privacy while VoiceOver stays on.
+- Speak seconds.
+- Configure Hand Gestures.
+
+If a setting is missing, your watch model or watchOS version may not include it. The keyboard limitation on Apple Watch SE 3 is an official example of that.
+
+
+SCREEN CURTAIN
+You can turn Screen Curtain on in the VoiceOver settings list on the watch or in the iPhone app. Apple's accessibility overview also describes using the iPhone Apple Watch app: My Watch > Accessibility > VoiceOver > Screen Curtain, and says this setting can keep Screen Curtain active whenever VoiceOver is on, with the same path used to turn it off.
+
+If the watch display seems dead but VoiceOver still speaks, check Screen Curtain first.
+
+
+TROUBLESHOOTING
+1. If speech stops, try a two-finger tap (pause), then raise volume with a two-finger double-tap and hold, or with the iPhone VoiceOver volume slider.
+2. If the screen is blank, turn Screen Curtain off in the iPhone Apple Watch app if you cannot find it on the watch.
+3. If gestures fail, try a two-finger scrub to leave a confusing screen, then press the Digital Crown for the watch face or Home Screen.
+4. Triple-click the Digital Crown if the Accessibility Shortcut includes VoiceOver, to toggle it.
+5. Ask Siri to turn VoiceOver on or off.
+6. If Hand Gestures are on and the watch's usual Double Tap no longer works, that is the official limitation. Turn Hand Gestures off if you need Double Tap back.
+7. Use the iPhone Apple Watch app when the watch itself is hard to control.
+
+If the watch will not respond at all, use Apple's official restart or force-restart steps for your model, which typically involve the side button and Digital Crown. Confirm those hardware steps in Apple Support rather than relying on a remembered combination from a different model.
+
+
+PRACTICE EXERCISE
+1. Open VoiceOver settings on iPhone in the Apple Watch app and listen through the list.
+2. Confirm speaking rate, volume, and whether Screen Curtain is off unless you want it on.
+3. If you use a braille display with the watch, review the Braille options.
+4. Practice turning VoiceOver off and on with the Digital Crown shortcut, and leave it on if you are still learning.
+
+
+QUICK REFERENCE SUMMARY
+- Settings are on the watch and in the iPhone Apple Watch app. The phone is often easier.
+- Official groups include Speech, Audio, Braille, Keyboards (not on Apple Watch SE 3), hints, Digital Crown navigation, raise-to-speak, Screen Curtain, speak seconds, and Hand Gestures.
+- Match Speech Volume changes whether the volume rotor affects sounds as well as speech.
+- Screen Curtain turns the display off for privacy. Turn it off if the watch seems dead but still speaks.
+- Recover with pause, volume, scrub, Digital Crown, the Accessibility Shortcut, Siri, and the iPhone app.
+
+
+SOURCES
+Use VoiceOver on Apple Watch, Apple Watch User Guide:
+https://support.apple.com/guide/watch/use-voiceover-apdaabc79d3b/watchos
+
+Use Screen Curtain with VoiceOver, Apple Support:
+https://support.apple.com/en-us/111797
+
+Use the Accessibility Shortcut on Apple Watch, Apple Watch User Guide:
+https://support.apple.com/guide/watch/use-the-accessibility-shortcut-apda74993b58/watchos

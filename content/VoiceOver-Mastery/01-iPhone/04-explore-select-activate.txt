@@ -1,0 +1,84 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 1. iPhone (iOS)
+Chapter 1.4. Explore, Select, Activate, and Magic Tap
+============================================================
+
+OVERVIEW
+Most iPhone work is a loop: find an item, make sure it is selected, then activate it. This short chapter slows that loop down, then adds Magic Tap, which starts or stops the current action with a two-finger double tap.
+
+If Chapter 1.3 already feels comfortable, you can treat this as practice and clarification.
+
+
+WHAT YOU'LL LEARN
+- The difference between touching, selecting, and activating.
+- How to confirm what is selected before you double-tap.
+- How split-tap and Magic Tap fit into daily use.
+- How to start or stop common actions without hunting for a button.
+
+
+TOUCH, SELECT, AND ACTIVATE
+Touching the screen tells VoiceOver to speak whatever is under your finger. If you lift your finger after a simple tap, that item stays selected. The VoiceOver cursor is now on that item.
+
+Selecting is not the same as activating. If you tap Messages once, VoiceOver says "Messages" (and usually that it is a button or an app). Messages does not open yet. A double tap opens it.
+
+If you double-tap and the wrong thing opens, the cursor was on a different item than you thought. Try this recovery:
+
+1. Pause. A two-finger tap pauses speech if VoiceOver is still talking.
+2. Tap once on the item you want, or swipe until you hear its name.
+3. Listen to the full label, including hints such as "button," "switch," or "heading."
+4. Double-tap only after you hear the item you want.
+
+You can double-tap anywhere. VoiceOver activates the selected item, not necessarily the spot you tapped the second time. That is helpful, because you do not have to hit a small target twice.
+
+
+SPLIT-TAP IN DAILY USE
+Split-tap is often faster when you are already exploring by touch.
+
+1. Keep your finger on the item you want.
+2. Tap the screen with a second finger.
+
+The held item is activated. This is useful on keyboards, in long lists, and anywhere you do not want to lose your place.
+
+
+MAGIC TAP, OR TWO-FINGER DOUBLE TAP
+Apple documents a two-finger double tap as the way to start or stop the current action. Examples include:
+
+- Play or pause music or a video.
+- Take a photo in Camera.
+- Start or stop a recording.
+- Start or stop the stopwatch.
+
+People often call this Magic Tap. In Settings > Accessibility > VoiceOver > Commands, Apple also documents a Magic Tap setting that can pause or play media when no other action is available.
+
+Because Magic Tap is context-dependent, it may take a photo in Camera, answer or end a call in Phone, or pause a song in Music. If you are not sure what "the current action" is, use a named onscreen button instead.
+
+Chapter 1.18 covers the Phone app, where a two-finger double tap answers or ends a call.
+
+
+PRACTICE EXERCISE
+1. On the Home Screen, tap an app once and listen. Do not open it yet.
+2. Swipe right or left to a neighboring app, then swipe back.
+3. Open one app with a double tap, then go back.
+4. Open a different app with a split-tap.
+5. If you have music or a podcast ready, start playback with its play button, then use a two-finger double tap to pause and to resume.
+
+
+QUICK REFERENCE SUMMARY
+- Tap or touch to hear and select. Double-tap to activate.
+- You can double-tap anywhere once the correct item is selected.
+- Split-tap: hold the item, tap with a second finger.
+- Two-finger double tap (Magic Tap) starts or stops the current action, such as play/pause or taking a photo.
+- If the wrong thing activates, select again and listen before the next double tap.
+
+
+SOURCES
+Use VoiceOver gestures on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/use-voiceover-gestures-iph3e2e2281/ios
+
+Customize VoiceOver gestures and keyboard shortcuts on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/customize-gestures-and-keyboard-shortcuts-iph59a8e6fd2/ios
+
+Use VoiceOver in apps on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/use-voiceover-in-apps-iphe4ee74be8/ios

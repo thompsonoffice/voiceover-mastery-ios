@@ -1,0 +1,93 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 2. iPad (iPadOS)
+Chapter 2.3. External Keyboards on iPad
+============================================================
+
+OVERVIEW
+An Apple external keyboard, such as a Magic Keyboard or Smart Keyboard, turns iPad into a very comfortable VoiceOver machine. The command set Apple documents for iPad is nearly the same as the iPhone set in Chapter 1.23, with at least one clear iPad addition: Command-Tab to switch apps.
+
+This chapter highlights what to set up and the official commands. It does not repeat every definition from the iPhone keyboard chapter. Read Chapter 1.23 first if VO, Quick Nav, or Keyboard Help are new to you.
+
+Apple also sells several Magic Keyboard and Smart Keyboard models, each compatible with specific iPads. Compatibility is a hardware question, not a VoiceOver question. Check Apple's "iPad Magic Keyboard and Smart Keyboard" page for your iPad model.
+
+
+WHAT YOU'LL LEARN
+- How to choose the VoiceOver modifier on iPad.
+- Which official keyboard commands this book could confirm for iPad.
+- What is clearly different from iPhone.
+- How to practice safely with VoiceOver Help.
+
+
+SET THE MODIFIER
+1. Go to Settings > Accessibility > VoiceOver > Typing > Modifier Keys.
+2. Choose Caps Lock, or Control and Option pressed together.
+
+VO in the commands below means that modifier.
+
+
+VOICEOVER HELP
+- VO-K turns VoiceOver Help on. Keys and commands are spoken but not performed.
+- Escape turns VoiceOver Help off.
+
+
+COMMANDS APPLE DOCUMENTS FOR IPAD
+These match the iPhone list in the official tables retrieved for this book:
+
+- VO-Right Arrow or VO-Left Arrow: next or previous item.
+- VO-Space bar: activate.
+- VO-Shift-M: touch and hold.
+- VO-A: read from the current position.
+- VO-B: read from the top.
+- Control: pause or resume reading.
+- VO-Shift-C: copy the last spoken text.
+- VO-F: search for text.
+- VO-S: mute or unmute VoiceOver.
+- VO-H: go to the Home Screen.
+- VO-M: move to the status bar.
+- From the status bar, Option-Up Arrow: notifications.
+- From the status bar, Option-Down Arrow: Control Center.
+- Option-Up Arrow: open Search.
+- VO-H-H: open the App Switcher.
+- VO-I: Item Chooser.
+- VO-Slash: change the label of the selected item.
+- VO-Hyphen: start, stop, or pause an action.
+- VO-Up Arrow or VO-Down Arrow: swipe up or down.
+- VO-Command-Left Arrow or VO-Command-Right Arrow: turn the rotor.
+- VO-Command-Up Arrow or VO-Command-Down Arrow: adjust the rotor setting.
+- VO-Fn-Hyphen, or VO-Globe-Hyphen, depending on the keyboard: Screen Curtain.
+
+iPad also lists:
+
+- Command-Tab or Command-Shift-Tab: switch apps.
+
+That app-switching command is the obvious everyday difference from the iPhone table, which did not list Command-Tab in the section retrieved for this book. On iPad, Command-Tab is worth learning immediately.
+
+As on iPhone, the official "Return to the previous screen" shortcut was not clearly retrieved, so it is not guessed here. Try Escape in VoiceOver Help, or use a two-finger scrub, which still works while a keyboard is attached.
+
+
+QUICK NAV AND WEB KEYS
+Arrow-key Quick Nav and single-key Quick Nav for web browsing work the same way Apple describes for iPhone. See Chapter 1.23 for the confirmed keys, including Left Arrow-Right Arrow to toggle Quick Nav, and H, L, B, C, T, S, W, M, and 1 through 6 for web items when single-key Quick Nav is on (VO-Q, as Apple describes it).
+
+
+PRACTICE EXERCISE
+1. Attach or pair your keyboard and set the modifier if you wish.
+2. Use VO-K, try VO-H, VO-Space bar, and Command-Tab, then press Escape to leave help and try them for real.
+3. Open Safari and use heading and link keys with Quick Nav.
+4. Practice VO-S (mute) and the Screen Curtain command for your keyboard, then turn Screen Curtain off again.
+
+
+QUICK REFERENCE SUMMARY
+- Modifier and most VO commands are the same as on iPhone. See Chapter 1.23.
+- Command-Tab and Command-Shift-Tab switch apps on iPad. This is the official addition to remember first.
+- VO-K is Help. VO-H is Home. VO-Space bar activates. VO-I is the Item Chooser.
+- Check Apple's current iPad keyboard page or VoiceOver Help for any command this book omitted because the official table was unclear.
+
+
+SOURCES
+Use VoiceOver on iPad with an Apple external keyboard, Apple iPad User Guide:
+https://support.apple.com/guide/ipad/use-voiceover-with-an-external-keyboard-ipad9a246749/ipados
+
+iPad Magic Keyboard and Smart Keyboard, Apple iPad User Guide:
+https://support.apple.com/guide/ipad/ipad-magic-keyboard-and-smart-keyboard-ipad4b92bd12/ipados

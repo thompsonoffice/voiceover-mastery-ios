@@ -1,0 +1,93 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 7. Apps, Practice, and Sources
+Chapter 7.1. Helpful Accessible Apps
+============================================================
+
+OVERVIEW
+Built-in Apple tools already cover a lot of daily seeing and reading work: VoiceOver, Magnifier, Live Recognition, Camera, Maps, and Safari Reader View. Third-party apps can still help, especially for describing a scene, reading a package, or calling a human volunteer.
+
+This chapter describes a short list honestly, as of the research done for this SRTS: Screen Reader Training Suite edition in November 2026. Apps change, move, or shut down. Before you rely on one, confirm it is still in the App Store, still maintained, and still works with VoiceOver on your system version.
+
+Do not use any seeing app, or any Apple recognition feature, as your only source of information in a situation where a mistake could cause harm, as a navigation system, or as medical advice. Apple makes that point for VoiceOver Recognition, and it applies here too.
+
+
+WHAT YOU'LL LEARN
+- Which built-in Apple tools to try first.
+- An honest snapshot of Be My Eyes and Seeing AI.
+- Why some well-known apps may not belong on an iPhone list.
+- How to judge any new app with VoiceOver.
+
+
+START WITH BUILT-IN APPLE TOOLS
+Before you download something, make sure you can use:
+
+- VoiceOver itself, including the rotor, Safari Reader View, and typing tools from Part 1.
+- Magnifier, including Detection Mode if your iPhone offers it (Chapter 1.21).
+- Live Recognition (four-finger triple tap, Chapter 1.21).
+- Camera, which can describe objects in the viewfinder (Chapter 1.20).
+- Maps, with the official VoiceOver tracking, zoom, and information-card features (Chapter 1.20).
+- Screen Recognition and image text recognition in apps that lack labels (Chapter 1.22).
+- The Phone, Messages, Mail, and Safari skills from earlier chapters.
+
+These do not require a third-party account. They still have limits, and they still can be wrong.
+
+
+BE MY EYES
+Be My Eyes is a long-standing app that connects blind and low-vision users with sighted volunteers for a live video call, so a person can describe what is in front of your camera. The app also includes Be My AI, which describes a photo you take and lets you ask follow-up questions.
+
+As of 2026, Be My Eyes documentation described Be My AI as available to iOS, Android, and Windows users, and said the apps are optimized for VoiceOver and TalkBack. You need an internet connection for Be My AI. An unstable connection can slow answers. Be My AI can describe pictures that contain faces, but the official help said it does not identify the people. In Illinois, face description was restricted for legal reasons at the time of that help article. Low light can be a problem; the help text said the flash may turn on, and that the app may ask you to retake the photo or, on iOS, consider calling a volunteer.
+
+If AI is not good enough, call a volunteer. That human fallback is the main reason many people keep Be My Eyes installed even if they also use Apple's Live Recognition.
+
+This book cannot promise wait times, volunteer quality, or future pricing. Check the app's current terms.
+
+
+SEEING AI
+Seeing AI is a Microsoft app designed with and for blind and low-vision people. It began on iPhone and later came to Android. It has offered tools such as reading short text in real time, capturing a printed document, describing a photo, scanning barcodes, recognizing currency, identifying colors, and sharing images from other apps for recognition.
+
+In 2026, the app was still being updated on Android, including history, language, and "Ask Seeing AI" features. Because Microsoft has changed, moved, and combined accessibility tools over the years, confirm that Seeing AI is still offered in the App Store on your iPhone or iPad, and listen through its own tabs or menu rather than assuming this paragraph is a complete, current feature list.
+
+Seeing AI has often included a mix of on-device and cloud features, depending on the mode. If you care about where a picture is sent, read the app's current privacy information.
+
+
+APPS THIS BOOK WILL NOT OVERSELL
+Google Lookout is a capable seeing app, but it is an Android app, not an iPhone app. This book mentions it only so you do not hunt for it on the App Store by mistake.
+
+Other popular tools, such as some navigation apps, OCR readers, and money identifiers, come and go, change names, or become paid subscriptions. This edition does not print a long catalog that will be wrong six months later. If a teacher, a vocational rehab counselor, or a community such as AppleVis recommends an app, try it with VoiceOver and judge it yourself.
+
+
+HOW TO TEST ANY NEW APP
+1. Confirm that VoiceOver speaks the main buttons, and that you can start the primary task without a sighted assistant.
+2. Try the Item Chooser (two-finger triple tap) if the screen is crowded.
+3. If controls are unlabeled, try Screen Recognition for that app only (Chapter 1.22).
+4. Test in a safe, familiar place first, especially for camera and navigation apps.
+5. Check whether the app needs an account, a subscription, or constant internet access.
+6. If the app is inaccessible and Screen Recognition does not help, do not struggle silently. Look for an alternative, or contact the developer with a precise VoiceOver bug report.
+
+
+PRACTICE EXERCISE
+1. Review Magnifier and Live Recognition on your iPhone if you have not already, so you know what you can do without another app.
+2. If you want a volunteer backup, install Be My Eyes from the App Store, explore it with VoiceOver, and try Be My AI on a harmless object, such as a book cover. Optionally, learn where the volunteer call button is, without placing an unnecessary call.
+3. Search the App Store for Seeing AI and, if it is still listed, open it and listen to its current modes. If it is not listed, do not install a similarly named unrelated app.
+4. Uninstall anything you do not trust or cannot use.
+
+
+QUICK REFERENCE SUMMARY
+- Try Apple's built-in tools first: VoiceOver, Magnifier, Live Recognition, Camera, Maps, Safari Reader View, and Screen Recognition.
+- Be My Eyes offers volunteer video calls and Be My AI photo descriptions. It needs internet for AI, and it may not identify faces. Check regional limits and current terms.
+- Seeing AI is a Microsoft seeing app that has been important on iPhone for years. Confirm current App Store availability and features, because Microsoft's tools change.
+- Lookout is Android-only.
+- Test every new app with VoiceOver in a safe place, and do not rely on AI descriptions for safety, medicine, or navigation.
+
+
+SOURCES
+Hear what's on your screen and around you with VoiceOver on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/hear-whats-on-your-screen-and-around-you-iph37e6b3844/ios
+
+Using Be My AI, Be My Eyes Help Center (updated July 1, 2026):
+https://support.bemyeyes.com/hc/en-us/articles/18133134809105-Using-Be-My-AI
+
+A look at some smartphone visual interpretation apps, National Federation of the Blind:
+https://nfb.org/resources/publications-and-media/access-podcast/look-some-smartphone-visual-interpretation-apps

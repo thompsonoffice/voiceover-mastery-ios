@@ -1,0 +1,71 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 1. iPhone (iOS)
+Chapter 1.2. The VoiceOver Tutorial and Practice Area
+============================================================
+
+OVERVIEW
+Apple gives you two built-in ways to learn VoiceOver on iPhone without guessing. The VoiceOver Tutorial is an interactive lesson. The VoiceOver Practice area lets you try gestures and hear what they do, without performing the action on your iPhone.
+
+Use both. The tutorial gives you a guided start. The practice area is the place to return whenever a later chapter introduces a new gesture.
+
+
+WHAT YOU'LL LEARN
+- How to start the VoiceOver Tutorial.
+- How to open and leave VoiceOver Practice.
+- How to make taps, double taps, and swipes more reliable.
+- Which gestures Apple suggests you practice first.
+
+
+OPEN THE VOICEOVER TUTORIAL
+With VoiceOver already on:
+
+1. Go to Settings > Accessibility > VoiceOver.
+2. Select VoiceOver Tutorial, then double-tap to start.
+
+Follow the tutorial's own spoken instructions. When you finish, you can return to this book and keep going in order.
+
+
+OPEN VOICEOVER PRACTICE
+1. Go to Settings > Accessibility > VoiceOver.
+2. If VoiceOver is off, turn it on.
+3. Select VoiceOver Practice, then double-tap to start.
+4. Try gestures with one, two, three, and four fingers. Apple specifically lists: tap, double tap, triple tap, and swipe left, right, up, or down.
+5. When you finish, select Done, then double-tap to exit.
+
+While you are in the practice area, a gesture should be described rather than carried out. That is the point. You can try a three-finger swipe or a two-finger double tap without opening Control Center or taking a photo.
+
+
+MAKE GESTURES MORE RELIABLE
+Apple's advice is practical, and it solves many "this isn't working" moments.
+
+If a gesture does not work, try a quicker movement, especially for a double tap or a swipe. To swipe, brush the screen quickly with your finger or fingers. For best results with multifinger gestures, touch the screen with some space between your fingers.
+
+You can use different techniques for the same gesture. A two-finger tap can be two fingers on one hand, one finger on each hand, or both thumbs. There is no single correct hand position. Use what is comfortable and repeatable for you.
+
+A split-tap is a useful alternative to "select, then double-tap." Touch and hold an item with one finger, then tap the screen with another finger. That activates the item you are holding.
+
+
+PRACTICE EXERCISE
+1. Open VoiceOver Practice.
+2. Practice a one-finger swipe right and a one-finger swipe left until VoiceOver consistently describes those gestures.
+3. Practice a one-finger double tap. Make it quick.
+4. Practice a two-finger tap and a two-finger swipe up.
+5. Select Done, then double-tap to exit.
+
+
+QUICK REFERENCE SUMMARY
+- VoiceOver Tutorial is in Settings > Accessibility > VoiceOver.
+- VoiceOver Practice is in the same place. Gestures there are described, not performed.
+- Practice tap, double tap, triple tap, and swipes with one to four fingers.
+- If a gesture fails, try a quicker movement and, for multifinger gestures, more space between fingers.
+- A split-tap is: hold with one finger, tap with another.
+
+
+SOURCES
+Turn on and practice VoiceOver on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/turn-on-and-practice-voiceover-iph3e2e415f/ios
+
+Use VoiceOver gestures on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/use-voiceover-gestures-iph3e2e2281/ios

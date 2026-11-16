@@ -1,0 +1,97 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 3. Mac (macOS)
+Chapter 3.7. Essential Keyboard Commands
+============================================================
+
+OVERVIEW
+Mac VoiceOver has many command groups: general, interaction, orientation, navigation, web, text, and search. This book does not reprint every official table. It collects the essential commands already introduced, and it tells you how to find the rest safely.
+
+Use Keyboard Help (VO-K) and the Commands menu (VO-H-H) as your complete reference on your Mac.
+
+
+WHAT YOU'LL LEARN
+- A compact list of essential official commands.
+- How Quick Nav commands are turned on or off.
+- How to find additional official commands without guessing.
+
+
+ESSENTIAL COMMANDS
+Turning VoiceOver on or off, and getting help:
+
+- Command-F5, or Command plus three presses of Touch ID: turn VoiceOver on or off.
+- Option-Command-F5, or three presses of Touch ID: Accessibility Shortcuts panel.
+- VO-K: Keyboard Help.
+- VO-H: Help menu.
+- VO-H-H: Commands menu.
+- VO-Fn-Command-F8: tutorial.
+- VO-Question Mark: VoiceOver User Guide.
+- VO-Fn-F8, or VO-Fn-8: VoiceOver Utility.
+
+Moving and acting:
+
+- VO-Left Arrow or VO-Right Arrow: previous or next item.
+- VO-Space bar: activate.
+- VO-Shift-Down Arrow: interact with a group.
+- VO-Shift-Up Arrow: exit a group.
+- VO-U: open the rotor.
+- VO-V: verbosity rotor.
+
+Reading and speech:
+
+- Control: pause or resume speech.
+- VO-Shift-N: hear the hint for the current item.
+- VO-Shift-H: hear the help tag for the current item.
+- VO-Fn-F7: date and time. Press F7 additional times for battery and network status, as listed in Chapter 3.2.
+
+System and privacy:
+
+- VO-N: Notifications menu.
+- VO-Shift-Fn-F11: screen curtain.
+- VO-Semicolon: lock or unlock the VO modifier.
+- VO-Tab: ignore the next key combination.
+- Escape or Fn-Tab: close a menu or rotor, or exit a mode.
+
+Quick Nav, from the general commands list:
+
+- VO-Q: turn single-key Quick Nav on or off.
+- VO-Shift-Q: turn arrow-key Quick Nav on or off.
+
+Other general commands Apple lists, if your keyboard supports them:
+
+- VO-Clear: turn NumPad commander on or off, only if the keyboard has a designated Clear key.
+- VO-Shift-K: turn the option to control VoiceOver with Option keys on or off.
+
+
+HOW TO LEARN MORE COMMANDS
+1. Press VO-H-H and browse the Commands menu.
+2. Press VO-Shift-F to open the Find Commands menu, if you want to search.
+3. Open the official VoiceOver User Guide with VO-Question Mark, then go to the command tables for interaction, orientation, navigation, web, text, or search.
+4. Practice any new command in Keyboard Help first.
+
+This approach is safer than memorizing a huge unofficial list. Commands can also be customized, which is another reason to check your Mac rather than assume a printed shortcut still matches.
+
+
+PRACTICE EXERCISE
+1. Recite, then perform, Command-F5, VO-arrows, VO-Space bar, VO-Shift-Down Arrow, and VO-Shift-Up Arrow.
+2. Open the Commands menu with VO-H-H, find one command you do not know, note it, close the menu, and try it in Keyboard Help.
+3. Toggle single-key Quick Nav with VO-Q, hear the result, then turn it back to the state you want.
+
+
+QUICK REFERENCE SUMMARY
+- The essentials are: Command-F5, VO-arrows, VO-Space bar, interact and exit, VO-U, VO-K, VO-H, VO-Fn-F8, Control to pause, and VO-Shift-Fn-F11 for the screen curtain.
+- VO-Q and VO-Shift-Q toggle the two Quick Nav modes.
+- Use the Commands menu and the official User Guide for the rest.
+- Do not invent shortcuts. Confirm them in Keyboard Help.
+
+
+SOURCES
+VoiceOver general commands on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/general-commands-cpvokys01/mac
+
+Get started with VoiceOver on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/get-started-with-voiceover-vo4be8816d70/mac
+
+VoiceOver commands and gestures on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/intro-to-voiceover-commands-and-gestures-vo14111/mac

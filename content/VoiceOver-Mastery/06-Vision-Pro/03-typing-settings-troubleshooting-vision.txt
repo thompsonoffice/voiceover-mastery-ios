@@ -1,0 +1,95 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 6. Apple Vision Pro (visionOS)
+Chapter 6.3. Typing, Settings, and Troubleshooting on Vision Pro
+============================================================
+
+OVERVIEW
+Typing on Apple Vision Pro with VoiceOver uses the virtual keyboard, dictation, rotor Typing Mode, and standard next, previous, and activate pinches. Settings cover audio, speech, verbosity, activities, navigation style, and Quick Settings. This chapter follows Apple's official pages and then gives recovery steps that only use documented gestures and shortcuts.
+
+
+WHAT YOU'LL LEARN
+- How to enter text with dictation, navigation pinches, or Typing Mode.
+- Official typing feedback settings.
+- Where to change volume, voice, verbosity, and activities.
+- What to try if speech stops or gestures fail.
+
+
+ENTER TEXT
+1. Select a text field, then use a left index pinch, or a right ring pinch, to activate it. The insertion point and the virtual keyboard appear.
+2. Enter text with one of the methods Apple documents:
+   - Dictation: activate the Dictation control on the keyboard, then say what you want to type.
+   - VoiceOver navigation gestures: use basic gestures, such as right middle pinch or right index pinch, to move among keys, and use a left index pinch to select a key.
+   - Typing Mode: select Typing Mode in the rotor so focus moves to the virtual keyboard. Use the index finger on your dominant hand to point at keys, then tap your other index finger and thumb to select them.
+
+Use the VoiceOver tutorial to practice typing, as Apple recommends.
+
+This book does not invent additional virtual-keyboard layouts or assume iPhone Standard Typing and Touch Typing names are used on Vision Pro, except where Typing Mode is officially mentioned.
+
+
+TYPING FEEDBACK SETTINGS
+Go to Settings > Accessibility > VoiceOver, then use the official options:
+
+- Phonetic Feedback, under Typing: speak a character, then its phonetic equivalent, such as "F" and then "foxtrot."
+- Typing Feedback, under Typing: speak characters, words, both, or nothing.
+- Rotor: choose which settings appear in the rotor, including, if you want, Typing Mode.
+- Verbosity > Deleting Text: you can have deleted characters spoken in a lower pitch with Change Pitch.
+
+
+VOLUME, VOICE, VERBOSITY, AND ACTIVITIES
+- Volume: turn the Digital Crown. If the Digital Crown adjusts immersion instead of volume, press the Digital Crown first, then turn it, according to Apple.
+- Other audio options, including VoiceOver Sounds and Audio Ducking, are in Settings > Accessibility > VoiceOver > Audio.
+- Speaking rate is a slider in VoiceOver settings. Speech settings also include voice, enhanced-voice download if needed, pitch, pitch change, and pronunciations. Pronunciation dictation requires Enable Dictation in Settings > General > Keyboard.
+- Verbosity includes hints, punctuation (including custom groups), uppercase letters, embedded links, rotor confirmation, and more.
+- Activities can store settings and apply them automatically to apps or contexts, just as on iPhone. Create or edit an activity in Settings > Accessibility > VoiceOver > Activities.
+- Quick Settings can be customized in Settings > Accessibility > VoiceOver > Quick Settings, and opened with a left index modifier plus a right ring pinch.
+
+VoiceOver is not described here as a complete braille manual for Vision Pro. Apple's turn-on page says VoiceOver also gives descriptions in braille and can make a braille display more efficient. Use the Braille settings on the device and Apple's Vision Pro braille pages for those details, rather than assumed iPhone settings.
+
+
+TROUBLESHOOTING
+1. If speech stops, try a left middle pinch to unmute. Check Digital Crown volume, and check Audio Ducking or output if media is loud.
+2. If you are lost, try a right middle long pinch for Escape, or open the Item Chooser with a left middle modifier plus a right ring pinch.
+3. If the wrong gesture happens, open Commands > All Commands, or turn on VoiceOver Practice and identify what you pinched. Check Switch Gesture Handedness.
+4. Triple-click the Digital Crown if the Accessibility Shortcut includes VoiceOver, or ask Siri to turn VoiceOver on or off.
+5. Reset VoiceOver Commands if a custom mapping is the problem.
+6. If you use a Magic Keyboard, Apple says you can use the rotor with the keyboard to adjust settings such as volume, speech rate, pitch or phonetics, typing echo, and punctuation. Confirm keyboard commands in All Commands or the official keyboard pages. Do not assume every iPhone VO shortcut is mapped identically until you check.
+
+
+UNCERTAINTY YOU SHOULD EXPECT
+visionOS changes, and pinch defaults can be customized. This edition may be incomplete on topics Apple documents outside the pages used here, including some braille, window management, and environment or passthrough details. When something is missing, use the on-device tutorial, All Commands, and Apple's current Vision Pro User Guide. That is the responsible way to use this part of the book.
+
+
+PRACTICE EXERCISE
+1. Open a text field in Notes or another simple app, activate it, and type a short word by moving among keys and selecting them.
+2. Try dictation for a second short phrase, if Dictation is enabled.
+3. Adjust speaking rate in Settings or with the rotor, and adjust volume with the Digital Crown (press it first if it is controlling immersion).
+4. Practice mute (left middle pinch) and Escape (right middle long pinch), then the Accessibility Shortcut.
+
+
+QUICK REFERENCE SUMMARY
+- Activate a text field with a left index pinch or right ring pinch.
+- Type by navigating keys and selecting them, by using rotor Typing Mode and pointing, or by dictation.
+- Set phonetic and typing feedback in VoiceOver Typing settings.
+- Digital Crown changes volume, but may need a press first if it is adjusting immersion.
+- Mute: left middle pinch. Quick Settings: left index modifier plus right ring pinch. Escape: right middle long pinch.
+- Recover with Siri, the Digital Crown shortcut, All Commands, and Reset VoiceOver Commands.
+- Treat this Vision Pro part as a sourced introduction, and confirm details on the device.
+
+
+SOURCES
+Use the virtual keyboard with VoiceOver on Apple Vision Pro, Apple Vision Pro User Guide:
+https://support.apple.com/guide/apple-vision-pro/use-the-virtual-keyboard-tanead72af04/visionos
+
+Change your VoiceOver settings on Apple Vision Pro, Apple Vision Pro User Guide:
+https://support.apple.com/guide/apple-vision-pro/change-your-voiceover-settings-tanb65d26bab/visionos
+
+Learn VoiceOver gestures on Apple Vision Pro, Apple Vision Pro User Guide:
+https://support.apple.com/guide/apple-vision-pro/learn-voiceover-gestures-tanf5c9d873d/visionos
+
+Turn on and practice VoiceOver on Apple Vision Pro, Apple Vision Pro User Guide:
+https://support.apple.com/guide/apple-vision-pro/turn-on-and-practice-voiceover-tanae5174040/visionos
+
+Control VoiceOver using the rotor on Apple Vision Pro, Apple Vision Pro User Guide:
+https://support.apple.com/guide/apple-vision-pro/control-voiceover-using-the-rotor-tandd6cbafea/visionos

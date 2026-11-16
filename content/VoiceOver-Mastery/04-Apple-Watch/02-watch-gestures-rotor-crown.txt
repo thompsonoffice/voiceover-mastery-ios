@@ -1,0 +1,93 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 4. Apple Watch (watchOS)
+Chapter 4.2. Gestures, the Rotor, and the Digital Crown
+============================================================
+
+OVERVIEW
+Apple Watch VoiceOver gestures will feel familiar if you use iPhone: explore with one finger, swipe to move, double-tap to activate, scrub to go back, and rotate two fingers for the rotor. The Digital Crown can also navigate, and there are optional hand gestures.
+
+This chapter lists only gestures and rotor items from Apple's Watch User Guide.
+
+
+WHAT YOU'LL LEARN
+- The official touch gestures, including Always On Display behavior.
+- How to use the rotor on the small screen.
+- How to adjust VoiceOver volume from the watch.
+- How Digital Crown Navigation and hand gestures work, including one important limitation.
+
+
+TOUCH GESTURES
+VoiceOver supports the Always On Display. If the display is dimmed, tap it, and VoiceOver focuses on the element under your finger.
+
+Apple documents these gestures:
+
+- Explore: move your finger around the display. VoiceOver speaks each item you touch. You can also tap with one finger to select an item, or swipe left or right with one finger to select an adjacent item.
+- Swipe left, right, up, or down with two fingers to see other pages.
+- Go back: do a two-finger scrub, tracing a "z" shape on the display.
+- Act on an item: double-tap to open an app, switch an option, or perform the action that would normally be a single tap. Select first, then double-tap anywhere on the display. Apple's example: to turn VoiceOver off, select the VoiceOver button, then double-tap anywhere.
+- Additional actions: some items offer several actions. Listen for "actions available." Swipe up or down to choose an action, then double-tap to perform it.
+- Pause reading: tap the display with two fingers. Tap again with two fingers to resume.
+- Adjust VoiceOver volume: double-tap and hold with two fingers, then slide up or down. Or use the Apple Watch app on iPhone: My Watch > Accessibility > VoiceOver, and adjust the slider.
+
+
+THE ROTOR
+On Apple Watch, Apple says you can use the rotor to choose Words, Characters, Actions, Headings, Volume, and Speaking Rate.
+
+1. Rotate two fingers on the screen as if turning a dial. VoiceOver speaks the setting.
+2. Keep rotating to hear more settings, and stop when you hear the one you want.
+3. Swipe up to move to the previous item or to increase, depending on the setting.
+4. Swipe down to move to the next item or to decrease.
+
+The rotor is small-screen awkward at first. Slow rotations help. Volume and Speaking Rate are worth putting into muscle memory.
+
+
+DIGITAL CROWN NAVIGATION
+Apple documents a VoiceOver feature called Digital Crown Navigation, which you can also turn on or off in VoiceOver settings.
+
+From Apple's "Apple Watch basics with VoiceOver" page:
+
+- Triple-tap with two fingers, then turn the Digital Crown to select an item.
+- Triple-tap with two fingers again to turn off Digital Crown Navigation.
+
+The same page also describes using the Digital Crown in specific places, such as browsing watch faces or scrolling Mail, which the next chapter covers.
+
+There is a VoiceOver settings switch named Navigate with the Digital Crown on the VoiceOver settings screen as well. If the triple-tap method and the settings switch seem to overlap on your watchOS version, follow the labels on your watch and iPhone rather than forcing both.
+
+
+HAND GESTURES
+You can use hand gestures instead of taps to control VoiceOver.
+
+1. On iPhone, open the Apple Watch app, then go to My Watch > Accessibility > VoiceOver > Hand Gestures.
+2. Turn on Hand Gestures.
+3. Use the gestures Apple lists, including clench, double clench, tap, and double tap.
+
+Important official note: the universal double tap gesture is not available when you turn on Hand Gestures for VoiceOver. If you rely on the watch's Double Tap (index finger and thumb) for other watch features, turning on VoiceOver Hand Gestures can take that over. Decide which you need before enabling this.
+
+You can also configure Hand Gestures from VoiceOver settings on the watch itself.
+
+
+PRACTICE EXERCISE
+1. On the watch face or in Settings, explore by touch, swipe to an item, and double-tap a safe control.
+2. Practice a two-finger scrub to go back.
+3. Turn the rotor to Speaking Rate, change it slightly, then put it back.
+4. Try Digital Crown Navigation: two-finger triple-tap, turn the crown, then two-finger triple-tap to turn it off.
+5. Leave Hand Gestures off until you have read the limitation above and decided you want them.
+
+
+QUICK REFERENCE SUMMARY
+- Explore, swipe, and double-tap work like a small iPhone. Two-finger scrub goes back. Two-finger tap pauses speech.
+- Listen for "actions available," then swipe up or down and double-tap.
+- Two-finger double-tap and hold, then slide, changes VoiceOver volume.
+- Rotor items Apple lists: Words, Characters, Actions, Headings, Volume, and Speaking Rate.
+- Two-finger triple-tap turns Digital Crown Navigation on or off, then you turn the crown to select.
+- Hand Gestures are optional and disable the universal Double Tap feature while they are on.
+
+
+SOURCES
+Use VoiceOver on Apple Watch, Apple Watch User Guide:
+https://support.apple.com/guide/watch/use-voiceover-apdaabc79d3b/watchos
+
+Apple Watch basics with VoiceOver, Apple Watch User Guide:
+https://support.apple.com/guide/watch/applewatch-basics-with-voiceover-apde8185443e/watchos

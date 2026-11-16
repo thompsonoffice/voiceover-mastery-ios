@@ -1,0 +1,119 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 6. Apple Vision Pro (visionOS)
+Chapter 6.2. VoiceOver Gestures and the Rotor on Vision Pro
+============================================================
+
+OVERVIEW
+This chapter lists default VoiceOver gestures from Apple's "Learn VoiceOver gestures on Apple Vision Pro" page, plus official rotor gestures. If you turned on Switch Gesture Handedness or assigned new gestures, your device will not match this list.
+
+Apple also says you can explore by pinching and holding your right index finger and thumb. VoiceOver then speaks the name of each item you look at. You can also move through items in order from top to bottom and left to right with the next and previous pinches.
+
+
+WHAT YOU'LL LEARN
+- Default basic navigation gestures.
+- Official reading, scrolling, and VoiceOver-control gestures.
+- How to use the rotor with modifier pinches.
+- How flat and grouped navigation change next and previous movement.
+
+
+BASIC NAVIGATION GESTURES
+Apple documents these defaults:
+
+- Activate the selected item: left index pinch, or right ring pinch.
+- Secondary activate: right ring quadruple pinch, or left index quadruple pinch.
+- Move to the next item: right index pinch.
+- Move to the previous item: right middle pinch.
+- Long press: right ring double pinch, or left index double pinch.
+- Begin passthrough gesture: right ring double long pinch, or left index double long pinch.
+- Enter direct gesture mode: left index triple long pinch, or right ring triple long pinch.
+- Escape: right middle long pinch.
+- Magic tap: right ring triple pinch, or left index triple pinch.
+- Switch to the next app: left ring modifier with right index pinch.
+- Switch to the previous app: left ring modifier with right middle pinch.
+
+Explore: pinch and hold the right index finger and thumb, and look at items. VoiceOver speaks each item you look at.
+
+Secondary activate, passthrough, and direct gesture mode are official actions. This book does not invent extra meaning for them beyond Apple's names. If you need them, test them in VoiceOver Practice and check All Commands for any description your visionOS version provides.
+
+
+READING GESTURES
+- Read item summary: left ring pinch.
+- Read all items from the top: right middle pinch and slide up.
+- Read all from the current item: right middle pinch and slide down.
+- Move to the previous item is also listed again in this official table as right middle pinch, which matches the navigation table.
+
+
+SCROLLING
+These official scroll gestures use the same opposite-direction idea you may know from iPhone three-finger swipes:
+
+- Scroll up: right index pinch and slide down.
+- Scroll down: right index pinch and slide up.
+- Scroll left: right index pinch and slide right.
+- Scroll right: right index pinch and slide left.
+
+
+GESTURES THAT CONTROL VOICEOVER
+- Mute or unmute VoiceOver speech: left middle pinch.
+- Open the Item Chooser: left middle modifier with right ring pinch.
+- Open VoiceOver Quick Settings: left index modifier with right ring pinch. Apple's settings page describes this the same way (a left index modifier and right ring pinch).
+- Describe passthrough: left ring double pinch.
+- Label item: left ring modifier with right ring pinch.
+- Copy speech to clipboard: left middle double pinch.
+
+
+USE THE ROTOR
+Apple's rotor page says: when VoiceOver is on, hold your left middle finger and thumb, then use the next and previous gestures (right index pinch and right middle pinch) to move between rotor options. VoiceOver speaks the rotor setting.
+
+To move between items in an option, such as speaking rate values, hold your left index finger and thumb, then use the next and previous gestures on your right hand.
+
+The gestures page lists the same idea as:
+
+- Choose a rotor setting, also called next or previous rotor: left middle modifier with right index pinch, or with right middle pinch.
+- Move to the previous item or increase: left index modifier with right index pinch.
+- Move to the next item or decrease: left index modifier with right middle pinch.
+
+Customize the rotor in Settings > Accessibility > VoiceOver > Rotor, by choosing settings or dragging to reorder them. To have VoiceOver confirm rotor actions, go to Verbosity and turn on Speak Confirmation.
+
+The rotor can include familiar ideas from iPhone, such as volume, speaking rate, and, as Apple's rotor intro says, special input methods such as Braille Screen Input or Handwriting. Confirm which items appear on your device.
+
+
+FLAT OR GROUPED NAVIGATION
+Go to Settings > Accessibility > VoiceOver > Navigation Style, then choose:
+
+- Flat: next and previous (right index pinch and right middle pinch) move sequentially through each item in your view.
+- Grouped: those same next and previous commands move through items and groups of items.
+
+If movement skips a group of controls, check this setting before you assume a gesture is wrong.
+
+
+PRACTICE EXERCISE
+Do this in VoiceOver Practice first.
+
+1. Use right index pinch and right middle pinch to move next and previous.
+2. Use a left index pinch or right ring pinch to activate a practice item.
+3. Mute and unmute with a left middle pinch.
+4. Open the rotor with a left middle modifier plus a right index or right middle pinch, find speaking rate if it is there, and adjust it with the left index modifier plus right-hand next or previous.
+5. Open All Commands and compare what you just practiced with the assigned gestures on your device.
+
+
+QUICK REFERENCE SUMMARY
+- Next: right index pinch. Previous: right middle pinch. Activate: left index pinch or right ring pinch.
+- Escape: right middle long pinch. Magic Tap: right ring or left index triple pinch.
+- Mute: left middle pinch. Item Chooser: left middle modifier plus right ring pinch. Quick Settings: left index modifier plus right ring pinch.
+- Read from top: right middle pinch and slide up. Read from here: right middle pinch and slide down.
+- Scroll uses right index pinch plus a slide in the opposite direction from the desired scroll.
+- Rotor: left middle modifier plus right next or previous to choose a setting; left index modifier plus right next or previous to change the value.
+- Confirm everything in All Commands if handedness or custom gestures are on.
+
+
+SOURCES
+Learn VoiceOver gestures on Apple Vision Pro, Apple Vision Pro User Guide:
+https://support.apple.com/guide/apple-vision-pro/learn-voiceover-gestures-tanf5c9d873d/visionos
+
+Control VoiceOver using the rotor on Apple Vision Pro, Apple Vision Pro User Guide:
+https://support.apple.com/guide/apple-vision-pro/control-voiceover-using-the-rotor-tandd6cbafea/visionos
+
+Change your VoiceOver settings on Apple Vision Pro, Apple Vision Pro User Guide:
+https://support.apple.com/guide/apple-vision-pro/change-your-voiceover-settings-tanb65d26bab/visionos

@@ -1,0 +1,103 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 1. iPhone (iOS)
+Chapter 1.19. Browsing the Web in Safari with VoiceOver
+============================================================
+
+OVERVIEW
+Safari is where the rotor earns its keep. With VoiceOver on, you can search the web, jump by headings or links, skip images, and reduce clutter with Reader View when a page supports it.
+
+This chapter follows Apple's "Browse the web in Safari" section in "Use VoiceOver in apps on iPhone," plus the rotor options from Apple's rotor article. If a page is poorly labeled, Chapter 1.22 on Screen Recognition can help, but try headings and Reader View first.
+
+
+WHAT YOU'LL LEARN
+- How to search or enter a web address.
+- How to move by headings, links, landmarks, form controls, and other web rotor items.
+- How to set which rotor items appear for web browsing.
+- How to skip images.
+- How to turn on Reader View.
+- How a keyboard's Quick Nav can help, if you use one.
+
+
+SEARCH OR ENTER AN ADDRESS
+1. With VoiceOver on, go to the Safari app.
+2. Select the address field, then double-tap to show the keyboard.
+3. Enter a search term, phrase, or URL.
+4. Double-tap Go, or select a search suggestion, then double-tap.
+
+If you land in a search results page, Same Item on the rotor can move from one result link to the next, which is an example Apple gives in its rotor article.
+
+
+MOVE BY PAGE ELEMENT
+1. Set the rotor to the element type you want, such as Headings, Links, or Form Controls.
+2. Swipe down to move to the next one, or swipe up to move to the previous one.
+
+Useful web rotor items, when they appear, include Headings, Links, Visited Links, Non-visited Links, In-Page Links, Landmarks, Buttons, Form Controls, Text Fields, Search Fields, Tables, Lists, Images, and Static Text. Chapter 1.8 defines these.
+
+A good habit on a new page:
+
+1. Two-finger swipe up to hear the top of the page, then pause.
+2. Set the rotor to Headings and swipe down through the outline.
+3. When you find the section you want, swipe right to read the content, or set the rotor to Lines or Static Text.
+4. Use Links when you are ready to follow something.
+
+Landmarks help on sites that mark banners, navigation, and main regions in HTML. Not every site provides them. If Landmarks does nothing useful, use Headings.
+
+
+SET ROTOR ITEMS FOR WEB BROWSING
+1. Go to Settings > Accessibility > VoiceOver > Rotor.
+2. Select or deselect items, or drag to reposition an item.
+
+Keep Headings, Links, Landmarks, Form Controls, and perhaps Images if you use those often. A shorter web rotor is faster to turn than a rotor that includes every optional item.
+
+
+SKIP IMAGES
+1. Go to Settings > Accessibility > VoiceOver > Navigate Images.
+2. Choose to skip all images, or only those without descriptions.
+
+Skipping images without descriptions can make a page faster if it is full of unlabeled graphics. If you need every image, do not skip them, and consider Screen Recognition or image descriptions from Chapter 1.22.
+
+
+USE READER VIEW
+Reader View reduces page clutter for easier reading and navigation. It is not available for all webpages.
+
+1. In the Safari address field, select the Format Options button, then double-tap.
+2. Select Show Reader View, then double-tap.
+
+If you do not hear Format Options or Show Reader View, the page may not support Reader View, or the control may be named slightly differently in your iOS version. Explore the address field and nearby buttons rather than inventing a gesture.
+
+Once Reader View is on, Headings and reading gestures are often much cleaner.
+
+
+KEYBOARD TIP
+If you use a Magic Keyboard with iPhone, Apple says you can use single-key Quick Nav for web browsing. Chapter 1.23 lists the Quick Nav commands this book could confirm from Apple's keyboard page, such as H for heading and L for link.
+
+
+PRACTICE EXERCISE
+1. Open Safari and search for a familiar, well-structured site, such as an Apple Support article or a news site you trust.
+2. Move by Headings through the page, then read one section with a two-finger swipe down.
+3. Switch the rotor to Links and move among a few links without activating them.
+4. Look for Format Options and try Reader View. If it is not available, try a different article.
+5. Optional: change Navigate Images and notice whether the page is faster to move through.
+
+
+QUICK REFERENCE SUMMARY
+- Address field, double-tap, type a search or URL, then activate Go or a suggestion.
+- Rotor to Headings, Links, Landmarks, Form Controls, and other web items, then swipe up or down.
+- Choose those rotor items in Settings > Accessibility > VoiceOver > Rotor.
+- Navigate Images can skip all images or only images without descriptions.
+- Format Options in the address field can show Reader View, when the page supports it.
+- Two-finger swipe up or down still reads the screen. The rotor is for jumping.
+- Magic Keyboard users can use single-key Quick Nav (Chapter 1.23).
+
+
+SOURCES
+Use VoiceOver in apps on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/use-voiceover-in-apps-iphe4ee74be8/ios
+
+About the VoiceOver rotor on iPhone or iPad, Apple Support:
+https://support.apple.com/en-us/111796
+
+Use VoiceOver on iPhone with an Apple external keyboard, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/use-voiceover-with-an-external-keyboard-iph6c494dc6/ios

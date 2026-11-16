@@ -1,0 +1,103 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 2. iPad (iPadOS)
+Chapter 2.2. Unlock, Home, Dock, and System Gestures on iPad
+============================================================
+
+OVERVIEW
+iPad uses special VoiceOver gestures to unlock, go Home, show the Dock, switch apps, open Control Center, and view notifications. They are close to iPhone's gestures, but not identical, and they vary by iPad model.
+
+This chapter follows Apple's "Operate iPad when VoiceOver is on" page. Learn the methods that match your hardware.
+
+
+WHAT YOU'LL LEARN
+- How to unlock each kind of iPad Apple documents.
+- How to go Home and how to show the Dock.
+- How to switch apps and use the App Switcher.
+- How to open and dismiss Control Center and notifications.
+- How to search the Home Screen and rearrange apps.
+
+
+UNLOCK IPAD
+On an iPad with a Home button: press the Home button using the finger you registered with Touch ID.
+
+On an iPad with Touch ID in the top button: rest your finger on the top button using the finger you registered with Touch ID.
+
+On an iPad with Face ID: wake iPad and glance at it, then drag up from the bottom edge of the screen until you hear two rising tones (if Face ID is enabled).
+
+If you are prompted for a passcode, enter it. To avoid having the passcode spoken, use handwriting mode or onscreen braille, just as on iPhone.
+
+
+GO TO THE HOME SCREEN
+- Drag one finger up from the bottom edge of the screen until you hear two rising tones, then lift your finger.
+- On an iPad with a Home button, you can also press the Home button.
+
+
+USE THE DOCK
+Slide one finger up from the bottom edge until you hear two rising tones, then swipe down.
+
+The Dock holds frequently used apps and, on many iPads, a control that leads to the App Library. After you show the Dock, swipe through its icons and double-tap to open one. This Dock gesture is one of the clearest iPad-only VoiceOver techniques. Practice it until the two tones, then the downward swipe, feel automatic.
+
+
+SWITCH APPS
+Swipe right or left with four fingers to cycle through open apps. This is the same idea as on iPhone.
+
+Alternatively, use the App Switcher:
+
+1. Drag one finger up from the bottom edge until you hear three tones, then lift your finger. Or, on an iPad with a Home button, double-click the Home button.
+2. Swipe left or right until the app you want is selected.
+3. Double-tap to open it.
+
+Going Home is two rising tones and lift. Opening the App Switcher is three tones and lift. Move slowly enough to hear the difference.
+
+
+OPEN CONTROL CENTER
+- Drag one finger down from the top edge of the screen until you hear two rising tones.
+- Or tap any item in the status bar, then swipe up with three fingers.
+
+Dismiss Control Center with a two-finger scrub.
+
+
+VIEW NOTIFICATIONS
+- Drag one finger down from the top edge of the screen until you hear three rising tones.
+- Or tap any item in the status bar, then swipe down with three fingers.
+
+Dismiss notifications with a two-finger scrub.
+
+On iPad, Apple's User Guide describes these top-edge gestures in tones (two versus three), rather than the vibration-or-tone wording used for iPhone in the iOS 26 guide. Listen for two tones for Control Center and three for notifications.
+
+
+STATUS BAR, SEARCH, AND REARRANGING APPS
+These match iPhone closely.
+
+To hear status bar information, tap the status bar at the top, then swipe left or right to hear the time, battery state, Wi-Fi, and more.
+
+To search from the Home Screen, tap anywhere on the Home Screen outside the status bar, then swipe down with three fingers.
+
+To rearrange apps, Apple documents the same two methods as on iPhone:
+
+- Drag and drop: select an icon, double-tap and hold until three rising tones, drag as VoiceOver describes the location, and lift. Drag to the edge to move to another page.
+- Move actions: select an app, swipe down to hear actions, double-tap Edit Mode, find the app, choose Move, then use Cancel Move, Create New Folder, Add to Folder, Move Before, or Move After. Select Done, then double-tap when you finish.
+
+
+PRACTICE EXERCISE
+1. Go Home with the method for your iPad.
+2. Show the Dock: slide up from the bottom until two rising tones, then swipe down. Open an app from the Dock, then go Home again.
+3. Open the App Switcher (three tones, then lift, or double-click Home), and switch apps.
+4. Open Control Center (two tones from the top), dismiss it with a scrub, then open notifications (three tones from the top) and dismiss those too.
+
+
+QUICK REFERENCE SUMMARY
+- Unlock: Home button with Touch ID, top button with Touch ID, or Face ID plus a drag up from the bottom until two rising tones.
+- Home: drag up from the bottom until two rising tones, then lift, or press Home.
+- Dock: drag up until two rising tones, then swipe down.
+- App Switcher: drag up until three tones, then lift, or double-click Home. Four-finger swipes also cycle apps.
+- Control Center: from the top, two rising tones, or status bar plus three-finger swipe up.
+- Notifications: from the top, three rising tones, or status bar plus three-finger swipe down.
+- Search, status bar, and rearranging apps work like iPhone.
+
+
+SOURCES
+Operate iPad when VoiceOver is on, Apple iPad User Guide:
+https://support.apple.com/guide/ipad/operate-ipad-when-voiceover-is-on-ipad9a24752e/ipados

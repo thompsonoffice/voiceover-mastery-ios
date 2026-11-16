@@ -1,0 +1,125 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 1. iPhone (iOS)
+Chapter 1.8. The Rotor
+============================================================
+
+OVERVIEW
+The rotor is one of the most important VoiceOver tools. It is like a virtual dial on the screen. You turn it to choose a setting, then swipe up or down to use that setting.
+
+You can use the rotor to change VoiceOver volume or speaking rate, jump from one heading or link to the next, choose a typing mode, start Braille Screen Input or handwriting, and more. The available settings depend on what you are doing. Typing Mode, for example, appears when a keyboard is present.
+
+This chapter teaches you how to use the rotor. The next chapter covers choosing which items appear on it and in what order.
+
+
+WHAT YOU'LL LEARN
+- How to turn the rotor and choose a setting.
+- How to use a setting with one-finger swipes up or down.
+- Which rotor options Apple documents for navigating, typing, and speech.
+- Why the rotor list changes from screen to screen.
+
+
+TURN THE ROTOR
+1. With VoiceOver on, rotate two fingers on the screen as if you are turning a dial.
+2. If you prefer, use one finger on each hand: drag up with one finger and drag down with the other at the same time.
+3. VoiceOver speaks the rotor setting. Keep rotating to hear more settings.
+4. Stop rotating, and lift your fingers, when you hear the setting you want.
+
+Apple's shorter rotor article says to lift your fingers to choose an option. The User Guide says to stop rotating when you hear the setting you want. Both describe the same idea: finish the turn when you hear the option, then use it.
+
+
+USE THE SELECTED ROTOR SETTING
+Swipe up or down with one finger to use the setting.
+
+What "use" means depends on the setting:
+
+- If the setting is a navigation type, such as Headings or Links, swipe down to move to the next heading or link, and swipe up to move to the previous one.
+- If the setting is Speaking Rate or Volume, swipe up or down to increase or decrease the value.
+- If the setting is Typing Mode, swipe up or down to cycle among Standard Typing, Touch Typing, and Direct Touch Typing, when those modes are available.
+
+Apple's gesture list states it this way: a swipe up moves to the previous item or increases the value, depending on the rotor setting, and a swipe down moves to the next item or decreases the value.
+
+
+NAVIGATION OPTIONS
+Apple's "About the VoiceOver rotor" article lists many navigation options. With these, a one-finger flick down moves to the next match, and a flick up moves to the previous match.
+
+For reviewing text as you type, or in a document:
+
+- Characters: move and hear one character at a time.
+- Words: move and hear one word at a time.
+- Lines: move and hear one line at a time.
+
+For the structure of a page or screen:
+
+- Containers: move from one onscreen container to the next. Apple's examples are the Dock and the Home Screen.
+- Headings: move from one heading to the next. Apple suggests trying this in Settings areas that are organized with headings.
+- Landmarks: move among banners, navigation, and buttons in HTML content, such as a webpage or HTML email.
+- Same Item: move to the next item of the same kind. Apple suggests trying this with the links in Safari search results.
+- Vertical Navigation: move up or down with one-finger vertical flicks. Apple suggests trying this on the Home Screen.
+- Static Text: move from one line of static HTML text to the next. Static text is the main text on the page, not links or button names.
+
+For links:
+
+- Links: all links.
+- Visited Links: links you have already opened.
+- Non-visited Links: links you have not opened yet.
+- In-Page Links: links that jump to another place on the same webpage.
+
+Other page elements:
+
+- Tables: move the VoiceOver cursor to the start of a table on a webpage.
+- Lists: move to the start of a list on a webpage.
+- Buttons: move from button to button in HTML content.
+- Form Controls: move among buttons and menus in a form.
+- Text Fields: move from one text field to the next in HTML content.
+- Search Fields: move from one search field to the next in HTML content.
+- Images: move to images.
+
+You will not hear every option on every screen. Web options appear when you are in web or HTML content. Text options appear when you are in text. That is normal.
+
+
+TYPING, SPEECH, AND LIVE RECOGNITION OPTIONS
+Typing Mode lets you switch among Standard Typing, Touch Typing, and Direct Touch Typing. Swipe up or down to change modes. Chapter 1.10 explains each mode. You can also set a typing style in Settings > Accessibility > VoiceOver > Typing > Typing Style.
+
+Speech-related rotor options Apple documents include:
+
+- Voices: switch between VoiceOver voices and languages.
+- Speaking Rate: speed up or slow down speech.
+- Volume: make VoiceOver louder or softer.
+
+There is also a Live Recognition rotor option for descriptions of your surroundings and of onscreen images and interface elements, including in apps and on webpages that do not provide accessibility information. Chapter 1.21 covers this, including Apple's safety warning.
+
+
+ACTIONS
+On many items, VoiceOver can offer more than one action. Apple's Home Screen instructions say: tap an app, then swipe down to hear available actions, such as Edit Mode. Apple Watch documentation says to listen for "actions available," then swipe up or down and double-tap. The same pattern is used all over iPhone.
+
+If vertical swipes are changing speaking rate or moving by heading instead of listing actions, turn the rotor to Actions first, then swipe up or down.
+
+
+PRACTICE EXERCISE
+1. Open Settings.
+2. Turn the rotor until you hear Headings, then swipe down and up to jump from heading to heading.
+3. Turn the rotor to Speaking Rate and adjust it up and down. Return it to a comfortable speed.
+4. Open a webpage in Safari, set the rotor to Headings, then to Links, and move with swipes up and down.
+5. Open a text field, such as in Notes or Messages, and see whether Typing Mode is on the rotor.
+
+
+QUICK REFERENCE SUMMARY
+- Rotate two fingers, or drag one finger up and the other down, to choose a rotor setting.
+- Swipe up or down to use the setting: previous or increase, next or decrease.
+- The rotor list changes with context. Headings and links are especially useful on the web.
+- Characters, Words, and Lines move through text.
+- Typing Mode, Voices, Speaking Rate, and Volume are common non-navigation settings.
+- Set the rotor to Actions when you want an item's extra actions.
+
+
+SOURCES
+Control VoiceOver using the rotor on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/control-voiceover-using-the-rotor-iph3e2e3a6d/ios
+
+About the VoiceOver rotor on iPhone or iPad, Apple Support:
+https://support.apple.com/en-us/111796
+
+Use VoiceOver gestures on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/use-voiceover-gestures-iph3e2e2281/ios

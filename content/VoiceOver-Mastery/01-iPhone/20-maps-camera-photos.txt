@@ -1,0 +1,94 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 1. iPhone (iOS)
+Chapter 1.20. Maps, Camera, and Photos
+============================================================
+
+OVERVIEW
+Apple documents several VoiceOver features in Maps and Camera, and it documents custom image descriptions in Photos. This chapter stays with those official behaviors. It does not replace a full orientation-and-mobility lesson. Maps can speak street names and points of interest in some modes, but you should not treat the phone as a complete navigation substitute.
+
+
+WHAT YOU'LL LEARN
+- How to explore a map, zoom, pan, and get information about a place.
+- What the tracking options mean.
+- How VoiceOver works in Camera, including taking a photo or video with Magic Tap.
+- How to add a custom description to a photo.
+
+
+NAVIGATE IN MAPS
+1. With VoiceOver on, go to the Maps app.
+2. Explore the map by dragging your finger around the screen, or swipe left or right to move to another item.
+
+Apple documents these additional techniques:
+
+Tracking. Select the tracking control (Apple's page shows an icon rather than a single spoken name), then double-tap until you hear the tracking option you want:
+
+- Tracking on: the map automatically centers on your current location.
+- Tracking on with heading: the map automatically centers on your current location and rotates so that the heading you are facing is at the top of the screen. In this mode, iPhone speaks street names and points of interest as you approach them.
+- Tracking off: the map does not automatically center on your current location.
+
+Zoom. Select the map, set the rotor to Zoom, then swipe up or down with one finger.
+
+Pan. Select the map, then swipe with three fingers.
+
+Points of interest. Select the map, set the rotor to Points of Interest, then swipe up or down with one finger.
+
+Follow a road. Hold your finger down on the road, wait until you hear "pause to follow," then move your finger along the road.
+
+Place information. Select a location such as a business, landmark, or pin, then double-tap to open the information card. Swipe left or right to hear information such as directions, street address, phone number, business hours, and customer reviews.
+
+Walking guidance to a starting point. When you start walking directions, iPhone guides you in the direction of the starting point using sound and haptic feedback.
+
+Map description. Tap the screen with three fingers to get information about nearby places, including directions and distances.
+
+Remember that a three-finger tap in other apps usually speaks additional VoiceOver information. In Maps, when used as Apple describes here, it gives nearby-place information. Listen to the result rather than assuming the general meaning.
+
+
+TAKE PHOTOS AND VIDEOS
+1. With VoiceOver on, go to the Camera app. VoiceOver describes objects in the viewfinder.
+2. Select Camera Mode, then swipe up or down with one finger to switch between modes, such as Photo or Video.
+3. To take a photo, or to start or stop recording a video, double-tap the screen with two fingers.
+
+That two-finger double tap is Magic Tap again. You can still locate an onscreen shutter button and double-tap it if you prefer.
+
+Camera descriptions are helpful for lining up a shot, but they may miss people or objects, especially in poor light. They are not a guarantee of what is in the frame.
+
+
+ADD A CUSTOM DESCRIPTION IN PHOTOS
+Apple documents this process for adding your own description to an image in Photos. Some of the controls are shown as icons in the User Guide, so the button names you hear may be more useful than any guessed visual label. The official sequence is:
+
+1. Go to the Photos app.
+2. Double-tap the image you want to add a custom description to.
+3. Double-tap the first control Apple shows in that sequence, then double-tap the next.
+4. Double-tap the following control, then double-tap Image Description.
+5. Enter your custom description.
+6. Double-tap the closing controls Apple shows, then double-tap again.
+
+After you add a custom description, you will hear it when you select the photo in the photo picker, and when you double-tap it.
+
+Because several steps in Apple's list are icon-only in the official page, explore the open photo's buttons and use the Item Chooser or Actions if you do not immediately hear "Image Description." Look for a description or accessibility-related action rather than guessing a random button. Chapter 1.22 covers automatic image descriptions separately.
+
+
+PRACTICE EXERCISE
+1. Open Maps, select the map, and practice Zoom on the rotor. Try a three-finger pan. Set tracking to the option you prefer.
+2. Select a nearby place, double-tap for the information card, and swipe through the details.
+3. Open Camera, hear the viewfinder description, switch modes with swipe up or down on Camera Mode, and, if you wish, take one photo with a two-finger double tap.
+4. Optional: open that photo in Photos and add a short custom description if you can find Image Description.
+
+
+QUICK REFERENCE SUMMARY
+- Maps: explore by touch or swipe. Rotor Zoom zooms. Three-finger swipe pans. Points of Interest moves among pins.
+- Double-tap a tracking control until you hear tracking on, tracking on with heading, or tracking off.
+- Hold a road, wait for "pause to follow," then follow it with your finger.
+- Three-finger tap can describe nearby places on the map.
+- Camera: VoiceOver describes the viewfinder. Swipe up or down on Camera Mode. Two-finger double tap takes a photo or starts or stops video.
+- Photos: you can add a custom Image Description so VoiceOver speaks your text later.
+
+
+SOURCES
+Use VoiceOver in apps on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/use-voiceover-in-apps-iphe4ee74be8/ios
+
+Hear what's on your screen and around you with VoiceOver on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/hear-whats-on-your-screen-and-around-you-iph37e6b3844/ios

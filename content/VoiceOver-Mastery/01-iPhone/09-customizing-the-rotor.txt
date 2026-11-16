@@ -1,0 +1,93 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 1. iPhone (iOS)
+Chapter 1.9. Customizing the Rotor
+============================================================
+
+OVERVIEW
+The rotor becomes faster when it contains only the items you actually use, in an order that makes sense to you. Some options are on the rotor by default. Others are optional. You choose them in Settings.
+
+This chapter stays with what Apple documents for adding, removing, and reordering rotor items, adding voices, and hearing confirmation when a rotor action occurs.
+
+
+WHAT YOU'LL LEARN
+- Where to find the full list of rotor items.
+- How to add, remove, and reorder items.
+- How to add a voice you can switch to from the rotor.
+- How to turn on spoken confirmation of rotor actions.
+- Why some items appear only in certain contexts, even after you enable them.
+
+
+CHOOSE ROTOR ITEMS
+Apple's rotor article says you can see the full list of available rotor options at Settings > Accessibility > VoiceOver > Rotor > Rotor Items.
+
+The User Guide describes a slightly shorter path: Settings > Accessibility > VoiceOver, then Rotor, where you choose the settings you want or drag to reorder them. If your iOS 26 Settings list uses a Rotor Items screen inside Rotor, follow what you hear on your phone. The destination is the same: the list of rotor options.
+
+To choose options:
+
+1. Go to Settings > Accessibility > VoiceOver > Rotor, and open Rotor Items if you hear that screen name.
+2. Select each option you want on the rotor. Double-tap to select or deselect, following the switch or selection control VoiceOver speaks.
+3. Leave options you never use turned off, so the dial has fewer stops.
+
+
+REORDER ROTOR ITEMS
+1. Go to the same Rotor Items list.
+2. Find the Reorder button for the item you want to move. VoiceOver typically speaks this as "Reorder" followed by the item name.
+3. Use the drag method Apple documents: drag the Reorder button to rearrange the item.
+
+If dragging is awkward, you can also look for actions on the Reorder button or on the item. Swipe up or down to hear available actions, then double-tap. Use whichever method your phone offers rather than forcing a drag that you cannot feel clearly.
+
+A practical order for many beginners is: Speaking Rate, Actions, Headings, Links, Characters, Words, Lines, Typing Mode, then everything else. There is no official required order. Put the items you use constantly next to each other so a small turn finds them.
+
+
+ADD A VOICE TO THE ROTOR
+You can add another VoiceOver voice and switch to it from the rotor. Apple points this to the Speech settings:
+
+1. Go to Settings > Accessibility > VoiceOver > Speech.
+2. Select Add Rotor Voice, then double-tap.
+3. Choose a voice. To choose an enhanced voice, Apple says to tap Download first if the voice needs to be downloaded.
+4. After the voice is added, use the Voices rotor setting to switch among voices and languages.
+
+You can also change your primary voice in Speech settings. Chapter 1.15 covers voices, rate, and language in more detail.
+
+
+HEAR CONFIRMATION OF ROTOR ACTIONS
+1. Go to Settings > Accessibility > VoiceOver > Verbosity.
+2. Turn on Speak Confirmation.
+
+VoiceOver can then confirm rotor actions, which helps when you are still learning whether a swipe changed a value or moved to an item.
+
+
+REMEMBER THAT CONTEXT STILL MATTERS
+Some options are not always on the rotor even if you enabled them. Apple's example is Typing Mode, which is on the rotor only when there is a keyboard. Web items such as Landmarks or Visited Links appear in web or HTML content. This is expected, not a sign that your settings were lost.
+
+For web browsing, you can also set which rotor items are used while browsing in Settings > Accessibility > VoiceOver > Rotor. Chapter 1.19 returns to this in Safari.
+
+
+PRACTICE EXERCISE
+1. Open Settings > Accessibility > VoiceOver > Rotor (and Rotor Items if needed).
+2. Make sure Headings, Links, Actions, Speaking Rate, and Characters are enabled.
+3. Move Speaking Rate and Actions near the start of the list if you use them often.
+4. If you read in more than one language, add a rotor voice for the second language.
+5. Turn on Speak Confirmation if you want spoken confirmation while you practice.
+6. Go back to Settings or Safari and turn the rotor to confirm that your new order is what you hear.
+
+
+QUICK REFERENCE SUMMARY
+- Choose and reorder rotor items in Settings > Accessibility > VoiceOver > Rotor (Rotor Items).
+- Keep the list short enough to turn quickly.
+- Add rotor voices in Settings > Accessibility > VoiceOver > Speech > Add Rotor Voice.
+- Turn on Verbosity > Speak Confirmation if you want rotor actions confirmed.
+- Some items appear only when they apply, such as Typing Mode when a keyboard is showing.
+
+
+SOURCES
+Control VoiceOver using the rotor on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/control-voiceover-using-the-rotor-iph3e2e3a6d/ios
+
+About the VoiceOver rotor on iPhone or iPad, Apple Support:
+https://support.apple.com/en-us/111796
+
+Change your VoiceOver settings on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/change-your-voiceover-settings-iphfa3d32c50/ios

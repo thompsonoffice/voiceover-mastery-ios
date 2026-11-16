@@ -1,0 +1,87 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 2. iPad (iPadOS)
+Chapter 2.5. Troubleshooting VoiceOver on iPad
+============================================================
+
+OVERVIEW
+iPad troubleshooting is almost the same as iPhone troubleshooting in Chapter 1.25. Use that chapter for mute, Screen Curtain, Zoom interactions, custom commands, resets, and Siri. This chapter only adds iPad-specific reminders.
+
+
+WHAT YOU'LL LEARN
+- Which iPhone recovery gestures apply unchanged.
+- How to turn VoiceOver on or off using iPad buttons.
+- What to check if Dock, Home, or Control Center gestures seem wrong.
+- When multitasking settings are the real problem.
+
+
+START WITH THE IPHONE CHECKLIST
+On iPad, Apple documents the same VoiceOver control gestures as on iPhone:
+
+- Three-finger double tap mutes or unmutes speech. If Zoom is also on, use a three-finger triple tap.
+- Three-finger triple tap turns Screen Curtain on or off. If Zoom is also on, use a three-finger quadruple tap.
+- Two-finger tap pauses or continues speech.
+- Two-finger scrub dismisses or goes back.
+
+Work through Chapter 1.25's speech-stopped and black-screen lists first. They apply here.
+
+
+USE IPAD'S SHORTCUT BUTTON
+To turn VoiceOver on or off with the Accessibility Shortcut, triple-click the top button on an iPad with Face ID, or triple-click the Home button on an iPad with a Home button. Set this in Settings > Accessibility > Accessibility Shortcut.
+
+During setup, that same triple-click turns VoiceOver on, according to Apple's setup page.
+
+
+IF HOME, DOCK, OR CONTROL CENTER MISFIRES
+These gestures are easy to confuse on a large screen.
+
+- Home is a drag up from the bottom until two rising tones, then lift.
+- Dock is the same two tones, then a swipe down, not a lift right away.
+- App Switcher is a longer drag up until three tones, then lift.
+- Control Center is a drag down from the top until two rising tones.
+- Notifications are a drag down from the top until three rising tones.
+
+If you keep opening the wrong thing, move more slowly and wait for the tones. You can also use the status bar methods: three-finger swipe up for Control Center, three-finger swipe down for notifications.
+
+If an external keyboard is attached, try VO-H for Home, VO-H-H for the App Switcher, and the status bar commands from Chapter 2.3.
+
+
+IF WINDOWS FEEL CHAOTIC
+If VoiceOver is fine in one app but the screen feels crowded or focus jumps unexpectedly, check Settings > Multitasking & Gestures. Switching back to Full Screen Apps can tell you whether the trouble is VoiceOver or the window layout.
+
+Do not reset VoiceOver settings as the first fix for a Stage Manager problem. Change the multitasking mode first, then reset VoiceOver only if the usual checks fail.
+
+
+RESTART IPAD
+Use Apple's official restart method for your iPad model, which usually involves the top button and, on many models, a volume button, then a power slider. If iPad is frozen, use the official force-restart sequence for that model from Apple Support, not a guessed button combination. Hardware buttons still work when VoiceOver is on.
+
+
+PRACTICE EXERCISE
+1. Practice mute and Screen Curtain once, then leave both in the off or unmuted state.
+2. Confirm your Accessibility Shortcut, then turn VoiceOver back on.
+3. Practice Home versus Dock versus App Switcher slowly, listening for two tones versus three tones.
+4. If you use windows, note your Multitasking & Gestures mode so you can return to it after any experiment.
+
+
+QUICK REFERENCE SUMMARY
+- Use Chapter 1.25 for mute, Screen Curtain, Zoom, resets, and Siri. The gestures are the same.
+- Triple-click the top button or Home button for the Accessibility Shortcut.
+- Listen for two tones (Home, Dock, Control Center) versus three tones (App Switcher, notifications).
+- Dock requires two tones plus a swipe down, not just a lift.
+- Chaotic windows may be a multitasking-mode issue, not a broken VoiceOver.
+- Restart with official button sequences for your iPad model.
+
+
+SOURCES
+Use VoiceOver gestures on iPad, Apple iPad User Guide:
+https://support.apple.com/guide/ipad/use-voiceover-gestures-ipad9a246584/ipados
+
+Operate iPad when VoiceOver is on, Apple iPad User Guide:
+https://support.apple.com/guide/ipad/operate-ipad-when-voiceover-is-on-ipad9a24752e/ipados
+
+Turn on and practice VoiceOver on iPad, Apple iPad User Guide:
+https://support.apple.com/guide/ipad/turn-on-and-practice-voiceover-ipad9a246898/ipados
+
+Change Multitasking & Gestures settings on iPad, Apple iPad User Guide:
+https://support.apple.com/guide/ipad/change-multitasking-gestures-settings-ipad-ipad2q9j404h2/ipados

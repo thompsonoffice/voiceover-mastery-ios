@@ -1,0 +1,95 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 1. iPhone (iOS)
+Chapter 1.14. Home Screen, App Library, and Search
+============================================================
+
+OVERVIEW
+The Home Screen is your first map of iPhone: app icons, pages of apps, the Dock, and, after the last page, the App Library. This chapter covers exploring the Home Screen, searching, and rearranging apps using Apple's VoiceOver instructions.
+
+Apple's "Operate iPhone when VoiceOver is on" page documents search from the Home Screen and two ways to rearrange apps. It does not give a separate VoiceOver-only name for the App Library. In current iOS, the App Library is the screen you reach by moving past the last Home Screen page, and it can also be opened from the Dock on some layouts. If what you hear does not match the words "App Library," follow the labels on your phone.
+
+
+WHAT YOU'LL LEARN
+- How to explore Home Screen pages and the Dock.
+- How to search from the Home Screen.
+- How to rearrange apps by dragging, or by using Move actions.
+- How to think about the App Library without inventing a special gesture.
+
+
+EXPLORE THE HOME SCREEN
+1. Go to the Home Screen using the method for your iPhone model (Chapter 1.7).
+2. Drag your finger to hear app names, or swipe right and left to move in order.
+3. The Dock is the row of apps that stays on every Home Screen page. With the rotor set to Containers, you can often jump between the Home Screen and the Dock, because Apple lists both as examples of containers.
+4. To move between Home Screen pages, use a three-finger swipe left or right.
+
+A four-finger tap near the top selects the first item. A four-finger tap near the bottom selects the last item. These help on a crowded page.
+
+
+SEARCH FROM THE HOME SCREEN
+Apple documents this method:
+
+1. Tap anywhere on the Home Screen outside the status bar.
+2. Swipe down with three fingers.
+
+Then use the search field: double-tap to begin editing, type or dictate, and swipe through the results. Double-tap a result to open it.
+
+This is one of the fastest ways to open an app you cannot remember the location of.
+
+
+THE APP LIBRARY
+After the last Home Screen page, iOS provides the App Library, which groups apps into categories and offers its own search field. With VoiceOver:
+
+1. From a Home Screen page, three-finger swipe left to scroll toward later pages (that swipe scrolls the pages to the right).
+2. Continue until you hear App Library, or a search field and app categories instead of your usual page of icons.
+3. Explore by touch or by swiping. Use the search field the same way you would any other text field.
+
+If you keep apps only in the App Library and not on a Home Screen page, Search is often faster than browsing categories. This book does not invent additional App Library-only VoiceOver gestures beyond ordinary exploration, scrolling, and search.
+
+
+REARRANGE APPS BY DRAGGING
+1. Tap the icon you want to move.
+2. Double-tap and hold your finger on the screen until you hear three rising tones.
+3. Drag. VoiceOver describes the item's relative location as you move.
+4. Lift your finger when the icon is in its new location.
+5. Drag an icon to the edge of the screen to move it to another Home Screen page.
+
+
+REARRANGE APPS WITH MOVE ACTIONS
+1. Tap an app.
+2. Swipe down to hear available actions. If swipes are not listing actions, set the rotor to Actions first.
+3. When you hear "Edit Mode," double-tap to start arranging apps.
+4. Find the app you want to move, swipe down to the Move action, and double-tap.
+5. Move the VoiceOver cursor to the new destination.
+6. Choose from the available actions Apple lists: Cancel Move, Create New Folder, Add to Folder, Move Before, or Move After.
+7. When you are finished, select Done, then double-tap.
+
+This method is often easier than dragging if you want precise placement, such as "Move Before Messages."
+
+
+PRACTICE EXERCISE
+1. Swipe through one Home Screen page, then three-finger swipe to another page.
+2. Open Search from the Home Screen with a three-finger swipe down, and search for Settings.
+3. Move one app using Edit Mode and the Move action, then move it back or leave it if you prefer the new place.
+4. Scroll until you reach the App Library and explore its search field.
+
+
+QUICK REFERENCE SUMMARY
+- Swipe or explore by touch on the Home Screen. Three-finger swipe between pages.
+- Containers on the rotor can jump between areas such as the Dock and the Home Screen.
+- Search: tap the Home Screen outside the status bar, then swipe down with three fingers.
+- The App Library is reached by moving past the last Home Screen page. Use search there if categories are slow.
+- Drag: double-tap and hold until three rising tones, then drag. VoiceOver describes the location.
+- Or use Actions: Edit Mode, then Move, then Move Before, Move After, or folder actions. Select Done when finished.
+
+
+SOURCES
+Operate iPhone when VoiceOver is on, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/operate-iphone-when-voiceover-is-on-iph3e2e2329/ios
+
+About the VoiceOver rotor on iPhone or iPad, Apple Support:
+https://support.apple.com/en-us/111796
+
+Use VoiceOver gestures on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/use-voiceover-gestures-iph3e2e2281/ios

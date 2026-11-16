@@ -1,0 +1,92 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 1. iPhone (iOS)
+Chapter 1.6. Gestures That Control VoiceOver
+============================================================
+
+OVERVIEW
+Some gestures do not open apps. They control VoiceOver itself. These are the ones to learn before you ever think speech has "died" or the screen has "gone black."
+
+This chapter covers mute, Screen Curtain, passthrough gestures for standard (non-VoiceOver) gestures, Quick Settings, and the Live Recognition shortcut. It also reminds you what changes if Zoom is on at the same time as VoiceOver.
+
+
+WHAT YOU'LL LEARN
+- How to mute and unmute VoiceOver speech.
+- What Screen Curtain is, and how to turn it on or off.
+- How those two gestures change when Zoom is also on.
+- How to perform a standard iPhone gesture while VoiceOver is on.
+- How to open Quick Settings.
+- How to start or stop Live Recognition.
+
+
+MUTE OR UNMUTE SPEECH
+Three-finger double tap mutes or unmutes VoiceOver.
+
+Muted speech is not the same as VoiceOver being off. VoiceOver is still on. Gestures still work. Sound effects may still play. You just will not hear spoken output until you unmute, or until you use a braille display.
+
+If both VoiceOver and Zoom are turned on, Apple says to use a three-finger triple tap to mute or unmute, instead of a three-finger double tap.
+
+
+TURN SCREEN CURTAIN ON OR OFF
+Screen Curtain turns the display off while iPhone stays active. VoiceOver keeps working. The screen looks black, as if the phone were off, which is useful for privacy and can help battery life. Apple's iPhone User Guide describes it as a way to keep the screen off when you do not need to see it, and a separate Apple Support article notes that you might use it when checking something private in a public place.
+
+To turn Screen Curtain on or off, use a three-finger triple tap. If both VoiceOver and Zoom are on, use a three-finger quadruple tap.
+
+If a sighted person thinks your iPhone is powered off, but you can still hear VoiceOver or feel haptic responses, check Screen Curtain first.
+
+You can still capture screenshots while Screen Curtain is enabled, according to Apple's Screen Curtain support article. If you share a screenshot, remember that the screen contents were still active.
+
+
+PERFORM A STANDARD GESTURE (PASSTHROUGH)
+Sometimes you need a gesture the way it works when VoiceOver is off, such as dragging a control with one finger.
+
+1. Select the item if the gesture applies to an item, such as a slider.
+2. Double-tap and hold your finger on the screen until you hear three rising tones.
+3. Make the standard gesture.
+4. When you lift your finger, VoiceOver gestures resume.
+
+Apple's example: to drag a volume slider with your finger instead of swiping up and down, select the slider, double-tap and hold, wait for the three tones, then slide left or right.
+
+
+OPEN QUICK SETTINGS
+A two-finger quadruple tap opens VoiceOver Quick Settings. This is a short list of VoiceOver options you can change from anywhere, without digging through Settings.
+
+You can choose which items appear, and in what order, in Settings > Accessibility > VoiceOver > Quick Settings. Chapter 1.17 returns to that customization.
+
+
+START OR STOP LIVE RECOGNITION
+A four-finger triple tap starts or stops Live Recognition, which can describe scenes from the camera and, depending on your settings and model, other visual information around you. Chapter 1.21 covers Live Recognition in full, including Apple's warning not to rely on it for safety, navigation, or medical use.
+
+If a four-finger triple tap does nothing, you may have started and immediately stopped it, or your fingers may have been too close together. Try it again in VoiceOver Practice first, then on the Home Screen.
+
+
+PRACTICE EXERCISE
+Use VoiceOver Practice for mute and Screen Curtain if you want a completely safe rehearsal, then try them on the Home Screen so you know the real result.
+
+1. Do a three-finger double tap to mute speech, then again to unmute. (Use a three-finger triple tap if Zoom is also on.)
+2. Do a three-finger triple tap to turn Screen Curtain on. Confirm that VoiceOver still speaks when you touch the screen. Turn Screen Curtain off with the same gesture. (Use a three-finger quadruple tap if Zoom is also on.)
+3. Open Quick Settings with a two-finger quadruple tap, look around, then scrub to dismiss if needed.
+
+
+QUICK REFERENCE SUMMARY
+- Three-finger double tap: mute or unmute speech. If Zoom is also on, use a three-finger triple tap.
+- Three-finger triple tap: Screen Curtain on or off. If Zoom is also on, use a three-finger quadruple tap.
+- Screen Curtain turns the display off. iPhone and VoiceOver stay active.
+- Double-tap and hold until three rising tones, then perform a standard gesture.
+- Two-finger quadruple tap: Quick Settings.
+- Four-finger triple tap: start or stop Live Recognition.
+
+
+SOURCES
+Use VoiceOver gestures on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/use-voiceover-gestures-iph3e2e2281/ios
+
+Keep the screen off when you use VoiceOver on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/keep-the-screen-off-iph756788a12/ios
+
+Use Screen Curtain with VoiceOver for your Mac, iPhone, iPad, iPod touch, and Apple Watch, Apple Support:
+https://support.apple.com/en-us/111797
+
+Change your VoiceOver settings on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/change-your-voiceover-settings-iphfa3d32c50/ios

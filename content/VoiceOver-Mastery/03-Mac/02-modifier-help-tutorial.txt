@@ -1,0 +1,97 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 3. Mac (macOS)
+Chapter 3.2. The VoiceOver Modifier, Keyboard Help, and Tutorial
+============================================================
+
+OVERVIEW
+On Mac, almost every VoiceOver skill depends on the modifier, on function-key behavior, and on a safe way to practice. This chapter covers those foundations, plus the official help commands.
+
+
+WHAT YOU'LL LEARN
+- How VO works, and how to lock it.
+- Why many commands include the Fn key.
+- How to use Keyboard Help and the VoiceOver Help menu.
+- How to start the VoiceOver Tutorial and open the official User Guide.
+
+
+THE VOICEOVER MODIFIER
+By default, you can press Control and Option together, or just press Caps Lock, as the VoiceOver modifier. Apple also documents a command to lock and unlock the modifier: VO-Semicolon. When the modifier is locked, you can enter VO commands without holding VO down each time. Unlock it with the same command when you are done, so ordinary typing is not affected, especially if you use Caps Lock as VO.
+
+If you type in all caps accidentally after practicing, check whether Caps Lock is on, and check whether the VO modifier is locked.
+
+
+FUNCTION KEYS
+Apple's general commands page includes this important note: by default, when you use a function key (F1 through F12) in a VoiceOver command, you must also press the Fn key. Depending on your Mac, you can change that behavior so you do not have to press Fn.
+
+You can also enter VoiceOver commands that use a function key by using Fn and a number key instead of Fn and a function key. Apple's example: to open VoiceOver Utility, you can press VO-Fn-8 instead of VO-Fn-F8.
+
+If a command in this book includes F7, F8, or another function key and nothing happens, try it with Fn, or try the number-key variant.
+
+
+KEYBOARD HELP
+Keyboard Help lets you press a key and hear its name, or press a VoiceOver combination and hear what it does, without typing text or performing the command.
+
+- Press VO-K to start or stop Keyboard Help.
+
+This is the Mac version of VoiceOver Practice. Use it whenever this book introduces a new command.
+
+
+HELP, TUTORIAL, AND THE USER GUIDE
+Apple documents these official help commands:
+
+- VO-H: open the VoiceOver Help menu.
+- VO-H-H: open the Commands menu.
+- VO-Shift-F: open the Find Commands menu, according to the general commands list.
+- VO-Fn-Command-F8: open the VoiceOver Tutorial.
+- VO-Question Mark: open the VoiceOver User Guide.
+- VO-Shift-H: read the help tag for the current item. Apple's general commands page also mentions descriptions of maps in Apple Maps in connection with this command.
+- VO-Shift-N: read the VoiceOver hint for the current item.
+
+The tutorial is worth doing once, even if you already use VoiceOver on iPhone. Mac interaction with groups, the rotor, and window choosers is easier after the official lesson.
+
+
+OTHER USEFUL GENERAL COMMANDS
+From Apple's general commands list, these are worth knowing early:
+
+- VO-Fn-F8: open VoiceOver Utility.
+- VO-N: open the Notifications menu.
+- VO-Fn-F7: read the current date and time.
+- VO-Fn-F7-F7: read the battery status of your Mac.
+- VO-Fn-F7-F7-F7: read the network status of your Mac.
+- Escape or Fn-Tab: close a menu or rotor, stop an action, or exit a mode.
+- VO-Tab: tell VoiceOver to ignore the next key or key combination you press.
+- VO-S: mute or unmute VoiceOver, listed on related pages. For a complete mute of the VoiceOver voice or of sound effects without turning VoiceOver off, Apple also documents VoiceOver Utility > Speech or Sound settings.
+- VO-Shift-Fn-F11: turn the screen curtain on or off.
+
+Temporarily pause speech by pressing Control, then press Control again to resume, as described in Apple's turn-VoiceOver-on-or-off page.
+
+
+PRACTICE EXERCISE
+1. Press VO-K to start Keyboard Help.
+2. Press VO-Right Arrow, VO-Space bar, VO-H, and VO-Fn-F8, listening to the descriptions. None of these should perform while Help is on.
+3. Press VO-K again to exit Help.
+4. Press VO-Fn-Command-F8 if you want the official tutorial now, or continue with Chapter 3.3 and do the tutorial later.
+5. Try Control to pause speech, then Control to resume.
+
+
+QUICK REFERENCE SUMMARY
+- VO is Caps Lock or Control-Option. VO-Semicolon locks or unlocks the modifier.
+- Function-key commands often need the Fn key. VO-Fn-8 can replace VO-Fn-F8.
+- VO-K is Keyboard Help. Use it before practicing a new command for real.
+- VO-H opens the Help menu. VO-H-H opens the Commands menu.
+- VO-Fn-Command-F8 starts the tutorial. VO-Question Mark opens the User Guide.
+- VO-Fn-F8 opens VoiceOver Utility. VO-Shift-Fn-F11 toggles the screen curtain.
+- Control pauses and resumes speech. Escape closes a menu or rotor.
+
+
+SOURCES
+Get started with VoiceOver on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/get-started-with-voiceover-vo4be8816d70/mac
+
+VoiceOver general commands on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/general-commands-cpvokys01/mac
+
+Turn VoiceOver on or off on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/turn-voiceover-on-or-off-vo2682/mac

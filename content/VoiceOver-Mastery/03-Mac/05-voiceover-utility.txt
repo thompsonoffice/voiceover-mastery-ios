@@ -1,0 +1,81 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 3. Mac (macOS)
+Chapter 3.5. VoiceOver Utility
+============================================================
+
+OVERVIEW
+VoiceOver Utility is the app you use to customize VoiceOver on Mac. It is the counterpart to Settings > Accessibility > VoiceOver on iPhone, but it is larger and is arranged in categories.
+
+You can change the voice, connect braille devices, set navigation options, and much more. This chapter teaches you how to open VoiceOver Utility and how to search it. It does not try to document every pane. Apple includes a Help button in the lower-right corner of any pane for those details.
+
+
+WHAT YOU'LL LEARN
+- How to open VoiceOver Utility in more than one way.
+- How to search for a setting.
+- A few official customization examples, including muting speech or sound effects.
+- How to use the Help button in a pane.
+
+
+OPEN VOICEOVER UTILITY
+Do one of the following:
+
+- When VoiceOver is on, press VO-Fn-F8. Remember that VO-Fn-8 may also work.
+- Choose Apple menu > System Settings, click Accessibility in the sidebar, click VoiceOver, then click Open VoiceOver Utility.
+
+
+SEARCH FOR AN OPTION
+Apple documents this method:
+
+1. Interact with the toolbar in the VoiceOver Utility window (use VO-Shift-Down Arrow if needed).
+2. Type what you are looking for in the search field.
+3. Navigate the list of search results with Down Arrow or Up Arrow.
+4. For each result, VoiceOver Utility shows the pane where the option is located.
+
+This is the fastest way to find something like "verbosity," "trackpad," or "braille" without memorizing the category list.
+
+
+EXAMPLES OF WHAT YOU CAN CHANGE
+Apple's getting-started and settings pages mention that you can change the VoiceOver voice, connect braille devices, and set navigation options in VoiceOver Utility.
+
+To turn off VoiceOver speech or sound effects without turning VoiceOver off, and without affecting other apps' audio, Apple documents:
+
+1. Open VoiceOver Utility.
+2. To mute the VoiceOver voice, click the Speech category, click Voices, then select "Mute speech."
+3. To turn off VoiceOver sound effects, click the Sound category, then select "Mute sound effects."
+
+You can also control whether the welcome dialog appears, in the General category (Chapter 3.1).
+
+For trackpad use, Command settings in VoiceOver Utility include options such as disabling the trackpad while VoiceOver is on, and "Scroll gesture moves content instead of scroll bar." Those are mentioned in Apple's trackpad pages. Change them only if you understand the result.
+
+
+USE THE HELP BUTTON
+In any pane of VoiceOver Utility, move to the Help button in the lower-right corner and activate it to learn about the options in that pane. That official help is more complete than any third-party summary, including this chapter.
+
+
+PRACTICE EXERCISE
+1. Press VO-Fn-F8 to open VoiceOver Utility.
+2. Search for "voice" or "verbosity" and open one result.
+3. Find the Help button in that pane and open it, then close it when you are done.
+4. Look at the General category so you know where the welcome-dialog checkbox lives.
+5. Close VoiceOver Utility when you finish. Do not change a dozen settings on the first visit.
+
+
+QUICK REFERENCE SUMMARY
+- VoiceOver Utility is the main customization app for Mac VoiceOver.
+- Open it with VO-Fn-F8, or from System Settings > Accessibility > VoiceOver.
+- Search the Utility toolbar to find settings by name.
+- Speech and Sound categories can mute VoiceOver speech or sound effects without turning VoiceOver off.
+- Use the Help button in the lower-right of a pane for official option-by-option help.
+
+
+SOURCES
+Customize VoiceOver with VoiceOver Utility on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/use-voiceover-utility-vo28017/mac
+
+Get started with VoiceOver on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/get-started-with-voiceover-vo4be8816d70/mac
+
+Turn VoiceOver on or off on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/turn-voiceover-on-or-off-vo2682/mac

@@ -1,0 +1,141 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 1. iPhone (iOS)
+Chapter 1.25. Troubleshooting Common VoiceOver Problems on iPhone
+============================================================
+
+OVERVIEW
+Most "VoiceOver is broken" moments are not a broken iPhone. Speech may be muted. Screen Curtain may be on. Zoom may have changed a gesture. The speaking rate may be extremely fast or slow. This chapter is a checklist, starting with the fastest checks.
+
+If you cannot use the screen at all, use the Accessibility Shortcut, Siri, or a restart. Set the shortcut up before you need it (Chapter 1.1).
+
+
+WHAT YOU'LL LEARN
+- What to try when speech stops, the screen seems dead, or gestures do nothing.
+- How Zoom changes mute and Screen Curtain gestures.
+- How to recover if VoiceOver is on and you did not want it, or off and you cannot see the screen.
+- When to reset VoiceOver commands or settings.
+- How to restart iPhone.
+
+
+SPEECH STOPPED
+Work through these in order:
+
+1. Try a three-finger double tap to unmute VoiceOver. If Zoom is also on, use a three-finger triple tap instead.
+2. Press the volume buttons to raise iPhone volume. VoiceOver uses that volume.
+3. Check whether you are wearing headphones, hearing aids, or another Bluetooth audio device that is connected but not being heard. Disconnect or change the audio output if needed.
+4. Do a two-finger tap. If VoiceOver was paused, this continues speaking.
+5. Turn the rotor to Volume or Speaking Rate and swipe up. You may have set the rate or volume extremely low.
+6. If a braille display is connected, Sound Curtain may have muted most sounds. Emergency alerts should still play. Check Braille settings, or turn the display off to test.
+7. Ask Siri, "Turn VoiceOver off," then "Turn on VoiceOver," if you can use Siri.
+
+
+THE SCREEN SEEMS BLACK OR THE PHONE SEEMS OFF
+If iPhone still makes VoiceOver sounds, plays haptics, or responds to gestures, Screen Curtain is the first suspect.
+
+1. Use a three-finger triple tap to toggle Screen Curtain. If Zoom is also on, use a three-finger quadruple tap.
+2. If you use a Bluetooth keyboard, Apple documents Control-Option-Shift-S (that is, VO-Shift-S on some keyboards) in its Screen Curtain article for iPhone, iPad, and iPod touch. The iPhone User Guide's keyboard table also lists VO-Fn-Hyphen or VO-Globe-Hyphen. Try the command that matches your keyboard, or use the touch gesture above.
+
+Remember: when Screen Curtain is on, iPhone is active and VoiceOver still works, even though the display is off.
+
+
+GESTURES DO NOTHING OR DO THE WRONG THING
+1. Try a quicker double tap or swipe, with space between fingers for multifinger gestures. Practice in VoiceOver Practice if you can open it.
+2. Make sure you are not in the middle of a passthrough gesture (double-tap and hold until three tones). Lift your fingers and try again.
+3. If Zoom is on, remember that mute and Screen Curtain need extra taps, and some gestures may conflict. Try turning Zoom off with the Accessibility Shortcut if Zoom is on that shortcut.
+4. If you customized commands, a default gesture may have been reassigned. Go to Settings > Accessibility > VoiceOver > Commands > Touch Gestures, or use Reset VoiceOver Commands.
+5. If navigation skips items, check Navigation Style (Flat versus Grouped) and whether you need to move into a group with a two-finger swipe right.
+6. If you are in Braille Screen Input, handwriting, or another input mode, exit it (two-finger scrub is the usual escape) and try again.
+
+
+VOICEOVER IS ON AND YOU WANT IT OFF
+Use any of these:
+
+- Triple-click the side button or Home button if the Accessibility Shortcut includes VoiceOver.
+- Ask Siri to turn VoiceOver off.
+- Use Control Center if VoiceOver is there.
+- Go to Settings > Accessibility > VoiceOver and double-tap the VoiceOver switch. If you are new to the gestures, remember: swipe to the switch, then double-tap.
+
+If someone turned VoiceOver on by accident and you can see the screen, the same methods work. The double tap instead of a single tap is the usual surprise.
+
+
+VOICEOVER IS OFF AND YOU NEED IT ON
+- Triple-click the side button or Home button if the shortcut is set.
+- Ask Siri to turn VoiceOver on.
+- Use Control Center if VoiceOver is there.
+- Go to Settings > Accessibility > VoiceOver and turn it on with a standard tap, because VoiceOver is off.
+- During device setup, Apple documents using the Accessibility Shortcut as well. On iPad, a triple-click of the top button or Home button during setup turns VoiceOver on. iPhone setup follows the same idea. If you are already past setup, use the methods above.
+
+
+SPEECH IS THE WRONG LANGUAGE OR VOICE
+1. Check Settings > General > Language & Region.
+2. Check Settings > Accessibility > VoiceOver > Speech, including Detect Languages and rotor voices.
+3. Make sure the rotor is not sitting on a second language voice by accident.
+
+
+RESET SETTINGS OR COMMANDS
+If behavior is still wrong after the checks above:
+
+1. Reset VoiceOver Commands in Settings > Accessibility > VoiceOver > Commands, if gestures feel remapped.
+2. Reset VoiceOver Settings in Settings > Accessibility > VoiceOver (you may need to scroll down), if a setting change is the likely cause. You will have to restore voice, rate, and rotor preferences afterward.
+
+
+RESTART IPHONE
+A restart clears many temporary glitches. Apple's standard method for current iPhones with Face ID is:
+
+1. Press and quickly release the volume up button.
+2. Press and quickly release the volume down button.
+3. Press and hold the side button.
+4. When the power or restart slider appears, slide to power off, or keep holding until iPhone restarts, depending on the official steps shown on your model.
+5. If the device powers off, press and hold the side button to turn it back on.
+
+On iPhone SE, Apple's usual method is to hold the side button and a volume button, then use the power slider, or follow the iPhone SE restart article for your generation.
+
+If VoiceOver is on, use volume and side buttons, which do not require seeing the screen. If a slider appears, use a standard VoiceOver drag: select the slider, double-tap and hold until three rising tones, then drag, or use the Actions available on the slider.
+
+If iPhone is frozen and does not respond, Apple documents a force restart: press volume up quickly, volume down quickly, then hold the side button until the Apple logo appears (Face ID models). Do not invent other button combinations.
+
+
+GET MORE HELP
+If none of this works, contact Apple Support, visit an Apple Store, or ask a trusted person to help you check Settings while you keep control of the device. This book is not a repair manual.
+
+Wisconsin readers and others in the United States can also use vocational rehabilitation or a local blindness organization for VoiceOver training, which is often more helpful than troubleshooting hardware alone.
+
+
+PRACTICE EXERCISE
+Do this while VoiceOver is working, so the recovery gestures are in muscle memory.
+
+1. Mute speech with a three-finger double tap, then unmute it.
+2. Turn Screen Curtain on, confirm that speech still works, then turn Screen Curtain off. Use the Zoom-adjusted versions if Zoom is on.
+3. Confirm that your Accessibility Shortcut toggles VoiceOver, then turn VoiceOver back on.
+4. Find Reset VoiceOver Commands and Reset VoiceOver Settings, but do not use them unless you need to.
+
+
+QUICK REFERENCE SUMMARY
+- Speech stopped: three-finger double tap (triple tap if Zoom is on), then volume, headphones, two-finger tap, rate/volume rotor, braille Sound Curtain, Siri.
+- Black screen but VoiceOver still works: three-finger triple tap for Screen Curtain (quadruple tap if Zoom is on).
+- Gestures wrong: speed and finger spacing, exit input modes, check Zoom, check custom commands, check Flat/Grouped navigation.
+- Use the Accessibility Shortcut and Siri to turn VoiceOver on or off when you are stuck.
+- Reset commands or reset VoiceOver settings only after the quick checks fail.
+- Restart with the hardware buttons if iPhone is still unresponsive.
+
+
+SOURCES
+Use VoiceOver gestures on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/use-voiceover-gestures-iph3e2e2281/ios
+
+Keep the screen off when you use VoiceOver on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/keep-the-screen-off-iph756788a12/ios
+
+Use Screen Curtain with VoiceOver, Apple Support:
+https://support.apple.com/en-us/111797
+
+Turn on and practice VoiceOver on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/turn-on-and-practice-voiceover-iph3e2e415f/ios
+
+Quickly turn accessibility features on or off on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/quickly-turn-accessibility-features-on-or-off-iph3e2e31a5/ios
+
+Change your VoiceOver settings on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/change-your-voiceover-settings-iphfa3d32c50/ios

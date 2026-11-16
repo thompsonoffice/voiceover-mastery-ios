@@ -1,0 +1,74 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 3. Mac (macOS)
+Chapter 3.9. Troubleshooting VoiceOver on Mac
+============================================================
+
+OVERVIEW
+When Mac VoiceOver seems to fail, start with the same ideas as on iPhone: speech may be muted, the screen curtain may be on, or you may be stuck inside a group. Then use Mac-specific toggles: Command-F5, the Accessibility Shortcuts panel, and VoiceOver Utility.
+
+
+WHAT YOU'LL LEARN
+- A short recovery checklist.
+- How to unmute speech or turn the screen curtain off.
+- What to do if you are stuck in a group or in a rotor.
+- How to get VoiceOver back on, or safely off.
+
+
+SPEECH STOPPED OR YOU HEAR NOTHING
+1. Press Control to make sure speech is not only paused. Press Control again to resume.
+2. If you use trackpad gestures, try a three-finger double-tap to unmute. The keyboard equivalent from Apple's general list includes VoiceOver mute in related command sets; VO-S is documented as mute on iPhone and Apple TV keyboards, and is commonly used on Mac as well. Confirm with Keyboard Help if needed, or open VoiceOver Utility > Speech > Voices and see whether "Mute speech" is selected.
+3. Check the Mac volume, and check whether sound is going to headphones or another output.
+4. In VoiceOver Utility, check the Sound category for "Mute sound effects" if you still need the voice but are missing clicks and earcons.
+5. If a braille display is connected, speech may have been minimized on purpose. Check the Braille category and try disconnecting the display as a test.
+
+
+THE SCREEN SEEMS BLANK
+1. Turn the screen curtain off with VO-Shift-Fn-F11. Include the Fn key if function keys are media keys.
+2. If trackpad gestures are on, a three-finger triple-tap also toggles the screen curtain.
+3. If the VoiceOver cursor and caption or braille panels were hidden, Apple documents VO-Fn-Command-F11 to hide or show the VoiceOver cursor and the caption or braille panels, and other F9, F10, and F11 combinations for those panels. Try VO-Shift-Fn-F11 first, because screen curtain is the usual "blank screen" cause.
+
+
+STUCK OR GESTURES AND KEYS DO NOTHING
+1. Press Escape, or Fn-Tab, to close a menu, rotor, or mode.
+2. Press VO-Shift-Up Arrow one or more times to exit a group.
+3. If the VO modifier is locked (VO-Semicolon), unlock it, especially if Caps Lock is your modifier and typing is behaving oddly.
+4. If trackpad gestures are on and the trackpad seems "dead" as a mouse, that is expected unless you use a modifier-click. Turn trackpad VoiceOver control off with VO plus a two-finger rotate counterclockwise if you need the ordinary trackpad back.
+5. If commands do nothing, try adding the Fn key, or use the number-key form of function-key commands.
+6. Open the Commands menu (VO-H-H) and confirm that a command still has the shortcut you expect.
+
+
+TURN VOICEOVER OFF OR ON WHEN YOU ARE STUCK
+- Command-F5, or Command plus three presses of Touch ID.
+- Option-Command-F5, or three presses of Touch ID, then Tab to VoiceOver and press the Space bar.
+- Ask Siri to turn VoiceOver on or off.
+- If you can use System Settings, go to Accessibility > VoiceOver.
+
+If someone turned VoiceOver on by accident, Command-F5 is the fastest off switch to tell them about, along with the welcome dialog's Escape key if that dialog is still up.
+
+
+PRACTICE EXERCISE
+1. Pause speech with Control, then resume it.
+2. Turn the screen curtain on with VO-Shift-Fn-F11, confirm that VoiceOver still speaks, then turn it off.
+3. Interact with a group, then practice exiting with VO-Shift-Up Arrow and with Escape.
+4. Confirm that Command-F5 still toggles VoiceOver, then turn it back on.
+
+
+QUICK REFERENCE SUMMARY
+- Control pauses speech. Check mute, volume, output device, and VoiceOver Utility Speech and Sound settings.
+- VO-Shift-Fn-F11 toggles the screen curtain. A three-finger triple-tap does the same if trackpad gestures are on.
+- Escape or Fn-Tab exits modes. VO-Shift-Up Arrow exits a group.
+- Unlock the VO modifier with VO-Semicolon if typing is strange.
+- Command-F5 or the Accessibility Shortcuts panel (Option-Command-F5) is the main on/off recovery.
+
+
+SOURCES
+Turn VoiceOver on or off on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/turn-voiceover-on-or-off-vo2682/mac
+
+VoiceOver general commands on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/general-commands-cpvokys01/mac
+
+Standard trackpad gestures for VoiceOver on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/standard-trackpad-gestures-vo27992/mac

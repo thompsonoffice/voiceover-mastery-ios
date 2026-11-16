@@ -1,0 +1,136 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 1. iPhone (iOS)
+Chapter 1.23. Bluetooth Keyboards and Keyboard Commands
+============================================================
+
+OVERVIEW
+If you use a Magic Keyboard or another supported external keyboard with iPhone, you can control VoiceOver with keyboard shortcuts. This is often faster than touch for writing, for web browsing, and for people who already know Mac VoiceOver.
+
+Apple's official command list is written for an Apple external keyboard. Other Bluetooth keyboards usually work, but key labels such as Globe, Fn, or Option can differ. This chapter lists only commands that appeared clearly in Apple's iPhone User Guide. Where the official page was incomplete or cut off, this book does not guess.
+
+
+WHAT YOU'LL LEARN
+- How to choose the VoiceOver modifier, written as VO.
+- How to use Keyboard Help.
+- Core VoiceOver keyboard commands this book could confirm.
+- How Quick Nav and single-key Quick Nav work on the web.
+
+
+CHOOSE THE VOICEOVER MODIFIER
+The modifier is the key or keys you press with one or more other keys to enter VoiceOver commands. You can set it to Caps Lock, or to Control and Option pressed together.
+
+1. Go to Settings > Accessibility > VoiceOver > Typing > Modifier Keys.
+2. Choose Caps Lock, or Control and Option.
+
+This book writes the modifier as VO. "VO-Space bar" means hold your chosen modifier and press the Space bar.
+
+
+KEYBOARD HELP
+VoiceOver Help, also called Keyboard Help, speaks keys and keyboard commands as you type them, without performing the action.
+
+- VO-K turns VoiceOver Help on.
+- Escape turns VoiceOver Help off.
+
+Use this when you are learning a new shortcut.
+
+
+CORE COMMANDS
+Apple documents these VoiceOver keyboard commands (VO is the modifier):
+
+- VO-K: turn on VoiceOver Help.
+- Escape: turn off VoiceOver Help.
+- VO-Right Arrow or VO-Left Arrow: select the next or previous item.
+- VO-Space bar: activate the selected item.
+- VO-Shift-M: touch and hold the selected item.
+- VO-A: read from the current position.
+- VO-B: read from the top.
+- Control: pause or resume reading.
+- VO-Shift-C: copy the last spoken text to the clipboard.
+- VO-F: search for text.
+- VO-S: mute or unmute VoiceOver.
+- VO-H: go to the Home Screen.
+- VO-M: move to the status bar.
+- From the status bar, Option-Up Arrow: open the notifications screen.
+- From the status bar, Option-Down Arrow: open Control Center.
+- Option-Up Arrow: open Search. (This is also how Apple lists Search as a command of its own.)
+- VO-H-H: open the App Switcher.
+- VO-I: open the Item Chooser.
+- VO-Slash: change the label of the selected item.
+- VO-Hyphen: start, stop, or pause an action (Magic Tap's keyboard equivalent).
+- VO-Up Arrow or VO-Down Arrow: swipe up or down (use with the rotor).
+- VO-Command-Left Arrow or VO-Command-Right Arrow: turn the rotor left or right.
+- VO-Command-Up Arrow or VO-Command-Down Arrow: adjust the setting specified by the rotor.
+- VO-Fn-Hyphen, or VO-Globe-Hyphen, depending on your keyboard: turn Screen Curtain on or off.
+
+Apple's iPhone keyboard page also has a "Return to the previous screen" row. The shortcut itself was not clearly shown in the version retrieved for this book, so it is omitted here rather than guessed. Escape is used for that purpose on some other Apple platforms, but you should confirm the iPhone behavior in VoiceOver Help or in Apple's current table.
+
+
+QUICK NAV WITH ARROW KEYS
+Quick Nav lets you control VoiceOver with the arrow keys.
+
+- Left Arrow-Right Arrow, pressed together, turns Quick Nav on or off.
+- Right Arrow or Left Arrow: select the next or previous item.
+- Up Arrow or Down Arrow: select the next or previous item specified by the rotor.
+- Control-Up Arrow or Control-Down Arrow: select the first or last item.
+- Up Arrow-Down Arrow, pressed together: tap (activate) an item.
+- Option-Up Arrow, Option-Down Arrow, Option-Left Arrow, or Option-Right Arrow: scroll up, down, left, or right.
+
+Apple's table also includes an "Adjust the rotor" Quick Nav row whose exact key combination was not clearly retrieved. Use VO-Command-Arrow keys from the main command list, or check the official table on your device.
+
+
+SINGLE-KEY QUICK NAV FOR WEB BROWSING
+To navigate a webpage quickly, Apple says to turn on Quick Nav (VO-Q), then press keys to move to specific item types. Hold Shift with a key to move to the previous item of that type.
+
+Commands this book could confirm:
+
+- H: Heading
+- L: Link
+- R: Text field
+- B: Button
+- C: Form control
+- T: Table
+- S: Static text
+- W: ARIA landmark
+- M: Item of the same type
+- 1 through 6: Level 1 heading through level 6 heading
+
+Apple's table also contained additional letters whose labels were not clearly retrieved. This book does not invent those letters. If you need the complete current list, open Apple's "Use VoiceOver on iPhone with an Apple external keyboard" page, or press keys in Keyboard Help on a webpage with Quick Nav on.
+
+
+TEXT EDITING ON A KEYBOARD
+Apple lists text commands that work with Quick Nav turned off. VoiceOver reads text as you move the insertion point. Clearly retrieved commands include:
+
+- Right Arrow or Left Arrow: go forward or back one character.
+- Up Arrow or Down Arrow: go up or down one line.
+- Command-Left Arrow or Command-Right Arrow: go to the beginning or end of the line.
+- Shift plus any of the insertion point movement commands: select text as you move.
+
+Some mid-row commands, such as moving by word, were not fully retrieved from the official table and are therefore omitted here. Option-Left Arrow and Option-Right Arrow are the usual Mac and iPadOS pattern for moving by word, but confirm with VoiceOver Help on iPhone before you rely on an unlisted shortcut.
+
+
+PRACTICE EXERCISE
+1. Pair or attach your keyboard, then set Modifier Keys if you have a preference.
+2. Press VO-K and press a few command combinations. Hear what they do, then press Escape.
+3. Use VO-Right Arrow and VO-Space bar to move and activate on the Home Screen.
+4. Press VO-H for Home, VO-S to mute and unmute, and VO-I for the Item Chooser.
+5. In Safari, turn on Quick Nav with VO-Q if needed, and use H and L to move by heading and link.
+
+
+QUICK REFERENCE SUMMARY
+- VO is Caps Lock, or Control-Option. Set it in VoiceOver > Typing > Modifier Keys.
+- VO-K is Keyboard Help. Escape exits it.
+- VO-arrows move. VO-Space bar activates. VO-H is Home. VO-S mutes. VO-I is the Item Chooser.
+- VO-Command-arrows turn and adjust the rotor.
+- Left Arrow-Right Arrow toggles arrow-key Quick Nav.
+- VO-Q turns on single-key Quick Nav for web items such as H and L.
+- This chapter lists only shortcuts clearly documented and clearly retrieved from Apple. Check Apple's table or Keyboard Help for anything missing.
+
+
+SOURCES
+Use VoiceOver on iPhone with an Apple external keyboard, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/use-voiceover-with-an-external-keyboard-iph6c494dc6/ios
+
+Customize VoiceOver gestures and keyboard shortcuts on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/customize-gestures-and-keyboard-shortcuts-iph59a8e6fd2/ios

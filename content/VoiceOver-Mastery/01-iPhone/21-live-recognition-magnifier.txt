@@ -1,0 +1,96 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 1. iPhone (iOS)
+Chapter 1.21. Live Recognition, Magnifier, and Detection Mode
+============================================================
+
+OVERVIEW
+VoiceOver Recognition can describe what is on the screen and, with Live Recognition, what the rear camera sees around you. The Magnifier app also offers Detection Mode for live descriptions of visual information. These tools can be genuinely useful. They can also be wrong.
+
+Apple's warning is important enough to repeat in Apple's own sense, if not Apple's exact legal wording: VoiceOver Recognition should not be relied upon in circumstances where you could be harmed or injured, in high-risk situations, for navigation, or for the diagnosis or treatment of any medical condition.
+
+Use these features as helpful extra information, not as a sole source of truth about traffic, medication, or unfamiliar surroundings.
+
+
+WHAT YOU'LL LEARN
+- How to start and stop Live Recognition.
+- What you can ask it to describe, and which detections need supported iPhone models.
+- Where to customize Live Recognition settings, including a shortcut and the Action button.
+- How Magnifier's Detection Mode fits alongside Live Recognition.
+- The limits you should treat as hard limits.
+
+
+START AND STOP LIVE RECOGNITION
+With VoiceOver on, triple-tap the screen with four fingers to start Live Recognition. Use the same four-finger triple tap to turn it off.
+
+If the VoiceOver cursor is focused on an interface element for Live Recognition, you can also do a two-finger scrub to turn it off.
+
+Apple says you can set up a shortcut to start and stop Live Recognition quickly, and that you can customize the Action button on supported models so you can quickly access VoiceOver, the Magnifier app, or asking a question in Live Recognition. See Apple's "Set up shortcuts for Live Recognition" page for the shortcut details, because those steps can vary by model.
+
+
+USE LIVE RECOGNITION
+After you start Live Recognition:
+
+1. Position iPhone so the rear camera can detect what is around you. VoiceOver describes what the camera detects.
+2. To interrupt VoiceOver speech and move to the next detected item, tap the screen with two fingers.
+3. Double-tap when you hear Ask to turn asking questions on or off. Apple says the default question "What is this?" is asked automatically unless you customize Live Recognition settings.
+4. Choose the kinds of visual information you want described, such as scenes, people, doors, furniture, or text. Select a category, then double-tap to turn it on or off.
+5. If you turn on Point and Speak, you can point your finger at text and have VoiceOver read it aloud.
+6. Double-tap when you hear Document Capture to turn that on or off if you need information about a document.
+
+Apple notes that detection of people, doors, and furniture is available only on supported iPhone models. If you do not hear those categories, your model may not include them.
+
+
+CUSTOMIZE LIVE RECOGNITION SETTINGS
+1. Go to Settings > Accessibility > Live Recognition. Note that this path is under Accessibility, not nested only inside VoiceOver.
+2. Apple documents options such as:
+   - Default Question, which is "What is this?" by default. You can also enter your own default question.
+   - Speak or Type as the default way to ask.
+   - Use Volume Buttons to Recapture, if you want the volume buttons to take a picture.
+   - Live Recognition Rotor: choose what appears, such as People, Doors, Scenes, or Ask, and drag to reorder.
+   - Activities: create a custom activity with a name, choose which detection modes are on by default, and optionally turn on Speech, Braille, Sounds, and Haptics for different detection modes.
+
+Again, people, doors, and furniture detection depends on supported models.
+
+
+MAGNIFIER AND DETECTION MODE
+Apple's Live Recognition page also says you can use Detection Mode in the Magnifier app to detect and describe scenes, people, and more, and it points to the Magnifier topic "Get live descriptions of visual information around you with Magnifier."
+
+This book does not invent Magnifier button names or Detection Mode gestures beyond that official pointer. If you use Magnifier:
+
+1. Open the Magnifier app, or add Magnifier to Control Center or the Action button if you use it often.
+2. Explore the controls with VoiceOver and look for Detection Mode or similar live-description options.
+3. Follow the labels on your iOS 26 device, and Apple's Magnifier User Guide, for the exact steps.
+
+Magnifier remains useful even without Detection Mode, as a camera-based magnifier for people with some residual vision, and as another place to work with the camera when VoiceOver is on.
+
+
+PRACTICE EXERCISE
+Practice in a familiar, safe indoor space, not near a street or a stove.
+
+1. Start Live Recognition with a four-finger triple tap.
+2. Point the rear camera at a known object, such as a closed book on a table, and listen to the description.
+3. Turn a category on or off, then stop Live Recognition with another four-finger triple tap.
+4. Open Settings > Accessibility > Live Recognition and listen through the settings once.
+5. Optional: open Magnifier and find whether Detection Mode is available on your phone.
+
+
+QUICK REFERENCE SUMMARY
+- Four-finger triple tap starts or stops Live Recognition. A two-finger scrub can also stop it when focus is on a Live Recognition control.
+- Use the rear camera. A two-finger tap skips to the next detected item.
+- Ask, scenes, people, doors, furniture, text, Point and Speak, and Document Capture are official categories or tools. People, doors, and furniture need supported models.
+- Customize in Settings > Accessibility > Live Recognition.
+- You can also use Detection Mode in Magnifier. Confirm the controls on your device.
+- Do not rely on these features for safety, navigation, or medical decisions.
+
+
+SOURCES
+Hear what's on your screen and around you with VoiceOver on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/hear-whats-on-your-screen-and-around-you-iph37e6b3844/ios
+
+Use VoiceOver gestures on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/use-voiceover-gestures-iph3e2e2281/ios
+
+Magnify or get information about things around you with Magnifier on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/magnify-information-iphe867dc99c/ios

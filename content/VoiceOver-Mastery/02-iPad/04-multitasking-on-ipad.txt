@@ -1,0 +1,86 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 2. iPad (iPadOS)
+Chapter 2.4. Multitasking on iPad with VoiceOver
+============================================================
+
+OVERVIEW
+iPad can show more than one app at a time. In Settings > Multitasking & Gestures, Apple documents three ways apps can appear: Full Screen Apps, Windowed Apps, and Stage Manager.
+
+This is an area where this book is careful. Apple's VoiceOver "Operate iPad" page documents switching apps, the Dock, and the App Switcher. It does not, in the pages retrieved for this edition, give a complete VoiceOver gesture list for resizing windows, Split View, or Stage Manager. Other official Multitasking pages describe those layouts for general iPad use. This chapter tells you how to choose a mode, how to use the VoiceOver skills that are documented, and what not to invent.
+
+
+WHAT YOU'LL LEARN
+- How to choose Full Screen Apps, Windowed Apps, or Stage Manager.
+- How VoiceOver app switching and the Dock still apply.
+- What this book will not guess about window resizing and Split View.
+- How to explore a second app safely.
+
+
+CHOOSE HOW APPS APPEAR
+1. Go to the Settings app on your iPad.
+2. Select Multitasking & Gestures, then double-tap.
+3. Select one of the following, as Apple lists them:
+   - Full Screen Apps: each app fills the screen. To switch apps, go to the Home Screen or use the App Switcher.
+   - Windowed Apps: resize and arrange app windows to work in more than one app at a time.
+   - Stage Manager: group app windows for tasks or projects, with other open apps in a list on the left side of the screen.
+
+Related options Apple documents in that Settings screen include whether windows close when you swipe Home, whether recent apps hide in Stage Manager, whether a double-tap at the top of a window zooms it (off by default), whether the Dock hides automatically, whether the menu bar hides automatically, and whether Picture in Picture starts automatically. Those options appear depending on the mode you chose.
+
+If you are new to VoiceOver on iPad, Full Screen Apps is the simplest place to start. Add windowed modes after Home, Dock, and App Switcher are comfortable.
+
+
+USE DOCUMENTED VOICEOVER METHODS TO MOVE BETWEEN APPS
+These remain official in the VoiceOver operate-iPad page, regardless of multitasking mode:
+
+- Four-finger swipe left or right cycles open apps.
+- The App Switcher: drag up from the bottom until three tones, then lift, or double-click Home, then swipe among apps and double-tap.
+- The Dock: slide up from the bottom until two rising tones, then swipe down, and open another app from there.
+- Command-Tab on an external keyboard switches apps.
+
+After you open a second app, explore the screen with VoiceOver. You may hear a divider, extra windows, a recent-apps list, or a menu bar, depending on the mode. Use next and previous, the Item Chooser (two-finger triple tap), and Containers on the rotor to map the new layout. Activate only controls you have identified.
+
+
+WHAT THIS BOOK DOES NOT INVENT
+It does not invent VoiceOver-specific gestures for:
+
+- Dragging a window to Split View.
+- Grabbing a resize handle.
+- Moving an app to the left or right column, except where Apple documents that kind of action on a specific product.
+- Stage Manager's recent-apps list beyond "explore it if you hear it."
+
+If Apple documents additional VoiceOver window actions on your iPadOS version, they will usually appear as Actions on a window, a title bar, or a divider. Select the item, set the rotor to Actions, and swipe up or down. Follow the action names you hear.
+
+The iPhone User Guide's unversioned pages also described Split View actions on a product called iPhone Duo. That material was not in the iOS 26 "Operate iPhone" page, and it is not treated here as iPad documentation. Do not assume iPhone foldable actions apply to iPad.
+
+
+PICTURE IN PICTURE
+Apple documents that when Start PiP Automatically is on, videos and FaceTime calls can continue in Picture in Picture when you go Home or open another app. If a small video window remains, select it and check Actions for controls such as closing or expanding it. Use the names iPad speaks, not guessed button titles.
+
+
+PRACTICE EXERCISE
+1. Open Settings > Multitasking & Gestures and note which mode is currently on.
+2. If you are learning, try Full Screen Apps first. Open two apps and move between them with a four-finger swipe and with the App Switcher.
+3. Show the Dock and open a second app from it.
+4. If you already use Stage Manager or Windowed Apps, open two apps you know well, explore with the Item Chooser, and listen for Actions on a window or divider. Do not change modes in the middle of important work.
+
+
+QUICK REFERENCE SUMMARY
+- Choose Full Screen Apps, Windowed Apps, or Stage Manager in Settings > Multitasking & Gestures.
+- Full Screen Apps is the simplest VoiceOver setup.
+- Switch apps with four-finger swipes, the App Switcher, the Dock, or Command-Tab.
+- Explore extra windows with standard VoiceOver movement, the Item Chooser, Containers, and the Actions rotor.
+- This book does not invent Split View or Stage Manager VoiceOver gestures that were not in Apple's VoiceOver pages.
+- If a window offers actions, use those spoken action names.
+
+
+SOURCES
+Operate iPad when VoiceOver is on, Apple iPad User Guide:
+https://support.apple.com/guide/ipad/operate-ipad-when-voiceover-is-on-ipad9a24752e/ipados
+
+Change Multitasking & Gestures settings on iPad, Apple iPad User Guide:
+https://support.apple.com/guide/ipad/change-multitasking-gestures-settings-ipad-ipad2q9j404h2/ipados
+
+Use VoiceOver on iPad with an Apple external keyboard, Apple iPad User Guide:
+https://support.apple.com/guide/ipad/use-voiceover-with-an-external-keyboard-ipad9a246749/ipados

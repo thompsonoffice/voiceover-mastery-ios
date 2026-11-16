@@ -1,0 +1,85 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 4. Apple Watch (watchOS)
+Chapter 4.3. Watch Faces, Apps, Control Center, and Notifications
+============================================================
+
+OVERVIEW
+Once VoiceOver is on, you still use the Digital Crown and side button for many system jobs, sometimes with a VoiceOver twist. This chapter follows Apple's "Apple Watch basics with VoiceOver" page, plus general Digital Crown and side button behavior where Apple documents it.
+
+Some of these steps assume you are viewing the current watch face.
+
+
+WHAT YOU'LL LEARN
+- How to change and customize a watch face with VoiceOver.
+- How to open notifications, Control Center, widgets, and the App Switcher.
+- How to open apps, including with Siri.
+- How Apple describes reading Mail with the Digital Crown.
+
+
+CHANGE AND CUSTOMIZE A WATCH FACE
+While viewing the current watch face:
+
+- To change the watch face: triple-tap the screen, turn the Digital Crown to browse available faces, then press the Digital Crown to choose the face.
+- To customize a watch face: triple-tap the display, swipe down to choose Edit, then double-tap. Swipe left or right with two fingers to browse the customizable features. Turn the Digital Crown to customize the selected feature. When you finish, press the Digital Crown, then double-tap the face to save your changes.
+
+
+NOTIFICATIONS, CONTROL CENTER, AND WIDGETS
+From the watch face:
+
+- Check notifications: swipe down with two fingers.
+- From most other screens, Apple says to tap the time in the top-right of the display, then swipe down with two fingers.
+- Open Control Center: press the side button. This matches Apple's general Apple Watch control for Control Center.
+- Show widgets: from the watch face, scroll down with the Digital Crown or swipe up with two fingers.
+
+
+OPEN THE APP SWITCHER AND APPS
+- Open the App Switcher: double-click the Digital Crown, then turn the Digital Crown to scroll through recent apps. Double-tap an app to open it.
+- Open any app in Grid View: press the Digital Crown once to go to the Home Screen. Turn the Digital Crown to scroll through apps. Drag your finger to highlight an app, then double-tap to open it.
+- Or use Siri: hold down the Digital Crown until you feel the double tap, then say "launch" followed by the app name, such as "launch Mail."
+
+
+READ MAIL, AS APPLE DESCRIBES IT
+Apple's basics page gives this example:
+
+1. Press the Digital Crown once to go to the Home Screen.
+2. Swipe to highlight the Mail app, then double-tap, or hold the Digital Crown and say "launch Mail."
+3. When Mail opens, turn the Digital Crown to navigate and hear messages.
+4. Navigate through the message with the Digital Crown.
+
+You can use the same open-and-scroll idea in other apps, then switch to swipes and the rotor when you need characters, words, or actions.
+
+
+SIDE BUTTON AND OTHER HARDWARE, BRIEFLY
+Apple's general "Use buttons and gestures" page, which is not VoiceOver-specific, documents the side button for Control Center (press), Emergency SOS (press and hold), Apple Pay (double-click), and power (press and hold). Those hardware actions still matter when VoiceOver is on. If a press-and-hold starts SOS accidentally, cancel using the onscreen controls VoiceOver speaks.
+
+This book does not invent VoiceOver-only versions of Apple Pay or SOS. Use the official Apple Watch User Guide for those features.
+
+
+PRACTICE EXERCISE
+1. From the watch face, open notifications with a two-finger swipe down, then go back.
+2. Press the side button for Control Center, explore a control without changing something important, then close it using the method your watch offers (often the side button again, or a swipe or scrub; follow what you hear rather than a guessed close gesture if Apple does not state one).
+3. Double-click the Digital Crown for the App Switcher, then open an app with a double tap.
+4. Press the Digital Crown for the Home Screen and open Settings or Clock by exploring and double-tapping.
+5. Optional: browse watch faces with a triple-tap, but press the Digital Crown only when you hear the face you want to keep.
+
+
+QUICK REFERENCE SUMMARY
+- Triple-tap the watch face to change or edit faces. Turn the Digital Crown to browse. Press the crown to choose. Customize with Edit, two-finger swipes, and the crown, then press the crown and double-tap to save.
+- Two-finger swipe down: notifications from the watch face.
+- Side button: Control Center.
+- Digital Crown down or two-finger swipe up: widgets from the watch face.
+- Double-click the Digital Crown: App Switcher. Single press: Home Screen or watch face, depending on context.
+- Hold the Digital Crown for Siri, then say "launch" and the app name.
+
+
+SOURCES
+Apple Watch basics with VoiceOver, Apple Watch User Guide:
+https://support.apple.com/guide/watch/applewatch-basics-with-voiceover-apde8185443e/watchos
+
+Use VoiceOver on Apple Watch, Apple Watch User Guide:
+https://support.apple.com/guide/watch/use-voiceover-apdaabc79d3b/watchos
+
+Use buttons and gestures to interact with Apple Watch, Apple Watch User Guide:
+https://support.apple.com/guide/watch/use-buttons-and-gestures-apd1d9d7efca/watchos

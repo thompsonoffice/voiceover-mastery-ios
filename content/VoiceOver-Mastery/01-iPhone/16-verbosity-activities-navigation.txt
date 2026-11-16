@@ -1,0 +1,93 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 1. iPhone (iOS)
+Chapter 1.16. Verbosity, Punctuation, Activities, and Navigation Style
+============================================================
+
+OVERVIEW
+Verbosity is how much VoiceOver tells you. You can change punctuation reading, notification reading, hints, and many other details. Activities let you save a group of VoiceOver settings and apply them automatically in certain apps or contexts. Navigation Style chooses between Flat and Grouped movement.
+
+These settings are how VoiceOver goes from "talkative beginner" to "quiet and efficient," without turning off information you still need.
+
+
+WHAT YOU'LL LEARN
+- Where to find Verbosity and what Apple documents there.
+- How punctuation groups work.
+- How Activities can switch settings for you.
+- The difference between Flat and Grouped navigation, including the two-finger swipe gestures for groups.
+- How Delay before Selection can reduce accidental touches.
+
+
+SET HOW MUCH VOICEOVER TELLS YOU
+1. Go to Settings > Accessibility > VoiceOver > Verbosity.
+2. Review the options, and change only what you understand. You can come back later.
+
+Apple documents the following in particular:
+
+- Punctuation: select Punctuation, then choose a group. You can also create new groups. Apple's example is a programming group in which "[" is spoken as "left bracket."
+- System Notifications: by default, VoiceOver reads notifications, including incoming text messages, as they occur, even if iPhone is locked. Unacknowledged notifications are repeated when you unlock iPhone. You can change this behavior here.
+- Additional options: VoiceOver can speak hints, uppercase letters, embedded links, and more. It can confirm rotor actions and tell you when the flashlight is turned on.
+
+A practical starting point is to leave hints on while you learn, keep punctuation at a medium or some-punctuation group so you hear question marks and emails clearly, and turn on Speak Confirmation if the rotor still surprises you. Then reduce verbosity once the extra words feel like noise.
+
+
+CREATE OR EDIT AN ACTIVITY
+An activity is a bundle of VoiceOver settings for a situation, such as programming. When you open certain apps, or when you choose the activity from the rotor, VoiceOver can apply settings for speech, audio, verbosity, typing, navigation, and braille automatically.
+
+1. Go to Settings > Accessibility > VoiceOver > Activities.
+2. Choose an existing activity, or select Add Activity.
+3. Adjust the settings for that activity.
+4. Under Automatic Switching, do either or both of the following:
+   - Apps: select the apps this activity should use.
+   - Context: select one or more contexts, such as Word Processing, Messaging, or Console.
+
+Use activities when you want, for example, more punctuation and a different voice in a coding app, and quieter speech in Messages. If you do not need this yet, skip it. A simpler setup is easier to troubleshoot.
+
+
+CHOOSE FLAT OR GROUPED NAVIGATION
+1. Go to Settings > Accessibility > VoiceOver > Navigation Style.
+2. Choose Flat or Grouped.
+
+Flat: VoiceOver moves sequentially through each item on the screen when you use next and previous, such as swipe right and swipe left.
+
+Grouped: VoiceOver moves through items and groups of items. To move into a group, use a two-finger swipe right. To move out of a group, use a two-finger swipe left.
+
+If next-item swipes seem to skip controls inside a toolbar or a list, you may be in Grouped style and need to move into the group. If movement feels too long and you hear every small element, Flat may already be what you want.
+
+
+REDUCE ACCIDENTAL SELECTION
+You can control the time between touching the screen and VoiceOver selecting the item you touched. Increasing this delay may help reduce accidental touches.
+
+1. Go to Settings > Accessibility > VoiceOver > Delay before Selection.
+2. Increase or decrease the delay using the controls VoiceOver speaks.
+
+This is useful if exploring by touch keeps selecting items you only meant to slide across.
+
+
+OTHER VISUAL OPTIONS, BRIEFLY
+Apple also documents Large Cursor and Caption Panel in VoiceOver settings. Large Cursor enlarges and thickens the outline around the selected item, which can help people with some residual vision. Caption Panel shows the text VoiceOver is speaking at the bottom of the screen, which can help a sighted teacher or a deafblind user who also uses braille or remaining vision. Neither is required to use VoiceOver by ear.
+
+
+PRACTICE EXERCISE
+1. Open Verbosity and listen through the list once without changing anything.
+2. Check your Punctuation group, and try a different group in a Notes sentence that includes commas and a question mark. Keep the one you prefer.
+3. Confirm Navigation Style. If it is Grouped, practice two-finger swipe right and left on the Home Screen. If it is Flat, try Grouped once so you can recognize it later.
+4. Optional: create one activity for an app where you want different verbosity, and assign that app under Automatic Switching.
+
+
+QUICK REFERENCE SUMMARY
+- Verbosity is at Settings > Accessibility > VoiceOver > Verbosity.
+- Punctuation groups can be chosen or created, including special groups for programming.
+- VoiceOver can read notifications even on the Lock Screen. Change this under System Notifications if you need it quieter.
+- Activities store a set of VoiceOver settings and can switch by app or context.
+- Flat navigation visits every item in order. Grouped navigation uses two-finger swipe right to enter a group and two-finger swipe left to leave it.
+- Delay before Selection can reduce accidental touches.
+
+
+SOURCES
+Change your VoiceOver settings on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/change-your-voiceover-settings-iphfa3d32c50/ios
+
+Use VoiceOver gestures on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/use-voiceover-gestures-iph3e2e2281/ios

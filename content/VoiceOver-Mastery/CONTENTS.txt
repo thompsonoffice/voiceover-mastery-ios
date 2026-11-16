@@ -1,0 +1,268 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+CONTENTS
+============================================================
+
+This is the full first edition, written in November 2026.
+Start with README.txt if you are new to the book, then Part 0.
+iPhone is the longest part and teaches the shared VoiceOver ideas.
+Later parts tell you what is the same on each other Apple platform
+and what changes.
+
+Every chapter is also included in VoiceOver-Mastery-complete.txt,
+which is one searchable file.
+
+FRONT MATTER
+------------
+README
+    File: README.txt
+    About 1046 words
+
+
+PART 0. ABOUT THIS GUIDE
+------------------------
+0.1 How to Use This Book
+    File: 00-About/01-how-to-use-this-book.txt
+    About 918 words
+
+0.2 How VoiceOver Fits Together Across Apple Devices
+    File: 00-About/02-how-voiceover-fits-together.txt
+    About 1105 words
+
+
+PART 1. IPHONE (IOS)
+--------------------
+1.1 Getting Started with VoiceOver on iPhone
+    File: 01-iPhone/01-getting-started.txt
+    About 962 words
+
+1.2 The VoiceOver Tutorial and Practice Area
+    File: 01-iPhone/02-tutorial-and-practice.txt
+    About 551 words
+
+1.3 Core Gestures
+    File: 01-iPhone/03-core-gestures.txt
+    About 1152 words
+
+1.4 Explore, Select, Activate, and Magic Tap
+    File: 01-iPhone/04-explore-select-activate.txt
+    About 677 words
+
+1.5 Reading, Scrolling, and the Item Chooser
+    File: 01-iPhone/05-reading-scrolling-item-chooser.txt
+    About 755 words
+
+1.6 Gestures That Control VoiceOver
+    File: 01-iPhone/06-gestures-that-control-voiceover.txt
+    About 876 words
+
+1.7 Unlock, Home, App Switcher, Control Center, and Notifications
+    File: 01-iPhone/07-unlock-home-apps-control-center.txt
+    About 1031 words
+
+1.8 The Rotor
+    File: 01-iPhone/08-the-rotor.txt
+    About 1195 words
+
+1.9 Customizing the Rotor
+    File: 01-iPhone/09-customizing-the-rotor.txt
+    About 863 words
+
+1.10 Typing Options
+    File: 01-iPhone/10-typing-options.txt
+    About 982 words
+
+1.11 Braille Screen Input
+    File: 01-iPhone/11-braille-screen-input.txt
+    About 1282 words
+
+1.12 Handwriting Mode and Dictation
+    File: 01-iPhone/12-handwriting-and-dictation.txt
+    About 1078 words
+
+1.13 Text Editing
+    File: 01-iPhone/13-text-editing.txt
+    About 891 words
+
+1.14 Home Screen, App Library, and Search
+    File: 01-iPhone/14-home-screen-app-library-search.txt
+    About 891 words
+
+1.15 Speech, Voices, and Audio Settings
+    File: 01-iPhone/15-speech-voices-audio.txt
+    About 841 words
+
+1.16 Verbosity, Punctuation, Activities, and Navigation Style
+    File: 01-iPhone/16-verbosity-activities-navigation.txt
+    About 928 words
+
+1.17 Commands, Custom Labels, and Quick Settings
+    File: 01-iPhone/17-commands-labels-quick-settings.txt
+    About 791 words
+
+1.18 Phone, Messages, and Mail
+    File: 01-iPhone/18-phone-messages-mail.txt
+    About 955 words
+
+1.19 Browsing the Web in Safari with VoiceOver
+    File: 01-iPhone/19-safari-web-browsing.txt
+    About 892 words
+
+1.20 Maps, Camera, and Photos
+    File: 01-iPhone/20-maps-camera-photos.txt
+    About 966 words
+
+1.21 Live Recognition, Magnifier, and Detection Mode
+    File: 01-iPhone/21-live-recognition-magnifier.txt
+    About 1006 words
+
+1.22 Screen Recognition and Image Descriptions
+    File: 01-iPhone/22-screen-recognition-image-descriptions.txt
+    About 905 words
+
+1.23 Bluetooth Keyboards and Keyboard Commands
+    File: 01-iPhone/23-bluetooth-keyboards.txt
+    About 1186 words
+
+1.24 Braille Displays on iPhone
+    File: 01-iPhone/24-braille-displays.txt
+    About 978 words
+
+1.25 Troubleshooting Common VoiceOver Problems on iPhone
+    File: 01-iPhone/25-troubleshooting.txt
+    About 1427 words
+
+
+PART 2. IPAD (IPADOS)
+---------------------
+2.1 What's the Same on iPad, and What Changes
+    File: 02-iPad/01-whats-the-same-on-ipad.txt
+    About 842 words
+
+2.2 Unlock, Home, Dock, and System Gestures on iPad
+    File: 02-iPad/02-system-gestures-on-ipad.txt
+    About 926 words
+
+2.3 External Keyboards on iPad
+    File: 02-iPad/03-external-keyboards-on-ipad.txt
+    About 726 words
+
+2.4 Multitasking on iPad with VoiceOver
+    File: 02-iPad/04-multitasking-on-ipad.txt
+    About 935 words
+
+2.5 Troubleshooting VoiceOver on iPad
+    File: 02-iPad/05-troubleshooting-on-ipad.txt
+    About 705 words
+
+
+PART 3. MAC (MACOS)
+-------------------
+3.1 Getting Started with VoiceOver on Mac
+    File: 03-Mac/01-getting-started-on-mac.txt
+    About 784 words
+
+3.2 The VoiceOver Modifier, Keyboard Help, and Tutorial
+    File: 03-Mac/02-modifier-help-tutorial.txt
+    About 818 words
+
+3.3 Navigating and Interacting with Areas
+    File: 03-Mac/03-navigating-and-interacting.txt
+    About 564 words
+
+3.4 The Rotor and VoiceOver Menus on Mac
+    File: 03-Mac/04-rotor-and-menus.txt
+    About 622 words
+
+3.5 VoiceOver Utility
+    File: 03-Mac/05-voiceover-utility.txt
+    About 629 words
+
+3.6 Trackpad Gestures and the Trackpad Rotor
+    File: 03-Mac/06-trackpad-gestures.txt
+    About 1209 words
+
+3.7 Essential Keyboard Commands
+    File: 03-Mac/07-essential-keyboard-commands.txt
+    About 608 words
+
+3.8 Browsing the Web on Mac
+    File: 03-Mac/08-web-on-mac.txt
+    About 740 words
+
+3.9 Troubleshooting VoiceOver on Mac
+    File: 03-Mac/09-troubleshooting-on-mac.txt
+    About 730 words
+
+
+PART 4. APPLE WATCH (WATCHOS)
+-----------------------------
+4.1 Getting Started with VoiceOver on Apple Watch
+    File: 04-Apple-Watch/01-getting-started-on-watch.txt
+    About 668 words
+
+4.2 Gestures, the Rotor, and the Digital Crown
+    File: 04-Apple-Watch/02-watch-gestures-rotor-crown.txt
+    About 880 words
+
+4.3 Watch Faces, Apps, Control Center, and Notifications
+    File: 04-Apple-Watch/03-watch-faces-apps-control-center.txt
+    About 822 words
+
+4.4 Settings, Braille, Hand Gestures, and Troubleshooting
+    File: 04-Apple-Watch/04-watch-settings-braille-troubleshooting.txt
+    About 814 words
+
+
+PART 5. APPLE TV (TVOS)
+-----------------------
+5.1 Getting Started with VoiceOver on Apple TV
+    File: 05-Apple-TV/01-getting-started-on-apple-tv.txt
+    About 808 words
+
+5.2 Navigation Mode, Exploration Mode, and the Rotor
+    File: 05-Apple-TV/02-navigation-exploration-rotor.txt
+    About 945 words
+
+5.3 Keyboards, Settings, Audio Descriptions, and Troubleshooting
+    File: 05-Apple-TV/03-keyboards-settings-troubleshooting-tv.txt
+    About 1191 words
+
+
+PART 6. APPLE VISION PRO (VISIONOS)
+-----------------------------------
+6.1 Getting Started with VoiceOver on Apple Vision Pro
+    File: 06-Vision-Pro/01-getting-started-on-vision-pro.txt
+    About 830 words
+
+6.2 VoiceOver Gestures and the Rotor on Vision Pro
+    File: 06-Vision-Pro/02-vision-pro-gestures-and-rotor.txt
+    About 1090 words
+
+6.3 Typing, Settings, and Troubleshooting on Vision Pro
+    File: 06-Vision-Pro/03-typing-settings-troubleshooting-vision.txt
+    About 1066 words
+
+
+PART 7. APPS, PRACTICE, AND SOURCES
+-----------------------------------
+7.1 Helpful Accessible Apps
+    File: 07-Apps-and-Practice/01-helpful-accessible-apps.txt
+    About 1177 words
+
+7.2 A Practice Plan from Beginner to Power User
+    File: 07-Apps-and-Practice/02-practice-plan.txt
+    About 957 words
+
+7.3 Sources, Versions, and Accuracy Notes
+    File: 07-Apps-and-Practice/03-sources-versions-accuracy.txt
+    About 1118 words
+
+
+COUNTS
+------
+Chapters, not counting the README: 54
+Chapter word count: 49288
+Total words including README: 50334
+

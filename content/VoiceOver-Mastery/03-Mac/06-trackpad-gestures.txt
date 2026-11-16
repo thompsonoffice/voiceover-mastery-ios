@@ -1,0 +1,116 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 3. Mac (macOS)
+Chapter 3.6. Trackpad Gestures and the Trackpad Rotor
+============================================================
+
+OVERVIEW
+If your Mac has a built-in trackpad, or if an external trackpad is connected, you can control VoiceOver with gestures. Many of them will feel familiar if you already use VoiceOver on iPhone or iPad. For example, you can tap the trackpad to hear the item in the VoiceOver cursor.
+
+Apple often calls this the option to control VoiceOver with trackpad gestures. People also call it the Trackpad Commander. This chapter uses Apple's wording and lists only official standard gestures. Those standard gestures cannot be customized, but you can assign VoiceOver commands to additional gestures in VoiceOver Utility.
+
+
+WHAT YOU'LL LEARN
+- How to turn trackpad VoiceOver gestures on or off.
+- The official general, navigation, interaction, text, and rotor gestures.
+- How the gestures rotor works, including on webpages.
+- An important note about the trackpad mouse button.
+
+
+TURN TRACKPAD GESTURES ON OR OFF
+To use these gestures, VoiceOver must already be on, and you must have a built-in or connected trackpad.
+
+- To turn the option on, press and hold the VoiceOver modifier (Control-Option, or Caps Lock) and rotate two fingers clockwise anywhere on the trackpad.
+- To turn it off, hold VO and rotate two fingers counterclockwise.
+
+Apple notes that when you use VoiceOver gestures, you cannot use the mouse button on the trackpad, unless the mouse button is used with a modifier key, as in a Control-click.
+
+If a gesture does not mention a specific number of fingers, use one finger.
+
+
+GENERAL GESTURES
+- VO plus a two-finger rotate clockwise: turn trackpad VoiceOver control on.
+- VO plus a two-finger rotate counterclockwise: turn it off.
+- Three-finger triple-tap: turn the screen curtain on or off.
+- Three-finger double-tap: mute or unmute VoiceOver.
+
+
+NAVIGATION GESTURES
+- Hold Shift and drag a finger horizontally or vertically: force the VoiceOver cursor into a horizontal or vertical line as you drag.
+- Flick right: move to the next item.
+- Flick left: move to the previous item.
+- Three-finger flick in any direction: move content or the scroll bar, depending on the "Scroll gesture moves content instead of scroll bar" option in VoiceOver Commands settings.
+- Two-finger double-tap near the bottom of the trackpad: go to the Dock.
+- Two-finger double-tap near the top of the trackpad: go to the menu bar.
+- Two-finger double-tap on the left side: open the Application Chooser.
+- Two-finger double-tap on the right side: open the Window Chooser, to access open windows and system dialogs.
+- Press Control while touching a finger on the trackpad: jump to another area of the current app.
+
+
+INTERACTION GESTURES
+- Touch, including a tap or a drag: speak the item in the VoiceOver cursor, or play a sound effect if the area is blank.
+- Double-tap anywhere, or split-tap (touch with one finger, then tap with a second finger): select or activate an item, in the way Apple describes as selecting the item.
+- Two-finger flick right: start interacting with the item in the VoiceOver cursor.
+- Two-finger flick left: stop interacting.
+- Three-finger flick up or down: scroll one page down or up.
+- Two-finger scrub back and forth: Escape, which closes a menu without making a selection.
+- Flick up or flick down: increase or decrease the value of a slider, splitter, stepper, or other control.
+
+
+TEXT GESTURES
+- Two-finger flick up: read the current page starting at the top.
+- Two-finger flick down: read from the VoiceOver cursor to the end of the current page.
+- Three-finger tap: read the current scroll page.
+- Two-finger tap: pause or resume speaking.
+- Triple-tap: describe what is in the VoiceOver cursor. Apple's trackpad-gestures intro also says a three-times tap tells you your location and what is in the VoiceOver cursor.
+- Press Command while dragging a finger in a text field, or while interacting with a text element, until VoiceOver reads with the granularity you want (word, line, sentence, or paragraph).
+
+
+THE GESTURES ROTOR
+The gestures rotor is like a virtual dial. You turn it to change how you navigate, based on context.
+
+1. Rotate two fingers anywhere on the trackpad until you hear the setting you want, such as Words. VoiceOver speaks each setting and plays a clicking sound. If you miss a setting, keep turning until it comes around again.
+2. Flick up or down to move to the previous or next instance of that item.
+
+On webpages, the rotor settings depend on what you selected in the Web Rotor tab of the Web category in VoiceOver Utility. By default, Apple says they include Links, Headings, Form Controls, Tables, Landmarks, and Frames.
+
+In other contexts, the rotor can include settings such as Characters, Words, Window Spots, Content Chooser, and Navigation.
+
+Your web navigation mode affects how the gestures rotor moves on webpages. In DOM mode, flicking up or down moves to the previous or next instance of the current rotor item, such as the next heading. Apple says you can assign the "Toggle Web Navigation DOM or Group" command to a trackpad gesture if you want an easy way to switch modes. See Chapter 3.8 for more on web navigation.
+
+
+OTHER TRACKPAD NOTES
+You can practice trackpad gestures in Keyboard Help (VO-K). VoiceOver tells you what the gesture does without performing it.
+
+You can set an option to disable the trackpad when VoiceOver is on, which can prevent accidental gestures. See VoiceOver Utility Commands settings.
+
+You can customize additional, non-standard gestures by assigning VoiceOver commands to them. Do not expect to change the standard set listed in this chapter.
+
+
+PRACTICE EXERCISE
+1. With VoiceOver on, hold VO and rotate two fingers clockwise to enable trackpad gestures.
+2. Open Keyboard Help with VO-K and try a flick right, a two-finger flick up, and a two-finger rotation. Exit Help.
+3. Flick right and left to move, double-tap to activate a safe item, and use a two-finger flick right and left to interact and exit.
+4. On a webpage, turn the gestures rotor to Headings and flick down through headings.
+5. If you do not want the trackpad active, hold VO and rotate two fingers counterclockwise to turn this option off.
+
+
+QUICK REFERENCE SUMMARY
+- Hold VO and rotate two fingers clockwise to turn trackpad VoiceOver control on; counterclockwise turns it off.
+- Flick left or right to move. Double-tap or split-tap to select. Two-finger flick right interacts; two-finger flick left exits.
+- Two-finger flick up or down reads. Two-finger tap pauses. Three-finger double-tap mutes. Three-finger triple-tap is Screen Curtain.
+- Two-finger double-tap at the bottom is the Dock; at the top is the menu bar; on the left is the Application Chooser; on the right is the Window Chooser.
+- Two-finger rotate turns the gestures rotor. Flick up or down to use it.
+- Standard gestures cannot be remapped. Extra gestures can be assigned in VoiceOver Utility.
+
+
+SOURCES
+Use trackpad gestures to control VoiceOver on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/use-trackpad-gestures-to-control-voiceover-vo28030/mac
+
+Standard trackpad gestures for VoiceOver on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/standard-trackpad-gestures-vo27992/mac
+
+Use the trackpad gestures rotor with VoiceOver on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/use-the-trackpad-gestures-rotor-vo28035/mac

@@ -1,0 +1,82 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 5. Apple TV (tvOS)
+Chapter 5.1. Getting Started with VoiceOver on Apple TV
+============================================================
+
+OVERVIEW
+VoiceOver on Apple TV lets you control Apple TV without seeing the TV screen. You use gestures on the clickpad or touch surface of the Siri Remote or Apple TV Remote, and VoiceOver speaks each item you highlight.
+
+Apple documents VoiceOver on Apple TV 4K and Apple TV HD in the current Apple TV User Guide. An older Apple Support article also describes turning VoiceOver on with the remote on Apple TV (3rd generation) with software 4.2 or later. If you have a 3rd generation Apple TV, use that older article, because this chapter focuses on Apple TV 4K and Apple TV HD.
+
+Apple notes that not all features and content are available in all countries or regions, or on all Apple TV hardware models.
+
+
+WHAT YOU'LL LEARN
+- How to turn VoiceOver on or off in Settings, with Siri, and with a remote shortcut.
+- What the clickpad or touch surface is, in words.
+- How to move and select in the default navigation experience, before the next chapter explains two modes.
+
+
+TURN VOICEOVER ON OR OFF ON APPLE TV 4K OR APPLE TV HD
+Apple documents three methods in its Support article, and Settings plus an accessibility shortcut in the User Guide.
+
+In Settings:
+
+1. Go to Settings on Apple TV.
+2. Go to Accessibility > VoiceOver, then select VoiceOver to turn it on or off.
+
+With Siri, on a Siri Remote, or on an Apple TV Remote in a region where Siri is supported:
+
+1. Hold the Siri button.
+2. Say "Turn VoiceOver on" or "Turn VoiceOver off."
+
+With a remote shortcut:
+
+- Press the Menu button or the Back button three times to turn VoiceOver on or off.
+
+You can also set up an accessibility shortcut to activate VoiceOver, according to the User Guide. If the triple-press shortcut is assigned to more than one feature, follow the onscreen list VoiceOver speaks.
+
+Apple notes that Apple TV 4K and Apple TV HD ship with the same remote, called Siri Remote in countries and regions that support Siri, and Apple TV Remote elsewhere. Siri works when Apple TV is set up with a language and country or region that supports Siri.
+
+
+TURN VOICEOVER ON ON APPLE TV (3RD GENERATION)
+Apple's older Support article gives a button sequence from the main menu, using Menu, arrow buttons, and Select, because that model has no Siri Remote clickpad of the later kind. This book does not treat that sequence as applying to Apple TV 4K. If you have a 3rd generation unit, open Apple's article "Turn VoiceOver on or off on your Apple TV" and follow the 3rd generation section exactly.
+
+
+MOVE AND SELECT, IN BRIEF
+The clickpad is the circular or trackpad-like surface on the remote. The touch surface is the area you swipe on. As you drag your finger over the clickpad center or touch surface, VoiceOver speaks each menu or text item you highlight, when you are using VoiceOver in the usual navigation style.
+
+- Navigate up, down, left, or right to move to another item.
+- Press the clickpad center or touch surface to select an item.
+- If an item has a pop-up menu, press and hold the clickpad center or touch surface to open it.
+
+The next chapter explains navigation mode, exploration mode, and the rotor, which change how those swipes behave.
+
+
+PRACTICE EXERCISE
+1. If VoiceOver is off, press Menu or Back three times, or ask Siri to turn it on, or use Settings if you can see the TV or already know the path.
+2. Move through the Apple TV Home Screen by swiping or clicking around the remote, and listen to each app name.
+3. Press the clickpad or touch surface only when you intend to open something.
+4. Set or confirm an accessibility shortcut so you can toggle VoiceOver later.
+5. Practice turning VoiceOver off and on once, then leave it on if you are continuing.
+
+
+QUICK REFERENCE SUMMARY
+- Apple TV 4K and HD: Settings > Accessibility > VoiceOver, Siri ("Turn VoiceOver on"), or press Menu or Back three times.
+- You can also assign VoiceOver to the accessibility shortcut.
+- Drag or navigate on the clickpad or touch surface to hear items. Press to select. Press and hold for a pop-up menu if one exists.
+- 3rd generation Apple TV uses a different official button sequence. Do not assume the 4K steps.
+- Features can vary by country, region, and model.
+
+
+SOURCES
+Use VoiceOver on Apple TV 4K, Apple TV User Guide:
+https://support.apple.com/guide/tv/use-voiceover-atvbfa4ff6cd/tvos
+
+Turn VoiceOver on or off on your Apple TV, Apple Support:
+https://support.apple.com/en-us/102157
+
+Accessibility features on Apple TV 4K, Apple TV User Guide:
+https://support.apple.com/guide/tv/accessibility-features-at-a-glance-atvbaeff85db/tvos

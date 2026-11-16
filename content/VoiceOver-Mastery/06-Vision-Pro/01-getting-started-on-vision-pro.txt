@@ -1,0 +1,92 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 6. Apple Vision Pro (visionOS)
+Chapter 6.1. Getting Started with VoiceOver on Apple Vision Pro
+============================================================
+
+OVERVIEW
+VoiceOver on Apple Vision Pro is a gesture-based screen reader for a spatial device. It speaks the name of the currently selected item, including icons and text, and it can also work with braille. You navigate and activate items with hand pinches, not with a glass touchscreen.
+
+This part of SRTS: Screen Reader Training Suite is written carefully. Vision Pro gestures use named pinches such as "left index pinch." This book lists only gestures found in Apple's Vision Pro User Guide. If a gesture fails, use Settings > Accessibility > VoiceOver > Commands > All Commands on the device, because commands can be customized and handedness can be switched.
+
+Important: VoiceOver changes the gestures you use to control Apple Vision Pro. When it is on, you must use VoiceOver gestures.
+
+
+WHAT YOU'LL LEARN
+- How Apple names pinch gestures.
+- How to turn VoiceOver on or off.
+- How to practice with the official tutorial and practice area.
+- Why you should confirm commands on the device.
+
+
+HOW PINCH GESTURES ARE NAMED
+Apple describes four building blocks:
+
+- Single-hand pinch: tap a finger and the thumb on the same hand together. "Left index pinch" means tap your left index finger and left thumb together. "Right ring double-pinch" means double-tap your right ring finger and thumb.
+- Modifier pinch: hold a pinch on one hand while you pinch on the other. "Left ring modifier with right index pinch" means hold your left ring finger and thumb together, then tap your right index finger and thumb together.
+- Long pinch: pinch and hold until the action is performed. "Right index long pinch" means pinch and hold the right index finger and right thumb.
+- Slide pinch: a long pinch plus a movement. "Right index pinch swipe up" means pinch and hold the right index and thumb, move the hand upward, then release.
+
+These names will feel long at first. They are precise, which is what you want on a device you cannot treat like a phone screen.
+
+
+TURN VOICEOVER ON OR OFF
+Use any official method:
+
+- Ask Siri to "Turn on VoiceOver" or "Turn off VoiceOver."
+- If you have set up the Accessibility Shortcut, triple-click the Digital Crown.
+- Go to Settings, open Accessibility, open VoiceOver, and turn VoiceOver on or off.
+
+Set the Accessibility Shortcut early, just as you would on iPhone.
+
+
+PRACTICE AND THE TUTORIAL
+When VoiceOver is on, you can follow a VoiceOver tutorial, and you can return to it later. You can also practice gestures without affecting settings or apps. When you practice, VoiceOver describes the gesture and the resulting action.
+
+1. Go to Settings > Accessibility > VoiceOver.
+2. Turn on VoiceOver if it is off.
+3. Select VoiceOver Practice to try navigation, exploring what is in front of you, and scrolling, or select VoiceOver Tutorial if you are not sure how to use VoiceOver.
+4. When you finish, select Done.
+
+Apple also says the VoiceOver tutorial is a place to practice typing. Use these official practice tools before you pinch in an important app.
+
+
+SEE OR CHANGE ALL COMMANDS
+To get a list of all VoiceOver gestures, go to Settings > Accessibility > VoiceOver > Commands > All Commands.
+
+You can switch the handedness of gestures by turning on Switch Gesture Handedness.
+
+To add or change a gesture:
+
+1. Go to Settings > Accessibility > VoiceOver > Commands.
+2. Open All Commands, then open the command you want to update.
+3. Select Add Gesture, then choose a gesture from the list.
+
+To reset your changes, go to Commands and select Reset VoiceOver Commands.
+
+Use this official list whenever this book and your device disagree. The device wins.
+
+
+PRACTICE EXERCISE
+1. Set the Accessibility Shortcut so a Digital Crown triple-click toggles VoiceOver.
+2. Turn VoiceOver on with Siri or the shortcut.
+3. Open VoiceOver Practice and try move-to-next, activate, and mute if those practice items are offered.
+4. Open Commands > All Commands and listen to the mappings for activate, next, and previous, so you know whether they still match Apple's defaults in the next chapter.
+
+
+QUICK REFERENCE SUMMARY
+- Vision Pro VoiceOver uses named pinches: single-hand, modifier, long, and slide pinches.
+- Turn VoiceOver on or off with Siri, a Digital Crown Accessibility Shortcut, or Settings > Accessibility > VoiceOver.
+- Use VoiceOver Practice and the VoiceOver Tutorial before practicing in real apps.
+- Confirm or customize every command in Settings > Accessibility > VoiceOver > Commands > All Commands.
+- You can switch gesture handedness. Reset VoiceOver Commands if customization goes wrong.
+- This book does not invent Vision Pro pinches.
+
+
+SOURCES
+Turn on and practice VoiceOver on Apple Vision Pro, Apple Vision Pro User Guide:
+https://support.apple.com/guide/apple-vision-pro/turn-on-and-practice-voiceover-tanae5174040/visionos
+
+Learn VoiceOver gestures on Apple Vision Pro, Apple Vision Pro User Guide:
+https://support.apple.com/guide/apple-vision-pro/learn-voiceover-gestures-tanf5c9d873d/visionos

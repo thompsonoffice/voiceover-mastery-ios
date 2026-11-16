@@ -1,0 +1,76 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 3. Mac (macOS)
+Chapter 3.4. The Rotor and VoiceOver Menus on Mac
+============================================================
+
+OVERVIEW
+The VoiceOver rotor on Mac categorizes onscreen items, such as links on a webpage or app controls like buttons, and lets you jump directly to an item in that category. There is also a gestures rotor if you use a trackpad.
+
+This chapter covers the keyboard rotor Apple documents in "Get started with VoiceOver," plus official menus that list items, commands, and notifications. The trackpad rotor details are in Chapter 3.6.
+
+
+WHAT YOU'LL LEARN
+- How to open the rotor with the keyboard and choose a category.
+- How to jump to an item, or close the rotor without jumping.
+- How the Commands, Notifications, and related menus help you find things.
+- How the Verbosity rotor works, as Apple documents it.
+
+
+OPEN THE ROTOR WITH THE KEYBOARD
+Apple's getting-started page documents this method:
+
+1. Press VO-U to open the rotor.
+2. Use the Right Arrow and Left Arrow keys until you hear the category you want.
+3. Use the Up Arrow and Down Arrow keys to move through the items in that category.
+4. Press the Space bar when you hear the item you want. The VoiceOver cursor moves to it.
+5. Or press Escape to exit the rotor without selecting an item.
+
+The categories you hear depend on the window. On a webpage you might hear links or headings. In an app you might hear buttons or other controls.
+
+
+THE VERBOSITY ROTOR
+Apple's general commands list documents VO-V to open the Verbosity rotor. Then press Left Arrow or Right Arrow to choose a setting, and Up Arrow or Down Arrow to change the level for that setting. This is a quick way to change how much VoiceOver says without opening VoiceOver Utility.
+
+
+MENUS THAT LIST COMMANDS AND ITEMS
+Useful official menus include:
+
+- VO-H: VoiceOver Help menu.
+- VO-H-H: Commands menu.
+- VO-Shift-F: Find Commands menu.
+- VO-N: Notifications menu.
+
+Apple's broader "VoiceOver commands and gestures" overview also mentions orientation and navigation tools such as listing elements in a window, moving to the desktop or menu bar, and window spots. Those extra commands live in the Commands menu and in the official command lists. If you need a command this book does not list, open the Commands menu or the Find Commands menu rather than guessing a shortcut.
+
+
+CLOSE MENUS AND ROTORS
+Press Escape, or Fn-Tab, to close a menu or rotor, stop an action, or exit a mode, according to the general commands list.
+
+
+PRACTICE EXERCISE
+1. Open a webpage in Safari.
+2. Press VO-U, arrow to Headings or Links, arrow through the list, and press Space bar to jump to one item.
+3. Press VO-U again, then Escape to close the rotor without jumping.
+4. Press VO-H-H and move through the Commands menu to see what is available. Press Escape to close it.
+5. Optional: press VO-V and explore one verbosity setting, then put it back if you do not want a change.
+
+
+QUICK REFERENCE SUMMARY
+- VO-U opens the rotor. Left or Right Arrow chooses a category. Up or Down Arrow moves through items. Space bar jumps. Escape cancels.
+- VO-V opens the Verbosity rotor.
+- VO-H is Help. VO-H-H is the Commands menu. VO-N is Notifications.
+- Use the Commands menu to find official shortcuts this book does not attempt to memorize all of.
+- Escape or Fn-Tab closes a menu or rotor.
+
+
+SOURCES
+Get started with VoiceOver on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/get-started-with-voiceover-vo4be8816d70/mac
+
+VoiceOver general commands on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/general-commands-cpvokys01/mac
+
+VoiceOver commands and gestures on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/intro-to-voiceover-commands-and-gestures-vo14111/mac

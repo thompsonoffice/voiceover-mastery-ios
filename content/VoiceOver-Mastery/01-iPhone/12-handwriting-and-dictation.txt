@@ -1,0 +1,111 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 1. iPhone (iOS)
+Chapter 1.12. Handwriting Mode and Dictation
+============================================================
+
+OVERVIEW
+Besides the onscreen keyboard and Braille Screen Input, VoiceOver offers handwriting mode and dictation.
+
+Handwriting mode lets you enter text by writing characters on the screen with your finger. Apple also documents using it to enter your passcode silently and to open apps from the Home Screen by writing their names.
+
+Dictation lets you speak text anywhere you can type it. On iPhone, you can also use typing and dictation together, because the keyboard can stay open while you dictate.
+
+
+WHAT YOU'LL LEARN
+- How to add handwriting to the rotor and write characters.
+- The handwriting gestures for space, new line, delete, and character type.
+- How to enter a passcode silently, and how to launch an app by writing its name.
+- How to turn on dictation and use common spoken commands.
+- What this book will not assume about newer Apple Intelligence dictation features.
+
+
+USE HANDWRITING MODE
+1. Set the rotor to Handwriting.
+2. If Handwriting is not in the rotor, go to Settings > Accessibility > VoiceOver > Rotor and add it.
+3. To choose a character type (lowercase, numbers, uppercase, or punctuation), swipe up or down with three fingers.
+4. To hear the selected character type, tap with three fingers.
+5. Trace a character on the screen with your finger.
+
+Apple also documents these handwriting gestures:
+
+- Enter an alternate character, such as an accented letter: write the character, then swipe up or down with two fingers until you hear the character you want.
+- Enter a space: swipe right with two fingers.
+- Go to a new line: swipe right with three fingers.
+- Delete the previous character: swipe left with two fingers.
+
+To exit handwriting mode, do a two-finger scrub, or set the rotor to a different setting.
+
+
+ENTER A PASSCODE SILENTLY
+On the passcode screen:
+
+1. Set the rotor to Handwriting.
+2. Write the characters of your passcode with your finger.
+
+This avoids having digits spoken out loud, which matters in public. Braille Screen Input is the other silent method Apple mentions when you unlock iPhone.
+
+
+SELECT AN ITEM ON THE HOME SCREEN BY WRITING
+1. On the Home Screen, set the rotor to Handwriting.
+2. Start writing the name of the item with your finger.
+3. If there are multiple matches, continue to spell the name until it is unique, or swipe up or down with two fingers to choose from the current matches.
+
+
+TURN ON AND USE DICTATION
+1. Go to Settings > General > Keyboard.
+2. Turn on Enable Dictation. If a prompt appears, confirm Enable Dictation.
+3. In a text field, place the insertion point where you want to begin. With VoiceOver, select the field and double-tap, then move the insertion point if needed (see Chapter 1.13).
+4. Start dictation. With VoiceOver, Apple documents a two-finger double tap on the keyboard. You can also activate the Dictation button on the keyboard if you hear it.
+5. When dictation is listening, begin speaking.
+6. To stop, do a two-finger double tap on the keyboard again, activate the stop control if you hear it, say "Stop dictation," or remain silent for 30 seconds. Apple says dictation stops automatically after 30 seconds of silence.
+
+Apple notes that dictation may not be available in all languages or in all countries or regions, and that features may vary. When you dictate in a search field, dictated text may be sent to the search engine to process the search. In many languages, dictation is processed on iPhone and does not require an internet connection, but you should still read Apple's "About Dictation & Privacy" information in Keyboard settings if you want the official privacy details.
+
+
+SPOKEN DICTATION COMMANDS
+Apple's Dictation guide documents commands such as the following:
+
+- Add emoji by saying the name, such as "heart emoji" or "smiley face emoji."
+- Add punctuation by saying the name, such as "exclamation point."
+- In supported languages, Dictation can insert commas, periods, and question marks automatically. To turn that off, go to Settings > General > Keyboard and turn off Auto-Punctuation.
+- Say "new line" or "new paragraph" to add a line break.
+- Spell a word, for example: "Let's invite Steven S-T-E-P-H-E-N."
+- Correct spelling, for example: "Change tea to T-E-E."
+- Edit text by saying "select" or "delete" followed by the phrase you want to change.
+- Say "undo" or "redo."
+
+You can mix dictation and typing. Type a correction, then start dictation again.
+
+
+A NOTE ABOUT NEWER DICTATION FEATURES
+When this book was researched in November 2026, Apple's unversioned Dictation page also mentioned Apple Intelligence improvements in iOS 27 on certain iPhone models. This edition targets iOS 26 as the current iPhone system. Do not assume those newer dictation features are present on every iPhone. If your Settings or Apple's guide on your phone describe additional options, follow the device in front of you.
+
+
+PRACTICE EXERCISE
+1. Add Handwriting to the rotor if it is not already there.
+2. Open Notes, set the rotor to Handwriting, choose lowercase with a three-finger swipe if needed, and write a few letters.
+3. Use a two-finger swipe right for a space, then exit handwriting with a two-finger scrub.
+4. Enable Dictation if it is off, then dictate one sentence into Notes, including a punctuation command.
+5. Optional: on the Lock Screen, practice handwriting for a passcode only if no one else can hear or see the practice, and only if you are willing to enter your real passcode or a test device passcode.
+
+
+QUICK REFERENCE SUMMARY
+- Handwriting is a rotor item. Three-finger swipe up or down chooses lowercase, numbers, uppercase, or punctuation.
+- Write a character with one finger. Two-finger swipe right is space. Two-finger swipe left deletes. Three-finger swipe right is a new line.
+- Handwriting can enter a passcode silently and can find Home Screen items by name.
+- Enable Dictation in Settings > General > Keyboard.
+- With VoiceOver, two-finger double tap on the keyboard starts and stops dictation.
+- Say punctuation, "new line," spelling, and "undo" as needed. Availability varies by language and region.
+
+
+SOURCES
+Write with your finger in VoiceOver on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/write-with-your-finger-iph2062e901c/ios
+
+Use the onscreen keyboard with VoiceOver on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/use-the-onscreen-keyboard-iph3e2e3d1d/ios
+
+Dictate text on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/dictate-text-iph2c0651d2/ios

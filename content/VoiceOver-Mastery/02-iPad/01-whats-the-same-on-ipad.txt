@@ -1,0 +1,86 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 2. iPad (iPadOS)
+Chapter 2.1. What's the Same on iPad, and What Changes
+============================================================
+
+OVERVIEW
+If you already use VoiceOver on iPhone, you already know most of iPad VoiceOver. Apple documents the same basic ideas: VoiceOver is a gesture-based screen reader, it changes the gestures you use while it is on, and you turn it on or off in Settings > Accessibility > VoiceOver, with Siri, with Control Center, or with the Accessibility Shortcut.
+
+This part of the book, part of SRTS: Screen Reader Training Suite, covers what is shared, then what is different: hardware buttons, the Dock, system gestures, external keyboards, and windowed work. It does not repeat every iPhone chapter. When a skill is the same, you will be sent back to Part 1.
+
+
+WHAT YOU'LL LEARN
+- Which iPhone chapters apply unchanged to iPad.
+- How to turn VoiceOver on during iPad setup and afterward.
+- What hardware differences to expect.
+- Where iPad adds features iPhone does not emphasize.
+
+
+WHAT YOU CAN REUSE FROM IPHONE
+Treat these iPhone chapters as also true for iPad, unless a later iPad chapter says otherwise:
+
+- The tutorial and VoiceOver Practice (on iPad they live in the same Settings path).
+- Core gestures: explore, swipe to move, double-tap to activate, split-tap, Magic Tap, two-finger scrub, three-finger scroll, four-finger jump to first or last item, mute, Screen Curtain, Item Chooser, Quick Settings, passthrough, and Live Recognition's four-finger triple tap, as documented in the iPad and iPhone gesture guides with the same gesture names.
+- The rotor, including two-finger rotation or one finger on each hand, and customization in Settings > Accessibility > VoiceOver > Rotor.
+- Typing styles, Braille Screen Input, handwriting, dictation, and text editing.
+- Speech, verbosity, activities, navigation style, commands, and custom labels.
+- Safari, many built-in apps, keyboards, and braille displays.
+
+Apple's iPad pages for turning VoiceOver on, using gestures, and using the rotor closely match the iPhone pages. Where this book already cited the iPhone User Guide, the iPad User Guide is the matching source for iPad.
+
+
+TURN VOICEOVER ON OR OFF ON IPAD
+Important: VoiceOver changes the gestures you use to control iPad.
+
+1. Go to Settings > Accessibility > VoiceOver, then turn VoiceOver on or off.
+2. Or use Control Center if you have added VoiceOver there.
+3. Or use the Accessibility Shortcut if you have set it up for VoiceOver.
+4. Or ask Siri something like, "Turn on VoiceOver."
+
+Siri knows when VoiceOver is on and often reads more information back than appears on the screen.
+
+During iPad setup, Apple says that after iPad is turned on, you can triple-click the top button (on an iPad with Face ID) or triple-click the Home button (on other iPad models) to turn on VoiceOver. Then you can already use reading and exploration gestures, including a two-finger swipe up to speak the entire screen.
+
+
+HARDWARE DIFFERENCES
+iPad models vary more than many people expect:
+
+- Some iPads have a Home button and Touch ID in that button.
+- Some have Face ID and use a top button, also called the top button or sleep/wake button, with the Accessibility Shortcut.
+- Some use Touch ID in the top button. Apple's "Operate iPad when VoiceOver is on" page has a specific unlock step for those models.
+- The screen is larger, so exploring by touch covers more area, and a keyboard case is more common.
+- iPad has a Dock you can show with a VoiceOver-specific gesture, covered in the next chapter.
+- Many iPads support windowed apps or Stage Manager, which iPhone does not use in the same way.
+
+The larger screen makes four-finger taps to the top or bottom, the Item Chooser, and a keyboard especially worthwhile.
+
+
+PRACTICE EXERCISE
+1. Turn VoiceOver on and off once using Settings or Siri, then leave it on.
+2. Set the Accessibility Shortcut on your iPad: Settings > Accessibility > Accessibility Shortcut, and include VoiceOver.
+3. Open VoiceOver Practice on iPad and confirm that your usual iPhone gestures are described the same way.
+4. Skim Chapter 2.2 before you rely on Home, Dock, or Control Center gestures, because those are the ones that differ most.
+
+
+QUICK REFERENCE SUMMARY
+- Most VoiceOver skills transfer from iPhone to iPad: rotor, typing, Safari, braille, mute, and Screen Curtain.
+- Turn VoiceOver on in Settings > Accessibility > VoiceOver, with Siri, Control Center, or the Accessibility Shortcut.
+- During setup, triple-click the top button (Face ID) or the Home button (other iPads).
+- iPad hardware varies: Home button, Face ID, or Touch ID in the top button.
+- The Dock, multitasking, and keyboards are the main iPad additions. They are in the next chapters.
+
+
+SOURCES
+Turn on and practice VoiceOver on iPad, Apple iPad User Guide:
+https://support.apple.com/guide/ipad/turn-on-and-practice-voiceover-ipad9a246898/ipados
+
+Use VoiceOver gestures on iPad, Apple iPad User Guide:
+https://support.apple.com/guide/ipad/use-voiceover-gestures-ipad9a246584/ipados
+
+Control VoiceOver using the rotor on iPad, Apple iPad User Guide:
+https://support.apple.com/guide/ipad/control-voiceover-using-the-rotor-ipad9a246339/ipados
+
+Use accessibility features during iPad setup, Apple iPad User Guide:
+https://support.apple.com/guide/ipad/use-accessibility-features-during-setup-ipad58ced58d/ipados

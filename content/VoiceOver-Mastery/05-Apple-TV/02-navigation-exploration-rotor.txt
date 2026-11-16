@@ -1,0 +1,82 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 5. Apple TV (tvOS)
+Chapter 5.2. Navigation Mode, Exploration Mode, and the Rotor on Apple TV
+============================================================
+
+OVERVIEW
+VoiceOver on Apple TV has two modes. Navigation mode speaks selected items as you move with the remote. Exploration mode holds the currently selected item so you can browse other items and text on the screen before you choose something else.
+
+The rotor, opened on the clickpad or touch surface, lets you adjust VoiceOver controls such as speech rate. Available rotor controls vary depending on what you are doing.
+
+This chapter is one of the most important Apple TV lessons in this book. If the remote seems to "do the wrong thing," you may be in the other mode, or the rotor may be open.
+
+
+WHAT YOU'LL LEARN
+- How to switch between navigation and exploration modes.
+- How each mode behaves.
+- How to open, use, and exit the rotor.
+- Official exploration-mode reading gestures.
+
+
+SWITCH MODES
+To switch between navigation and exploration modes, use two fingers to tap three times on the clickpad center or touch surface of your remote.
+
+Remember that gesture. It is easy to do by accident if you rest two fingers on the remote, and it is the first thing to try if behavior suddenly changes.
+
+
+NAVIGATION MODE
+In navigation mode, as you drag your finger over the clickpad or touch surface, VoiceOver speaks each menu or text item you highlight.
+
+1. Move to another item by navigating up, down, left, or right.
+2. Press the clickpad center or touch surface to select the item.
+3. Press and hold if a pop-up menu is available.
+
+Apple also documents a Navigation Style setting that applies only in navigation mode: Follow Focus moves by one item when you swipe, and Direct Touch lets you swipe to scroll several items at a time. That setting is in Settings > Accessibility > VoiceOver, covered in the next chapter.
+
+
+EXPLORATION MODE
+By default, items selected in exploration mode remain selected while you browse adjacent or other items. This lets you hear what else is on the screen without immediately moving the selection.
+
+As you drag your finger, VoiceOver highlights and speaks each menu or text item you browse. Then you can:
+
+- Swipe left or right to hear the name of an item. The item also appears highlighted on the screen.
+- Press the clickpad center or touch surface to select a highlighted item. The newly selected item remains selected until you browse and select another item.
+- Swipe up or down to adjust the currently selected VoiceOver rotor control, once the rotor is in use.
+- Swipe down with two fingers to speak all items starting from the current text item to the bottom of the screen. Tap the clickpad center or touch surface when you hear the item you want to stop on.
+- Swipe up with two fingers to speak the items on screen, starting at the top. Tap the clickpad or touch surface to stop on an item.
+- Tap once with two fingers to pause speaking, and tap again with two fingers to resume.
+
+Apple notes that VoiceOver keyboard commands on Apple TV function, by default, as if you are in exploration mode. See the next chapter.
+
+
+USE THE ROTOR
+1. Rotate two fingers around a point on the clickpad center or touch surface to open the VoiceOver rotor.
+2. When the rotor opens, VoiceOver speaks the currently selected control if you are in exploration mode. In navigation mode, you hear a sound before VoiceOver speaks the currently selected control.
+3. Rotate two fingers left or right again to switch to another control.
+4. Swipe up or down to adjust the control. VoiceOver speaks the current value. For example, rotate to the speech rate control, then swipe up or down to change the rate.
+5. To exit the rotor, swipe left or right, or wait approximately three seconds. In navigation mode, an exit sound plays when the rotor closes.
+
+If you cannot change the speech rate, the rotor may be on a different control, or it may have closed after three seconds. Open it again and listen for the control name before you swipe up or down.
+
+
+PRACTICE EXERCISE
+1. From the Apple TV Home Screen, move among a few apps in the current mode.
+2. Two-finger triple-tap the clickpad or touch surface to switch modes, and notice what changes when you swipe.
+3. In exploration mode, try a two-finger swipe up to hear items from the top, then tap to stop.
+4. Open the rotor with a two-finger rotation, find speech rate, adjust it slightly, then exit the rotor by waiting or by swiping left or right.
+5. Switch back to the mode you prefer for everyday use. Many people stay in navigation mode for menus and use exploration mode when a screen is crowded.
+
+
+QUICK REFERENCE SUMMARY
+- Two-finger triple-tap on the clickpad or touch surface switches navigation and exploration modes.
+- Navigation mode: move, then press to select. Optional press-and-hold for a pop-up.
+- Exploration mode: the current selection can stay put while you browse. Two-finger swipe up reads from the top. Two-finger swipe down reads from the current item. Two-finger tap pauses.
+- Rotate two fingers to open the rotor, rotate to a control, swipe up or down to adjust, then swipe left or right or wait about three seconds to exit.
+- If the remote behavior changes suddenly, check the mode and whether the rotor is still open.
+
+
+SOURCES
+Use VoiceOver on Apple TV 4K, Apple TV User Guide:
+https://support.apple.com/guide/tv/use-voiceover-atvbfa4ff6cd/tvos

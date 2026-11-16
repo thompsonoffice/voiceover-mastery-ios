@@ -1,0 +1,105 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 1. iPhone (iOS)
+Chapter 1.13. Text Editing
+============================================================
+
+OVERVIEW
+Typing is only half of working with text. You also need to move the insertion point, select text, and cut, copy, paste, or fix a typo. VoiceOver does this with the rotor and a few gestures, not with a visible mouse pointer.
+
+This chapter follows Apple's "Use the onscreen keyboard with VoiceOver" page. Practice in Notes, where a mistake does not send a message.
+
+
+WHAT YOU'LL LEARN
+- How to move the insertion point by character, word, or line.
+- How VoiceOver reports that movement.
+- How to select text with Text Selection or Edit.
+- How to cut, copy, paste, fix misspellings, and undo.
+
+
+MOVE THE INSERTION POINT
+1. Double-tap a text field so you are editing it.
+2. Set the rotor to Characters, Words, or Lines, depending on how far you want to move.
+3. Swipe up or down to move the insertion point backward or forward.
+4. To jump to the beginning or end, Apple says to double-tap the text.
+
+VoiceOver makes a sound when the insertion point moves, and it speaks the character, word, or line that the insertion point moves across.
+
+When you move forward by words, the insertion point is placed at the end of each word, after the space or punctuation that follows. When you move backward, the insertion point is placed before the first character of the word.
+
+If you need to move past the punctuation at the end of a word or sentence, switch the rotor back to Characters.
+
+When you move by line, VoiceOver speaks each line as you move across it. When moving forward, the insertion point is placed at the end of the next line. When moving backward, the insertion point is placed at the beginning of the line that is spoken.
+
+
+DELETE A CHARACTER
+Select the Delete key on the onscreen keyboard, then enter it using your current typing style (for example, double-tap in Standard Typing). Apple's User Guide shows a Delete control here. This book does not invent a special delete gesture for the standard keyboard. Braille Screen Input and handwriting have their own delete gestures, taught in those chapters.
+
+
+SELECT TEXT
+Apple documents two methods.
+
+Method A: Text Selection rotor item.
+
+1. If Text Selection is not on the rotor, go to Settings > Accessibility > VoiceOver > Rotor and enable it.
+2. Set the rotor to Text Selection.
+3. Swipe up or down to choose Character, Word, Line, or Sentence.
+4. Swipe left or right to move backward or forward, extending or moving the selection as VoiceOver describes it.
+
+Method B: Edit rotor item.
+
+1. Set the rotor to Edit.
+2. Swipe up or down to choose Select or Select All, then double-tap.
+3. If you choose Select, the word closest to the insertion point is selected when you double-tap.
+4. To increase or decrease the selection, do a two-finger scrub to dismiss the pop-up menu, then pinch.
+
+Pinch means move two fingers together or apart on the screen. Listen to VoiceOver as the selection changes, and stop when you hear the range you want. If pinching is difficult, use the Text Selection rotor method instead.
+
+
+CUT, COPY, OR PASTE
+1. Select the text.
+2. Set the rotor to Edit.
+3. Swipe up or down to choose Cut, Copy, or Paste.
+4. Double-tap.
+
+
+FIX MISSPELLED WORDS
+1. Set the rotor to Misspelled Words.
+2. Swipe up or down to jump to the previous or next misspelled word.
+3. Swipe left or right to choose a suggested replacement.
+4. Double-tap to use the replacement.
+
+If Misspelled Words is not on the rotor, add it in Rotor settings, and remember that it appears when you are in editable text that has flagged words.
+
+
+UNDO
+1. Shake iPhone.
+2. Swipe left or right to choose the action to undo.
+3. Double-tap.
+
+If shaking is not practical, look for Undo in the Edit rotor or in the app's own controls. Do not assume every app offers the shake gesture.
+
+
+PRACTICE EXERCISE
+1. In Notes, type a short paragraph with a deliberate typo.
+2. Move the insertion point by words, then by characters, and listen for the insertion-point sound.
+3. Double-tap the text to jump to the beginning or end, then move again.
+4. Select one word with the Edit rotor's Select action, copy it, move to the end, and paste it.
+5. Use Misspelled Words, if it appears, to fix your typo.
+6. Shake to undo once, then decide whether to redo or leave the correction.
+
+
+QUICK REFERENCE SUMMARY
+- Rotor to Characters, Words, or Lines, then swipe up or down to move the insertion point.
+- Double-tap the text to jump to the beginning or end.
+- Moving forward by word lands after the following space or punctuation. Use Characters to move past punctuation more precisely.
+- Text Selection: choose Character, Word, Line, or Sentence, then swipe left or right.
+- Edit rotor: Select, Select All, Cut, Copy, Paste. After Select, scrub and pinch to change the range.
+- Misspelled Words jumps to errors. Swipe left or right for replacements.
+- Shake iPhone, choose the undo action, then double-tap.
+
+
+SOURCES
+Use the onscreen keyboard with VoiceOver on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/use-the-onscreen-keyboard-iph3e2e3d1d/ios

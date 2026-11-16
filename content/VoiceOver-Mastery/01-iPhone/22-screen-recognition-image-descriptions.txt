@@ -1,0 +1,80 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 1. iPhone (iOS)
+Chapter 1.22. Screen Recognition and Image Descriptions
+============================================================
+
+OVERVIEW
+Some apps and webpages do not give VoiceOver enough information. Controls may be unlabeled, or images may have no description. VoiceOver Recognition can describe interface elements and images anyway.
+
+Screen Recognition is the feature that tries to detect onscreen controls in those inaccessible places. Image-related options can describe people, objects, and text in pictures. Some enhanced "ask about this image" or "explore the screen" features depend on Apple Intelligence and on specific iPhone models and system versions. This chapter separates the core settings, which you can turn on in VoiceOver Recognition, from newer features that may not be on every iOS 26 iPhone.
+
+
+WHAT YOU'LL LEARN
+- How to turn on Screen Recognition and apply it to apps.
+- How to turn on text recognition and image exploration features Apple documents.
+- How to use additional actions on an image after it is selected.
+- Why you must still double-check anything important.
+- What this book will not treat as universal on iOS 26.
+
+
+TURN ON SCREEN RECOGNITION
+1. Go to Settings > Accessibility > VoiceOver > VoiceOver Recognition.
+2. Select Screen Recognition, then turn on Screen Recognition.
+3. Select Apply to Apps, then select an app from the list if you want to improve accessibility for a specific app.
+
+Use this when a particular app is hard to use because buttons have no names, or because the layout is drawn in a way VoiceOver cannot see. You may not want it on everywhere, because detected controls can sometimes be wrong or duplicated. Applying it to the apps that need it is a good first approach.
+
+When Screen Recognition is helping, you may hear additional items that were not there before. Explore slowly. If a detected button does the wrong thing, do not keep double-tapping it. Turn the feature off for that app if it makes the screen worse.
+
+
+IMAGE AND TEXT RECOGNITION
+Still under Settings > Accessibility > VoiceOver > VoiceOver Recognition, Apple documents options such as the following. Names can sit on the VoiceOver Recognition screen or on a related Image Descriptions screen:
+
+- Text Recognition: get descriptions of text found in images.
+- Explore Image: explore content in an image and get descriptions.
+- Other image description or question options may appear if your iPhone and iOS version support them.
+
+Apple's current unversioned User Guide also describes Apple Intelligence features such as Ask About Image, Intelligent Image Description, Explore Screen, and Ask About Screen, and it ties some of those to iOS 27 and to Apple Intelligence-enabled iPhone models, as well as to the Dynamic Island on supported phones. This book targets iOS 26. If you hear those options on your phone, you can try them. If you do not hear them, you are not missing a hidden gesture. Your software or model may not include them yet.
+
+Apple also notes that image descriptions are not available in all languages, and points to the iOS and iPadOS Feature Availability website.
+
+
+USE IMAGE ACTIONS IN AN APP
+1. Go to an app such as Photos or Safari, then select an image.
+2. Swipe down to hear more options, then double-tap when you hear a command such as Explore Image, or another image-description action that your phone offers.
+3. Move your finger around the image to find out the position of each object, if exploration mode is available.
+
+This is a good companion to custom descriptions you write yourself in Photos (Chapter 1.20). Your own description is under your control. Automatic descriptions are guesses, sometimes very good ones, sometimes not.
+
+
+KEEP THE SAFETY LIMIT IN MIND
+The same VoiceOver Recognition warning applies here. Do not rely on automatic descriptions for medication labels, payments, identification, or unsafe surroundings without a second check. A wrong button name in an inaccessible app can also cause mistakes. When something is important, confirm it with a person, with a second app, or with a method you already trust.
+
+
+PRACTICE EXERCISE
+1. Open Settings > Accessibility > VoiceOver > VoiceOver Recognition and listen through every switch once.
+2. If you have an app that is poorly labeled, turn on Screen Recognition and apply it to that app only. Open the app and notice whether more controls are now spoken.
+3. In Photos or Safari, select a picture and swipe down for image-related actions. Try one, then leave the rest.
+4. If the app became harder to use, turn Screen Recognition off for that app.
+
+
+QUICK REFERENCE SUMMARY
+- VoiceOver Recognition is in Settings > Accessibility > VoiceOver > VoiceOver Recognition.
+- Screen Recognition can detect interface elements in apps that lack accessibility information. You can apply it to specific apps.
+- Text Recognition reads text found in images.
+- Select an image, then swipe down for description or explore actions.
+- Some "ask about" and "explore screen" features depend on model, language, and system version, including features Apple has associated with Apple Intelligence and later iOS.
+- Automatic descriptions can be wrong. Do not rely on them for safety, medicine, or navigation.
+
+
+SOURCES
+Hear what's on your screen and around you with VoiceOver on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/hear-whats-on-your-screen-and-around-you-iph37e6b3844/ios
+
+Use VoiceOver in apps on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/use-voiceover-in-apps-iphe4ee74be8/ios
+
+Use VoiceOver Recognition on your iPhone or iPad, Apple Support:
+https://support.apple.com/en-us/111799

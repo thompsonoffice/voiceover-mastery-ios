@@ -1,0 +1,83 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 3. Mac (macOS)
+Chapter 3.1. Getting Started with VoiceOver on Mac
+============================================================
+
+OVERVIEW
+VoiceOver on Mac is the same idea as on iPhone, but the main tools are a keyboard and an app called VoiceOver Utility. You move a VoiceOver cursor, hear the item in that cursor, and use a VoiceOver command to act on it.
+
+A VoiceOver command is a combination of keys. You press the VoiceOver modifier plus one or more other keys. This book writes the modifier as VO. By default, VO is either Caps Lock, or Control and Option pressed together.
+
+This part is based on Apple's VoiceOver User Guide for Mac, as published when this SRTS: Screen Reader Training Suite edition was written in November 2026. At that time, Apple's unversioned VoiceOver User Guide was labeled for macOS 27. If a command fails, use Keyboard Help (Chapter 3.2) and the guide on your Mac, and treat version differences as possible.
+
+
+WHAT YOU'LL LEARN
+- How to turn VoiceOver on or off.
+- What the welcome dialog can do the first time.
+- How VO commands are written and entered.
+- How to move the VoiceOver cursor and activate an item.
+
+
+TURN VOICEOVER ON OR OFF
+Apple documents all of these methods:
+
+- Press Command-F5.
+- If your Mac or Magic Keyboard has Touch ID, press and hold the Command key, then quickly press Touch ID three times.
+- Ask Siri something like, "Turn on VoiceOver."
+- Choose Apple menu > System Settings, then click Accessibility in the sidebar (you may need to scroll down). Click VoiceOver, then turn VoiceOver on or off. With VoiceOver already on, you would use VoiceOver commands to follow that path.
+- Use the Accessibility Shortcuts panel: press Option-Command-F5, or quickly press Touch ID three times if your Mac or Magic Keyboard has Touch ID. In the panel, press Tab until you hear the VoiceOver option, then press the Space bar.
+- You can also add a Control Center shortcut for VoiceOver, according to Apple's getting-started page.
+
+Command-F5 is the one to memorize first. On some keyboards you may need Command-Fn-F5 if function keys are set to system features. If Command-F5 does nothing, try it with Fn, or use the Touch ID method, Siri, or the Accessibility Shortcuts panel.
+
+
+THE WELCOME DIALOG
+When you turn VoiceOver on, a welcome message is spoken and a dialog is shown. Apple documents these keys in that dialog:
+
+- Return: turn on VoiceOver.
+- Space bar: turn on VoiceOver and start the interactive VoiceOver tutorial.
+- V: turn on VoiceOver and prevent the dialog from appearing the next time.
+- Escape: turn off VoiceOver and exit the dialog.
+
+To control whether the dialog appears, go to VoiceOver Utility (VO-Fn-F8 when VoiceOver is on), open the General category, and select or deselect "Display welcome dialog when VoiceOver starts."
+
+
+MOVE AND ACTIVATE
+The VoiceOver cursor is the item VoiceOver is on. It appears onscreen as a rectangular outline, which can help a sighted helper, but you do not need to see it.
+
+- Press VO-Left Arrow or VO-Right Arrow to move the VoiceOver cursor.
+- Press VO-Space bar to perform the default action for the item, such as clicking a button or selecting a checkbox.
+
+As you navigate, you may hear a hollow sound effect that means there are no more items in that direction.
+
+This is the Mac equivalent of swipe left or right, then double-tap, on iPhone.
+
+
+PRACTICE EXERCISE
+1. Turn VoiceOver on with Command-F5, or with Command and three presses of Touch ID.
+2. If the welcome dialog appears, press Space bar if you want the tutorial now, or Return to continue with this book.
+3. Press VO-Right Arrow a few times and listen, then VO-Space bar on a safe item such as a folder or button you know.
+4. Turn VoiceOver off and on once more, so the toggle is comfortable.
+5. Leave VoiceOver on for the next chapter.
+
+
+QUICK REFERENCE SUMMARY
+- VO means Caps Lock, or Control-Option together.
+- Command-F5 turns VoiceOver on or off. Command plus three presses of Touch ID also works on supported hardware.
+- Option-Command-F5 opens the Accessibility Shortcuts panel.
+- VO-Left Arrow and VO-Right Arrow move the VoiceOver cursor. VO-Space bar activates.
+- The welcome dialog: Return to continue, Space bar for the tutorial, V to skip the dialog next time, Escape to cancel.
+- Open VoiceOver Utility with VO-Fn-F8.
+
+
+SOURCES
+Get started with VoiceOver on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/get-started-with-voiceover-vo4be8816d70/mac
+
+Turn VoiceOver on or off on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/turn-voiceover-on-or-off-vo2682/mac
+
+VoiceOver general commands on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/general-commands-cpvokys01/mac

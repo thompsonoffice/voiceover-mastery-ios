@@ -1,0 +1,70 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 3. Mac (macOS)
+Chapter 3.3. Navigating and Interacting with Areas
+============================================================
+
+OVERVIEW
+Content in VoiceOver on Mac is organized hierarchically. Some items contain other items. Apple calls an item that contains nested items an area (such as a list of files) or a group (such as a toolbar of buttons).
+
+By default, you must interact with an area or group before you can navigate to its items. That lets you skip a group, or stop and go inside it. This is the biggest conceptual difference from iPhone's usual swipe-through-everything habit, especially if your iPhone navigation style is Flat.
+
+
+WHAT YOU'LL LEARN
+- How to move the VoiceOver cursor and activate items, reviewed briefly.
+- How to start and stop interacting with an area or group.
+- How to recognize when interaction is required.
+- How this compares to grouped navigation on iPhone.
+
+
+MOVE AND ACTIVATE, AGAIN
+- VO-Left Arrow or VO-Right Arrow moves the VoiceOver cursor.
+- VO-Space bar performs the default action.
+
+If nothing else is in that direction, VoiceOver can play a hollow sound. Change direction or interact with the current item if it is a group.
+
+
+INTERACT WITH A GROUP
+When the VoiceOver cursor moves to an area or group, VoiceOver indicates that you are on an item that can be interacted with.
+
+- Press VO-Shift-Down Arrow to interact with the area or group.
+- Press VO-Shift-Up Arrow to stop interacting and exit the area or group.
+
+After you interact, you can navigate only within that area or group until you exit it. This is similar to moving into a group on iPhone with a two-finger swipe right, then out with a two-finger swipe left, if you use grouped navigation.
+
+If you press VO-Right Arrow and seem to skip a whole toolbar or list, you probably need to interact first. If you get "stuck" inside a table or sidebar, press VO-Shift-Up Arrow to exit, then move on.
+
+
+TRACKPAD EQUIVALENTS
+If you use trackpad gestures (Chapter 3.6):
+
+- Two-finger flick right starts interacting with the item in the VoiceOver cursor.
+- Two-finger flick left stops interacting.
+
+Those official trackpad gestures match the keyboard interact and exit commands.
+
+
+PRACTICE EXERCISE
+1. Open Finder, or a folder on the desktop.
+2. Move with VO-Right Arrow until VoiceOver says you can interact with a list, toolbar, or group.
+3. Press VO-Shift-Down Arrow, move among the items inside, then press VO-Shift-Up Arrow to exit.
+4. Repeat in Safari or System Settings, which are full of groups.
+5. If you get lost, press Escape or VO-Shift-Up Arrow until you are out of the current group, then VO-H if you have already learned the Help menu, or just keep exiting until you hear a familiar window.
+
+
+QUICK REFERENCE SUMMARY
+- VO-arrows move. VO-Space bar activates.
+- Areas and groups must often be entered before you can move to the items inside.
+- VO-Shift-Down Arrow interacts (goes in). VO-Shift-Up Arrow exits.
+- After you interact, movement stays inside that group until you exit.
+- On a trackpad, two-finger flick right goes in, and two-finger flick left goes out.
+- This is the Mac cousin of grouped navigation on iPhone.
+
+
+SOURCES
+Get started with VoiceOver on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/get-started-with-voiceover-vo4be8816d70/mac
+
+Standard trackpad gestures for VoiceOver on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/standard-trackpad-gestures-vo27992/mac

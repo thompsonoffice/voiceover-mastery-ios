@@ -1,0 +1,130 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 1. iPhone (iOS)
+Chapter 1.10. Typing Options
+============================================================
+
+OVERVIEW
+When VoiceOver is on, the onscreen keyboard does not work like a keyboard for sighted typing unless you choose a mode that allows that. Apple documents three typing styles, plus dictation.
+
+The three styles are Standard Typing, Touch Typing, and Direct Touch Typing. You can change the style in Settings, or with the Typing Mode rotor setting when a keyboard is showing.
+
+This chapter covers those styles, accented characters, and typing feedback. Braille Screen Input has its own chapter next. Handwriting and a fuller dictation lesson follow in Chapter 1.12. Text selection and editing are in Chapter 1.13.
+
+
+WHAT YOU'LL LEARN
+- How to open the keyboard in a text field.
+- How Standard, Touch, and Direct Touch Typing each work.
+- How to switch typing styles with the rotor or in Settings.
+- How to enter accented characters.
+- How to start and stop dictation from the keyboard.
+- How to change typing feedback and phonetic feedback.
+
+
+OPEN A TEXT FIELD
+1. Select a text field, then double-tap.
+2. The insertion point and the onscreen keyboard appear.
+
+The insertion point is the place where the next character will be added. VoiceOver typically tells you when a text field is being edited.
+
+
+STANDARD TYPING
+Standard Typing is the most precise style, and it is a good default while you are learning.
+
+1. Select a key by swiping left or right on the keyboard, or by moving your finger around the keyboard until you hear the key.
+2. Double-tap to enter the character.
+
+Or use a split-tap: keep one finger on the key, then tap the screen with another finger.
+
+VoiceOver speaks the key when it is selected, and speaks it again when the character is entered.
+
+To enter an accented character in Standard Typing:
+
+1. Select the plain character, such as E.
+2. Double-tap and hold until you hear a tone that indicates alternate characters have appeared.
+3. Drag left or right to select and hear the choices.
+4. Release your finger to enter the current selection.
+
+
+TOUCH TYPING
+Touch Typing is faster once you know the keyboard layout.
+
+1. Touch a key to select it. VoiceOver speaks the character.
+2. If it is the wrong key, slide your finger to the key you want.
+3. Lift your finger to enter the character.
+
+VoiceOver does not enter a character until you lift your finger. That is the main difference from Direct Touch Typing.
+
+To enter an accented character in Touch Typing, touch and hold a character until the alternate characters appear, then move to the one you want. Follow what VoiceOver speaks as the alternates appear.
+
+
+DIRECT TOUCH TYPING
+In Direct Touch Typing, VoiceOver is disabled for the keyboard only. You type the same way you do when VoiceOver is off. This can be fast if you already type by feel, but you will not hear keys spoken as you explore them on the keyboard.
+
+Direct Touch Typing does not turn VoiceOver off in the rest of iPhone. It only changes typing on the keyboard.
+
+
+DICTATION FROM THE KEYBOARD
+Apple documents a two-finger double tap on the keyboard to start and stop dictation. Dictation must be enabled first.
+
+1. Go to Settings > General > Keyboard.
+2. Turn on Enable Dictation, and confirm if iPhone asks.
+3. Open a text field and show the keyboard.
+4. Two-finger double tap on the keyboard to start dictation.
+5. Speak, then two-finger double tap again to stop.
+
+Chapter 1.12 has more dictation commands, such as punctuation and "new line," from Apple's Dictation guide.
+
+
+SWITCH TYPING STYLES
+In Settings:
+
+1. Go to Settings > Accessibility > VoiceOver.
+2. Select Typing Style, or open Typing and then Typing Style, depending on what your iOS 26 Settings list speaks.
+3. Choose Standard Typing, Touch Typing, or Direct Touch Typing.
+
+From the rotor:
+
+1. When the keyboard is showing, turn the rotor to Typing Mode.
+2. Swipe up or down until you hear the style you want.
+
+
+TYPING FEEDBACK
+Still in Settings > Accessibility > VoiceOver, Apple documents these related options:
+
+- Phonetic Feedback: VoiceOver speaks a character, then its phonetic equivalent, such as "F" and then "foxtrot."
+- Typing Feedback: choose to speak characters, words, both, or nothing.
+- Verbosity, then Deleting Text: you can have VoiceOver speak deleted characters in a lower pitch by choosing Change Pitch.
+
+These settings help you catch mistakes without slowing down more than you want. Many people speak characters and words while learning, then switch to words only.
+
+
+PRACTICE EXERCISE
+1. Open Notes and create a new note, or open a message to yourself.
+2. Double-tap the text field to show the keyboard.
+3. Type a short sentence in Standard Typing.
+4. Switch to Touch Typing with the rotor and type another sentence.
+5. Try a two-finger double tap to start dictation, say a short phrase, then stop dictation the same way.
+6. If you try Direct Touch Typing, type only a few characters, then switch back if you need spoken keys.
+
+
+QUICK REFERENCE SUMMARY
+- Double-tap a text field to show the keyboard and the insertion point.
+- Standard Typing: select a key, then double-tap or split-tap to enter it.
+- Touch Typing: touch a key, slide to correct, lift to enter.
+- Direct Touch Typing: type as if VoiceOver were off, but only on the keyboard.
+- Two-finger double tap on the keyboard starts and stops dictation.
+- Change styles in Settings or with the Typing Mode rotor item.
+- Adjust Phonetic Feedback, Typing Feedback, and deleted-text verbosity in VoiceOver settings.
+
+
+SOURCES
+Use the onscreen keyboard with VoiceOver on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/use-the-onscreen-keyboard-iph3e2e3d1d/ios
+
+About the VoiceOver rotor on iPhone or iPad, Apple Support:
+https://support.apple.com/en-us/111796
+
+Dictate text on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/dictate-text-iph2c0651d2/ios

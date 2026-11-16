@@ -1,0 +1,131 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 1. iPhone (iOS)
+Chapter 1.3. Core Gestures
+============================================================
+
+OVERVIEW
+This chapter is the heart of iPhone VoiceOver. When VoiceOver is on, the usual touchscreen gestures do different things, and extra gestures let you move around the screen and control items. VoiceOver gestures include two-finger, three-finger, and four-finger taps and swipes.
+
+Learn a small set well before you try to memorize every gesture Apple documents. If you can explore, move to the next item, go back, activate, pause speech, and scroll, you can already use most apps. The next chapters add reading commands, VoiceOver controls such as mute and Screen Curtain, and system gestures for Home and Control Center.
+
+Practice these in VoiceOver Practice first, then try them on the Home Screen.
+
+
+WHAT YOU'LL LEARN
+- How to explore the screen by touch.
+- How to move to the next or previous item.
+- How to activate an item, use a split-tap, and do a long press.
+- How to go back with a two-finger scrub.
+- How to scroll pages and jump to the first or last item.
+- How grouped navigation changes two-finger swipes.
+
+
+EXPLORE BY TOUCH
+To explore the screen, drag your finger over it. VoiceOver speaks the name of each item you touch. This is the most natural way to learn a new screen. You can also tap an item once to select it and hear its name.
+
+Exploring by touch does not activate the item. Activation takes a separate gesture, usually a double tap.
+
+
+MOVE IN ORDER
+You can also move through items in order, from top to bottom and left to right.
+
+1. Swipe right with one finger to select the next item.
+2. Swipe left with one finger to select the previous item.
+
+These swipes are quick flicks, not slow drags. If nothing happens, try a shorter, faster swipe.
+
+
+ACTIVATE, LONG PRESS, AND SPLIT-TAP
+1. Tap an item once to select it, or swipe until you hear it.
+2. Double-tap with one finger to activate it. You can double-tap anywhere on the screen.
+
+A double tap is what opens an app, follows a link, turns a switch on or off, or presses a button.
+
+Apple also documents these related gestures:
+
+- Triple tap: touch and hold, also called a long press, on the selected item.
+- Split-tap: touch and hold an item with one finger, then tap the screen with another finger. This activates the held item and is often faster than lifting your finger and double-tapping.
+- Two-finger double tap: start or stop the current action. Examples Apple gives are play or pause music or a video, take a photo in Camera, start or stop a recording, and start or stop the stopwatch. This gesture is often called Magic Tap. Chapter 1.4 comes back to it.
+- Two-finger double tap and hold: edit the selected item's label to make it easier to find. Chapter 1.17 covers custom labels.
+
+
+GO BACK OR DISMISS WITH A TWO-FINGER SCRUB
+To dismiss an alert or return to the previous screen, do a two-finger scrub. Move two fingers back and forth three times quickly, making a "z" shape.
+
+This gesture is worth practicing until it is automatic. It closes many pop-up menus and takes you back one screen in a lot of apps.
+
+
+SCROLL A PAGE
+Scrolling with VoiceOver uses three fingers, and the direction can feel backward at first. You are moving the page, not moving a finger toward the content you want.
+
+- Three-finger swipe down scrolls up one page.
+- Three-finger swipe up scrolls down one page.
+- Three-finger swipe right scrolls left one page.
+- Three-finger swipe left scrolls right one page.
+
+On the Home Screen, three-finger swipes left or right move between Home Screen pages.
+
+
+JUMP TO THE FIRST OR LAST ITEM
+- Four-finger tap near the top of the screen selects the first item on the screen.
+- Four-finger tap near the bottom of the screen selects the last item on the screen.
+
+These are shortcuts for long screens, such as a Settings list or a long article.
+
+
+MOVE INTO AND OUT OF A GROUP
+If you use grouped navigation, some items are collected into a group. Apple documents these gestures:
+
+- Two-finger swipe right moves into a group of items.
+- Two-finger swipe left moves out of a group of items.
+
+You choose Flat or Grouped navigation in Settings > Accessibility > VoiceOver > Navigation Style. In Flat navigation, next and previous move through each item in order. In Grouped navigation, you move among items and groups, and you use those two-finger swipes to enter or leave a group. Chapter 1.16 returns to this setting.
+
+
+ADJUST A SLIDER
+1. Select the slider with a tap or a swipe.
+2. Swipe up or down with one finger to change the value.
+
+Or:
+
+1. Select the slider.
+2. Double-tap and hold until you hear three rising tones.
+3. Drag the slider.
+
+The second method is an example of a passthrough gesture, which Chapter 1.6 explains more fully.
+
+
+REACHABILITY, IF YOUR IPHONE SUPPORTS IT
+Apple documents a gesture that lowers the top half of the screen: swipe up from the bottom of the screen with one finger, then, without lifting your finger, swipe down. This is meant to bring items nearer the bottom of a tall iPhone. If the gesture does nothing on your model, you can ignore it.
+
+
+PRACTICE EXERCISE
+Do this first in VoiceOver Practice, then on the Home Screen.
+
+1. Drag your finger slowly across the screen and listen to each item.
+2. Swipe right until you hear a familiar app, then swipe left back to a previous app.
+3. Select an app you are willing to open, then double-tap to open it.
+4. Do a two-finger scrub to go back, or use the Home gesture from Chapter 1.7 if you already know it.
+5. On the Home Screen, practice a three-finger swipe left or right to change pages.
+6. Try a four-finger tap near the top, then a four-finger tap near the bottom.
+
+
+QUICK REFERENCE SUMMARY
+- Drag a finger to explore. A single tap selects and speaks an item.
+- Swipe right for the next item. Swipe left for the previous item.
+- Double-tap to activate. Split-tap if you prefer: hold with one finger, tap with another.
+- Triple tap is a long press.
+- Two-finger scrub (a "z") dismisses or goes back.
+- Three-finger swipes scroll. The swipe direction is opposite the page movement.
+- Four-finger tap at the top jumps to the first item. At the bottom, it jumps to the last item.
+- Two-finger swipe right enters a group. Two-finger swipe left leaves a group, when grouped navigation is on.
+
+
+SOURCES
+Use VoiceOver gestures on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/use-voiceover-gestures-iph3e2e2281/ios
+
+Change your VoiceOver settings on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/change-your-voiceover-settings-iphfa3d32c50/ios

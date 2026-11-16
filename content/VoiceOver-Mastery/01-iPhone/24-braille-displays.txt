@@ -1,0 +1,100 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 1. iPhone (iOS)
+Chapter 1.24. Braille Displays on iPhone
+============================================================
+
+OVERVIEW
+With VoiceOver, you can connect a Bluetooth refreshable braille display and use it to control iPhone and read what is on the screen. The braille you type on the display is translated into text, and the display shows what you are typing in context. You can read and type in contracted or uncontracted braille, with support for many international braille tables.
+
+This chapter covers connecting a display and the settings Apple documents. It does not reprint Apple's full list of supported displays or the full common-command chart. Use those official Apple Support articles for model-specific keys.
+
+
+WHAT YOU'LL LEARN
+- How to pair a braille display and select it in VoiceOver settings.
+- Where to find the commands for your display.
+- Which braille settings Apple documents, in plain language.
+- How 2D braille displays can use a rotor mode, if you have one.
+- How closed captions can be sent to braille during media playback.
+
+
+CONNECT A BRAILLE DISPLAY
+1. Turn on the braille display.
+2. On iPhone, go to Settings > Bluetooth, turn on Bluetooth, then choose the display.
+3. Go to Settings > Accessibility > VoiceOver > Braille, then choose the display.
+4. To see the braille commands for controlling iPhone, select More Info, then select Braille Commands.
+
+Apple publishes "Braille displays supported by iPhone, iPad, and iPod touch" and "Common braille commands for VoiceOver on your iPhone, iPad, and iPod touch." Start there if a display will not pair, or if you need the command chords.
+
+You can also turn on Enable Bluetooth on Start in VoiceOver Braille settings, so Bluetooth turns on automatically when you turn on VoiceOver and displays can connect.
+
+
+CHANGE BRAILLE SETTINGS
+Go to Settings > Accessibility > VoiceOver > Braille. Apple documents options including:
+
+- Match Input and Output Tables: use the same table for typing and for reading.
+- Input and Output: choose tables for input and output, including additional languages, six-dot or eight-dot, and contracted or uncontracted braille.
+- Braille Screen Input: the onscreen braille method from Chapter 1.11.
+- Braille Tables: add tables to the braille table rotors.
+- Braille Access: quickly access braille notes, BRF files, and more using a braille display. Apple points to a separate "Change Braille Access settings" page for details.
+- Item Overview: adjust the number of cells displayed per item. Press dots 6, 7, and 8 at the same time to turn Item Overview on or off.
+- Automatic Translation: translate the braille you type into text soon after you stop typing.
+- Status Cells: turn on general and text status cells and choose their location.
+- Equations use Nemeth Code: use Nemeth Code for mathematical equations.
+- Show Onscreen Keyboard: display the keyboard on the screen.
+- Turn Pages when Panning: automatically turn pages when panning.
+- Word Wrap: wrap words to the next line.
+- Text Formatting: display attributes such as bold and italics.
+- Use Underline Cursor: display the cursor as an underline.
+- Braille Alert Messages: when on, the display shows an alert for a specified duration.
+- Ignore Chord Duration: how long before later key presses are recognized as braille chords.
+- Auto Advance Duration: adjust this to your preferred reading speed.
+- Sound Curtain: when a braille display is connected, mute most sounds. Emergency alerts still play sounds.
+- Enable Bluetooth on Start: described above.
+
+You do not need to change all of these. Many people set input and output tables, word wrap, and auto advance, then leave the rest until a specific need appears.
+
+
+CAPTIONS IN BRAILLE
+To output closed captions in braille during media playback:
+
+1. Go to Settings > Accessibility > VoiceOver > Verbosity.
+2. Choose Braille, or Speech and Braille, in the media or captions-related option Apple provides there.
+
+The User Guide's VoiceOver-in-apps page also notes that equations spoken by VoiceOver can be output to a braille device using Nemeth Code, as well as codes used by Unified English Braille, British English, French, and Greek.
+
+
+USE A 2D BRAILLE DISPLAY
+If you use a supported 2D braille display, you can use the rotor to switch between output modes, such as a mode for displaying images or a mode for reading text on multiple lines.
+
+1. Connect the display to iPhone.
+2. With VoiceOver on, use the Braille Text Mode rotor to switch between output modes.
+
+See Chapter 1.8 for rotor use. If you do not have a 2D display, you can ignore this section.
+
+
+PRACTICE EXERCISE
+1. If you have a display, pair it in Bluetooth, then select it in Settings > Accessibility > VoiceOver > Braille.
+2. Open More Info > Braille Commands and listen to, or read in braille, a few commands you already use.
+3. Confirm your input and output tables.
+4. Open a Notes document and practice reading and typing a sentence.
+5. If you use captions, set Verbosity so captions can go to the display during a short video.
+
+
+QUICK REFERENCE SUMMARY
+- Pair in Settings > Bluetooth, then choose the display in Settings > Accessibility > VoiceOver > Braille.
+- Braille Commands are under More Info for that display.
+- Set input and output tables, translation, word wrap, and auto advance to match how you read.
+- Sound Curtain can mute most sounds while a display is connected. Emergency alerts still sound.
+- Enable Bluetooth on Start can connect a display whenever VoiceOver turns on.
+- 2D displays can use the Braille Text Mode rotor.
+- Official supported-display and common-command lists are on Apple's Support site. This book does not replace them.
+
+
+SOURCES
+Use a braille display with VoiceOver on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/use-a-braille-display-iph73b8c43/ios
+
+Use VoiceOver in apps on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/use-voiceover-in-apps-iphe4ee74be8/ios

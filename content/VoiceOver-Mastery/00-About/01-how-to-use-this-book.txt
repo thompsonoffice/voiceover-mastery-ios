@@ -1,0 +1,91 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 0. About This Guide
+Chapter 0.1. How to Use This Book
+============================================================
+
+OVERVIEW
+This chapter explains how to move through the book, how each chapter is built, and how to practice safely. You can read it once, then jump to the part for your device.
+
+VoiceOver is Apple's built-in screen reader. A screen reader speaks, or sends to a braille display, what is on the screen and what you can do with it. On Apple devices the screen reader is called VoiceOver. The idea is the same on iPhone, iPad, Mac, Apple Watch, Apple TV, and Apple Vision Pro. The way you touch, type, or pinch is not the same on every device.
+
+This book is part of SRTS: Screen Reader Training Suite. It is written in plain text so it works well with VoiceOver, other screen readers, and braille displays.
+
+
+WHAT YOU'LL LEARN
+- How the folders and the combined file work.
+- How every chapter is structured.
+- Which part to read first.
+- How to practice a new gesture without changing your device settings.
+- What this edition covers, and what it does not invent.
+
+
+CHOOSE A WAY TO READ
+There are three good ways to use this book.
+
+If you are new to VoiceOver, read in order. Start with this part, then complete the iPhone chapters even if you mostly use an iPad or a Mac. The iPhone part is the longest because it teaches the shared vocabulary.
+
+If you already use VoiceOver on one device and want another, go to that platform's part first. Each later part tells you what is already covered on iPhone and what is different.
+
+If you need one fact, open CONTENTS.txt, INDEX.txt, or VoiceOver-Mastery-complete.txt and search. Searching the combined file is often the fastest way to find a gesture or a Settings path.
+
+
+HOW TO FOLLOW A STEP
+A typical step looks like this:
+
+1. Go to the Settings app.
+2. Select Accessibility, then double-tap to open it.
+3. Select VoiceOver, then double-tap.
+
+"Select" means move the VoiceOver cursor to that item so VoiceOver speaks it. On iPhone and iPad, you can tap the item, or swipe right or left until you hear it. "Double-tap" means tap twice quickly with one finger to activate the selected item. You can double-tap anywhere on the screen, not only on the item itself, as long as the item is selected.
+
+When a Settings path is written on one line, such as Settings > Accessibility > VoiceOver, it means open Settings, open Accessibility, then open VoiceOver, using that same select-and-double-tap pattern.
+
+Key commands on Mac, and on a keyboard connected to iPhone, iPad, Apple TV, or Vision Pro, use the VoiceOver modifier. This book writes that modifier as VO. By default, VO means either the Caps Lock key, or the Control and Option keys pressed together. So "VO-Space bar" means hold the VoiceOver modifier and press the Space bar.
+
+
+PRACTICE SAFELY
+On iPhone, iPad, and Apple Vision Pro, Apple includes a VoiceOver Practice area. Gestures you perform there are described, but they do not act on your device. Use that area when you are learning a new tap or swipe.
+
+On Mac, Keyboard Help does a similar job for keys and for trackpad gestures. Press VO-K to turn Keyboard Help on or off. Keys and commands are spoken, but they are not performed.
+
+This book includes a short practice exercise in every chapter. Skip an exercise if it asks you to change a setting you do not want to change. You can come back to it later.
+
+
+WHAT THIS BOOK WILL NOT DO
+It will not invent a gesture, rotor item, or keyboard command that was not found in Apple's official documentation at the time of writing. If a feature is unclear, or if it varies by model or system version in a way this book could not confirm, the chapter says so.
+
+It is not a complete manual for every app. Built-in apps such as Safari, Phone, Messages, Mail, Maps, Camera, and Magnifier are covered where Apple documents VoiceOver behavior. Third-party apps are listed honestly in Part 7, with the reminder that apps change.
+
+It is not a substitute for your clinic, your vocational rehab program, or Apple Support when something is wrong with a device.
+
+
+PRACTICE EXERCISE
+1. Open CONTENTS.txt.
+2. Move through the headings until you hear the part for your main device.
+3. Open that part's first chapter, or stay with Chapter 0.2 if you want the big picture first.
+4. If you are on iPhone or iPad, also add VoiceOver Practice to your mental map: Settings > Accessibility > VoiceOver > VoiceOver Practice.
+
+
+QUICK REFERENCE SUMMARY
+- Read in order if you are new. Search the combined file if you need one fact.
+- Every chapter has the same headings, including a practice exercise and sources.
+- "Select, then double-tap" is the basic iPhone and iPad action.
+- VO means the VoiceOver modifier: Caps Lock, or Control and Option together.
+- Use VoiceOver Practice or Keyboard Help when learning something new.
+- This book cites Apple docs and does not invent commands.
+
+
+SOURCES
+Turn on and practice VoiceOver on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/turn-on-and-practice-voiceover-iph3e2e415f/ios
+
+Use the onscreen keyboard with VoiceOver on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/use-the-onscreen-keyboard-iph3e2e3d1d/ios
+
+Get started with VoiceOver on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/get-started-with-voiceover-vo4be8816d70/mac
+
+Turn VoiceOver on or off on Mac, Apple VoiceOver User Guide:
+https://support.apple.com/guide/voiceover/turn-voiceover-on-or-off-vo2682/mac

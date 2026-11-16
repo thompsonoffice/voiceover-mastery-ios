@@ -1,0 +1,79 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 4. Apple Watch (watchOS)
+Chapter 4.1. Getting Started with VoiceOver on Apple Watch
+============================================================
+
+OVERVIEW
+VoiceOver on Apple Watch speaks each item you select, so you can use the watch even if you cannot see the display. Gestures are similar to iPhone, but the screen is smaller, and the Digital Crown and side button do a lot of the system navigation.
+
+You can turn VoiceOver on during setup, on the watch itself, from the Apple Watch app on iPhone, with Siri, or with the Accessibility Shortcut.
+
+
+WHAT YOU'LL LEARN
+- How to turn VoiceOver on during setup and afterward.
+- How to use the Accessibility Shortcut on Apple Watch.
+- Where settings live on the watch and on iPhone.
+
+
+TURN VOICEOVER ON DURING SETUP
+1. If the watch is not on, turn it on by holding down the side button.
+2. On the Apple Watch, turn on VoiceOver by triple-clicking the Digital Crown.
+3. Follow Apple's pairing steps, including bringing the iPhone near the watch and activating Continue and Set Up Apple Watch on the iPhone with VoiceOver gestures (select, then double-tap).
+4. For automatic pairing, Apple says to point the iPhone camera at the watch from about 6 inches away.
+
+Apple's "Set up Apple Watch using VoiceOver" page has the full pairing sequence. Use that official page if the onscreen steps differ, because setup can change by watchOS version.
+
+
+TURN VOICEOVER ON OR OFF AFTER SETUP
+Ask Siri something like, "Turn on VoiceOver."
+
+Or, on the watch:
+
+1. Go to the Settings app on your Apple Watch.
+2. Go to Accessibility > VoiceOver, then turn on VoiceOver.
+3. To turn VoiceOver off there, select the VoiceOver button, then double-tap. Apple notes that you double-tap the VoiceOver button to turn it off.
+
+Or, on iPhone:
+
+1. Open the Apple Watch app.
+2. Select My Watch.
+3. Open Accessibility, then use the VoiceOver option.
+
+Or use the Accessibility Shortcut, described next.
+
+
+THE ACCESSIBILITY SHORTCUT
+You can set a Digital Crown triple-click to toggle VoiceOver and other features.
+
+1. On the watch, go to Settings > Accessibility > Accessibility Shortcut, and put a checkmark next to each feature you want, including VoiceOver.
+2. Or, in the iPhone Apple Watch app, go to My Watch > Accessibility > Accessibility Shortcut, and choose the feature or features.
+
+To use it, press the Digital Crown quickly three times. If more than one feature is on the shortcut, choose a feature, then select Done. Triple-click the Digital Crown again to turn the feature off.
+
+Apple lists other features that can share this shortcut, including AssistiveTouch, Control Nearby Devices, Left/Right Balance, Reduce Motion, Reduce Transparency, Touch Accommodations, and Zoom. If the shortcut opens a list instead of toggling VoiceOver, VoiceOver is not the only item selected.
+
+
+PRACTICE EXERCISE
+1. If the watch is already set up, turn VoiceOver on from the iPhone Apple Watch app or with Siri, then confirm you can turn it off and on with a Digital Crown triple-click after you add it to the Accessibility Shortcut.
+2. Open Settings > Accessibility > VoiceOver on the watch and listen through the first few options, but do not change them yet.
+3. If you are setting up a new watch, use the official setup page along with the triple-click at the start of setup.
+
+
+QUICK REFERENCE SUMMARY
+- During setup, triple-click the Digital Crown to turn VoiceOver on.
+- After setup, use Siri, Settings > Accessibility > VoiceOver on the watch, the Apple Watch app on iPhone, or the Accessibility Shortcut.
+- The shortcut is a quick triple-press of the Digital Crown.
+- Setup pairing steps can change. Follow Apple's current "Set up Apple Watch using VoiceOver" page if something does not match.
+
+
+SOURCES
+Use VoiceOver on Apple Watch, Apple Watch User Guide:
+https://support.apple.com/guide/watch/use-voiceover-apdaabc79d3b/watchos
+
+Set up Apple Watch using VoiceOver, Apple Watch User Guide:
+https://support.apple.com/guide/watch/set-up-applewatch-using-voiceover-apd2442c5704/watchos
+
+Use the Accessibility Shortcut on Apple Watch, Apple Watch User Guide:
+https://support.apple.com/guide/watch/use-the-accessibility-shortcut-apda74993b58/watchos

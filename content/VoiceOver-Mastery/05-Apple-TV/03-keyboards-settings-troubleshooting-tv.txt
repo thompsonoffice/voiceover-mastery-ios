@@ -1,0 +1,126 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 5. Apple TV (tvOS)
+Chapter 5.3. Keyboards, Settings, Audio Descriptions, and Troubleshooting on Apple TV
+============================================================
+
+OVERVIEW
+You can adjust VoiceOver on Apple TV in Settings, connect a Bluetooth keyboard, use braille, and turn on audio descriptions for movies and shows. This chapter stays with Apple's official options and keyboard commands. Where a TV keyboard command looked inconsistent in the retrieved table, this book flags it or omits it rather than "fixing" Apple silently.
+
+
+WHAT YOU'LL LEARN
+- The official VoiceOver settings on Apple TV.
+- How audio descriptions work, including a VoiceOver shortcut during playback.
+- Confirmed Bluetooth keyboard commands.
+- A short troubleshooting list.
+
+
+VOICEOVER SETTINGS
+1. Go to Settings on Apple TV.
+2. Go to Accessibility > VoiceOver, then adjust the options Apple lists:
+
+- Navigation Style: Follow Focus moves one item per swipe. Direct Touch lets you swipe to scroll several items at a time. This applies only in navigation mode.
+- Verbosity: how much text VoiceOver reads. Speak Detected Text allows VoiceOver to read automatically detected text in the focused item. Media Descriptions lets you choose how closed captions and SDH are output during media playback.
+- Voice: choose a voice category, preview a voice by pressing on the remote, then select it (or download it if needed).
+- Pronunciations: view, edit, and add custom pronunciations.
+- Speech Rate: change speed, then confirm with the remote.
+- Use Pitch: allow VoiceOver to change pitch to help distinguish context.
+- Rotor: choose which settings appear in the rotor.
+- Braille: adjust braille display settings. Apple points to a separate "Adjust braille settings" page. This book does not invent those sub-options.
+- Double-click Timeout: how quickly you must double-click the remote while VoiceOver is on.
+- Audio Channels: choose which audio channels VoiceOver audio uses.
+
+
+AUDIO DESCRIPTIONS
+Audio descriptions narrate important onscreen action in movies and TV shows when the feature is available in that content.
+
+To turn them on, Apple documents:
+
+- In Settings, go to Accessibility, then select Audio Descriptions.
+- During video playback, show playback controls, swipe up on the clickpad or touch surface, select the relevant control, then select an Audio Descriptions (AD) option if one is available.
+- When VoiceOver is on, press the clickpad center or touch surface three times. When VoiceOver is off, that same action turns closed captions on or off instead.
+
+You can also add an accessibility shortcut for audio descriptions.
+
+
+BLUETOOTH KEYBOARD COMMANDS
+After you connect a Bluetooth keyboard, enter VoiceOver commands by holding Control and Option (VO) and pressing one or more other keys. Apple notes that, by default, these commands function as if you are in exploration mode.
+
+Confirmed commands from Apple's Apple TV keyboard page:
+
+- VO-K: VoiceOver Help on. Escape: Help off.
+- VO-E: switch between exploration and navigation mode.
+- VO-Shift-F3: turn VoiceOver and native focus syncing on or off in exploration mode.
+- VO-Right Arrow or VO-Left Arrow: next or previous item.
+- VO-Space bar: activate the selected item (Apple describes this as a double-tap to activate).
+- VO-H: press the TV button.
+- VO-Shift-M: touch and hold the selected item.
+- VO-M: move to the status bar.
+- VO-A: read from the current position.
+- VO-B: read from the top.
+- Control: pause or resume reading.
+- VO-Shift-C: copy the last spoken text.
+- VO-F: search for text.
+- VO-S: mute or unmute VoiceOver.
+- Fn-VO-Up Arrow: open the notifications screen.
+- Fn-VO-Down Arrow: open Control Center.
+- VO-I: Item Chooser.
+- VO-Slash: change the label of the selected item.
+- VO-Hyphen: double-tap with two fingers (the listed command is VO-"-").
+- VO-Up Arrow or VO-Down Arrow: swipe up or down.
+- VO-Command-Left Arrow or VO-Command-Right Arrow: adjust the rotor.
+- VO-Command-Up Arrow or VO-Command-Down Arrow: adjust the setting specified by the rotor.
+- VO-Shift-S: turn the screen curtain on or off.
+- Escape: return to the previous screen.
+- Command-Tab or Command-Shift-Tab: switch apps.
+
+Text editing commands Apple lists (VoiceOver reads as the insertion point moves):
+
+- Right Arrow or Left Arrow: character forward or back.
+- Option-Right Arrow or Option-Left Arrow: word forward or back.
+- Up Arrow or Down Arrow: up or down one line.
+- Command-Up Arrow or Command-Down Arrow: top or bottom of the text field.
+- Option-Up Arrow or Option-Down Arrow: Apple lists this both for beginning or end of a paragraph and for previous or next paragraph. Confirm the behavior on your Apple TV rather than assuming two different movements from the same keys.
+- Shift plus a movement command: select text as you move.
+- Command-A, Command-C, Command-X, Command-V: select all, copy, cut, paste.
+- Command-Z or Shift-Command-Z: undo or redo.
+
+Apple's table also listed "Go to the beginning or end of the line" as Command-Left Arrow or Command-Down Arrow. That pairing may be a typographical issue in the source table, because end-of-line is often Command-Right Arrow on Apple keyboards. This book does not "correct" it. Confirm line-edge movement with VoiceOver Help (VO-K) on your keyboard.
+
+
+TROUBLESHOOTING
+1. If speech stops, try a two-finger tap to unpause, then check volume on the TV, the remote, and Audio Channels in VoiceOver settings. Try VO-S on a keyboard if one is connected.
+2. If movement seems wrong, two-finger triple-tap to switch navigation and exploration modes. Check whether the rotor is open (wait three seconds or swipe left or right to close it).
+3. If swipes skip too many items in navigation mode, set Navigation Style to Follow Focus.
+4. Press Menu or Back three times, or ask Siri, to toggle VoiceOver.
+5. If the screen seems blank and a keyboard is connected, try VO-Shift-S for the screen curtain.
+6. Use Settings > Accessibility > VoiceOver to reset speech rate, voice, and rotor contents to something you recognize.
+
+
+PRACTICE EXERCISE
+1. Open Settings > Accessibility > VoiceOver and listen through Navigation Style, Speech Rate, and Rotor.
+2. During a show that offers audio descriptions, try the official AD settings path or the three-press clickpad shortcut while VoiceOver is on. Turn AD off again if you do not want it.
+3. If you have a keyboard, press VO-K, try VO-E (mode switch) and VO-S, then exit Help and use one command for real.
+
+
+QUICK REFERENCE SUMMARY
+- VoiceOver settings include Navigation Style, Verbosity, Voice, Pronunciations, Speech Rate, Use Pitch, Rotor, Braille, Double-click Timeout, and Audio Channels.
+- Audio Descriptions are in Settings > Accessibility, in playback controls, and, while VoiceOver is on, a triple-press of the clickpad or touch surface.
+- Keyboard VO commands default to exploration-mode behavior. VO-E switches modes. VO-Shift-S is Screen Curtain. Escape goes back.
+- Confirm any unclear text-movement shortcuts with VoiceOver Help.
+- If the remote "breaks," check mode, rotor, Navigation Style, and the Menu or Back triple-press shortcut.
+
+
+SOURCES
+Adjust VoiceOver settings, Apple TV User Guide:
+https://support.apple.com/guide/tv/adjust-voiceover-settings-atvbbcb628a8/tvos
+
+Use a Bluetooth keyboard with VoiceOver on Apple TV 4K, Apple TV User Guide:
+https://support.apple.com/guide/tv/use-a-bluetooth-keyboard-atvb51d83bff/tvos
+
+Use audio descriptions on Apple TV 4K, Apple TV User Guide:
+https://support.apple.com/guide/tv/use-audio-descriptions-atvb372a82a4/tvos
+
+Use VoiceOver on Apple TV 4K, Apple TV User Guide:
+https://support.apple.com/guide/tv/use-voiceover-atvbfa4ff6cd/tvos

@@ -1,0 +1,93 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 1. iPhone (iOS)
+Chapter 1.17. Commands, Custom Labels, and Quick Settings
+============================================================
+
+OVERVIEW
+You can customize what VoiceOver gestures and keyboard shortcuts do, give items your own labels, and keep a short list of settings in Quick Settings. These are power-user tools. They are also easy to overdo. Change a few things on purpose, and know how to reset if you get lost.
+
+This chapter follows Apple's pages on customizing gestures and keyboard shortcuts, editing labels, Quick Settings, and resetting VoiceOver settings or commands.
+
+
+WHAT YOU'LL LEARN
+- How to review and change VoiceOver commands.
+- How to add a custom label to an item.
+- How to open and customize Quick Settings.
+- How to reset commands or all VoiceOver settings if customization goes wrong.
+
+
+CUSTOMIZE COMMANDS
+1. Go to Settings > Accessibility > VoiceOver > Commands.
+2. Open one of the groups Apple lists:
+   - All Commands: find the command you want, then use Edit, Add Gesture, or Add Keyboard Shortcut, as spoken on your phone.
+   - Touch Gestures: a list of gestures and the commands attached to them.
+   - Keyboard Shortcuts: find a shortcut, then enter a key combination.
+   - Magic Tap: you can turn on Magic Tap to pause or play media when no other action is available.
+   - Handwriting: gestures for handwriting and their commands.
+   - Braille Screen Input: gestures for Braille Screen Input and their commands.
+   - Braille Screen & Braille Keyboard Input: assign new braille keys to a command.
+
+If you assign a new gesture to a command, you may replace a default you still need. Check Touch Gestures after a change, and keep a note of what you customized.
+
+To clear custom gestures and keyboard shortcuts, use Reset VoiceOver Commands in this Commands screen. That reset is narrower than resetting every VoiceOver setting.
+
+
+EDIT AN ITEM'S LABEL
+If an app button is unlabeled or has a useless name, you can give it a label that VoiceOver will speak.
+
+Apple documents the gesture: two-finger double tap and hold. Then enter a label, and confirm or save using the buttons VoiceOver speaks.
+
+Custom labels are stored by VoiceOver and help you find the item later. Use clear names, such as "Send message" or "Play." Avoid labels you will not remember. If an app updates and the button changes, you may need to edit the label again.
+
+
+OPEN AND CUSTOMIZE QUICK SETTINGS
+When VoiceOver is on, a two-finger quadruple tap opens Quick Settings, so you can change selected VoiceOver options from anywhere.
+
+To customize the list:
+
+1. Go to Settings > Accessibility > VoiceOver > Quick Settings.
+2. Choose the settings you want, or drag to reorder them.
+
+A useful short list might include Speaking Rate, Volume, Audio Ducking, Caption Panel, or Screen Recognition, depending on what you actually change during the day. Keep it short so the list is fast.
+
+
+RESET VOICEOVER SETTINGS
+If VoiceOver behavior feels wrong and you cannot find the cause:
+
+1. Go to Settings > Accessibility > VoiceOver.
+2. Select Reset VoiceOver Settings. Apple notes that you may need to scroll down.
+
+This is broader than resetting commands. Use it when settings, not just gesture assignments, are the problem. After a reset, you will need to restore personal preferences such as voice, rate, and rotor items.
+
+To reset only commands:
+
+1. Go to Settings > Accessibility > VoiceOver > Commands.
+2. Select Reset VoiceOver Commands.
+
+
+PRACTICE EXERCISE
+1. Open Settings > Accessibility > VoiceOver > Commands > Touch Gestures and listen to a few familiar gestures so you know where this list lives.
+2. Open Quick Settings with a two-finger quadruple tap, then customize the Quick Settings list if you want a shorter one.
+3. Optional: find one poorly labeled button in an app you trust, add a custom label with a two-finger double tap and hold, then select the button again to hear the new name.
+4. Do not reset settings unless you need to. Just know where the reset commands are.
+
+
+QUICK REFERENCE SUMMARY
+- Commands are in Settings > Accessibility > VoiceOver > Commands. You can change gestures, keyboard shortcuts, Magic Tap, handwriting, and braille input commands.
+- Two-finger double tap and hold edits an item's label.
+- Two-finger quadruple tap opens Quick Settings. Customize the list in VoiceOver settings.
+- Reset VoiceOver Commands clears custom gestures and shortcuts.
+- Reset VoiceOver Settings resets VoiceOver more broadly. Scroll down on the VoiceOver settings screen to find it.
+
+
+SOURCES
+Customize VoiceOver gestures and keyboard shortcuts on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/customize-gestures-and-keyboard-shortcuts-iph59a8e6fd2/ios
+
+Use VoiceOver gestures on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/use-voiceover-gestures-iph3e2e2281/ios
+
+Change your VoiceOver settings on iPhone, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/change-your-voiceover-settings-iphfa3d32c50/ios

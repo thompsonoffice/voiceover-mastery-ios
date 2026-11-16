@@ -1,0 +1,126 @@
+============================================================
+VOICEOVER MASTERY: THE COMPLETE APPLE GUIDE
+A book in SRTS: Screen Reader Training Suite
+Part 1. iPhone (iOS)
+Chapter 1.11. Braille Screen Input
+============================================================
+
+OVERVIEW
+Braille Screen Input lets you type braille directly on the iPhone screen with your fingers, without a physical braille keyboard. You can also use it to enter braille commands for navigating and controlling iPhone.
+
+If you already read and write braille, this can be the fastest way to type on a phone. If you do not know braille, you can skip this chapter for now and use Standard Typing, Touch Typing, or dictation.
+
+Apple's current iPhone User Guide notes that on iPhone 18 Pro models, you can also enter eight-dot braille by tapping with up to eight fingers at the same time. On other models, six-dot entry is the usual method described here.
+
+
+WHAT YOU'LL LEARN
+- How to start and exit Braille Screen Input.
+- The difference between tabletop mode and screen away mode.
+- The official gestures for space, delete, new line, suggestions, and more.
+- How Command Mode works, at a high level.
+- Which settings Apple documents for Braille Screen Input.
+
+
+START BRAILLE SCREEN INPUT
+With VoiceOver on, use one of these methods.
+
+Use a gesture:
+
+1. Place one finger from each hand at the top and bottom edges of the screen and double-tap.
+2. If that gesture does not work, go to Settings > Accessibility > VoiceOver > Braille, tap Braille Screen Input, then turn on Use Activation Gestures.
+
+Use the rotor:
+
+1. Move to a text input area.
+2. Set the rotor to Braille Screen Input.
+3. If Braille Screen Input is not in the rotor, go to Settings > Accessibility > VoiceOver > Rotor, open Rotor Items, and select Braille Screen Input.
+
+You can also have Braille Screen Input start automatically when you enter a text field. That option is in the Braille Screen Input settings listed later in this chapter.
+
+
+CHOOSE A POSITION
+Apple documents two positions:
+
+- Tabletop mode: lay iPhone flat in front of you.
+- Screen away mode: hold iPhone in landscape orientation with the screen facing away from you. Your fingers wrap around the sides of iPhone to tap the screen.
+
+Enter braille characters by tapping the screen with one or more fingers at the same time.
+
+To hear where each dot is located, touch and hold, then drag your finger around the screen.
+
+To move the entry dots to match your natural finger positions, Apple says to tap and lift your right three fingers all at once to position dots 4, 5, and 6, followed immediately by your left three fingers for dots 1, 2, and 3.
+
+
+GESTURES WHILE TYPING BRAILLE
+Apple documents the following gestures. In screen away mode, a swipe right means a swipe to your right.
+
+- Swipe right with one finger: enter a space.
+- Swipe left with one finger: delete the previous character.
+- Swipe right with two fingers: move to a new line.
+- Swipe up or down with one finger: cycle through spelling suggestions.
+- Swipe up with three fingers: enter a carriage return, or send a message in Messages.
+- Swipe left or right with three fingers: cycle through modes, such as Braille Entry Mode and Command Mode.
+- Swipe down with two fingers: translate immediately, if you are typing contracted braille.
+- Swipe up with two fingers: switch to the next braille table.
+
+
+EXIT BRAILLE SCREEN INPUT
+Do one of the following:
+
+- Slide two fingers in opposite directions.
+- Or do a two-finger scrub: draw the letter "z" by quickly moving two fingers back and forth three times.
+
+
+COMMAND MODE
+Braille Screen Input has a Command Mode that lets you control iPhone by typing braille commands on the screen. Apple says you can use the same commands you use with a refreshable braille display.
+
+1. Start Braille Screen Input with the activation gesture (one finger from each hand at the top and bottom edges, then double-tap).
+2. Swipe left or right with three fingers to switch to Command Mode.
+3. Type braille commands on the screen.
+
+Apple points to its article "Common braille commands for VoiceOver on your iPhone, iPad, and iPod touch" for the command list. This book does not reprint that full command table. Use Apple's article, or Settings > Accessibility > VoiceOver > Commands > Braille Screen Input, where you can view and edit commands and gestures.
+
+
+BRAILLE SCREEN INPUT SETTINGS
+Go to Settings > Accessibility > VoiceOver > Braille > Braille Screen Input. Apple documents options including:
+
+- Use Activation Gestures: allow the top-and-bottom-edge double-tap to start Braille Screen Input. If this is off, use the rotor.
+- Start Automatically when Editing Text: start Braille Screen Input when you enter a text field.
+- Keep Active until Dismissed: after you launch an app or choose an item in Braille Entry Mode, automatically switch to Command Mode and keep it active.
+- Customize Commands: assign new braille keys to a command.
+- Learn Dot Positions: calibrate the positions of dots as you enter them.
+- Reverse Dot Positions: for six-dot braille, swap the positions of dots 1 and 3, and of dots 4 and 6.
+- Visual Text Feedback: show a text translation of what you type. This is for a sighted helper or for residual vision. It is not required for entry.
+- Typing Feedback: sound or haptic feedback as you type.
+- Single Hand Mode Style: options for typing in portrait orientation, including Right Hand or Left Hand, Slate and Stylus, and Reversed Slate and Stylus. Apple notes that in Right Hand or Left Hand style, you type a column of dots and swipe right to enter an empty column, then double-tap to enter one braille cell. Right Hand is on by default. In Slate and Stylus, dots 1, 2, and 3 are on the right and dots 4, 5, and 6 are on the left. Reversed Slate and Stylus flips that.
+- Mode Announcements: when you switch modes, have VoiceOver speak, play sounds, or both.
+- Choose a Braille table: select a braille format.
+
+Apple's page uses the wording "Reversed Slated and Stylus" in at least one listing. The meaning is reversed slate-and-stylus layout.
+
+Single-hand mode is the way to type braille with one hand when iPhone is in portrait. If you use two hands in tabletop or screen away mode, you may never need it.
+
+
+PRACTICE EXERCISE
+Only do this if you already know braille, or if you are exploring with a braille teacher.
+
+1. Enable Braille Screen Input on the rotor and turn on Use Activation Gestures.
+2. Open Notes and double-tap a text field.
+3. Start Braille Screen Input with the rotor or the activation gesture.
+4. Practice a few characters, a space (one-finger swipe right), and a delete (one-finger swipe left).
+5. Exit with a two-finger scrub or by sliding two fingers in opposite directions.
+
+
+QUICK REFERENCE SUMMARY
+- Start from the rotor in a text field, or by placing one finger from each hand at the top and bottom edges and double-tapping.
+- Tabletop: phone flat. Screen away: landscape, screen facing away, fingers wrapped around.
+- One-finger swipe right is space. One-finger swipe left is delete. Two-finger swipe right is a new line.
+- Three-finger swipe left or right cycles Entry and Command modes.
+- Exit by sliding two fingers in opposite directions, or with a two-finger scrub.
+- iPhone 18 Pro models can enter eight-dot braille with up to eight fingers.
+- Review commands in Settings > Accessibility > VoiceOver > Commands > Braille Screen Input.
+
+
+SOURCES
+Type braille directly on the iPhone screen with VoiceOver, Apple iPhone User Guide:
+https://support.apple.com/guide/iphone/type-braille-on-the-screen-iph10366cc30/ios

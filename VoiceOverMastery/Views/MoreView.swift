@@ -52,9 +52,17 @@ struct MoreView: View {
                 }
                 if progress.audience != nil {
                     Section {
-                        Button("Choose again on the welcome screen") {
+                        Button {
                             progress.clearAudience()
+                        } label: {
+                            Text("Choose again on the welcome screen")
+                                .font(.body)
+                                .foregroundStyle(Color.primary)
+                                .multilineTextAlignment(.leading)
+                                .frame(maxWidth: .infinity, alignment: .leading)
+                                .padding(.vertical, 8)
                         }
+                        .buttonStyle(.plain)
                         .accessibilityHint("Returns to the choice between using VoiceOver and learning it.")
                     }
                 }

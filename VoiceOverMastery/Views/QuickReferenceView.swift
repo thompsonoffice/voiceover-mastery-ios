@@ -8,6 +8,12 @@ struct QuickReferenceView: View {
 
     var body: some View {
         NavigationStack {
+            VStack(alignment: .leading, spacing: 0) {
+            Text("Each line is copied from a chapter's quick reference summary. The app does not add gestures.")
+                .font(.body)
+                .foregroundStyle(ink)
+                .padding()
+                .frame(maxWidth: .infinity, alignment: .leading)
             List {
                 Section {
                     SectionHeader("Devices")
@@ -27,9 +33,6 @@ struct QuickReferenceView: View {
                             .accessibilityLabel("\(part.platform), quick reference")
                         }
                     }
-                    Text("Each line is copied from a chapter's quick reference summary. The app does not add gestures.")
-                        .font(.body)
-                        .foregroundStyle(ink)
                 }
                 Section {
                     SectionHeader("Also in this guide")
@@ -49,6 +52,7 @@ struct QuickReferenceView: View {
                 } else {
                     MissingView()
                 }
+            }
             }
         }
     }

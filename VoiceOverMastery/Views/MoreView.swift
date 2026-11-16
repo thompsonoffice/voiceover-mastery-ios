@@ -17,6 +17,21 @@ struct MoreView: View {
     var body: some View {
         NavigationStack {
             List {
+                if progress.audience != nil {
+                    Section {
+                        Button {
+                            progress.clearAudience()
+                        } label: {
+                            Text("Choose again on the welcome screen")
+                                .font(.body)
+                                .foregroundStyle(Color.primary)
+                                .lineLimit(4)
+                                .multilineTextAlignment(.leading)
+                                .frame(maxWidth: .infinity, minHeight: 44, alignment: .leading)
+                        }
+                        .accessibilityHint("Returns to the choice between using VoiceOver and learning it.")
+                    }
+                }
                 Section {
                     NavigationLink(value: MoreRoute.bookmarks) {
                         Label("Bookmarks", systemImage: "bookmark")
@@ -49,22 +64,6 @@ struct MoreView: View {
                         Label("Privacy Policy", systemImage: "hand.raised")
                     }
                     .accessibilityIdentifier("morePrivacy")
-                }
-                if progress.audience != nil {
-                    Section {
-                        Button {
-                            progress.clearAudience()
-                        } label: {
-                            Text("Choose again on the welcome screen")
-                                .font(.body)
-                                .foregroundStyle(Color.primary)
-                                .multilineTextAlignment(.leading)
-                                .frame(maxWidth: .infinity, alignment: .leading)
-                                .padding(.vertical, 8)
-                        }
-                        .buttonStyle(.plain)
-                        .accessibilityHint("Returns to the choice between using VoiceOver and learning it.")
-                    }
                 }
             }
             .modifier(SolidScrollEdges())

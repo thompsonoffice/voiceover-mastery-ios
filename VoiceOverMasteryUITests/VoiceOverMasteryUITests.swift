@@ -13,6 +13,12 @@ final class VoiceOverMasteryUITests: XCTestCase {
         app.launch()
     }
 
+    override func tearDown() {
+        app?.terminate()
+        app = nil
+        super.tearDown()
+    }
+
     private func chooseVoiceOverUser() {
         let button = app.buttons["I use VoiceOver"]
         XCTAssertTrue(button.waitForExistence(timeout: 15), "welcome choice")

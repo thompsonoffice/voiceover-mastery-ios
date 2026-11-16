@@ -199,6 +199,11 @@ struct ChapterActions: View {
 
 struct OptionalIdentifier: ViewModifier {
     var identifier: String?
+
+    init(_ identifier: String?) {
+        self.identifier = identifier
+    }
+
     func body(content: Content) -> some View {
         if let identifier {
             content.accessibilityIdentifier(identifier)

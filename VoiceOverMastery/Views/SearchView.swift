@@ -49,6 +49,7 @@ struct SearchView: View {
                         } header: {
                             SectionHeader("Results")
                         }
+                        .headerProminence(.increased)
                     }
                 }
             }

@@ -31,10 +31,15 @@ struct SectionHeader: View {
     init(_ title: String) { self.title = title }
 
     var body: some View {
+        // Black or white on the system background. List headers otherwise use a gray
+        // that the accessibility audit reports as "Contrast nearly passed".
         Text(title)
-            .font(.headline)
-            .foregroundStyle(.primary)
+            .font(.title3.weight(.bold))
+            .foregroundStyle(Color.primary)
             .textCase(nil)
+            .frame(maxWidth: .infinity, alignment: .leading)
+            .padding(.vertical, 4)
+            .background(Color(.systemBackground))
             .accessibilityAddTraits(.isHeader)
             .accessibilityHeading(.h2)
     }

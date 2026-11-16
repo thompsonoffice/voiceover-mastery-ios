@@ -63,6 +63,7 @@ struct CompactBrowseView: View {
         } header: {
             SectionHeader("Continue")
         }
+        .headerProminence(.increased)
     }
 
     private var summary: String {
@@ -82,6 +83,7 @@ struct CompactBrowseView: View {
         } header: {
             SectionHeader(title)
         }
+        .headerProminence(.increased)
     }
 }
 
@@ -110,6 +112,7 @@ struct RegularBrowseView: View {
                 } header: {
                     SectionHeader("Continue")
                 }
+                .headerProminence(.increased)
                 Section {
                     ForEach(library.book.devices) { part in
                         PartLabel(part: part)
@@ -119,6 +122,7 @@ struct RegularBrowseView: View {
                 } header: {
                     SectionHeader("Devices")
                 }
+                .headerProminence(.increased)
                 Section {
                     ForEach(library.book.parts.filter { !$0.isDevice }) { part in
                         PartLabel(part: part)
@@ -128,6 +132,7 @@ struct RegularBrowseView: View {
                 } header: {
                     SectionHeader("Also in this guide")
                 }
+                .headerProminence(.increased)
             }
             .navigationTitle("VoiceOver Mastery")
         } content: {
@@ -197,10 +202,12 @@ struct ChapterListView: View {
                 }
             } header: {
                 Text("\(part.chapters.count) chapters. \(part.title).")
-                    .font(.subheadline)
+                    .font(.headline.weight(.bold))
+                    .foregroundStyle(Color.primary)
                     .textCase(nil)
-                    .supportingStyle()
+                    .accessibilityAddTraits(.isHeader)
             }
+            .headerProminence(.increased)
         }
         .navigationTitle(part.platform)
     }

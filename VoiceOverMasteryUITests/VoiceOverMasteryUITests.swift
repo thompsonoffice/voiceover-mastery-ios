@@ -145,7 +145,13 @@ final class VoiceOverMasteryUITests: XCTestCase {
         let button = app.buttons["practiceButton"]
         XCTAssertTrue(button.waitForExistence(timeout: 10))
         XCTAssertTrue(app.sliders["practiceSlider"].exists)
-        XCTAssertTrue(app.buttons["Apples"].exists)
+        let apples = app.buttons["Apples"]
+        var swipes = 0
+        while !apples.exists && swipes < 6 {
+            app.swipeUp()
+            swipes += 1
+        }
+        XCTAssertTrue(apples.exists, "Practice list row Apples")
         XCTAssertTrue(app.staticTexts.matching(NSPredicate(format: "label CONTAINS %@", "does not add VoiceOver gestures")).firstMatch.exists)
         button.tap()
         let status = app.staticTexts["practiceStatus"]

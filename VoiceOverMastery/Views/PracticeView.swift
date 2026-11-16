@@ -20,6 +20,7 @@ struct PracticeView: View {
                 } header: {
                     SectionHeader("Practice")
                 }
+                .headerProminence(.increased)
                 Section {
                     Button {
                         status = "Sample button activated."
@@ -77,6 +78,7 @@ struct PracticeView: View {
                 } header: {
                     SectionHeader("Sample controls")
                 }
+                .headerProminence(.increased)
                 Section {
                     ForEach(rows, id: \.self) { row in
                         Button {
@@ -105,6 +107,7 @@ struct PracticeView: View {
                 } header: {
                     SectionHeader("Sample list")
                 }
+                .headerProminence(.increased)
             }
             .navigationTitle("Practice")
             .accessibilityRotor("Practice") {

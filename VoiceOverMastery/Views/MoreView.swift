@@ -40,6 +40,7 @@ struct MoreView: View {
                 } header: {
                     SectionHeader("Guide")
                 }
+                .headerProminence(.increased)
                 Section {
                     NavigationLink(value: MoreRoute.about) {
                         Label("About VoiceOver Mastery", systemImage: "info.circle")
@@ -104,8 +105,12 @@ struct BookmarksView: View {
                     }
                 } header: {
                     Text("\(progress.bookmarkIDs.count) saved on this device.")
+                        .font(.headline.weight(.bold))
+                        .foregroundStyle(Color.primary)
                         .textCase(nil)
+                        .accessibilityAddTraits(.isHeader)
                 }
+                .headerProminence(.increased)
             }
         }
         .navigationTitle("Bookmarks")
@@ -144,7 +149,9 @@ struct SettingsView: View {
                 SectionHeader("Reading")
             } footer: {
                 Text("Every screen uses Dynamic Type. Use device setting follows Settings, Accessibility, Display and Text Size. Reduce Motion is followed by leaving extra animation off.")
+                    .foregroundStyle(Color.primary)
             }
+            .headerProminence(.increased)
 
             Section {
                 if progress.completedIDs.isEmpty {
@@ -175,7 +182,9 @@ struct SettingsView: View {
                 SectionHeader("Saved on this device")
             } footer: {
                 Text("Progress and bookmarks are stored only on this device. Nothing is sent anywhere.")
+                    .foregroundStyle(Color.primary)
             }
+            .headerProminence(.increased)
         }
         .navigationTitle("Settings")
         .confirmationDialog("Clear completed chapters?", isPresented: $confirmCompleted, titleVisibility: .visible) {
@@ -310,6 +319,7 @@ struct IndexView: View {
                 } header: {
                     SectionHeader(entry.term)
                 }
+                .headerProminence(.increased)
             }
         }
         .navigationTitle("Index")

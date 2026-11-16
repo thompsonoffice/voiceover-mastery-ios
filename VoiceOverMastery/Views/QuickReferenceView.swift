@@ -25,7 +25,9 @@ struct QuickReferenceView: View {
                     SectionHeader("Devices")
                 } footer: {
                     Text("Each line is copied from a chapter's quick reference summary. The app does not add gestures.")
+                        .foregroundStyle(Color.primary)
                 }
+                .headerProminence(.increased)
                 Section {
                     ForEach(library.book.parts.filter { !$0.isDevice }) { part in
                         NavigationLink(value: part.id) {
@@ -37,6 +39,7 @@ struct QuickReferenceView: View {
                 } header: {
                     SectionHeader("Also in this guide")
                 }
+                .headerProminence(.increased)
             }
             .navigationTitle("Reference")
             .navigationDestination(for: String.self) { partID in
@@ -76,6 +79,7 @@ struct QuickReferenceDetail: View {
                 } header: {
                     SectionHeader("\(group.chapterID). \(group.title)")
                 }
+                .headerProminence(.increased)
             }
         }
         .navigationTitle(part.platform)

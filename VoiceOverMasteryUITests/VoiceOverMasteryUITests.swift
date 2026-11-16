@@ -32,6 +32,16 @@ final class VoiceOverMasteryUITests: XCTestCase {
         button.tap()
     }
 
+    private func scrollToButton(_ identifier: String) {
+        let button = app.buttons[identifier]
+        var swipes = 0
+        while !button.exists && swipes < 6 {
+            app.swipeUp()
+            swipes += 1
+        }
+        XCTAssertTrue(button.waitForExistence(timeout: 5), identifier)
+    }
+
     private func openGettingStarted() {
         let part = app.buttons["part-iphone"]
         XCTAssertTrue(part.waitForExistence(timeout: 10))
@@ -224,14 +234,17 @@ final class VoiceOverMasteryUITests: XCTestCase {
         XCTAssertTrue(app.navigationBars["Settings"].waitForExistence(timeout: 10))
         audit("Settings")
         goBack()
+        scrollToButton("moreAbout")
         app.buttons["moreAbout"].tap()
         XCTAssertTrue(app.staticTexts["About VoiceOver Mastery"].waitForExistence(timeout: 10))
         audit("About")
         goBack()
+        scrollToButton("morePrivacy")
         app.buttons["morePrivacy"].tap()
         XCTAssertTrue(app.staticTexts["VoiceOver Mastery Privacy Policy"].waitForExistence(timeout: 10))
         audit("Privacy Policy")
         goBack()
+        scrollToButton("moreOrientation")
         app.buttons["moreOrientation"].tap()
         XCTAssertTrue(app.staticTexts["orientationTitle"].waitForExistence(timeout: 10))
         audit("Orientation from More")

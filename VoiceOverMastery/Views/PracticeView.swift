@@ -16,10 +16,6 @@ struct PracticeView: View {
         NavigationStack {
             List {
                 Section {
-                    SectionHeader("Practice")
-                    CopySections(sections: PracticeCopy.sections)
-                }
-                Section {
                     SectionHeader("Sample controls")
                     Button {
                         status = "Sample button activated."
@@ -51,23 +47,18 @@ struct PracticeView: View {
                         }
                     }
 
-                    VStack(alignment: .leading, spacing: 4) {
-                        Text("Practice slider")
-                            .font(.body.weight(.semibold))
-                            .accessibilityHidden(true)
-                        Slider(value: $sliderValue, in: 0...10, step: 1)
-                            .accessibilityIdentifier("practiceSlider")
-                            .accessibilityLabel("Practice slider")
-                            .accessibilityValue("\(Int(sliderValue)) of 10")
-                            .accessibilityHint("An adjustable practice slider. Chapter 1.3 describes adjusting a slider.")
-                            .accessibilityRotorEntry(id: "slider", in: rotorNamespace)
-                        Text("Value \(Int(sliderValue)) of 10")
-                            .font(.body)
-                            .accessibilityHidden(true)
-                    }
-                    .transaction { transaction in
-                        transaction.disablesAnimations = reduceMotion
-                    }
+                    Text("Practice slider, value \(Int(sliderValue)) of 10")
+                        .font(.body.weight(.semibold))
+                        .accessibilityHidden(true)
+                    Slider(value: $sliderValue, in: 0...10, step: 1)
+                        .accessibilityIdentifier("practiceSlider")
+                        .accessibilityLabel("Practice slider")
+                        .accessibilityValue("\(Int(sliderValue)) of 10")
+                        .accessibilityHint("An adjustable practice slider. Chapter 1.3 describes adjusting a slider.")
+                        .accessibilityRotorEntry(id: "slider", in: rotorNamespace)
+                        .transaction { transaction in
+                            transaction.disablesAnimations = reduceMotion
+                        }
 
                     Text(status)
                         .font(.body)
@@ -101,6 +92,10 @@ struct PracticeView: View {
                         .accessibilityAddTraits(selectedRows.contains(row) ? .isSelected : [])
                         .accessibilityRotorEntry(id: row, in: rotorNamespace)
                     }
+                }
+                Section {
+                    SectionHeader("Practice")
+                    CopySections(sections: PracticeCopy.sections)
                 }
             }
             .navigationTitle("Practice")

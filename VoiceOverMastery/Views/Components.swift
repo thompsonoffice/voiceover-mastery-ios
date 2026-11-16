@@ -37,9 +37,10 @@ struct SectionHeader: View {
             .font(.title3.weight(.bold))
             .foregroundStyle(Color.primary)
             .frame(maxWidth: .infinity, alignment: .leading)
+            .accessibilityElement(children: .combine)
+            .accessibilityLabel(title)
             .accessibilityAddTraits(.isHeader)
             .accessibilityHeading(.h2)
-            .listRowBackground(Color(.systemBackground))
     }
 }
 

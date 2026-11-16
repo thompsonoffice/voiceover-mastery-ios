@@ -46,6 +46,7 @@ struct RootView: View {
 
     var body: some View {
         GateView()
+            .tint(Color.primary)
             .environment(\.strongContrast, strongContrast)
             .modifier(ApplyTextSize(option: textSize))
     }

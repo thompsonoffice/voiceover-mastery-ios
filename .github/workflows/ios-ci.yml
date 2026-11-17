@@ -43,6 +43,8 @@ jobs:
           UDID=$(xcrun simctl list devices available -j | python3 scripts/pick_simulator.py)
           echo "udid=$UDID" >> "$GITHUB_OUTPUT"
           xcrun simctl list devices available | grep "$UDID"
+          xcrun simctl boot "$UDID" || true
+          xcrun simctl bootstatus "$UDID" -b
 
       - name: Build and run tests
         run: |
@@ -53,6 +55,8 @@ jobs:
             -scheme VoiceOverMastery \
             -destination "platform=iOS Simulator,id=${{ steps.sim.outputs.udid }}" \
             -resultBundlePath build/VoiceOverMastery.xcresult \
+            -retry-tests-on-failure \
+            -test-iterations 2 \
             CODE_SIGNING_ALLOWED=NO \
             CODE_SIGNING_REQUIRED=NO \
             2>&1 | tee build/xcodebuild.log | xcbeautify --renderer github-actions

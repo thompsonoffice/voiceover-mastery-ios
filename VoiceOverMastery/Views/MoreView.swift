@@ -294,6 +294,7 @@ struct AboutView: View {
             .readableWidth()
             .padding()
         }
+        .clipped()
         .navigationTitle("About")
         .navigationBarTitleDisplayMode(.inline)
     }
@@ -345,6 +346,7 @@ struct PrivacyPolicyView: View {
             .readableWidth()
             .padding()
         }
+        .clipped()
         .navigationTitle("Privacy Policy")
         .navigationBarTitleDisplayMode(.inline)
     }
@@ -412,6 +414,7 @@ struct ReadmeView: View {
             .readableWidth()
             .padding()
         }
+        .clipped()
         .navigationTitle("Read me")
         .navigationBarTitleDisplayMode(.inline)
     }

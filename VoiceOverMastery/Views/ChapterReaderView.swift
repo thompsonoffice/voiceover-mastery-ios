@@ -45,6 +45,7 @@ struct ChapterReaderView: View {
                 .readableWidth()
                 .padding()
             }
+            .clipped()
             .onAppear {
                 let sectionToRestore = progress.lastChapterID == chapter.id ? progress.lastSectionID : nil
                 progress.noteOpened(chapter.id)

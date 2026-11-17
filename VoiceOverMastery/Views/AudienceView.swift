@@ -74,6 +74,7 @@ struct OrientationView: View {
             .readableWidth()
             .padding()
         }
+        .clipped()
         .navigationTitle("Orientation")
         .navigationBarTitleDisplayMode(.inline)
     }

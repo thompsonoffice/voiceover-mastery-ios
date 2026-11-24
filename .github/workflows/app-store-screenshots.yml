@@ -1,0 +1,95 @@
+# Captures App Store screenshots of the real app from the iOS Simulator.
+# Runs only on the app-store-screenshots branch. No signing, no upload.
+name: App Store screenshots
+
+on:
+  push:
+    branches: [app-store-screenshots]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  screenshots:
+    runs-on: macos-15
+    timeout-minutes: 50
+    strategy:
+      fail-fast: false
+      matrix:
+        kind: [iphone, ipad]
+    env:
+      HOMEBREW_NO_AUTO_UPDATE: 1
+      HOMEBREW_NO_INSTALL_CLEANUP: 1
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Use the newest installed Xcode
+        run: |
+          shopt -s nullglob
+          candidates=(/Applications/Xcode_*.app)
+          if [ ${#candidates[@]} -eq 0 ]; then XCODE=/Applications/Xcode.app; else XCODE=$(printf '%s\n' "${candidates[@]}" | sort -V | tail -1); fi
+          echo "Using $XCODE"
+          sudo xcode-select -s "$XCODE/Contents/Developer"
+          xcodebuild -version
+
+      - name: Generate the Xcode project
+        run: |
+          brew install xcodegen xcbeautify
+          xcodegen generate
+
+      - name: Pick the simulator
+        id: sim
+        run: |
+          UDID=$(python3 scripts/pick_screenshot_simulator.py ${{ matrix.kind }})
+          echo "udid=$UDID" >> "$GITHUB_OUTPUT"
+          xcrun simctl boot "$UDID" || true
+          xcrun simctl bootstatus "$UDID" -b
+          xcrun simctl ui "$UDID" appearance light || true
+          xcrun simctl status_bar "$UDID" override --time "9:41" --dataNetwork wifi --wifiMode active --wifiBars 3 --cellularMode active --cellularBars 4 --operatorName '' --batteryState charged --batteryLevel 100 || true
+          xcrun simctl list devices | grep "$UDID"
+
+      - name: Capture screenshots
+        env:
+          SCREENSHOT_DIR: ${{ github.workspace }}/screenshots
+        run: |
+          set -o pipefail
+          mkdir -p screenshots build
+          export TEST_RUNNER_SCREENSHOT_DIR="$SCREENSHOT_DIR"
+          xcodebuild test \
+            -project VoiceOverMastery.xcodeproj \
+            -scheme VoiceOverMastery \
+            -destination "platform=iOS Simulator,id=${{ steps.sim.outputs.udid }}" \
+            -only-testing:VoiceOverMasteryUITests/AppStoreScreenshotTests \
+            -resultBundlePath build/screens.xcresult \
+            CODE_SIGNING_ALLOWED=NO CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY=- \
+            2>&1 | tee build/xcodebuild.log | xcbeautify --renderer github-actions
+          ls -la screenshots
+
+      - name: Export xcresult attachments too
+        if: always()
+        run: |
+          mkdir -p attachments
+          xcrun xcresulttool export attachments --path build/screens.xcresult --output-path attachments || true
+          ls -la attachments || true
+
+      - name: Check PNG sizes
+        if: always()
+        run: |
+          python3 - <<'PY'
+          import struct
+          from pathlib import Path
+          for p in sorted(Path("screenshots").glob("*.png")):
+              d = p.read_bytes(); print(p.name, struct.unpack(">II", d[16:24]))
+          PY
+
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: screenshots-${{ matrix.kind }}
+          path: |
+            screenshots/*.png
+            attachments/**
+            build/xcodebuild.log
+          if-no-files-found: warn
+          retention-days: 14

@@ -22,23 +22,30 @@ final class AppStoreScreenshotTests: XCTestCase {
     }
 
     func testCaptureAppStoreScreenshots() throws {
-        let welcome = app.buttons["I use VoiceOver"]
+        let isPad = UIDevice.current.userInterfaceIdiom == .pad
+        let welcome = app.buttons["audienceVoiceOver"]
         XCTAssertTrue(welcome.waitForExistence(timeout: 20), "welcome choice")
         try capture("01-welcome")
-        welcome.tap()
-        settle()
+        chooseVoiceOver()
+        if isPad {
+            XCUIDevice.shared.orientation = .landscapeLeft
+            settle()
+        }
 
         tab("Browse")
-        XCTAssertTrue(app.buttons["part-iphone"].waitForExistence(timeout: 15))
+        XCTAssertTrue(el("part-iphone").waitForExistence(timeout: 15), "part-iphone")
         try capture("02-browse")
 
-        app.buttons["part-iphone"].tap()
-        XCTAssertTrue(app.buttons["chapter-1.1"].waitForExistence(timeout: 10))
-        try capture("03-iphone-chapters")
+        if !el("chapter-1.1").waitForExistence(timeout: 3) {
+            el("part-iphone").tap()
+            settle()
+        }
+        XCTAssertTrue(el("chapter-1.1").waitForExistence(timeout: 10), "chapter-1.1")
+        if !isPad { try capture("03-iphone-chapters") }
 
-        app.buttons["chapter-1.1"].tap()
+        el("chapter-1.1").tap()
         XCTAssertTrue(app.staticTexts["chapterTitle"].waitForExistence(timeout: 10))
-        try capture("04-chapter")
+        try capture(isPad ? "03-chapter" : "04-chapter")
 
         tab("Search")
         let field = app.textFields["searchField"]
@@ -47,18 +54,36 @@ final class AppStoreScreenshotTests: XCTestCase {
         field.typeText("Screen Curtain")
         XCTAssertTrue(app.staticTexts["resultCount"].waitForExistence(timeout: 10))
         dismissKeyboard()
-        try capture("05-search")
+        try capture(isPad ? "04-search" : "05-search")
 
         tab("Reference")
         let iphone = app.descendants(matching: .any).matching(NSPredicate(format: "label CONTAINS %@", "iPhone, quick reference")).firstMatch
         XCTAssertTrue(iphone.waitForExistence(timeout: 10))
         iphone.tap()
         settle()
-        try capture("06-quick-reference")
+        try capture(isPad ? "05-quick-reference" : "06-quick-reference")
 
         tab("Practice")
         XCTAssertTrue(app.buttons["practiceButton"].waitForExistence(timeout: 10))
-        try capture("07-practice")
+        try capture(isPad ? "06-practice" : "07-practice")
+    }
+
+    private func el(_ id: String) -> XCUIElement {
+        app.descendants(matching: .any).matching(identifier: id).firstMatch
+    }
+
+    private func chooseVoiceOver() {
+        let welcome = app.buttons["audienceVoiceOver"]
+        for attempt in 0..<4 where welcome.exists {
+            switch attempt {
+            case 0: welcome.tap()
+            case 1: app.staticTexts["I use VoiceOver"].firstMatch.tap()
+            default: welcome.coordinate(withNormalizedOffset: CGVector(dx: 0.5, dy: 0.5)).tap()
+            }
+            settle()
+            if !welcome.waitForExistence(timeout: 2) { break }
+        }
+        XCTAssertFalse(welcome.exists, "welcome dismissed")
     }
 
     private func capture(_ name: String) throws {

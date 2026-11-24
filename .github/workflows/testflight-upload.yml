@@ -1,12 +1,12 @@
-# PREPARED BUT DISABLED. Archives, signs, and uploads VoiceOver Mastery to App Store Connect.
+# Archives, signs and uploads Screen Reader Mastery (VoiceOverMastery target) to App Store Connect (TestFlight).
 #
 # It cannot run until ALL of these are true (see docs/APP-STORE-SETUP.md):
-#   1. The Apple Developer Program membership is active.
+#   1. The Apple Developer Program membership is active (no longer "pending").
 #   2. An app record for bundle ID com.thompsonoffice.voiceovermastery exists in App Store Connect.
-#   3. Repository secrets exist: ASC_KEY_ID, ASC_ISSUER_ID, ASC_KEY_P8, APPLE_TEAM_ID.
+#   3. Repository secrets exist: ASC_KEY_ID, ASC_ISSUER_ID, ASC_KEY_P8 (the .p8 file's text),
+#      APPLE_TEAM_ID.
 #   4. Repository variable ENABLE_TESTFLIGHT_UPLOAD is set to true.
 # Until then the job is skipped even if someone starts the workflow by hand.
-# Do not sign, upload, or submit from this repository until those secrets exist.
 name: TestFlight upload (disabled)
 
 on:
@@ -15,7 +15,7 @@ on:
 jobs:
   upload:
     if: ${{ vars.ENABLE_TESTFLIGHT_UPLOAD == 'true' }}
-    runs-on: macos-latest
+    runs-on: macos-15
     timeout-minutes: 60
     steps:
       - name: Check out
@@ -23,7 +23,13 @@ jobs:
 
       - name: Use the newest installed Xcode
         run: |
-          XCODE=$(ls -d /Applications/Xcode_*.app | sort -V | tail -1)
+          shopt -s nullglob
+          candidates=(/Applications/Xcode_*.app)
+          if [ ${#candidates[@]} -eq 0 ]; then
+            XCODE=/Applications/Xcode.app
+          else
+            XCODE=$(printf '%s\n' "${candidates[@]}" | sort -V | tail -1)
+          fi
           sudo xcode-select -s "$XCODE/Contents/Developer"
           xcodebuild -version
 
@@ -52,7 +58,7 @@ jobs:
             -destination "generic/platform=iOS" \
             -archivePath build/VoiceOverMastery.xcarchive \
             DEVELOPMENT_TEAM="$APPLE_TEAM_ID" CODE_SIGN_STYLE=Automatic \
-            CURRENT_PROJECT_VERSION="${{ github.run_number }}" \
+            CURRENT_PROJECT_VERSION="1" \
             -allowProvisioningUpdates \
             -authenticationKeyPath "$RUNNER_TEMP/asc/AuthKey_${ASC_KEY_ID}.p8" \
             -authenticationKeyID "$ASC_KEY_ID" \

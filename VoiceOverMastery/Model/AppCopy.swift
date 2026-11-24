@@ -14,7 +14,7 @@ enum OrientationCopy {
         CopySection(
             heading: "About this screen",
             paragraphs: [
-                "This screen is an orientation for the VoiceOver Mastery app. It is not a chapter of the book, and it does not add gestures or commands.",
+                "This screen is an orientation for the Screen Reader Mastery app. It is not a chapter of the book, and it does not add gestures or commands.",
                 "It repeats the on-and-off path from Chapter 1.1 and a caution about Screen Curtain from Chapter 1.6. The chapters themselves keep the book's wording."
             ]
         ),
@@ -65,7 +65,7 @@ enum PracticeCopy {
         CopySection(
             heading: "About this practice screen",
             paragraphs: [
-                "This screen is a practice surface inside VoiceOver Mastery. It is not a chapter, and it does not add VoiceOver gestures.",
+                "This screen is a practice surface inside Screen Reader Mastery. It is not a chapter, and it does not add VoiceOver gestures.",
                 "The controls below are a real button, a real slider, and a real list, with labels and hints. Turn VoiceOver on with the Accessibility Shortcut from Chapter 1.1, then try gestures the iPhone chapters already describe, especially Chapter 1.3 and Chapter 1.8.",
                 "This screen provides a Practice rotor so you can move among these controls with the rotor. The sample control also has custom actions. Chapter 1.8 explains the rotor and the Actions rotor item. The rotor name and the action names belong to this practice screen.",
                 "Screen Curtain is not used here. Leave it off until you want it. Chapter 1.6 explains it."
@@ -159,11 +159,11 @@ enum PrivacyPolicy {
     static let sections: [PolicySection] = [
         PolicySection(
             heading: "Summary",
-            body: "VoiceOver Mastery does not collect, store, share, or sell any personal information. The developer, Hunter Thompson, receives no data from the app."
+            body: "Screen Reader Mastery does not collect, store, share, or sell any personal information. The developer, Hunter Thompson, receives no data from the app."
         ),
         PolicySection(
             heading: "Works offline",
-            body: "The guide is included in the app. VoiceOver Mastery makes no network requests of its own and works with no internet connection."
+            body: "The guide is included in the app. Screen Reader Mastery makes no network requests of its own and works with no internet connection."
         ),
         PolicySection(
             heading: "No accounts, ads, or tracking",
@@ -179,7 +179,7 @@ enum PrivacyPolicy {
         ),
         PolicySection(
             heading: "Children",
-            body: "VoiceOver Mastery collects no data from anyone, including children."
+            body: "Screen Reader Mastery collects no data from anyone, including children."
         ),
         PolicySection(
             heading: "Changes",

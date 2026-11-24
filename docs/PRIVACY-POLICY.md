@@ -1,16 +1,16 @@
-# VoiceOver Mastery Privacy Policy
+# Screen Reader Mastery Privacy Policy
 
 Effective November 16, 2026
 
-App: VoiceOver Mastery (iPhone and iPad). Developer: Hunter Thompson.
+App: Screen Reader Mastery (iPhone and iPad). Developer: Hunter Thompson.
 
 ## Summary
 
-VoiceOver Mastery does not collect, store, share, or sell any personal information. The developer, Hunter Thompson, receives no data from the app.
+Screen Reader Mastery does not collect, store, share, or sell any personal information. The developer, Hunter Thompson, receives no data from the app.
 
 ## Works offline
 
-The guide is included in the app. VoiceOver Mastery makes no network requests of its own and works with no internet connection.
+The guide is included in the app. Screen Reader Mastery makes no network requests of its own and works with no internet connection.
 
 ## No accounts, ads, or tracking
 
@@ -26,7 +26,7 @@ Some chapters cite Apple documentation. If you open one of those source links, i
 
 ## Children
 
-VoiceOver Mastery collects no data from anyone, including children.
+Screen Reader Mastery collects no data from anyone, including children.
 
 ## Changes
 

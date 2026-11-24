@@ -7,7 +7,7 @@ struct AudienceView: View {
         NavigationStack {
             ScrollView {
                 VStack(alignment: .leading, spacing: 24) {
-                    Text("VoiceOver Mastery")
+                    Text("Screen Reader Mastery")
                         .font(.largeTitle.weight(.bold))
                         .accessibilityAddTraits(.isHeader)
                         .accessibilityHeading(.h1)

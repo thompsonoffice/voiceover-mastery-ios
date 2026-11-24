@@ -64,8 +64,8 @@ struct Book: Codable {
     var readme: ReadmeDocument
 
     static let empty = Book(
-        title: "VoiceOver Mastery",
-        fullTitle: "VoiceOver Mastery",
+        title: "Screen Reader Mastery",
+        fullTitle: "Screen Reader Mastery",
         series: "",
         edition: "",
         author: "",

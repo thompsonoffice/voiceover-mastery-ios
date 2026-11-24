@@ -12,7 +12,16 @@ struct PracticeView: View {
     private let rows = ["Apples", "Bread", "Milk"]
     private var emphasize: Bool { strong || contrast == .increased }
 
+    private var sliderHint: String {
+        #if os(macOS)
+        "An adjustable practice slider. Chapter 3.3 describes moving and interacting with items."
+        #else
+        "An adjustable practice slider. Chapter 1.3 describes adjusting a slider."
+        #endif
+    }
+
     var body: some View {
+
         NavigationStack {
             List {
                 Section {
@@ -54,7 +63,7 @@ struct PracticeView: View {
                         .accessibilityIdentifier("practiceSlider")
                         .accessibilityLabel("Practice slider")
                         .accessibilityValue("\(Int(sliderValue)) of 10")
-                        .accessibilityHint("An adjustable practice slider. Chapter 1.3 describes adjusting a slider.")
+                        .accessibilityHint(sliderHint)
                         .accessibilityRotorEntry(id: "slider", in: rotorNamespace)
                         .transaction { transaction in
                             transaction.disablesAnimations = reduceMotion
@@ -95,7 +104,7 @@ struct PracticeView: View {
                 }
                 Section {
                     SectionHeader("Practice")
-                    CopySections(sections: PracticeCopy.sections)
+                    CopySections(sections: PracticeCopy.currentSections)
                 }
             }
             .modifier(SolidScrollEdges())

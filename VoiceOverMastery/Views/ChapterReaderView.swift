@@ -57,7 +57,7 @@ struct ChapterReaderView: View {
             }
         }
         .navigationTitle(chapter.id)
-        .navigationBarTitleDisplayMode(.inline)
+        .inlineNavigationBar()
     }
 
     private func inThisChapter(proxy: ScrollViewProxy) -> some View {

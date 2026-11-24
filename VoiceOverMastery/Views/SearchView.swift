@@ -16,8 +16,10 @@ struct SearchView: View {
             List {
                 TextField("Search", text: $query)
                     .font(.body)
-                    .textInputAutocapitalization(.never)
                     .autocorrectionDisabled()
+                    #if os(iOS)
+                    .textInputAutocapitalization(.never)
+                    #endif
                     .accessibilityLabel("Search")
                     .accessibilityIdentifier("searchField")
                 if query.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty {

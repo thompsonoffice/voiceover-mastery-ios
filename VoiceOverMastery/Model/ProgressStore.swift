@@ -128,4 +128,24 @@ final class ProgressStore: ObservableObject {
         defaults.removeObject(forKey: Self.lastChapterKey)
         defaults.removeObject(forKey: Self.lastSectionKey)
     }
+
+    /// Used only by the Mac screenshot helper. Sets the first-launch gate so a
+    /// specific screen can be captured without clicking through the welcome flow.
+    func applyScreenshotLaunch(_ scene: String) {
+        switch scene {
+        case "welcome":
+            clearAudience()
+            orientationComplete = false
+            defaults.set(false, forKey: Self.orientationKey)
+        case "orientation":
+            choose(.sighted)
+            orientationComplete = false
+            defaults.set(false, forKey: Self.orientationKey)
+        default:
+            choose(.voiceOver)
+            if scene == "chapter" {
+                noteOpened("3.1")
+            }
+        }
+    }
 }

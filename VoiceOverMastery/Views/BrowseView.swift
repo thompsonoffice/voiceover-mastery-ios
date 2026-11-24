@@ -9,11 +9,17 @@ struct BrowseView: View {
     @Environment(\.horizontalSizeClass) private var sizeClass
 
     var body: some View {
+        #if os(macOS)
+        // A single NavigationStack in the window detail. Nesting another
+        // three-column split inside the Mac sidebar is cramped for VoiceOver.
+        CompactBrowseView()
+        #else
         if sizeClass == .regular {
             RegularBrowseView()
         } else {
             CompactBrowseView()
         }
+        #endif
     }
 }
 

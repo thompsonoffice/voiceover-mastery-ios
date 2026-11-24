@@ -1,17 +1,14 @@
 import SwiftUI
 
-enum AppTab: String {
-    case browse
-    case search
-    case reference
-    case practice
-    case more
-}
-
 struct ContentView: View {
+    #if os(iOS)
     @SceneStorage("VoiceOverMastery.selectedTab") private var tab: AppTab = .browse
+    #endif
 
     var body: some View {
+        #if os(macOS)
+        MacContentView()
+        #else
         TabView(selection: $tab) {
             BrowseView()
                 .modifier(BottomBarClearance())
@@ -34,8 +31,59 @@ struct ContentView: View {
                 .tabItem { Label("More", systemImage: "ellipsis.circle") }
                 .tag(AppTab.more)
         }
+        #endif
     }
 }
+
+#if os(macOS)
+struct MacContentView: View {
+    @EnvironmentObject private var navigation: AppNavigation
+
+    var body: some View {
+        if #available(macOS 15.0, *) {
+            TabView(selection: $navigation.tab) {
+                Tab("Browse", systemImage: "books.vertical", value: AppTab.browse) {
+                    BrowseView()
+                }
+                Tab("Search", systemImage: "magnifyingglass", value: AppTab.search) {
+                    SearchView()
+                }
+                Tab("Reference", systemImage: "list.bullet", value: AppTab.reference) {
+                    QuickReferenceView()
+                }
+                Tab("Practice", systemImage: "hand.tap", value: AppTab.practice) {
+                    PracticeView()
+                }
+                Tab("More", systemImage: "ellipsis.circle", value: AppTab.more) {
+                    MoreView()
+                }
+            }
+            .tabViewStyle(.sidebarAdaptable)
+        } else {
+            NavigationSplitView {
+                List(selection: $navigation.tab) {
+                    ForEach(AppTab.allCases, id: \.self) { tab in
+                        Label(tab.title, systemImage: tab.systemImage)
+                            .tag(tab)
+                            .accessibilityIdentifier("mac-tab-\(tab.rawValue)")
+                    }
+                }
+                .listStyle(.sidebar)
+                .navigationSplitViewColumnWidth(min: 160, ideal: 200, max: 260)
+                .navigationTitle("Access Mastery")
+            } detail: {
+                switch navigation.tab {
+                case .browse: BrowseView()
+                case .search: SearchView()
+                case .reference: QuickReferenceView()
+                case .practice: PracticeView()
+                case .more: MoreView()
+                }
+            }
+        }
+    }
+}
+#endif
 
 /// iOS 26 draws the tab bar over the list and fades the rows underneath it.
 /// The contrast audit measures that faded text. A fixed strip under the tab
@@ -44,6 +92,7 @@ struct BottomBarClearance: ViewModifier {
     @Environment(\.horizontalSizeClass) private var sizeClass
 
     func body(content: Content) -> some View {
+        #if os(iOS)
         if sizeClass == .compact {
             VStack(spacing: 0) {
                 content
@@ -54,5 +103,8 @@ struct BottomBarClearance: ViewModifier {
         } else {
             content
         }
+        #else
+        content
+        #endif
     }
 }

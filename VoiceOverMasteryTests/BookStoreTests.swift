@@ -1,5 +1,9 @@
 import XCTest
+#if canImport(VoiceOverMasteryMac)
+@testable import VoiceOverMasteryMac
+#else
 @testable import VoiceOverMastery
+#endif
 
 final class BookStoreTests: XCTestCase {
     private static let shared: Book = {
@@ -169,4 +173,24 @@ final class BookStoreTests: XCTestCase {
         XCTAssertNil(TextSizeOption.system.dynamicTypeSize)
         XCTAssertEqual(TextSizeOption.accessibility5.dynamicTypeSize, .accessibility5)
     }
+
+#if os(macOS)
+    func testMacOrientationAndPracticeDoNotInventCommands() {
+        let orientation = OrientationCopy.macPlainText
+        XCTAssertTrue(orientation.contains("not a chapter"))
+        XCTAssertTrue(orientation.contains("does not add VoiceOver commands"))
+        XCTAssertTrue(orientation.contains("Command-F5"))
+        XCTAssertTrue(orientation.contains("VO-Shift-Fn-F11"))
+        XCTAssertTrue(orientation.contains("Chapter 3.1"))
+        XCTAssertFalse(orientation.localizedCaseInsensitiveContains("five-finger"))
+
+        let practice = PracticeCopy.macPlainText
+        XCTAssertTrue(practice.contains("does not add VoiceOver commands"))
+        XCTAssertTrue(practice.contains("Chapter 3.1"))
+        XCTAssertTrue(practice.contains("Chapter 3.3"))
+        XCTAssertTrue(practice.contains("Chapter 3.4"))
+        XCTAssertTrue(practice.contains("Practice rotor"))
+        XCTAssertFalse(practice.localizedCaseInsensitiveContains("five-finger"))
+    }
+#endif
 }

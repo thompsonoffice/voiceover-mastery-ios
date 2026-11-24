@@ -35,7 +35,7 @@ struct AudienceView: View {
                 .padding()
             }
             .navigationTitle("Welcome")
-            .navigationBarTitleDisplayMode(.inline)
+            .inlineNavigationBar()
         }
     }
 }
@@ -60,7 +60,7 @@ struct OrientationView: View {
                     .accessibilityAddTraits(.isHeader)
                     .accessibilityHeading(.h1)
                     .accessibilityIdentifier("orientationTitle")
-                CopySections(sections: OrientationCopy.sections)
+                CopySections(sections: OrientationCopy.currentSections)
                 if isGate {
                     Button("Continue to the guide") {
                         progress.completeOrientation()
@@ -76,6 +76,6 @@ struct OrientationView: View {
         }
         .clipped()
         .navigationTitle("Orientation")
-        .navigationBarTitleDisplayMode(.inline)
+        .inlineNavigationBar()
     }
 }

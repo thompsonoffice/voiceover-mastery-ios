@@ -56,6 +56,64 @@ enum OrientationCopy {
             ([section.heading] + section.paragraphs).joined(separator: "\n")
         }.joined(separator: "\n")
     }
+
+    /// First-launch orientation on Mac. It only repeats on/off methods and the
+    /// screen curtain caution already in the Mac chapters. It does not add commands.
+    static let macSections: [CopySection] = [
+        CopySection(
+            heading: "About this screen",
+            paragraphs: [
+                "This screen is an orientation for the Access Mastery app on Mac. It is not a chapter of the book, and it does not add VoiceOver commands.",
+                "It repeats the on-and-off path from Chapter 3.1 and a caution about the screen curtain from Chapter 3.2 and Chapter 3.9. The chapters themselves keep the book's wording."
+            ]
+        ),
+        CopySection(
+            heading: "VoiceOver on Mac uses the keyboard",
+            paragraphs: [
+                "On Mac, VoiceOver is the same idea as on iPhone, but the main tools are a keyboard and VoiceOver Utility. You move a VoiceOver cursor, hear the item in that cursor, and use a VoiceOver command to act on it.",
+                "A VoiceOver command is the VoiceOver modifier plus one or more other keys. This book writes the modifier as VO. By default, VO is either Caps Lock, or Control and Option pressed together.",
+                "Press VO-Left Arrow or VO-Right Arrow to move the VoiceOver cursor. Press VO-Space bar to perform the default action for the item. Chapter 3.1 describes this."
+            ]
+        ),
+        CopySection(
+            heading: "Turn VoiceOver on and off safely",
+            paragraphs: [
+                "Memorize Command-F5 first. It turns VoiceOver on or off. On some keyboards you may need Command-Fn-F5 if function keys are set to system features.",
+                "If your Mac or Magic Keyboard has Touch ID, press and hold the Command key, then quickly press Touch ID three times. You can also ask Siri to turn VoiceOver on or off.",
+                "Or choose Apple menu > System Settings, then Accessibility in the sidebar, then VoiceOver, and turn VoiceOver on or off.",
+                "The Accessibility Shortcuts panel is Option-Command-F5, or quickly press Touch ID three times. In the panel, press Tab until you hear the VoiceOver option, then press the Space bar.",
+                "These methods are the ones Chapter 3.1 lists from Apple's VoiceOver User Guide for Mac."
+            ]
+        ),
+        CopySection(
+            heading: "Screen curtain",
+            paragraphs: [
+                "The screen curtain turns the display off while VoiceOver stays on. The screen looks black, which is easy to mistake for a Mac that is powered off.",
+                "Leave the screen curtain off until you can turn VoiceOver off with Command-F5 without hesitating. Chapter 3.2 and Chapter 3.9 explain it: VO-Shift-Fn-F11 turns the screen curtain on or off. Include the Fn key if function keys are media keys. This orientation does not ask you to turn the screen curtain on."
+            ]
+        ),
+        CopySection(
+            heading: "Using the guide",
+            paragraphs: [
+                "Choose Continue to open the guide. The Mac chapters start at Chapter 3.1. Each chapter keeps the book's wording. Section headings are marked for VoiceOver's headings rotor.",
+                "Progress and bookmarks stay on this Mac. Nothing is sent anywhere."
+            ]
+        )
+    ]
+
+    static var macPlainText: String {
+        macSections.map { section in
+            ([section.heading] + section.paragraphs).joined(separator: "\n")
+        }.joined(separator: "\n")
+    }
+
+    static var currentSections: [CopySection] {
+        #if os(macOS)
+        macSections
+        #else
+        sections
+        #endif
+    }
 }
 
 /// Labels for the in-app practice controls. These controls are real accessibility elements.
@@ -75,6 +133,31 @@ enum PracticeCopy {
 
     static var plainText: String {
         sections.map { ([$0.heading] + $0.paragraphs).joined(separator: "\n") }.joined(separator: "\n")
+    }
+
+    /// Practice intro on Mac. It points at Mac chapters only and does not add commands.
+    static let macSections: [CopySection] = [
+        CopySection(
+            heading: "About this practice screen",
+            paragraphs: [
+                "This screen is a practice surface inside Access Mastery. It is not a chapter, and it does not add VoiceOver commands.",
+                "The controls below are a real button, a real slider, and a real list, with labels and hints. Turn VoiceOver on with Command-F5 from Chapter 3.1, then move with VO-Left Arrow and VO-Right Arrow and activate with VO-Space bar, as Chapter 3.1 and Chapter 3.3 describe.",
+                "This screen provides a Practice rotor so you can move among these controls with the rotor. The sample control also has custom actions. Chapter 3.4 explains the rotor: press VO-U to open it. The rotor name and the action names belong to this practice screen.",
+                "The screen curtain is not used here. Leave it off until you want it. Chapter 3.2 and Chapter 3.9 explain it."
+            ]
+        )
+    ]
+
+    static var macPlainText: String {
+        macSections.map { ([$0.heading] + $0.paragraphs).joined(separator: "\n") }.joined(separator: "\n")
+    }
+
+    static var currentSections: [CopySection] {
+        #if os(macOS)
+        macSections
+        #else
+        sections
+        #endif
     }
 }
 

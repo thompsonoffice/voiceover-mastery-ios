@@ -296,7 +296,7 @@ struct AboutView: View {
         }
         .clipped()
         .navigationTitle("About")
-        .navigationBarTitleDisplayMode(.inline)
+        .inlineNavigationBar()
     }
 
     private func section(_ title: String, @ViewBuilder content: () -> some View) -> some View {
@@ -348,7 +348,7 @@ struct PrivacyPolicyView: View {
         }
         .clipped()
         .navigationTitle("Privacy Policy")
-        .navigationBarTitleDisplayMode(.inline)
+        .inlineNavigationBar()
     }
 }
 
@@ -416,6 +416,6 @@ struct ReadmeView: View {
         }
         .clipped()
         .navigationTitle("Read me")
-        .navigationBarTitleDisplayMode(.inline)
+        .inlineNavigationBar()
     }
 }

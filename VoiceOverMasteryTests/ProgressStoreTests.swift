@@ -1,5 +1,9 @@
 import XCTest
+#if canImport(VoiceOverMasteryMac)
+@testable import VoiceOverMasteryMac
+#else
 @testable import VoiceOverMastery
+#endif
 
 final class ProgressStoreTests: XCTestCase {
     private var suiteName = ""

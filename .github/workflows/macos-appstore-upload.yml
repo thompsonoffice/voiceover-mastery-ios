@@ -1,0 +1,105 @@
+# Archives, signs, and uploads the Mac target of Access Mastery to
+# App Store Connect as a .pkg. Also captures 1280x800 screenshots.
+#
+# Requires the same repository secrets as the iOS TestFlight workflow:
+# ASC_KEY_ID, ASC_ISSUER_ID, ASC_KEY_P8, APPLE_TEAM_ID.
+# Start it by hand. It does not submit the version for review.
+name: Mac App Store upload
+
+on:
+  workflow_dispatch:
+
+jobs:
+  upload:
+    runs-on: macos-15
+    timeout-minutes: 60
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Use the newest installed Xcode
+        run: |
+          shopt -s nullglob
+          candidates=(/Applications/Xcode_*.app)
+          if [ ${#candidates[@]} -eq 0 ]; then
+            XCODE=/Applications/Xcode.app
+          else
+            XCODE=$(printf '%s\n' "${candidates[@]}" | sort -V | tail -1)
+          fi
+          sudo xcode-select -s "$XCODE/Contents/Developer"
+          xcodebuild -version
+
+      - name: Generate the Xcode project
+        run: |
+          brew install xcodegen xcbeautify
+          xcodegen generate
+
+      - name: Write the App Store Connect API key
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_KEY_P8: ${{ secrets.ASC_KEY_P8 }}
+        run: |
+          mkdir -p "$RUNNER_TEMP/asc"
+          printf '%s' "$ASC_KEY_P8" > "$RUNNER_TEMP/asc/AuthKey_${ASC_KEY_ID}.p8"
+
+      - name: Archive (cloud-managed signing through the API key)
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+        run: |
+          set -o pipefail
+          xcodebuild archive \
+            -project VoiceOverMastery.xcodeproj -scheme VoiceOverMasteryMac -configuration Release \
+            -destination "generic/platform=macOS" \
+            -archivePath build/VoiceOverMasteryMac.xcarchive \
+            DEVELOPMENT_TEAM="$APPLE_TEAM_ID" CODE_SIGN_STYLE=Automatic \
+            CURRENT_PROJECT_VERSION="3" \
+            -allowProvisioningUpdates \
+            -authenticationKeyPath "$RUNNER_TEMP/asc/AuthKey_${ASC_KEY_ID}.p8" \
+            -authenticationKeyID "$ASC_KEY_ID" \
+            -authenticationKeyIssuerID "$ASC_ISSUER_ID" | xcbeautify
+
+      - name: Export and upload to App Store Connect
+        env:
+          ASC_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          ASC_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          APPLE_TEAM_ID: ${{ secrets.APPLE_TEAM_ID }}
+        run: |
+          sed "s/TEAM_ID_PLACEHOLDER/$APPLE_TEAM_ID/" scripts/ExportOptions-mac.plist > build/ExportOptions-mac.plist
+          xcodebuild -exportArchive \
+            -archivePath build/VoiceOverMasteryMac.xcarchive \
+            -exportOptionsPlist build/ExportOptions-mac.plist \
+            -exportPath build/export-mac \
+            -allowProvisioningUpdates \
+            -authenticationKeyPath "$RUNNER_TEMP/asc/AuthKey_${ASC_KEY_ID}.p8" \
+            -authenticationKeyID "$ASC_KEY_ID" \
+            -authenticationKeyIssuerID "$ASC_ISSUER_ID"
+
+      - name: Remove the key file
+        if: always()
+        run: rm -rf "$RUNNER_TEMP/asc"
+
+      - name: Build an unsigned Debug app for screenshots
+        run: |
+          set -o pipefail
+          xcodebuild build \
+            -project VoiceOverMastery.xcodeproj -scheme VoiceOverMasteryMac -configuration Debug \
+            -destination "platform=macOS" \
+            -derivedDataPath build/DerivedData-shots \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CURRENT_PROJECT_VERSION="3" | xcbeautify
+          APP=$(find build/DerivedData-shots -name 'VoiceOverMastery.app' -type d | head -1)
+          echo "APP=$APP" >> "$GITHUB_ENV"
+          echo "Found $APP"
+          mkdir -p build/mac-screenshots
+          scripts/macos_screenshots.sh "$APP" build/mac-screenshots
+
+      - name: Upload Mac screenshots
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Access-Mastery-mac-screenshots
+          path: build/mac-screenshots
+          if-no-files-found: warn

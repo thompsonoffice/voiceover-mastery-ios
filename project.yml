@@ -6,6 +6,7 @@ options:
   createIntermediateGroups: true
   deploymentTarget:
     iOS: "17.0"
+    macOS: "14.0"
 settings:
   base:
     MARKETING_VERSION: "1.0"
@@ -64,6 +65,47 @@ targets:
         PRODUCT_BUNDLE_IDENTIFIER: com.thompsonoffice.voiceovermastery.uitests
         GENERATE_INFOPLIST_FILE: YES
         TEST_TARGET_NAME: VoiceOverMastery
+  VoiceOverMasteryMac:
+    type: application
+    platform: macOS
+    sources:
+      - path: VoiceOverMastery
+    settings:
+      base:
+        PRODUCT_NAME: VoiceOverMastery
+        PRODUCT_MODULE_NAME: VoiceOverMasteryMac
+        PRODUCT_BUNDLE_IDENTIFIER: com.thompsonoffice.voiceovermastery
+        MARKETING_VERSION: "1.0"
+        CURRENT_PROJECT_VERSION: "3"
+        GENERATE_INFOPLIST_FILE: YES
+        INFOPLIST_KEY_CFBundleDisplayName: "Access Mastery"
+        INFOPLIST_KEY_LSApplicationCategoryType: public.app-category.education
+        INFOPLIST_KEY_ITSAppUsesNonExemptEncryption: NO
+        INFOPLIST_KEY_LSMinimumSystemVersion: "14.0"
+        INFOPLIST_KEY_NSHumanReadableCopyright: "2026 Hunter Thompson"
+        MACOSX_DEPLOYMENT_TARGET: "14.0"
+        COMBINE_HIDPI_IMAGES: YES
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        CODE_SIGN_STYLE: Automatic
+        CODE_SIGN_ENTITLEMENTS: VoiceOverMastery/macOS.entitlements
+        ENABLE_HARDENED_RUNTIME: YES
+        ENABLE_APP_SANDBOX: YES
+        ENABLE_PREVIEWS: YES
+        LD_RUNPATH_SEARCH_PATHS: "$(inherited) @executable_path/../Frameworks"
+  VoiceOverMasteryMacTests:
+    type: bundle.unit-test
+    platform: macOS
+    sources:
+      - path: VoiceOverMasteryTests
+    dependencies:
+      - target: VoiceOverMasteryMac
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.thompsonoffice.voiceovermastery.mactests
+        GENERATE_INFOPLIST_FILE: YES
+        TEST_HOST: "$(BUILT_PRODUCTS_DIR)/VoiceOverMastery.app/Contents/MacOS/VoiceOverMastery"
+        BUNDLE_LOADER: "$(TEST_HOST)"
+
 schemes:
   VoiceOverMastery:
     build:
@@ -79,5 +121,19 @@ schemes:
       targets:
         - VoiceOverMasteryTests
         - VoiceOverMasteryUITests
+    archive:
+      config: Release
+  VoiceOverMasteryMac:
+    build:
+      targets:
+        VoiceOverMasteryMac: all
+        VoiceOverMasteryMacTests: [test]
+    run:
+      config: Debug
+    test:
+      config: Debug
+      gatherCoverageData: false
+      targets:
+        - VoiceOverMasteryMacTests
     archive:
       config: Release

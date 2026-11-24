@@ -1,0 +1,66 @@
+# Builds Access Mastery for Mac and runs unit tests. No signing and no upload.
+name: macOS build and test
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: macos-ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    runs-on: macos-15
+    timeout-minutes: 45
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Use the newest installed Xcode
+        run: |
+          shopt -s nullglob
+          candidates=(/Applications/Xcode_*.app)
+          if [ ${#candidates[@]} -eq 0 ]; then
+            XCODE=/Applications/Xcode.app
+          else
+            XCODE=$(printf '%s\n' "${candidates[@]}" | sort -V | tail -1)
+          fi
+          echo "Using $XCODE"
+          sudo xcode-select -s "$XCODE/Contents/Developer"
+          xcodebuild -version
+
+      - name: Check bundled JSON matches the chapters
+        run: |
+          python3 tools/export_book.py
+          git diff --exit-code -- VoiceOverMastery/Resources/book.json
+
+      - name: Generate the Xcode project
+        run: |
+          brew install xcodegen xcbeautify
+          xcodegen generate
+
+      - name: Build and run Mac unit tests
+        run: |
+          set -o pipefail
+          mkdir -p build
+          xcodebuild test \
+            -project VoiceOverMastery.xcodeproj \
+            -scheme VoiceOverMasteryMac \
+            -destination "platform=macOS" \
+            -resultBundlePath build/VoiceOverMasteryMac.xcresult \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            2>&1 | tee build/xcodebuild-mac.log | xcbeautify --renderer github-actions
+
+      - name: Upload results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: VoiceOverMasteryMac-test-results
+          path: |
+            build/VoiceOverMasteryMac.xcresult
+            build/xcodebuild-mac.log
+          if-no-files-found: warn

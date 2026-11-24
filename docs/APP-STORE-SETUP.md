@@ -6,7 +6,7 @@ Nothing here runs until the Apple Developer Program membership is active and the
 
 1. Sign in at https://appstoreconnect.apple.com.
 2. Business section: accept the Paid Apps agreement, add bank and tax info.
-3. Apps → "+" → New App: platform iOS, name Screen Reader Mastery (VoiceOver is an Apple trademark and cannot be part of the app name), language English (U.S.), bundle ID `com.thompsonoffice.voiceovermastery` (register it under Certificates, Identifiers & Profiles → Identifiers first if it is not offered), SKU `voiceovermastery-ios`.
+3. Apps → "+" → New App: platform iOS, name Access Mastery (VoiceOver is an Apple trademark and cannot be part of the app name), language English (U.S.), bundle ID `com.thompsonoffice.voiceovermastery` (register it under Certificates, Identifiers & Profiles → Identifiers first if it is not offered), SKU `voiceovermastery-ios`.
 
 ## 2. App Store Connect API key (for GitHub to sign and upload later)
 

@@ -1,6 +1,6 @@
-# Screen Reader Mastery (repo: voiceover-mastery-ios)
+# Access Mastery (repo: voiceover-mastery-ios)
 
-A native SwiftUI iPhone and iPad app (iOS/iPadOS 17+) sold on the App Store as **Screen Reader Mastery**, an offline guide to VoiceOver. The App Store name avoids using the Apple trademark "VoiceOver" as a product name (App Review Guideline 5.2.5). Fully offline. No accounts, ads, tracking, or purchase links.
+A native SwiftUI iPhone and iPad app (iOS/iPadOS 17+) sold on the App Store as **Access Mastery**, an offline guide to VoiceOver. The App Store name avoids using the Apple trademark "VoiceOver" as a product name (App Review Guideline 5.2.5). Fully offline. No accounts, ads, tracking, or purchase links.
 
 The chapters are the book's plain text, parsed into sections and bundled as `VoiceOverMastery/Resources/book.json`. The wording is not rewritten. Regenerate that file with `python3 tools/export_book.py` after a chapter edit. CI checks that the JSON matches the chapters.
 

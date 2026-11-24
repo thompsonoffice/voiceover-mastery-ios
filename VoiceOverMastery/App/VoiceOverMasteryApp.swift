@@ -32,7 +32,7 @@ struct VoiceOverMasteryApp: App {
                     .environmentObject(progress)
                     .defaultAppStorage(defaults)
             case .failure(let error):
-                Text("Screen Reader Mastery could not load its guide. \(error.localizedDescription)")
+                Text("Access Mastery could not load its guide. \(error.localizedDescription)")
                     .font(.body)
                     .padding()
             }

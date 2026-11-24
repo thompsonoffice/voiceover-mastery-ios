@@ -278,8 +278,8 @@ def main() -> None:
         raise SystemExit(f"expected 54 chapters, found {len(chapters)}")
     word_count = sum(len(words(chapter["sourceBody"])) for chapter in chapters)
     book = {
-        "title": "Screen Reader Mastery",
-        "fullTitle": "Screen Reader Mastery: A Complete Guide to VoiceOver",
+        "title": "Access Mastery",
+        "fullTitle": "Access Mastery: A Complete Guide to VoiceOver",
         "series": "SRTS: Screen Reader Training Suite",
         "edition": "First edition, November 2026",
         "author": "Hunter Thompson",

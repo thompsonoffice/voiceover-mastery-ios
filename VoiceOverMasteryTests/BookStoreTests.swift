@@ -14,7 +14,7 @@ final class BookStoreTests: XCTestCase {
     }
 
     func testBundledGuideHas54Chapters() {
-        XCTAssertEqual(book.title, "Screen Reader Mastery")
+        XCTAssertEqual(book.title, "Access Mastery")
         XCTAssertEqual(book.chapterCount, 54)
         XCTAssertEqual(book.chapters.count, 54)
         XCTAssertEqual(book.parts.map(\.id), ["about", "iphone", "ipad", "mac", "watch", "tv", "vision", "apps"])

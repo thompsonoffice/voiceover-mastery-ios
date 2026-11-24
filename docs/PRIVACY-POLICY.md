@@ -1,16 +1,16 @@
-# Screen Reader Mastery Privacy Policy
+# Access Mastery Privacy Policy
 
 Effective November 16, 2026
 
-App: Screen Reader Mastery (iPhone and iPad). Developer: Hunter Thompson.
+App: Access Mastery (iPhone and iPad). Developer: Hunter Thompson.
 
 ## Summary
 
-Screen Reader Mastery does not collect, store, share, or sell any personal information. The developer, Hunter Thompson, receives no data from the app.
+Access Mastery does not collect, store, share, or sell any personal information. The developer, Hunter Thompson, receives no data from the app.
 
 ## Works offline
 
-The guide is included in the app. Screen Reader Mastery makes no network requests of its own and works with no internet connection.
+The guide is included in the app. Access Mastery makes no network requests of its own and works with no internet connection.
 
 ## No accounts, ads, or tracking
 
@@ -26,7 +26,7 @@ Some chapters cite Apple documentation. If you open one of those source links, i
 
 ## Children
 
-Screen Reader Mastery collects no data from anyone, including children.
+Access Mastery collects no data from anyone, including children.
 
 ## Changes
 

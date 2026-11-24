@@ -57,7 +57,7 @@ struct MoreView: View {
                 }
                 Section {
                     NavigationLink(value: MoreRoute.about) {
-                        MoreRow(title: "About Screen Reader Mastery")
+                        MoreRow(title: "About Access Mastery")
                     }
                     .accessibilityIdentifier("moreAbout")
                     NavigationLink(value: MoreRoute.privacy) {
@@ -202,9 +202,9 @@ struct SettingsView: View {
                     .accessibilityLabel(option.title)
                     .accessibilityAddTraits(textSize == option ? .isSelected : [])
                 }
-                Text("Sample. Screen Reader Mastery keeps chapter text at this size.")
+                Text("Sample. Access Mastery keeps chapter text at this size.")
                     .font(.body)
-                    .accessibilityLabel("Text size sample. Screen Reader Mastery keeps chapter text at this size.")
+                    .accessibilityLabel("Text size sample. Access Mastery keeps chapter text at this size.")
                 Toggle("Stronger contrast", isOn: $strongContrast)
                     .accessibilityHint("Uses primary text color and stronger borders, including when Increase Contrast is on.")
                 Text("Every screen uses Dynamic Type. Use device setting follows Settings, Accessibility, Display and Text Size. Reduce Motion is followed by leaving extra animation off.")
@@ -268,12 +268,12 @@ struct AboutView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 24) {
-                Text("About Screen Reader Mastery")
+                Text("About Access Mastery")
                     .font(.largeTitle.weight(.bold))
                     .accessibilityAddTraits(.isHeader)
                     .accessibilityHeading(.h1)
                 section("What this is") {
-                    Text("Screen Reader Mastery is an offline reader for a complete guide to VoiceOver, a title in SRTS: Screen Reader Training Suite. The chapters are the book's text. The app adds browsing by device, search, bookmarks, progress, a quick reference built only from each chapter's quick reference summary, and a practice screen of real controls.")
+                    Text("Access Mastery is an offline reader for a complete guide to VoiceOver, a title in SRTS: Screen Reader Training Suite. The chapters are the book's text. The app adds browsing by device, search, bookmarks, progress, a quick reference built only from each chapter's quick reference summary, and a practice screen of real controls.")
                     Text("This app is not an Apple manual, and it is not affiliated with, endorsed by, or published by Apple. Apple's user guides remain the authority when a setting or gesture changes. VoiceOver, iPhone, iPad, Mac, Apple Watch, Apple TV, and Apple Vision Pro are trademarks of Apple Inc.")
                     Text("Planned App Store price: $3.99. This app does not include a purchase link.")
                 }
@@ -285,7 +285,7 @@ struct AboutView: View {
                     labeled("Index entries", String(library.book.index.count))
                 }
                 section("Privacy") {
-                    Text("Screen Reader Mastery works offline and collects no data. Progress and bookmarks stay on this device.")
+                    Text("Access Mastery works offline and collects no data. Progress and bookmarks stay on this device.")
                     NavigationLink("Read the privacy policy", value: MoreRoute.privacy)
                 }
                 labeled("Developer", library.book.author)
@@ -325,7 +325,7 @@ struct PrivacyPolicyView: View {
     var body: some View {
         ScrollView {
             VStack(alignment: .leading, spacing: 20) {
-                Text("Screen Reader Mastery Privacy Policy")
+                Text("Access Mastery Privacy Policy")
                     .font(.largeTitle.weight(.bold))
                     .accessibilityAddTraits(.isHeader)
                     .accessibilityHeading(.h1)

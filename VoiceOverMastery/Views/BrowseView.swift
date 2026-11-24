@@ -29,7 +29,7 @@ struct CompactBrowseView: View {
                 partSection(title: "Also in this guide", parts: library.book.parts.filter { !$0.isDevice })
             }
             .modifier(SolidScrollEdges())
-            .navigationTitle("Screen Reader Mastery")
+            .navigationTitle("Access Mastery")
             .navigationDestination(for: Route.self) { route in
                 switch route {
                 case .part(let id):
@@ -126,7 +126,7 @@ struct RegularBrowseView: View {
                 }
             }
             .modifier(SolidScrollEdges())
-            .navigationTitle("Screen Reader Mastery")
+            .navigationTitle("Access Mastery")
         } content: {
             if let partID, let part = library.book.part(partID) {
                 ChapterSelectableList(part: part, selection: $chapterID)
